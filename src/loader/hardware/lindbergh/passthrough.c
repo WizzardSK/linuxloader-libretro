@@ -112,7 +112,7 @@ JVSPassthroughStatus initJVSPassthroughWindows(char *jvsPath)
         return JVS_PASSTHROUGH_STATUS_ERROR;
     }
 
-    dcb.BaudRate = baud;
+    dcb.BaudRate = CBR_115200;
     dcb.ByteSize = 8;
     dcb.Parity = NOPARITY;
     dcb.StopBits = ONESTOPBIT;
