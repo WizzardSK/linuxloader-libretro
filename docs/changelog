@@ -7,6 +7,8 @@ All notable changes to this project will be documented in this file.
     - DISPLAY_INDEX option to choose which monitor the game opens on (thanks @Tartifless).
     - SCALING_FILTER option (LINEAR/NEAREST) to choose how the game is stretched to the window or screen.
     - Rambo reload button (BUTTON_2) when using emulated JVS.
+### Changed
+    - JVS passthrough rewritten, now works on both Linux and Windows (thanks @bobbydilley).
 ### Fixed
     - GSEvo and Outrun 2 shader fixes for Intel/Mesa.
     - After Burner Climax oversized viewport on Windows.
