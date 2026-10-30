@@ -251,10 +251,9 @@ int initSdlInput(const char *controlsPath)
     initActionProperties();
 
     // Load control bindings from specified file on tries to load it from the current folder, otherwise use defaults.
-    struct stat buffer;
     IniConfig *ini;
     int isProfileLoaded = 0;
-    if (stat(controlsPath, &buffer) == 0)
+    if (fileExists(controlsPath))
     {
         log_debug("controls config file loaded from %s\n", controlsPath);
         ini = iniLoad(controlsPath);
