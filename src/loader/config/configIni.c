@@ -27,6 +27,7 @@ int createDefaultIni(const char *filePath)
     fprintf(file, "# Boost render resolution in HOD4/2Spicy/Harley/Rambo/HOD-EX/ID4/ID5 and LGJ\n");
     fprintf(file, "BOOST_RENDER_RES = %s\n\n", defaults.boostRenderRes ? "true" : "false");
     fprintf(file, "# Set to true for full screen\nFULLSCREEN = %s\n\n", defaults.fullscreen ? "true" : "false");
+    fprintf(file, "# Set the display to use (0 = first display, 1 = second display...)\nDISPLAY_INDEX = %d\n\n", defaults.displayIndex);
     fprintf(file, "# Set to true if you\'d like to add a border for optical light gun tracking\n");
     fprintf(file, "BORDER_ENABLED = %s\n\n", defaults.borderEnabled ? "true" : "false");
     fprintf(file, "# Set the thickness of the white border as a percentage of the width of the screen\n");

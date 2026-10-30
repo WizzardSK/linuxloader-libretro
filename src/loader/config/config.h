@@ -273,6 +273,7 @@ typedef struct
     char idCardFolder[MAX_PATH_LENGTH];
     int emulateJVS;
     int fullscreen;
+    int displayIndex;
     char eepromPath[MAX_PATH_LENGTH];
     char sramPath[MAX_PATH_LENGTH];
     char libCgPath[MAX_PATH_LENGTH];

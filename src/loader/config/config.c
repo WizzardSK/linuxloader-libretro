@@ -139,6 +139,7 @@ void setDefaultValues(EmulatorConfig *cfg)
     cfg->width = 640;
     cfg->height = 480;
     cfg->boostRenderRes = 1;
+    cfg->displayIndex = 0;
     cfg->region = EX;
     cfg->freeplay = -1;
     cfg->showDebugMessages = 0;
@@ -318,6 +319,7 @@ void applyIniConfig(EmulatorConfig *config, const IniConfig *ini)
     config->height = getInt(ini, "Display", "HEIGHT", config->height);
     config->boostRenderRes = getInt(ini, "Display", "BOOST_RENDER_RES", config->boostRenderRes);
     config->fullscreen = getInt(ini, "Display", "FULLSCREEN", config->fullscreen);
+    config->displayIndex = getInt(ini, "Display", "DISPLAY_INDEX", config->displayIndex);
     config->borderEnabled = getInt(ini, "Display", "BORDER_ENABLED", config->borderEnabled);
 	config->whiteBorderPercentage = getFloat(ini, "Display", "WHITE_BORDER_PERCENTAGE", config->whiteBorderPercentage * 100.0f) / 100.0f;
 	config->blackBorderPercentage = getFloat(ini, "Display", "BLACK_BORDER_PERCENTAGE", config->blackBorderPercentage * 100.0f) / 100.0f;
