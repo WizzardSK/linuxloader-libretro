@@ -6,7 +6,7 @@
 int createDefaultIni(const char *filePath)
 {
     printf("Generating default %s\n", filePath);
-    
+
     FILE *file = fopen(filePath, "w");
     if (!file)
     {
@@ -36,6 +36,9 @@ int createDefaultIni(const char *filePath)
     fprintf(file, "BLACK_BORDER_PERCENTAGE = %.1f\n\n", defaults.blackBorderPercentage * 100.0f);
     fprintf(file, "# Set to keep the original aspect ratio in the games that support it\n#  (Sega Race TV, Primeval Hunt, LGJ-SP, GSEvo, After Burner Climax)\n");
     fprintf(file, "KEEP_ASPECT_RATIO = %s\n\n", defaults.keepAspectRatio ? "true" : "false");
+    fprintf(file, "# Filter used to stretch the game to the window or screen (LINEAR/NEAREST)\n");
+    fprintf(file, "#  NEAREST keeps the pixels sharp, but looks uneven unless the scale is a whole number\n");
+    fprintf(file, "SCALING_FILTER = %s\n\n", defaults.scalingFilterNearest ? "NEAREST" : "LINEAR");
     fprintf(file, "# Set to true to enable the mouse pointer/Cursor\nHIDE_CURSOR = %s\n\n", defaults.hideCursor ? "true" : "false");
     fprintf(file, "# Set to false if you don't want to limit the FPS\n");
     fprintf(file, "FPS_LIMITER_ENABLED = %s\n\n", defaults.fpsLimiter ? "true" : "false");

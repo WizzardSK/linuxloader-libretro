@@ -498,6 +498,17 @@ void bridgeglViewport(GLint x, GLint y, GLsizei width, GLsizei height)
             }
         }
     }
+#ifdef _WIN32
+    else if (gGrp == GROUP_ABC)
+    {
+        if (width > gWidth || height > gHeight)
+        {
+            void *addr = __builtin_return_address(0);
+            width = gWidth;
+            height = gHeight;
+        }
+    }
+#endif
     return glad_glViewport(x, y, width, height);
 }
 
@@ -2472,8 +2483,8 @@ int initResolutionPatches()
             float newFontScale = gHeight / 480.0;
             unsigned int *newFontScalePtr = (unsigned int *)&newFontScale;
             setVariable(0x0806cd72, *newFontScalePtr);
-            abcDrawSpriteCAVEAddress = (void *)0x08076a28 + 6;
-            detourFunction(0x08076a28, abcDrawSprite);
+            // abcDrawSpriteCAVEAddress = (void *)0x08076a28 + 6;
+            // detourFunction(0x08076a28, abcDrawSprite);
 
             abcDrawSpriteOri = (void (*)(void *))trampolineHook((void *)0x08076a28, abcDrawSprite, 6);
 

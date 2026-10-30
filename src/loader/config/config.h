@@ -304,6 +304,7 @@ typedef struct
     JVSIOType jvsIOType;
     int hummerFlickerFix;
     int keepAspectRatio;
+    int scalingFilterNearest;
     int fpsLimiter;
     float fpsTarget;
     int lgjRenderWithMesa;

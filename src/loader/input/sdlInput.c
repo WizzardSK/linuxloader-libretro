@@ -1230,7 +1230,7 @@ int loadProfileFromIni(const IniSection *section)
         if (action == LA_ExitGame)
             exitGameFound = true;
 
-        if (player != SYSTEM && (action != LA_Card1Insert || action != LA_Card2Insert))
+        if (player != SYSTEM && (action != LA_Card1Insert && action != LA_Card2Insert))
             player = fixPlayerForAction(action, player);
 
         if (action == LA_Card2Insert && gameType == DIGITAL)
@@ -1846,8 +1846,7 @@ void processSdlEvent(const SDL_Event *e)
                         }
                         else
                         {
-                            if (e->button.button == SDL_BUTTON_RIGHT &&
-                                (gId == RAMBO_SBQL || gId == RAMBO_SBSS_CHINA || gId == TOO_SPICY_SBMV) && isActive)
+                            if (e->button.button == SDL_BUTTON_RIGHT && gId == TOO_SPICY_SBMV && isActive)
                             {
                                 ActionState *state = &gActionStates[binding->player][LA_GunX];
                                 state->analogValue = -1;
@@ -1921,7 +1920,7 @@ void processSdlEvent(const SDL_Event *e)
             if (gameType == SHOOTING && (posX <= 0.01 || posX >= 0.99 || posY <= 0.01 || posY >= 0.99))
             {
                 outOfBounds[reloadPlayer] = true;
-                if (gId == RAMBO_SBQL || gId == RAMBO_SBSS_CHINA || gId == TOO_SPICY_SBMV)
+                if (gId == TOO_SPICY_SBMV)
                 {
                     if (bindingX->type != INPUT_TYPE_NONE)
                     {

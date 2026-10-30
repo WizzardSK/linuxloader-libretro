@@ -145,6 +145,7 @@ void setDefaultValues(EmulatorConfig *cfg)
     cfg->useAltJvsPassthrough = 0;
     cfg->hummerFlickerFix = 0;
     cfg->keepAspectRatio = 1;
+    cfg->scalingFilterNearest = 0;
     cfg->ramboGunsSwitch = 0;
     cfg->harleyAnalogRemap = 0;
     cfg->id5ChineseLanguage = 0;
@@ -321,6 +322,17 @@ void applyIniConfig(EmulatorConfig *config, const IniConfig *ini)
 	config->whiteBorderPercentage = getFloat(ini, "Display", "WHITE_BORDER_PERCENTAGE", config->whiteBorderPercentage * 100.0f) / 100.0f;
 	config->blackBorderPercentage = getFloat(ini, "Display", "BLACK_BORDER_PERCENTAGE", config->blackBorderPercentage * 100.0f) / 100.0f;
     config->keepAspectRatio = getInt(ini, "Display", "KEEP_ASPECT_RATIO", config->keepAspectRatio);
+    const char *scalingFilterRaw = getValue(ini, "Display", "SCALING_FILTER");
+    if (scalingFilterRaw)
+    {
+        char cleanBuffer[16];
+        char *scalingFilterStr = cleanValue(scalingFilterRaw, cleanBuffer, sizeof(cleanBuffer));
+        toLowerCase(scalingFilterStr);
+        if (strcmp(scalingFilterStr, "nearest") == 0)
+            config->scalingFilterNearest = 1;
+        else if (strcmp(scalingFilterStr, "linear") == 0)
+            config->scalingFilterNearest = 0;
+    }
     config->hideCursor = getInt(ini, "Display", "HIDE_CURSOR", config->hideCursor);
     config->fpsLimiter = getInt(ini, "Display", "FPS_LIMITER_ENABLED", config->fpsLimiter);
     config->fpsTarget = getFloat(ini, "Display", "FPS_TARGET", config->fpsTarget);

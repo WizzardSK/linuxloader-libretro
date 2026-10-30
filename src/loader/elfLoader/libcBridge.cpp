@@ -163,10 +163,11 @@ namespace LibcBridge
         MAP("openlog", bridgeOpenlog);
         MAP("closelog", bridgeCloselog);
 
-        MAP("rand", rand);
-        MAP("random", rand);
+        MAP("rand", bridgeRandom);
+        MAP("random", bridgeRandom);
         MAP("rand_r", bridgeRand_r);
         MAP("srand", srand);
+        MAP("srandom", srand);
         MAP("signal", bridgeSignal);
         MAP("raise", bridgeRaise);
         MAP("sigfillset", bridgeSigfillset);
@@ -1349,6 +1350,11 @@ namespace LibcBridge
             return SIG_ERR;
         }
         return prev == signalTrampoline ? prevGuest : prev;
+    }
+
+    long bridgeRandom(void)
+    {
+        return (rand() << 16) ^ (rand() << 1) ^ (rand() & 1);
     }
 
     int bridgeRand_r(unsigned int *seedp)
