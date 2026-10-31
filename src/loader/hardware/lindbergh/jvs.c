@@ -675,6 +675,14 @@ int setSwitch(JVSPlayer player, JVSInput switchNumber, int value)
     return 1;
 }
 
+int getSwitch(JVSPlayer player, JVSInput switchNumber)
+{
+    if (player > io.capabilities.players)
+        return 0;
+
+    return (io.state.inputSwitch[player] & switchNumber) != 0;
+}
+
 int incrementCoin(JVSPlayer player, int amount)
 {
     if (player == SYSTEM)

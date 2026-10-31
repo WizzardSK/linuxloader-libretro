@@ -6,7 +6,7 @@
 int createDefaultIni(const char *filePath)
 {
     printf("Generating default %s\n", filePath);
-    
+
     FILE *file = fopen(filePath, "w");
     if (!file)
     {
@@ -27,6 +27,7 @@ int createDefaultIni(const char *filePath)
     fprintf(file, "# Boost render resolution in HOD4/2Spicy/Harley/Rambo/HOD-EX/ID4/ID5 and LGJ\n");
     fprintf(file, "BOOST_RENDER_RES = %s\n\n", defaults.boostRenderRes ? "true" : "false");
     fprintf(file, "# Set to true for full screen\nFULLSCREEN = %s\n\n", defaults.fullscreen ? "true" : "false");
+    fprintf(file, "# Set the display to use (0 = first display, 1 = second display...)\nDISPLAY_INDEX = %d\n\n", defaults.displayIndex);
     fprintf(file, "# Set to true if you\'d like to add a border for optical light gun tracking\n");
     fprintf(file, "BORDER_ENABLED = %s\n\n", defaults.borderEnabled ? "true" : "false");
     fprintf(file, "# Set the thickness of the white border as a percentage of the width of the screen\n");
@@ -36,6 +37,9 @@ int createDefaultIni(const char *filePath)
     fprintf(file, "BLACK_BORDER_PERCENTAGE = %.1f\n\n", defaults.blackBorderPercentage * 100.0f);
     fprintf(file, "# Set to keep the original aspect ratio in the games that support it\n#  (Sega Race TV, Primeval Hunt, LGJ-SP, GSEvo, After Burner Climax)\n");
     fprintf(file, "KEEP_ASPECT_RATIO = %s\n\n", defaults.keepAspectRatio ? "true" : "false");
+    fprintf(file, "# Filter used to stretch the game to the window or screen (LINEAR/NEAREST)\n");
+    fprintf(file, "#  NEAREST keeps the pixels sharp, but looks uneven unless the scale is a whole number\n");
+    fprintf(file, "SCALING_FILTER = %s\n\n", defaults.scalingFilterNearest ? "NEAREST" : "LINEAR");
     fprintf(file, "# Set to true to enable the mouse pointer/Cursor\nHIDE_CURSOR = %s\n\n", defaults.hideCursor ? "true" : "false");
     fprintf(file, "# Set to false if you don't want to limit the FPS\n");
     fprintf(file, "FPS_LIMITER_ENABLED = %s\n\n", defaults.fpsLimiter ? "true" : "false");

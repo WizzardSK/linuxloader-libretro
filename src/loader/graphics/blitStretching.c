@@ -380,18 +380,19 @@ void blitStretch()
             glad_glBindFramebuffer(GL_DRAW_FRAMEBUFFER, 0); // We want to draw to 0
             CHECK_GL("bind DRAW 0 second blit");
 
+            GLenum scalingFilter = getConfig()->scalingFilterNearest ? GL_NEAREST : GL_LINEAR;
             if(gameIsOutrunChihiroMode)
             {
                 // Crop center 640px from 800-wide FBO: remove 80px left, 80px right
                 glad_glBlitFramebuffer(80, 0, 720, blitHeight, dest.X, dest.Y, dest.X + dest.W, dest.Y + dest.H, GL_COLOR_BUFFER_BIT,
-                                   GL_LINEAR);
+                                   scalingFilter);
             }
             else
             {
                 glad_glBlitFramebuffer(0, 0, blitWidth, blitHeight, dest.X, dest.Y, dest.X + dest.W, dest.Y + dest.H, GL_COLOR_BUFFER_BIT,
-                                   GL_LINEAR);
+                                   scalingFilter);
             }
-            CHECK_GL("second blit (GL_LINEAR scaled) to default framebuffer");
+            CHECK_GL("second blit (scaled) to default framebuffer");
 
         // RESTORE STATE
         if (oldScissorTest)
