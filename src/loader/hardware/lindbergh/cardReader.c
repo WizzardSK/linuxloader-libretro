@@ -370,9 +370,7 @@ bool idCardFileExists(const char *folderPath, long expectedSize, bool twoDigits)
 {
     if (folderPath != NULL && strlen(folderPath) > 0)
     {
-        struct stat buffer;
-        stat(folderPath, &buffer);
-        if (!S_ISDIR(buffer.st_mode))
+        if (!dirExists(folderPath))
         {
             log_error("ID Card Folder does not exist! Check the config file.");
             exit(EXIT_FAILURE);
@@ -413,8 +411,13 @@ bool idCardFileExists(const char *folderPath, long expectedSize, bool twoDigits)
             continue;
         }
 
+#ifdef __linux__
+        struct stat64 fileStat;
+        if (stat64(currentFullPath, &fileStat) == 0)
+#else
         struct stat fileStat;
         if (stat(currentFullPath, &fileStat) == 0)
+#endif
         {
             if (fileStat.st_size == expectedSize)
             {

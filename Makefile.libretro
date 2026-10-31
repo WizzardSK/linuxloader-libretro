@@ -19,9 +19,10 @@ LIBS = -lrt
 endif
 
 SOURCES = src/libretro/linuxloader_libretro.c
-# The version the core reports: the upstream loader's latest release tag
-# (the checkout needs the tags) and this repository's commit
-LOADER_VERSION ?= $(shell git describe --tags --abbrev=0 2>/dev/null)
+# The version the core reports: the loader release merged in, from the
+# .info's display_version (bumped with every merge; this repository has no
+# upstream tags for git describe to find), and this repository's commit
+LOADER_VERSION ?= $(shell sed -n 's/^display_version *= *"\(.*\)"/\1/p' linuxloader_libretro.info)
 COMMIT ?= $(shell git rev-parse --short HEAD 2>/dev/null)
 CFLAGS += -DLR_LOADER_VERSION='"$(LOADER_VERSION)"' -DLR_COMMIT='"$(COMMIT)"'
 ifneq ($(SYSTEM_ZIP),)

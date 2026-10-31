@@ -148,6 +148,7 @@ void setDefaultValues(EmulatorConfig *cfg)
     cfg->width = 640;
     cfg->height = 480;
     cfg->boostRenderRes = 1;
+    cfg->displayIndex = 0;
     cfg->region = EX;
     cfg->freeplay = -1;
     cfg->aburnerMotionOff = 0;
@@ -155,6 +156,7 @@ void setDefaultValues(EmulatorConfig *cfg)
     cfg->useAltJvsPassthrough = 0;
     cfg->hummerFlickerFix = 0;
     cfg->keepAspectRatio = 1;
+    cfg->scalingFilterNearest = 0;
     cfg->ramboGunsSwitch = 0;
     cfg->harleyAnalogRemap = 0;
     cfg->id5ChineseLanguage = 0;
@@ -339,10 +341,22 @@ void applyIniConfig(EmulatorConfig *config, const IniConfig *ini)
     config->height = getInt(ini, "Display", "HEIGHT", config->height);
     config->boostRenderRes = getInt(ini, "Display", "BOOST_RENDER_RES", config->boostRenderRes);
     config->fullscreen = getInt(ini, "Display", "FULLSCREEN", config->fullscreen);
+    config->displayIndex = getInt(ini, "Display", "DISPLAY_INDEX", config->displayIndex);
     config->borderEnabled = getInt(ini, "Display", "BORDER_ENABLED", config->borderEnabled);
 	config->whiteBorderPercentage = getFloat(ini, "Display", "WHITE_BORDER_PERCENTAGE", config->whiteBorderPercentage * 100.0f) / 100.0f;
 	config->blackBorderPercentage = getFloat(ini, "Display", "BLACK_BORDER_PERCENTAGE", config->blackBorderPercentage * 100.0f) / 100.0f;
     config->keepAspectRatio = getInt(ini, "Display", "KEEP_ASPECT_RATIO", config->keepAspectRatio);
+    const char *scalingFilterRaw = getValue(ini, "Display", "SCALING_FILTER");
+    if (scalingFilterRaw)
+    {
+        char cleanBuffer[16];
+        char *scalingFilterStr = cleanValue(scalingFilterRaw, cleanBuffer, sizeof(cleanBuffer));
+        toLowerCase(scalingFilterStr);
+        if (strcmp(scalingFilterStr, "nearest") == 0)
+            config->scalingFilterNearest = 1;
+        else if (strcmp(scalingFilterStr, "linear") == 0)
+            config->scalingFilterNearest = 0;
+    }
     config->hideCursor = getInt(ini, "Display", "HIDE_CURSOR", config->hideCursor);
     config->fpsLimiter = getInt(ini, "Display", "FPS_LIMITER_ENABLED", config->fpsLimiter);
     config->fpsTarget = getFloat(ini, "Display", "FPS_TARGET", config->fpsTarget);
