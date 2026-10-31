@@ -91,14 +91,20 @@ const char *dumpPath(const char *path)
         from = "disk1";
         to = "disk0";
     }
+    else if (gGrp == GROUP_VF5)
+    {
+        /* only the disk1 fallback below */
+        from = NULL;
+        to = NULL;
+    }
     else
         return path;
     if (!path)
         return path;
-    const size_t len = strlen(from);
+    const size_t len = from ? strlen(from) : 0;
     /* the folder as a whole component of the path */
     const char *at = NULL;
-    for (const char *p = strstr(path, from); p; p = strstr(p + 1, from))
+    for (const char *p = from ? strstr(path, from) : NULL; p; p = strstr(p + 1, from))
     {
         const bool starts = p == path || p[-1] == '/' || p[-1] == '\\';
         const bool ends = p[len] == '/' || p[len] == '\\' || p[len] == '\0';
@@ -111,10 +117,11 @@ const char *dumpPath(const char *path)
     if (access(path, F_OK) == 0)
         return path;
     /* After Burner Climax opens its rom and shader folders from the folder
-     * above its program; the dumps hold them on disk1 and the program on
-     * disk0, where the loader's layout has all four on disk1. A relative
-     * path missing there is looked for on disk1 beside it. */
-    if (gGrp == GROUP_ABC && path[0] != '/')
+     * above its program, and Virtua Fighter 5 its rom folder from its own;
+     * the dumps hold them on disk1 and the program on disk0, where the
+     * loader's layout has them all on disk1. A relative path missing there is
+     * looked for on disk1 beside it (NNshi). */
+    if ((gGrp == GROUP_ABC || gGrp == GROUP_VF5) && path[0] != '/')
     {
         const char *rel = strncmp(path, "./", 2) == 0 ? path + 2 : path;
         if ((size_t)snprintf(alt, sizeof(alt), "../disk1/%s", rel) < sizeof(alt) && access(alt, F_OK) == 0)

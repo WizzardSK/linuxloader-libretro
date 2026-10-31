@@ -4,6 +4,10 @@ What changed in the libretro core of this fork, newest first. Changes that come 
 
 ## Unreleased
 
+- Virtua Fighter 5 and Virtua Tennis 3: each player's card is inserted with the pad's top face button (RetroPad X), listed as Insert Card; it was on the Guide button, which RetroArch's pad does not have (NNshi).
+- Virtua Fighter 5 starts from its dump's disk0: its rom folder is found on disk1 beside it, as After Burner Climax's already was (NNshi).
+- Initial D 4 and 5 no longer bind Boost, Boost Right and Music Change, which the games do not read (NNshi).
+- Debug > USE_ALT_JVS_PASSTHROUGH is gone: linuxloader v3.0.14's rewritten JVS passthrough has no such setting.
 - Merged up to linuxloader v3.0.14: JVS passthrough rewritten, Rambo's reload with emulated JVS, shader fixes for Ghost Squad Evolution and OutRun 2 on Intel/Mesa, OutRun 2's smoke and dust, After Burner Climax's viewport on Windows, numpad keys and triggers bindable in `controls.ini`. New option Debug > SCALING_FILTER, the loader's filter (Linear or Nearest) where it stretches the game's picture to the resolution; the loader's new DISPLAY_INDEX, the monitor its window opens on, has nothing to do in the core (NNshi).
 - Debug > PRIMEVAL_HUNT_SCREEN_MODE is 1 by default, set as 1 rather than left to the game's `linuxloader.ini`, and has no other Default: at Default (1), Primeval Hunt opened on two screens where the ini said so (NNshi).
 - The core is linuxloader, after the project it is built on, which is to run other arcade systems than Lindbergh too: `linuxloader_libretro.so` / `.dll` and `.info`, shown as Sega - Lindbergh (linuxloader). It reports its version as the loader's release and this fork's commit, as `v3.0.14 (libretro core 911049d)`, and logs it at load; the release is the one in the `.info` (the builds so far reported none). The loader now goes to `system/linuxloader/`, and RetroArch keeps the core's saves and options under linuxloader: move `saves/Lindbergh/` (the games' EEPROM and SRAM) to `saves/linuxloader/`, and `system/lindbergh/` can be deleted (NNshi).

@@ -964,9 +964,15 @@ static const ControlBinding gLibretroPadBindings[] = {
 
 // A default binding, but for the libretro core Virtua Tennis 3's Button 3,
 // which the game does not read, as Button 1 and 2 together: its lob, a
-// button of its own (NNshi)
+// button of its own (NNshi); and without Initial D 4 and 5's Boost, Boost
+// Right and Music Change, the driving defaults those games neither read nor
+// list in their input test (NNshi)
 static void addDefaultBinding(ControlBinding binding)
 {
+    if (libretroMode() && (gGrp == GROUP_ID4_EXP || gGrp == GROUP_ID4_JAP || gGrp == GROUP_ID5) &&
+        (binding.action == LA_Boost || binding.action == LA_BoostRight || binding.action == LA_MusicChange) &&
+        (binding.type == INPUT_TYPE_GAMEPAD_BUTTON || binding.type == INPUT_TYPE_GAMEPAD_AXIS))
+        return;
     if (libretroMode() && gGrp == GROUP_VT3 && binding.action == LA_Button3 &&
         (binding.type == INPUT_TYPE_GAMEPAD_BUTTON || binding.type == INPUT_TYPE_GAMEPAD_AXIS))
     {
@@ -992,6 +998,16 @@ void setDefaultMappings()
     {
         for (size_t i = 0; i < sizeof(gLibretroPadBindings) / sizeof(gLibretroPadBindings[0]); i++)
             addBinding(gLibretroPadBindings[i]);
+        // Virtua Fighter 5's and Virtua Tennis 3's card on each player's top
+        // face button (RetroPad X): the defaults put it on the Guide button,
+        // which RetroArch's pad does not have (NNshi)
+        if (gGrp == GROUP_VF5 || gGrp == GROUP_VT3)
+        {
+            addBinding((ControlBinding){INPUT_TYPE_GAMEPAD_BUTTON, 0, SDL_GAMEPAD_BUTTON_NORTH, AXIS_MODE_DIGITAL, 0, false,
+                                        PLAYER_1, LA_Card1Insert, -1, 0});
+            addBinding((ControlBinding){INPUT_TYPE_GAMEPAD_BUTTON, 1, SDL_GAMEPAD_BUTTON_NORTH, AXIS_MODE_DIGITAL, 0, false,
+                                        PLAYER_2, LA_Card2Insert, -1, 0});
+        }
     }
 
     // Add game-specific bindings
@@ -1650,8 +1666,8 @@ static void padActionName(LogicalAction action, char *out, size_t size)
         {LA_Flying_Right, "Stick Right"}, {LA_Flying_Y, "Stick Up/Down"}, {LA_Flying_Up, "Stick Up"},
         {LA_Flying_Down, "Stick Down"},  {LA_Throttle_Accelerate, "Throttle Up"},
         {LA_Throttle_Slowdown, "Throttle Down"}, {LA_GunTrigger, "Gun"}, {LA_MissileTrigger, "Missile"},
-        {LA_ClimaxSwitch, "Climax"},     {LA_CardInsert, "Card"},        {LA_Card1Insert, "Card"},
-        {LA_Card2Insert, "Card"},
+        {LA_ClimaxSwitch, "Climax"},     {LA_CardInsert, "Insert Card"}, {LA_Card1Insert, "Insert Card"},
+        {LA_Card2Insert, "Insert Card"},
     };
     for (size_t i = 0; i < sizeof(names) / sizeof(names[0]); i++)
         if (names[i].action == action)
