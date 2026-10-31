@@ -24,6 +24,7 @@ Some dumps need their folders moved before the game runs; the log does not say s
 
 - Virtua Fighter 5 renders at most 2880x1620 (above it the loader on its own shows a black screen): at Resolution 3840x2160 or 5120x2880 the core runs it at 2880x1620 (NNshi).
 - After Burner Climax shows an error on its first start, while its EEPROM is new: close it and start it again (NNshi).
+- Ghost Squad Evolution and Too Spicy play their sound through OpenAL, which the core cannot take over: their sound goes past RetroArch, so it keeps playing while RetroArch is paused and RetroArch's volume and audio settings do not apply to it. Ghost Squad Evolution also runs at about 53.5 fps, as it does standalone (NNshi).
 - Gun games: with Gun Aim on Analog Stick the pad's L, L2, R and R2 (LB, LT, RB, RT) are the gun's buttons; on Mouse the mouse's left, right and middle buttons are, and shooting off the picture reloads. Which button does what per game is under Gun Aim below.
 
 On Windows with an NVIDIA GPU, a program profile in the NVIDIA Control Panel for `system/linuxloader/linuxloader.exe` with Anisotropic Filtering at 16x sharpens the games' textures; forcing MSAA or MFAA there changes nothing (NNshi).
