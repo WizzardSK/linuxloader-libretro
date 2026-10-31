@@ -4,6 +4,14 @@ What changed in the libretro core of this fork, newest first. Changes that come 
 
 ## Unreleased
 
+- Debug > PRIMEVAL_HUNT_SCREEN_MODE is 1 by default, set as 1 rather than left to the game's `linuxloader.ini`, and has no other Default: at Default (1), Primeval Hunt opened on two screens where the ini said so (NNshi).
+- The core is linuxloader, after the project it is built on, which is to run other arcade systems than Lindbergh too: `linuxloader_libretro.so` / `.dll` and `.info`, shown as Sega - Lindbergh (linuxloader). It reports its version as the loader's release and this fork's commit, as `v3.0.13 (libretro core 911049d)`, and logs it at load. The loader now goes to `system/linuxloader/`, and RetroArch keeps the core's saves and options under linuxloader: move `saves/Lindbergh/` (the games' EEPROM and SRAM) to `saves/linuxloader/`, and `system/lindbergh/` can be deleted (NNshi).
+- Debug > EMULATE_DRIVEBOARD's Default (per game) emulates the drive board for Initial D 4 and 5 and Hummer too, not only OutRun 2 SP, so they rumble as well (NNshi).
+- RetroArch's Reset starts the game again, as at load; it did nothing (NNshi).
+- Resolution's tooltip warns that a resolution above the display's breaks some games or keeps them from starting (NNshi).
+- Virtua Fighter 5 at Resolution 3840x2160 or 5120x2880 runs at 2880x1620, the most it renders, instead of a black screen (NNshi).
+- Virtua Tennis 3: Button 3, which the game does not read, is Lob (Button 1 and 2 together). RetroArch's controls list names the button games' buttons: Punch, Kick, Guard in Virtua Fighter 5, Top Spin, Slice, Lob in Virtua Tennis 3 (NNshi).
+- Player 2 plays the button games (Virtua Fighter 5, Virtua Tennis 3) on port 2's pad with the same buttons and directions as player 1; before, only Start worked there (NNshi).
 - RetroArch's controls list names the buttons and sticks by what they do in the game (Gas, Brake, Gear Up, View Change, Missile, Trigger, Reload...), taken from the loader's bindings, and with Gun Aim on Analog Stick from the gun games' layouts; nothing is bound differently, and RetroArch's remapping now has something to rebind (NNshi).
 - The core takes programs without an extension and `.exe` (Primeval Hunt's `game.exe`) as content; with RetroArch's Filter Unknown Extensions off, the file browser offers them (NNshi).
 - New option Debug > ABURNER_MOTION_OFF, last, on by default: After Burner Climax's motion set to off in its EEPROM at start, as its test menu does, without which it does not start on the Deluxe cabinet it is set to out of the box; from the second start, as the game writes its EEPROM at its first. Rev. B (DVP-0009B) does not start, from either layout (NNshi).
