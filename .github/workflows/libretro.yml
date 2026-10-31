@@ -15,8 +15,6 @@ jobs:
     timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0  # the tags, for the version the core reports
 
       - name: Cache APT packages
         uses: actions/cache@v4
@@ -87,8 +85,6 @@ jobs:
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0  # the tags, for the version the core reports
       # Only what the runner lacks (cmake, make and zip are on it), without
       # the script's apt upgrade of the whole runner, and from Ubuntu's own
       # archive instead of Azure's mirror, which served some 50 KB/s (NNshi).
@@ -159,8 +155,6 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0  # the tags, for the version the core reports
       - uses: actions/download-artifact@v4
         with:
           name: linuxloader_libretro-linux-x86_64
