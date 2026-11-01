@@ -3966,6 +3966,9 @@ int initPatch()
             detourFunction(0x0831c64f, stubRetZero);
             setVariable(0x0827ae1b, 0x34891beb);    // Disable Fullscreen set from the game
             detourFunction(0x08177c1c, stubRetOne); // Patch seterror
+            // TEMP (vt3-logo): no sprite marked as off screen by _abkBranch::_isXYClipOut
+            if (getenv("LINUXLOADER_VT3_NOCLIP"))
+                patchMemoryFromString(0x0820011b, "90909090909090");
 
             // Mesa
             if (GPUVendor != NVIDIA_GPU)
