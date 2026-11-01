@@ -402,6 +402,7 @@ REALIGN void glCullFace(GLenum mode)
     static void (*real)(GLenum) = NULL;
     if (real == NULL)
         real = resolveNext("glCullFace");
+    glTraceOnce("cullface %x", mode);
     if (real)
         real(mode);
 }
@@ -654,6 +655,7 @@ REALIGN void glFrontFace(GLenum mode)
     static void (*real)(GLenum) = NULL;
     if (real == NULL)
         real = resolveNext("glFrontFace");
+    glTraceOnce("frontface %x", mode);
     if (real)
         real(mode);
 }

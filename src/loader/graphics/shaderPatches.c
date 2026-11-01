@@ -301,6 +301,9 @@ void bridgeglEnable(GLenum cap)
         /* TEMP (vt3-logo): LINUXLOADER_VT3_DEPTH=off keeps the depth test off */
         if (getenv("LINUXLOADER_VT3_DEPTH") && cap == GL_DEPTH_TEST)
             return;
+        /* TEMP (vt3-logo): LINUXLOADER_VT3_CULL=off keeps face culling off */
+        if (getenv("LINUXLOADER_VT3_CULL") && cap == GL_CULL_FACE)
+            return;
     }
     glad_glEnable(cap);
 }
