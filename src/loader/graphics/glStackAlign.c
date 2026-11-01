@@ -27,6 +27,7 @@
 
 #include <dlfcn.h>
 #include <stddef.h>
+#include <stdlib.h>
 
 #include <GL/gl.h>
 #include <GL/glext.h>
