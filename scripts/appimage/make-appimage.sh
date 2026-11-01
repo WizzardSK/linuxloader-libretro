@@ -33,6 +33,7 @@ declare -a ADDED_LIBS=(
 	"libm.so.6"
 	"libz.so.1"
 	"libgpg-error.so.0"
+	"libgcc_s.so.1"
 	"libstdc++.so.6"
 	"libudev.so.1"
 	"libsndio.so.7"

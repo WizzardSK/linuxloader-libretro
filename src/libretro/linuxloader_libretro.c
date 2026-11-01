@@ -1070,6 +1070,9 @@ static bool start_loader(void)
         setenv("LD_LIBRARY_PATH", libs, 1);
         setenv("BOX64_LD_LIBRARY_PATH", libs, 1);
         setenv("BOX64_LOG", "1", 0);
+        /* the 32-bit GLU in usr/lib32, not a native ARM one, which RetroArch's
+         * runtime may not have: box64 wraps it natively by default */
+        setenv("BOX64_EMULATED_LIBS", "libGLU.so.1", 0);
         if (test_flag)
             execl(box64, box64, launcher, elf, "-t", (char *)NULL);
         else
