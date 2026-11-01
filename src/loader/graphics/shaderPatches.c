@@ -298,6 +298,9 @@ void bridgeglEnable(GLenum cap)
         const char *mode = getenv("LINUXLOADER_VT3_ALPHA");
         if (mode && mode[0] == 'o' && cap == GL_ALPHA_TEST)
             return;
+        /* TEMP (vt3-logo): LINUXLOADER_VT3_DEPTH=off keeps the depth test off */
+        if (getenv("LINUXLOADER_VT3_DEPTH") && cap == GL_DEPTH_TEST)
+            return;
     }
     glad_glEnable(cap);
 }
