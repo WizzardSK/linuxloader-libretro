@@ -70,6 +70,12 @@ static pid_t loader;
 #endif
 static uint32_t last_frame;
 static unsigned frame_w = 640, frame_h = 480;
+/* The largest frame RetroArch is told to expect. Not LR_MAX_*: the frontend
+ * sizes its textures and buffers for the maximum, and at 5120x2880 RetroArch
+ * held 1.2 GB of GPU memory on a 4 GB Chromebook, which the menu's own
+ * allocations then took over the edge (out of memory). It starts at
+ * Lindbergh's common 1360x768 and grows with a larger frame. */
+static unsigned av_max_w = 1360, av_max_h = 768;
 /* Input > Service and Test Buttons: L3 service and R3 test on the pads */
 static bool test_buttons = true;
 /* Whether the program running is in test mode: the game's separate test
@@ -494,8 +500,8 @@ void retro_get_system_av_info(struct retro_system_av_info *info)
     memset(info, 0, sizeof(*info));
     info->geometry.base_width = frame_w;
     info->geometry.base_height = frame_h;
-    info->geometry.max_width = LR_MAX_WIDTH;
-    info->geometry.max_height = LR_MAX_HEIGHT;
+    info->geometry.max_width = av_max_w;
+    info->geometry.max_height = av_max_h;
     info->geometry.aspect_ratio = (float)frame_w / (float)frame_h;
     info->timing.fps = 60.0;
     info->timing.sample_rate = sample_rate;
@@ -1834,9 +1840,21 @@ void retro_run(void)
         {
             frame_w = shm->width;
             frame_h = shm->height;
-            struct retro_game_geometry geometry = {frame_w, frame_h, LR_MAX_WIDTH, LR_MAX_HEIGHT,
-                                                   (float)frame_w / (float)frame_h};
-            environ_cb(RETRO_ENVIRONMENT_SET_GEOMETRY, &geometry);
+            if (frame_w > av_max_w || frame_h > av_max_h)
+            {
+                /* past the maximum: the frontend has to reinit its video */
+                av_max_w = frame_w > av_max_w ? frame_w : av_max_w;
+                av_max_h = frame_h > av_max_h ? frame_h : av_max_h;
+                struct retro_system_av_info av;
+                retro_get_system_av_info(&av);
+                environ_cb(RETRO_ENVIRONMENT_SET_SYSTEM_AV_INFO, &av);
+            }
+            else
+            {
+                struct retro_game_geometry geometry = {frame_w, frame_h, av_max_w, av_max_h,
+                                                       (float)frame_w / (float)frame_h};
+                environ_cb(RETRO_ENVIRONMENT_SET_GEOMETRY, &geometry);
+            }
         }
         if (crosshair && shm->gun_game)
             draw_crosshairs(shm->pixels, frame_w, frame_h);
