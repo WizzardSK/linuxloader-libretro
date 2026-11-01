@@ -4,6 +4,7 @@ What changed in the libretro core of this fork, newest first. Changes that come 
 
 ## Unreleased
 
+- Linux aarch64: the game starts. The loader started it through a shell, which under box64 is a native ARM program that can run neither the 32-bit x86 game nor preload the loader's library into it, so the game exited at once; the loader now runs the game itself, which box64 emulates.
 - Debug options without Default entries that only repeated another value: each option now starts at that value (Off, On, Export, Yellow, 0%...) and is set over the game's `linuxloader.ini`. Where the loader's own value is none of the others, it is named for what it is: Per Game for the boards, Unchanged for FREEPLAY, Detected for CPU_FREQ_GHZ. Debug > SCALING_FILTER is gone: the core always uses Nearest there, as RetroArch scales and filters the picture (NNshi).
 - Virtua Fighter 5 and Virtua Tennis 3: each player's card is inserted with the pad's top face button (RetroPad X), listed as Insert Card; it was on the Guide button, which RetroArch's pad does not have (NNshi).
 - Virtua Fighter 5 starts from its dump's disk0: its rom folder is found on disk1 beside it, as After Burner Climax's already was (NNshi).
