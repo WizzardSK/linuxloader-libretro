@@ -96,6 +96,8 @@ if(CMAKE_SYSTEM_NAME MATCHES "Linux" AND NOT MINGW AND NOT CMAKE_C_COMPILER MATC
         src/loader/redirections/*.c
         src/loader/graphics/shaderWork/*.c
         src/loader/libretro/*.c
+        src/loader/audio/lindbergh/alsa2sdl/alsa2sdl.c
+        src/loader/audio/lindbergh/alsa2sdl/alsa2sdlLinux.c
         src/glad/src/gl.c)
 
     add_library(linuxloader SHARED ${LINUX_LOADER_OBJS})
