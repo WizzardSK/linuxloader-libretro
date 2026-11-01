@@ -292,6 +292,7 @@ void bridgeglEnable(GLenum cap)
     {
         cap = GL_FRAGMENT_PROGRAM_ARB;
     }
+    glTraceOnce("enable %x", cap);
     glad_glEnable(cap);
 }
 
@@ -312,6 +313,7 @@ void bridgeglDisable(GLenum cap)
     {
         cap = GL_FRAGMENT_PROGRAM_ARB;
     }
+    glTraceOnce("disable %x", cap);
     glad_glDisable(cap);
 }
 

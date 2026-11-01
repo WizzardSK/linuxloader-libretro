@@ -39,6 +39,9 @@ enum { LOG_TRACE, // 0
 extern "C" {
 #endif
 
+/* TEMP (vt3-logo): each distinct line once into the file LINUXLOADER_GLTRACE names */
+void glTraceOnce(const char *format, ...);
+
 int logGeneric(int level, const char *file, int line, const char *message, ...);
 int logVA(int level, const char *file, int line, const char *message, va_list args);
 int logSanityChecks(int level, const char *message);

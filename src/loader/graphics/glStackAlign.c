@@ -59,6 +59,7 @@ REALIGN void glAlphaFunc(GLenum func, GLclampf ref)
     static void (*real)(GLenum, GLclampf) = NULL;
     if (real == NULL)
         real = resolveNext("glAlphaFunc");
+    glTraceOnce("alpha %x %.3f", func, ref);
     if (real)
         real(func, ref);
 }
@@ -167,6 +168,7 @@ REALIGN void glBlendFunc(GLenum sfactor, GLenum dfactor)
     static void (*real)(GLenum, GLenum) = NULL;
     if (real == NULL)
         real = resolveNext("glBlendFunc");
+    glTraceOnce("blend %x %x", sfactor, dfactor);
     if (real)
         real(sfactor, dfactor);
 }
@@ -220,6 +222,7 @@ REALIGN void glClear(GLbitfield mask)
     static void (*real)(GLbitfield) = NULL;
     if (real == NULL)
         real = resolveNext("glClear");
+    glTraceOnce("clear %x", mask);
     if (real)
         real(mask);
 }
@@ -310,6 +313,7 @@ REALIGN void glColorMask(GLboolean red, GLboolean green, GLboolean blue, GLboole
     static void (*real)(GLboolean, GLboolean, GLboolean, GLboolean) = NULL;
     if (real == NULL)
         real = resolveNext("glColorMask");
+    glTraceOnce("colormask %d%d%d%d", red, green, blue, alpha);
     if (real)
         real(red, green, blue, alpha);
 }
@@ -1301,6 +1305,7 @@ REALIGN void glStencilFunc(GLenum func, GLint ref, GLuint mask)
     static void (*real)(GLenum, GLint, GLuint) = NULL;
     if (real == NULL)
         real = resolveNext("glStencilFunc");
+    glTraceOnce("stencilfunc %x %d %x", func, ref, mask);
     if (real)
         real(func, ref, mask);
 }
@@ -1310,6 +1315,7 @@ REALIGN void glStencilMask(GLuint mask)
     static void (*real)(GLuint) = NULL;
     if (real == NULL)
         real = resolveNext("glStencilMask");
+    glTraceOnce("stencilmask %x", mask);
     if (real)
         real(mask);
 }
@@ -1319,6 +1325,7 @@ REALIGN void glStencilOp(GLenum fail, GLenum zfail, GLenum zpass)
     static void (*real)(GLenum, GLenum, GLenum) = NULL;
     if (real == NULL)
         real = resolveNext("glStencilOp");
+    glTraceOnce("stencilop %x %x %x", fail, zfail, zpass);
     if (real)
         real(fail, zfail, zpass);
 }

@@ -498,3 +498,38 @@ void logSetMinLevel(int level)
 {
     g_logLevel = level;
 }
+
+/* TEMP (vt3-logo) */
+#include <stdarg.h>
+#include <stdlib.h>
+void glTraceOnce(const char *format, ...)
+{
+    static int enabled = -1;
+    static char path[512];
+    static char seen[3000][96];
+    static int count;
+    if (enabled < 0)
+    {
+        const char *where = getenv("LINUXLOADER_GLTRACE");
+        enabled = where != NULL;
+        if (where)
+            snprintf(path, sizeof(path), "%s", where);
+    }
+    if (!enabled || count >= 3000)
+        return;
+    char line[96];
+    va_list args;
+    va_start(args, format);
+    vsnprintf(line, sizeof(line), format, args);
+    va_end(args);
+    for (int i = 0; i < count; i++)
+        if (strcmp(seen[i], line) == 0)
+            return;
+    strcpy(seen[count++], line);
+    FILE *f = fopen(path, "a");
+    if (f)
+    {
+        fprintf(f, "%s\n", line);
+        fclose(f);
+    }
+}
