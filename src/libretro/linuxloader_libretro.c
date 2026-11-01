@@ -30,6 +30,7 @@
 #include <fcntl.h>
 #include <signal.h>
 #include <sys/mman.h>
+#include <sys/resource.h>
 #include <sys/stat.h>
 #include <sys/wait.h>
 #endif
@@ -1084,6 +1085,11 @@ static bool start_loader(void)
         /* the AppDir's i386 Mesa has no driver for ARM GPUs (msm and the
          * like): without this, it tried them and the game hung */
         setenv("LIBGL_ALWAYS_SOFTWARE", "1", 0);
+        /* No core dump of a game that crashes: under FEX it has a 256 TB
+         * address space, and systemd-coredump then held the disk for
+         * minutes, RetroArch hanging in it */
+        struct rlimit no_core = {0, 0};
+        setrlimit(RLIMIT_CORE, &no_core);
         if (test_flag)
             execl(fex, fex, launcher, elf, "-t", (char *)NULL);
         else
