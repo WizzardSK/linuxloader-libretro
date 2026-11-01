@@ -91,11 +91,11 @@ linux-loader:
     - scripts/appimage/pack-libs.sh
     - make linux
     - scripts/appimage/make-appimage.sh
-    - mkdir -p loader
-    - cp -a build-linux/linuxloader.AppDir/. loader/
+    # as a tarball, which keeps the programs' modes and the symlinks
+    - tar -C build-linux/linuxloader.AppDir -czf loader.tar.gz .
   artifacts:
     paths:
-      - loader/
+      - loader.tar.gz
     expire_in: 1 day
 
 # Linux 64-bit
@@ -110,7 +110,7 @@ libretro-build-linux-x64:
     - linux-loader
   script:
     - mkdir -p dist/system/linuxloader
-    - cp -a loader/. dist/system/linuxloader/
+    - tar -xzf loader.tar.gz -C dist/system/linuxloader
     - git rev-parse --short HEAD > dist/system/linuxloader/build
     - (cd dist/system/linuxloader && zip -q -r -y -9 "$CI_PROJECT_DIR/system.zip" .)
     - make -f Makefile.libretro SYSTEM_ZIP=system.zip BUILD_STAMP=$(git rev-parse --short HEAD) -j${NUMPROC}
@@ -132,7 +132,7 @@ libretro-build-linux-aarch64:
     - cmake -S box64 -B box64/build -DARM_DYNAREC=ON -DBOX32=ON -DCMAKE_BUILD_TYPE=RelWithDebInfo
     - cmake --build box64/build -j${NUMPROC}
     - mkdir -p dist/system/linuxloader
-    - cp -a loader/. dist/system/linuxloader/
+    - tar -xzf loader.tar.gz -C dist/system/linuxloader
     - install -m 755 box64/build/box64 dist/system/linuxloader/box64
     - git -C box64 rev-parse --short HEAD > dist/system/linuxloader/box64.version
     - git rev-parse --short HEAD > dist/system/linuxloader/build

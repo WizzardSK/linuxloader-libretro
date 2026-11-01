@@ -47,7 +47,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: loader
-          path: loader/
+          path: loader.tar.gz
 
   linux-x64:
     needs: linux-loader
@@ -58,7 +58,6 @@ jobs:
       - uses: actions/download-artifact@v4
         with:
           name: loader
-          path: loader
       - name: Job script in Ubuntu 22.04
         run: |
           python3 .github/workflows/replay.py libretro-build-linux-x64 'export CC=gcc' > job.sh
@@ -79,7 +78,6 @@ jobs:
       - uses: actions/download-artifact@v4
         with:
           name: loader
-          path: loader
       - name: Job script in Ubuntu 22.04
         run: |
           python3 .github/workflows/replay.py libretro-build-linux-aarch64 'export CC=gcc' > job.sh
