@@ -304,6 +304,9 @@ void bridgeglEnable(GLenum cap)
         /* TEMP (vt3-logo): LINUXLOADER_VT3_CULL=off keeps face culling off */
         if (getenv("LINUXLOADER_VT3_CULL") && cap == GL_CULL_FACE)
             return;
+        /* TEMP (vt3-logo): LINUXLOADER_VT3_BLEND=off keeps blending off */
+        if (getenv("LINUXLOADER_VT3_BLEND") && cap == GL_BLEND)
+            return;
     }
     glad_glEnable(cap);
 }
