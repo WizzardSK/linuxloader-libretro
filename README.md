@@ -64,7 +64,7 @@ A `controls.ini` maps them as standalone, since RetroArch's pads reach the game 
 
 ## How it works
 
-The games are 32-bit Linux programs, so the core does not run them itself: it starts the loader as a process of its own and exchanges the frames, the audio and the input with it through shared memory (`src/libretro/`, the loader's side in `src/loader/libretro/libretroBridge.c`). The game draws one frame per RetroArch frame and its window stays hidden. On Linux aarch64 the loader and the game run through box64 (built with BOX32, for 32-bit x86), which comes with the core. On Windows the loader's own Windows build (`linuxloader.exe` and `ll-deps/`) loads the game's ELF; its console output goes to `system/linuxloader/loader.log`.
+The games are 32-bit Linux programs, so the core does not run them itself: it starts the loader as a process of its own and exchanges the frames, the audio and the input with it through shared memory (`src/libretro/`, the loader's side in `src/loader/libretro/libretroBridge.c`). The game draws one frame per RetroArch frame and its window stays hidden. On Linux aarch64 the loader and the game run through FEX-Emu, which comes with the core along with an i386 root file system (glibc, scripts/fex/fetch-fex.py), and are drawn in software, as the loader's i386 Mesa has no driver for ARM GPUs; RetroArch run as a flatpak needs `--allow=multiarch` for it. On Windows the loader's own Windows build (`linuxloader.exe` and `ll-deps/`) loads the game's ELF; its console output goes to `system/linuxloader/loader.log`.
 
 ## Building
 

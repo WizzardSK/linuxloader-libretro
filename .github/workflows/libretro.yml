@@ -121,36 +121,9 @@ jobs:
           name: linuxloader_libretro-windows-x86_64
           path: pkg/
 
-  # box64 with BOX32, which runs 32-bit x86 programs on 64-bit ARM: the
-  # loader and the game on aarch64
-  box64:
-    name: box64 (BOX32)
-    runs-on: ubuntu-24.04-arm
-    timeout-minutes: 40
-    steps:
-      - name: Cache
-        id: cache
-        uses: actions/cache@v4
-        with:
-          path: box64-out
-          key: box64-box32-${{ hashFiles('.github/workflows/libretro.yml') }}
-      - name: Build
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: |
-          git clone --depth 1 https://github.com/ptitSeb/box64.git
-          cmake -S box64 -B box64/build -DARM_DYNAREC=ON -DBOX32=ON -DCMAKE_BUILD_TYPE=RelWithDebInfo
-          cmake --build box64/build -j"$(nproc)"
-          mkdir -p box64-out
-          cp box64/build/box64 box64-out/
-          git -C box64 rev-parse --short HEAD > box64-out/box64.version
-      - uses: actions/upload-artifact@v4
-        with:
-          name: box64-box32
-          path: box64-out/
-
   linux-aarch64:
     name: Linux aarch64
-    needs: [linux-x86_64, box64]
+    needs: [linux-x86_64]
     runs-on: ubuntu-24.04-arm
     timeout-minutes: 20
     steps:
@@ -158,19 +131,14 @@ jobs:
       - uses: actions/download-artifact@v4
         with:
           name: linuxloader_libretro-linux-x86_64
-      - uses: actions/download-artifact@v4
-        with:
-          name: box64-box32
-          path: box64-out
       - name: System zip
         shell: bash
         run: |
-          # the x86 loader's AppDir, with box64 beside it
+          # the x86 loader's AppDir, with FEX-Emu and its i386 root file system
           mkdir x86 && tar -xzf linuxloader_libretro-linux-x86_64.tar.gz -C x86
           mkdir -p dist
           cp -a x86/system dist/
-          install -m 755 box64-out/box64 dist/system/linuxloader/box64
-          cp box64-out/box64.version dist/system/linuxloader/
+          python3 scripts/fex/fetch-fex.py dist/system/linuxloader
           git rev-parse --short HEAD > dist/system/linuxloader/build
           (cd dist/system/linuxloader && zip -q -r -y -9 "$GITHUB_WORKSPACE/system.zip" .)
       - name: Core

@@ -12,10 +12,10 @@ uint32_t partialElfCrc = 0;
 
 /* The game's command run without a shell: split at its spaces (the loader's
  * paths cannot hold any) and executed directly, with system()'s exit status.
- * Under box64 on ARM (the libretro core's aarch64 build) a shell is a native
- * ARM program, which cannot start the 32-bit x86 game nor preload the 32-bit
- * linuxloader.so into it; box64 runs an x86 program the loader executes
- * itself, with the loader's LD_PRELOAD. */
+ * Under an emulator on ARM (the libretro core's aarch64 build) a shell would
+ * be a native ARM program, which can neither start the 32-bit x86 game nor
+ * preload the 32-bit linuxloader.so into it; an x86 program the loader
+ * executes itself is emulated, with the loader's LD_PRELOAD. */
 static int runCommand(char *command)
 {
     char *argv[64];

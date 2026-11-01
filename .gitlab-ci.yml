@@ -11,7 +11,8 @@
 # libraries and Kisak's Mesa, which none of the buildbot's images have; it is
 # built once in Ubuntu 22.04 (as the GitHub workflow builds it, with the same
 # scripts) by linux-loader, which the x86_64 and aarch64 cores both take.
-# aarch64 runs that loader through box64 with BOX32, built in the job.
+# aarch64 runs that loader through FEX-Emu, with an i386 root file system
+# (scripts/fex/fetch-fex.py, from FEX's PPA and Ubuntu 22.04).
 
 ##############################################################################
 ################################# BOILERPLATE ################################
@@ -116,7 +117,7 @@ libretro-build-linux-x64:
     - make -f Makefile.libretro SYSTEM_ZIP=system.zip BUILD_STAMP=$(git rev-parse --short HEAD) -j${NUMPROC}
     - cp build/${CORENAME}_libretro.so .
 
-# Linux ARM 64-bit: the x86 loader through box64 with BOX32
+# Linux ARM 64-bit: the x86 loader through FEX-Emu
 libretro-build-linux-aarch64:
   extends:
     - .libretro-linux-aarch64-make-default
@@ -128,13 +129,9 @@ libretro-build-linux-aarch64:
     - linux-loader
   timeout: 1h
   script:
-    - git clone --depth 1 https://github.com/ptitSeb/box64.git
-    - cmake -S box64 -B box64/build -DARM_DYNAREC=ON -DBOX32=ON -DCMAKE_BUILD_TYPE=RelWithDebInfo
-    - cmake --build box64/build -j${NUMPROC}
     - mkdir -p dist/system/linuxloader
     - tar -xzf loader.tar.gz -C dist/system/linuxloader
-    - install -m 755 box64/build/box64 dist/system/linuxloader/box64
-    - git -C box64 rev-parse --short HEAD > dist/system/linuxloader/box64.version
+    - python3 scripts/fex/fetch-fex.py dist/system/linuxloader
     - git rev-parse --short HEAD > dist/system/linuxloader/build
     - (cd dist/system/linuxloader && zip -q -r -y -9 "$CI_PROJECT_DIR/system.zip" .)
     - make -f Makefile.libretro SYSTEM_ZIP=system.zip BUILD_STAMP=$(git rev-parse --short HEAD) -j${NUMPROC}

@@ -1021,15 +1021,17 @@ static bool start_loader(void)
     snprintf(apprun, sizeof(apprun), "%s/AppRun", root);
 #if defined(__aarch64__)
     /* On ARM the loader and the game are x86 programs as everywhere: run
-     * through box64 (built with BOX32, for 32-bit x86), which comes in the
-     * same folder */
-    char box64[PATH_MAX], launcher[PATH_MAX];
-    snprintf(box64, sizeof(box64), "%s/box64", root);
+     * through FEX-Emu, with the i386 root file system (glibc) both come in
+     * the same folder with (scripts/fex/fetch-fex.py) */
+    char fex[PATH_MAX], fexdir[PATH_MAX], rootfs[PATH_MAX], launcher[PATH_MAX];
+    snprintf(fexdir, sizeof(fexdir), "%s/fex", root);
+    snprintf(fex, sizeof(fex), "%s/FEX", fexdir);
+    snprintf(rootfs, sizeof(rootfs), "%s/fex-rootfs", root);
     snprintf(launcher, sizeof(launcher), "%s/usr/bin/linuxloader", root);
-    if (access(box64, X_OK) != 0 || access(launcher, R_OK) != 0)
+    if (access(fex, X_OK) != 0 || access(launcher, R_OK) != 0)
     {
-        lr_log(RETRO_LOG_ERROR, "box64 or the loader is not in %s\n", root);
-        struct retro_message msg = {"linuxloader: box64 or the loader is missing from system/linuxloader", 600};
+        lr_log(RETRO_LOG_ERROR, "FEX or the loader is not in %s\n", root);
+        struct retro_message msg = {"linuxloader: FEX or the loader is missing from system/linuxloader", 600};
         environ_cb(RETRO_ENVIRONMENT_SET_MESSAGE, &msg);
         return false;
     }
@@ -1063,20 +1065,23 @@ static bool start_loader(void)
         if (debug_ini[0])
             setenv("LINDBERGH_LIBRETRO_INI", debug_ini, 1);
 #if defined(__aarch64__)
-        /* what AppRun sets, for the x86 libraries box64 loads */
-        char libs[PATH_MAX * 2];
+        /* what AppRun sets, for the x86 libraries the guest loads */
+        char libs[PATH_MAX * 2], path[PATH_MAX * 2];
         snprintf(libs, sizeof(libs), "%s/usr/lib32:%s/usr/lib", root, root);
         setenv("APP_IMG_ROOT", root, 1);
         setenv("LD_LIBRARY_PATH", libs, 1);
-        setenv("BOX64_LD_LIBRARY_PATH", libs, 1);
-        setenv("BOX64_LOG", "1", 0);
-        /* the 32-bit GLU in usr/lib32, not a native ARM one, which RetroArch's
-         * runtime may not have: box64 wraps it natively by default */
-        setenv("BOX64_EMULATED_LIBS", "libGLU.so.1", 0);
+        setenv("FEX_ROOTFS", rootfs, 1);
+        /* FEX starts its FEXServer from the PATH */
+        const char *old_path = getenv("PATH");
+        snprintf(path, sizeof(path), "%s:%s", fexdir, old_path ? old_path : "/usr/bin:/bin");
+        setenv("PATH", path, 1);
+        /* the AppDir's i386 Mesa has no driver for ARM GPUs (msm and the
+         * like): without this, it tried them and the game hung */
+        setenv("LIBGL_ALWAYS_SOFTWARE", "1", 0);
         if (test_flag)
-            execl(box64, box64, launcher, elf, "-t", (char *)NULL);
+            execl(fex, fex, launcher, elf, "-t", (char *)NULL);
         else
-            execl(box64, box64, launcher, elf, (char *)NULL);
+            execl(fex, fex, launcher, elf, (char *)NULL);
 #else
         if (test_flag)
             execl(apprun, apprun, elf, "-t", (char *)NULL);

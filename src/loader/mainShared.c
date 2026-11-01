@@ -511,10 +511,6 @@ void setEnvironmentVariables(const char *ldLibPath, const char *originalDir, con
     {
         setenv("LD_PRELOAD", ldLibPath, 1);
     }
-    // Under box64 (the libretro core on ARM) LD_PRELOAD is read by the native
-    // ARM loader, which cannot load the 32-bit library; box64 preloads what
-    // BOX64_LD_PRELOAD names into the emulated game. Unused elsewhere.
-    setenv("BOX64_LD_PRELOAD", getenv("LD_PRELOAD"), 1);
 
     if (hasSpaces(ldLibPath))
     {
