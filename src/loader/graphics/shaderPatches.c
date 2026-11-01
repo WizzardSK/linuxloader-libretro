@@ -304,6 +304,14 @@ void bridgeglEnable(GLenum cap)
         /* TEMP (vt3-logo): LINUXLOADER_VT3_CULL=off keeps face culling off */
         if (getenv("LINUXLOADER_VT3_CULL") && cap == GL_CULL_FACE)
             return;
+        /* TEMP (vt3-logo): LINUXLOADER_VT3_DCLAMP turns depth clamping on
+         * (no near/far plane clipping) */
+        static int clamped;
+        if (!clamped && getenv("LINUXLOADER_VT3_DCLAMP"))
+        {
+            clamped = 1;
+            glad_glEnable(0x864F); /* GL_DEPTH_CLAMP */
+        }
         /* TEMP (vt3-logo): LINUXLOADER_VT3_BLEND=off keeps blending off */
         if (getenv("LINUXLOADER_VT3_BLEND") && cap == GL_BLEND)
             return;
