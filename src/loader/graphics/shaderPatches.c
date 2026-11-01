@@ -293,6 +293,12 @@ void bridgeglEnable(GLenum cap)
         cap = GL_FRAGMENT_PROGRAM_ARB;
     }
     glTraceOnce("enable %x", cap);
+    {
+        /* TEMP (vt3-logo): LINUXLOADER_VT3_ALPHA=off keeps the alpha test off */
+        const char *mode = getenv("LINUXLOADER_VT3_ALPHA");
+        if (mode && mode[0] == 'o' && cap == GL_ALPHA_TEST)
+            return;
+    }
     glad_glEnable(cap);
 }
 

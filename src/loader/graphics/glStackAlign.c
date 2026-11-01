@@ -60,6 +60,13 @@ REALIGN void glAlphaFunc(GLenum func, GLclampf ref)
     if (real == NULL)
         real = resolveNext("glAlphaFunc");
     glTraceOnce("alpha %x %.3f", func, ref);
+    {
+        /* TEMP (vt3-logo): LINUXLOADER_VT3_ALPHA=ref lowers an all-but-opaque
+         * alpha test reference */
+        const char *mode = getenv("LINUXLOADER_VT3_ALPHA");
+        if (mode && mode[0] == 'r' && ref > 0.99f)
+            ref = 0.98f;
+    }
     if (real)
         real(func, ref);
 }
