@@ -171,8 +171,18 @@ elseif(WIN32 OR MINGW OR CMAKE_C_COMPILER MATCHES "mingw")
 
     # Link dependencies
     target_link_directories(${PROJECT_NAME} PRIVATE "libs/win32")
+    # libgcc_eh only where the compiler has one: a mingw-w64 with DWARF
+    # exceptions (Ubuntu's) has it, MXE's i686-w64-mingw32.static (the
+    # libretro buildbot's) keeps its unwinder in libgcc and has none
+    execute_process(COMMAND ${CMAKE_C_COMPILER} -print-file-name=libgcc_eh.a
+                    OUTPUT_VARIABLE GCC_EH_ARCHIVE OUTPUT_STRIP_TRAILING_WHITESPACE)
+    if(IS_ABSOLUTE "${GCC_EH_ARCHIVE}")
+        set(GCC_EH gcc_eh)
+    else()
+        set(GCC_EH "")
+    endif()
     target_link_libraries(${PROJECT_NAME}
-        minhook xdiff -Wl,-Bstatic SDL3 SDL3_ttf SDL3_image FAudio freetype harfbuzz winpthread stdc++ gcc gcc_eh -Wl,-Bdynamic gdi32 winmm ole32 ws2_32 psapi usp10 rpcrt4 setupapi version imm32 hid delayimp iphlpapi
+        minhook xdiff -Wl,-Bstatic SDL3 SDL3_ttf SDL3_image FAudio freetype harfbuzz winpthread stdc++ gcc ${GCC_EH} -Wl,-Bdynamic gdi32 winmm ole32 ws2_32 psapi usp10 rpcrt4 setupapi version imm32 hid delayimp iphlpapi
     )
 
 else()
