@@ -8,7 +8,10 @@ CFLAGS ?= -O2
 CFLAGS += -fPIC -Wall -Wextra -Wno-unused-parameter -std=gnu11
 
 ifeq ($(platform),win64)
+# the buildbot's MXE image passes its own (x86_64-w64-mingw32.static-gcc)
+ifeq ($(origin CC),default)
 CC = x86_64-w64-mingw32-gcc
+endif
 TARGET = build/linuxloader_libretro.dll
 LDFLAGS += -shared -static-libgcc -Wl,--no-undefined
 LIBS =

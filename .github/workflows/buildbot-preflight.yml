@@ -1,0 +1,92 @@
+name: Buildbot preflight
+
+# Replays .gitlab-ci.yml's jobs where the buildbot's registry cannot be reached
+# from. Each job's own before_script and script, as they stand in
+# .gitlab-ci.yml, run in a container of the job's image: Ubuntu 22.04 for the
+# Linux jobs (on an x86 runner, and an ARM one for aarch64), and for Windows
+# Ubuntu 24.04, the base of the template's gcc16 image, with Ubuntu's
+# mingw-w64 in place of that image's MXE build.
+on:
+  workflow_dispatch:
+  push:
+    branches: [buildbot]
+
+jobs:
+  windows-x64:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - name: Job script in Ubuntu 24.04 with mingw-w64
+        run: |
+          python3 .github/workflows/replay.py libretro-build-windows-x64 \
+            'export MINGW32_PREFIX=i686-w64-mingw32 CC=x86_64-w64-mingw32-gcc AR=x86_64-w64-mingw32-ar' > job.sh
+          echo 'x86_64-w64-mingw32-strip --strip-unneeded ${CORENAME}_libretro.dll' >> job.sh
+          cat job.sh
+          docker run --rm -v "$PWD":/src -w /src ubuntu:noble bash -c '
+            set -e
+            apt-get update -qq
+            apt-get install -y -qq --no-install-recommends git make cmake python3 mingw-w64 >/dev/null
+            git config --global --add safe.directory /src
+            bash job.sh'
+      - uses: actions/upload-artifact@v4
+        with:
+          name: linuxloader_libretro-windows-x64-buildbot
+          path: linuxloader_libretro.dll
+
+  linux-loader:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - name: Job script in Ubuntu 22.04
+        run: |
+          python3 .github/workflows/replay.py linux-loader > job.sh
+          cat job.sh
+          docker run --rm -v "$PWD":/src -w /src ubuntu:22.04 bash job.sh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: loader
+          path: loader/
+
+  linux-x64:
+    needs: linux-loader
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: loader
+          path: loader
+      - name: Job script in Ubuntu 22.04
+        run: |
+          python3 .github/workflows/replay.py libretro-build-linux-x64 'export CC=gcc' > job.sh
+          echo 'strip --strip-unneeded ${CORENAME}_libretro.so' >> job.sh
+          cat job.sh
+          docker run --rm -v "$PWD":/src -w /src ubuntu:22.04 bash job.sh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: linuxloader_libretro-linux-x64-buildbot
+          path: linuxloader_libretro.so
+
+  linux-aarch64:
+    needs: linux-loader
+    runs-on: ubuntu-24.04-arm
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: loader
+          path: loader
+      - name: Job script in Ubuntu 22.04
+        run: |
+          python3 .github/workflows/replay.py libretro-build-linux-aarch64 'export CC=gcc' > job.sh
+          echo 'strip --strip-unneeded ${CORENAME}_libretro.so' >> job.sh
+          cat job.sh
+          docker run --rm -v "$PWD":/src -w /src ubuntu:22.04 bash job.sh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: linuxloader_libretro-linux-aarch64-buildbot
+          path: linuxloader_libretro.so
