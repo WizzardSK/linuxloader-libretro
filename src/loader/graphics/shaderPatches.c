@@ -204,6 +204,7 @@ void gl_Color4ub(uint8_t red, uint8_t green, uint8_t blue, uint8_t alpha)
 /**
  *   glVertex3f is replaced by glVertexAttrib3f to make it compatible with Mesa.
  */
+extern int lrLastTex; /* TEMP (vt3-logo) */
 void gl_Vertex3f(float x, float y, float z)
 {
     glTraceOnce("v tex %d %d %d %d", lrLastTex, (int)x, (int)y, (int)z);
