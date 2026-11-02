@@ -520,13 +520,20 @@ REALIGN void glDrawPixels(GLsizei width, GLsizei height, GLenum format, GLenum t
         real(width, height, format, type, pixels);
 }
 
+/* Drawn as glDrawElements: the range is only a hint, and the games' ranges
+ * are not always right - Virtua Tennis 3 passes 4-4 for its four-index sprite
+ * strips. NVIDIA's driver, the cabinets', ignores the range; Mesa fetches the
+ * vertices it names, and the right half of VT3's title logo (a sprite of its
+ * own) got vertices that drew nothing. */
 REALIGN void glDrawRangeElements(GLenum mode, GLuint start, GLuint end, GLsizei count, GLenum type, const GLvoid * indices)
 {
-    static void (*real)(GLenum, GLuint, GLuint, GLsizei, GLenum, const GLvoid *) = NULL;
+    (void)start;
+    (void)end;
+    static void (*real)(GLenum, GLsizei, GLenum, const GLvoid *) = NULL;
     if (real == NULL)
-        real = resolveNext("glDrawRangeElements");
+        real = resolveNext("glDrawElements");
     if (real)
-        real(mode, start, end, count, type, indices);
+        real(mode, count, type, indices);
 }
 
 REALIGN void glEnableClientState(GLenum cap)

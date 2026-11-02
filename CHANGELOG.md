@@ -4,6 +4,7 @@ What changed in the libretro core of this fork, newest first. Changes that come 
 
 ## Unreleased
 
+- Linux: Virtua Tennis 3's title logo is whole; its right half was missing with Mesa (AMD and Intel GPUs, the software renderer on aarch64). The game passes glDrawRangeElements a range its indices are not in, which NVIDIA's driver ignores and Mesa follows, so the loader draws those calls without the range.
 - Linux: the games that play through ALSA (Primeval Hunt, through CRI's PSMALSA) play through SDL into the core, as on Windows; their sound went past RetroArch on x86, and on aarch64 under FEX, which has no i386 ALSA configuration, the PCM device did not open and Primeval Hunt crashed a few seconds in on CRI's empty handle. The loader run on its own keeps the system's ALSA.
 - Linux aarch64: a game that crashes under FEX leaves no core dump; its 256 TB address space held the disk in systemd-coredump for minutes, RetroArch with it.
 - RetroArch is told the largest frame seen so far, starting at 1360x768, not 5120x2880: it sized its GPU buffers for the maximum, 1.2 GB on a 4 GB Chromebook, and opening the menu then ran the machine out of memory.
