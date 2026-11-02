@@ -206,6 +206,7 @@ void gl_Color4ub(uint8_t red, uint8_t green, uint8_t blue, uint8_t alpha)
  */
 void gl_Vertex3f(float x, float y, float z)
 {
+    glTraceOnce("v tex %d %d %d %d", lrLastTex, (int)x, (int)y, (int)z);
     glad_glVertexAttrib3f(0, x, y, z);
 }
 
@@ -1133,6 +1134,9 @@ GLboolean gl_IsProgramNV(GLuint program)
 /**
  *   This function hook fixed the LOD (Level of Detail) for VF5 textures with Mesa
  */
+/* TEMP (vt3-logo): the texture bound last */
+int lrLastTex;
+
 #ifdef __linux__
 #undef glBindTexture
 void glBindTexture(GLenum target, GLuint texture)
@@ -1145,6 +1149,7 @@ void bridgeglBindTexture(GLenum target, GLuint texture)
         return;
 
     glad_glBindTexture(target, texture);
+    lrLastTex = texture;
     if (gGrp == GROUP_VF5)
     {
         if (getConfig()->GPUVendor != NVIDIA_GPU)

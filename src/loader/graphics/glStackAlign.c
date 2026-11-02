@@ -33,6 +33,7 @@
 #include <GL/glext.h>
 
 #include "../log/log.h"
+extern int lrLastTex; /* TEMP (vt3-logo) */
 
 #define REALIGN __attribute__((force_align_arg_pointer))
 
@@ -86,6 +87,7 @@ REALIGN void glBegin(GLenum mode)
     static void (*real)(GLenum) = NULL;
     if (real == NULL)
         real = resolveNext("glBegin");
+    glTraceOnce("begin %x tex %d", mode, lrLastTex);
     if (real)
         real(mode);
 }
@@ -358,6 +360,7 @@ REALIGN void glCompressedTexImage2DARB(GLenum target, GLint level, GLenum intern
     static void (*real)(GLenum, GLint, GLenum, GLsizei, GLsizei, GLint, GLsizei, const void *) = NULL;
     if (real == NULL)
         real = resolveNext("glCompressedTexImage2DARB");
+    glTraceOnce("ctex tex %d lvl %d %dx%d %x", lrLastTex, level, width, height, internalformat);
     if (real)
         real(target, level, internalformat, width, height, border, imageSize, data);
 }
@@ -538,6 +541,7 @@ REALIGN void glDrawRangeElements(GLenum mode, GLuint start, GLuint end, GLsizei 
     static void (*real)(GLenum, GLuint, GLuint, GLsizei, GLenum, const GLvoid *) = NULL;
     if (real == NULL)
         real = resolveNext("glDrawRangeElements");
+    glTraceOnce("dre %x n %d tex %d", mode, count, lrLastTex);
     if (real)
         real(mode, start, end, count, type, indices);
 }
