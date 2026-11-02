@@ -541,7 +541,38 @@ REALIGN void glDrawRangeElements(GLenum mode, GLuint start, GLuint end, GLsizei 
     static void (*real)(GLenum, GLuint, GLuint, GLsizei, GLenum, const GLvoid *) = NULL;
     if (real == NULL)
         real = resolveNext("glDrawRangeElements");
-    glTraceOnce("dre %x n %d tex %d", mode, count, lrLastTex);
+    {
+        /* TEMP (vt3-logo): the range and the indices themselves, when they
+         * are in client memory (no element buffer bound) */
+        static void (*getIntegerv)(GLenum, GLint *);
+        if (!getIntegerv)
+            getIntegerv = resolveNext("glGetIntegerv");
+        GLint ebo = -1;
+        if (getIntegerv)
+            getIntegerv(0x8895 /* GL_ELEMENT_ARRAY_BUFFER_BINDING */, &ebo);
+        int i0 = -1, i1 = -1, i2 = -1, i3 = -1;
+        if (ebo == 0 && indices && count >= 4 && type == GL_UNSIGNED_SHORT)
+        {
+            const GLushort *ix = indices;
+            i0 = ix[0]; i1 = ix[1]; i2 = ix[2]; i3 = ix[3];
+        }
+        glTraceOnce("dre %x n %d tex %d range %u-%u ebo %d ix %d %d %d %d", mode, count, lrLastTex, start, end, ebo, i0, i1, i2, i3);
+    }
+    /* TEMP (vt3-logo): LINUXLOADER_DRE=elements draws without the range */
+    static int asElements = -1;
+    if (asElements < 0)
+        asElements = getenv("LINUXLOADER_DRE") != NULL;
+    if (asElements)
+    {
+        static void (*drawElements)(GLenum, GLsizei, GLenum, const GLvoid *);
+        if (!drawElements)
+            drawElements = resolveNext("glDrawElements");
+        if (drawElements)
+        {
+            drawElements(mode, count, type, indices);
+            return;
+        }
+    }
     if (real)
         real(mode, start, end, count, type, indices);
 }
