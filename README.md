@@ -4,7 +4,7 @@ A libretro core for Sega Lindbergh games, built on [Linux Loader](https://github
 
 ## Installing
 
-The core is the one file to install: `linuxloader_libretro.so` (Linux) or `linuxloader_libretro.dll` (Windows) goes in RetroArch's `cores/`, its `.info` in `info/`. The core carries the loader and writes it to RetroArch's `system/linuxloader/` at load, when that folder is missing or holds another build's (its `build` file names the build), so the first load after an update takes a moment longer.
+The libretro buildbot builds the core for Linux x86_64 and Windows x64. In RetroArch: Main Menu > Online Updater > Core Downloader > linuxloader. Until its core info is part of RetroArch's (libretro/libretro-super#2183), also put [`linuxloader_libretro.info`](linuxloader_libretro.info) in RetroArch's `info/` folder, so that RetroArch shows the core's name and content types. Or by hand: `linux/x86_64/latest/linuxloader_libretro.so.zip` or `windows/x86_64/latest/linuxloader_libretro.dll.zip` from the [buildbot's nightlies](https://buildbot.libretro.com/nightly/), unzipped into RetroArch's `cores/`. The core is the one file to install. The core carries the loader and writes it to RetroArch's `system/linuxloader/` at load, when that folder is missing or holds another build's (its `build` file names the build), so the first load after an update takes a moment longer.
 
 ## Content
 
