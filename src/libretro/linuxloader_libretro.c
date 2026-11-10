@@ -36,6 +36,7 @@
 #endif
 
 #include "libretro.h"
+#include "libretro_core_options.h"
 #include "libretro_ipc.h"
 #include "libretro_shm.h"
 #ifdef LR_EMBEDDED_SYSTEM
@@ -232,173 +233,6 @@ static void read_options(void)
         used += snprintf(debug_ini + used, sizeof(debug_ini) - used, "Display/KEEP_ASPECT_RATIO=0\n");
 }
 
-/* The core options, with their tooltips (RETRO_ENVIRONMENT_SET_CORE_OPTIONS_V2;
- * a frontend without it gets them as plain variables, built from these) */
-static struct retro_core_option_v2_category option_categories[] = {
-    {"video", "Video", "The resolution the games render at, and widescreen."},
-    {"input", "Input", "The guns, steering and force feedback."},
-    {"audio", "Audio", "How the sound reaches RetroArch."},
-    {"debug", "Debug (Restart)", "linuxloader.ini's settings, set over the game's linuxloader.ini. Per Game, Unchanged and Detected leave the loader's own."},
-    {NULL, NULL, NULL},
-};
-
-static struct retro_core_option_v2_definition option_definitions[] = {
-    {"linuxloader_resolution", "Resolution (Restart)", NULL,
-     "The width and height the games the loader can patch render at. Native keeps the linuxloader.ini's. Every frame goes through system memory to RetroArch, so the highest ones cost speed. Warning: setting this option above your display's resolution will break some games or make them unable to launch.",
-     NULL, "video",
-     {{"native", "Native"}, {"1280x720", NULL}, {"1920x1080", NULL}, {"2560x1440", NULL}, {"3840x2160", NULL}, {"5120x2880", NULL}, {NULL, NULL}},
-     "native"},
-    {"linuxloader_force_widescreen", "Force 16:9 (Restart)", NULL,
-     "Makes every game run in widescreen. May break or stretch some games.",
-     NULL, "video",
-     {{"disabled", "Disabled"}, {"enabled", "Enabled"}, {NULL, NULL}},
-     "disabled"},
-    {"linuxloader_test_buttons", "Service and Test Buttons", NULL,
-     "L3 as the cabinet's Service button and R3 as its Test button, on both pads. Disabled keeps them from being pressed by accident; the keyboard's S and T stay.",
-     NULL, "input",
-     {{"enabled", "Enabled"}, {"disabled", "Disabled"}, {NULL, NULL}},
-     "enabled"},
-    {"linuxloader_gun_aim", "Gun Aim", NULL,
-     "What aims in the gun games, for both players. Analog Stick: each player's left stick (or D-pad) moves the aim, R2 fires, R reloads, L2 is the gun's button, L shakes the gun in The House of the Dead 4. Too Spicy: L2 reloads, L and R are the pedals. Ghost Squad Evolution: L2 is Action, L is Change. Primeval Hunt: L2 pumps. Mouse: RetroArch's light gun on each player's port, which follows the mouse; left button fires, right reloads, middle is the gun's button, aiming off the picture reloads too. Ghost Squad Evolution: right is Action, middle is Change. The House of the Dead 4: right is the gun's button, middle shakes. Too Spicy: middle is the left pedal, right the right one. Primeval Hunt: middle pumps, and the touch screen takes the mouse's clicks.",
-     NULL, "input",
-     {{"stick", "Analog Stick"}, {"mouse", "Mouse"}, {NULL, NULL}},
-     "stick"},
-    {"linuxloader_gun_sensitivity", "Gun Pointer Sensitivity", NULL,
-     "How fast the sticks move the aim with Gun Aim on Analog Stick, as fast across as up and down; at 100% a full tilt crosses the picture's height in about a second. The mouse aims where it points.",
-     NULL, "input",
-     {{"50", "50%"}, {"60", "60%"}, {"70", "70%"}, {"80", "80%"}, {"90", "90%"}, {"100", "100%"}, {"110", "110%"},
-      {"120", "120%"}, {"130", "130%"}, {"140", "140%"}, {"150", "150%"}, {"160", "160%"}, {"170", "170%"},
-      {"180", "180%"}, {"190", "190%"}, {"200", "200%"}, {NULL, NULL}},
-     "100"},
-    {"linuxloader_crosshair", "Crosshair", NULL,
-     "The gun games' crosshairs drawn over the picture: blue for player 1, red for player 2, which shows once that player aims.",
-     NULL, "input",
-     {{"enabled", "Enabled"}, {"disabled", "Disabled"}, {NULL, NULL}},
-     "enabled"},
-    {"linuxloader_ffb_rumble", "Force Feedback to Rumble", NULL,
-     "The drive board's force feedback as rumble on player 1's pad, in the driving games: OutRun 2 SP SDX, Initial D 4 and 5, Hummer. Needs the drive board emulated, which Debug > EMULATE_DRIVEBOARD's Per Game does for those games.",
-     NULL, "input",
-     {{"enabled", "Enabled"}, {"disabled", "Disabled"}, {NULL, NULL}},
-     "enabled"},
-    {"linuxloader_steering", "Steering Response", NULL,
-     "Linear: the left stick's X as it is. Logarithmic: on a curve with less of the turn around the centre and steeper towards the ends, as the Sega System 32 racers' dip switch has it, so a stick steers less twitchily. Its shape is set by Steering Inner Zone and Steering Effect.",
-     NULL, "input",
-     {{"linear", "Linear"}, {"logarithmic", "Logarithmic"}, {NULL, NULL}},
-     "linear"},
-    {"linuxloader_steering_inner", "Steering Inner Zone", NULL,
-     "With logarithmic steering: the share of the turn at the centre. Lower is calmer around the centre. OutRun 2 plays well at 20 with Square, Initial D at 50 with Cubic.",
-     NULL, "input",
-     {{"5", "5%"}, {"10", "10%"}, {"15", "15%"}, {"20", "20%"}, {"25", "25%"}, {"30", "30%"}, {"35", "35%"}, {"40", "40%"}, {"45", "45%"}, {"50", "50%"}, {NULL, NULL}},
-     "25"},
-    {"linuxloader_steering_effect", "Steering Effect", NULL,
-     "With logarithmic steering: how the rest of the turn rises towards full lock. Cubic is strong, Square weak.",
-     NULL, "input",
-     {{"cubic", "Cubic (Strong)"}, {"square", "Square (Weak)"}, {NULL, NULL}},
-     "cubic"},
-    {"linuxloader_audio_thread", "Audio Thread (Restart)", NULL,
-     "Hands the sound to RetroArch's audio thread as the loader mixes it, which keeps its pace where a game drops frames. OutRun 2 SP's announcer is lost with it.",
-     NULL, "audio",
-     {{"enabled", "Enabled"}, {"disabled", "Disabled"}, {NULL, NULL}},
-     "enabled"},
-    {"linuxloader_debug_freeplay", "FREEPLAY", NULL, NULL, NULL, "debug",
-     {{"default", "Unchanged"}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
-     "default"},
-    {"linuxloader_debug_test_mode", "TEST_MODE", NULL, NULL, NULL, "debug",
-     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
-     "0"},
-    {"linuxloader_debug_emulate_driveboard", "EMULATE_DRIVEBOARD", NULL, NULL, NULL, "debug",
-     {{"default", "Per Game"}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
-     "default"},
-    {"linuxloader_debug_emulate_motionboard", "EMULATE_MOTIONBOARD", NULL, NULL, NULL, "debug",
-     {{"default", "Per Game"}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
-     "default"},
-    {"linuxloader_debug_emulate_rideboard", "EMULATE_RIDEBOARD", NULL, NULL, NULL, "debug",
-     {{"default", "Per Game"}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
-     "default"},
-    {"linuxloader_debug_emulate_hw210_cardreader", "EMULATE_HW210_CARDREADER", NULL, NULL, NULL, "debug",
-     {{"default", "Per Game"}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
-     "default"},
-    {"linuxloader_debug_emulate_id_cardreader", "EMULATE_ID_CARDREADER", NULL, NULL, NULL, "debug",
-     {{"default", "Per Game"}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
-     "default"},
-    {"linuxloader_debug_emulate_touchscreen", "EMULATE_TOUCHSCREEN", NULL, NULL, NULL, "debug",
-     {{"default", "Per Game"}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
-     "default"},
-    {"linuxloader_debug_region", "REGION", NULL, NULL, NULL, "debug",
-     {{"JP", "Japan"}, {"US", "US"}, {"EX", "Export"}, {NULL, NULL}},
-     "EX"},
-    {"linuxloader_debug_lindbergh_colour", "LINDBERGH_COLOUR", NULL, NULL, NULL, "debug",
-     {{"YELLOW", "Yellow"}, {"RED", "Red"}, {"BLUE", "Blue"}, {"SILVER", "Silver"}, {"REDEX", "RedEX"}, {NULL, NULL}},
-     "YELLOW"},
-    {"linuxloader_debug_debug_msgs", "DEBUG_MSGS", NULL, NULL, NULL, "debug",
-     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
-     "0"},
-    {"linuxloader_debug_boost_render_res", "BOOST_RENDER_RES", NULL, NULL, NULL, "debug",
-     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
-     "1"},
-    {"linuxloader_debug_hummer_flicker_fix", "HUMMER_FLICKER_FIX", NULL, NULL, NULL, "debug",
-     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
-     "1"},
-    {"linuxloader_debug_lgj_render_with_mesa", "LGJ_RENDER_WITH_MESA", NULL, NULL, NULL, "debug",
-     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
-     "1"},
-    {"linuxloader_debug_disable_builtin_font", "DISABLE_BUILTIN_FONT", NULL, NULL, NULL, "debug",
-     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
-     "0"},
-    {"linuxloader_debug_disable_builtin_logos", "DISABLE_BUILTIN_LOGOS", NULL, NULL, NULL, "debug",
-     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
-     "0"},
-    {"linuxloader_debug_cpu_freq_ghz", "CPU_FREQ_GHZ", NULL, NULL, NULL, "debug",
-     {{"default", "Detected"}, {"1.0", "1.0 GHz"}, {"1.5", "1.5 GHz"}, {"2.0", "2.0 GHz"}, {"2.5", "2.5 GHz"}, {"3.0", "3.0 GHz"}, {"3.5", "3.5 GHz"}, {"4.0", "4.0 GHz"}, {"4.5", "4.5 GHz"}, {"5.0", "5.0 GHz"}, {NULL, NULL}},
-     "default"},
-    {"linuxloader_debug_skip_outrun_cabinet_check", "SKIP_OUTRUN_CABINET_CHECK", NULL, NULL, NULL, "debug",
-     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
-     "0"},
-    {"linuxloader_debug_id_steering_reduction_percentage", "ID_STEERING_REDUCTION_PERCENTAGE", NULL, NULL, NULL, "debug",
-     {{"0", "0%"}, {"5", "5%"}, {"10", "10%"}, {"15", "15%"}, {"20", "20%"}, {"25", "25%"}, {"30", "30%"}, {"35", "35%"}, {"40", "40%"}, {"45", "45%"}, {"50", "50%"}, {NULL, NULL}},
-     "0"},
-    {"linuxloader_debug_id5_chinese_language", "ID5_CHINESE_LANGUAGE", NULL, NULL, NULL, "debug",
-     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
-     "0"},
-    {"linuxloader_debug_harley_analog_remap", "HARLEY_ANALOG_REMAP", NULL, NULL, NULL, "debug",
-     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
-     "0"},
-    {"linuxloader_debug_mj4_enabled_all_the_time", "MJ4_ENABLED_ALL_THE_TIME", NULL, NULL, NULL, "debug",
-     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
-     "0"},
-    {"linuxloader_debug_rambo_guns_switch", "RAMBO_GUNS_SWITCH", NULL, NULL, NULL, "debug",
-     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
-     "0"},
-    {"linuxloader_debug_primeval_hunt_screen_mode", "PRIMEVAL_HUNT_SCREEN_MODE", NULL, NULL, NULL, "debug",
-     /* "1" itself, not the loader's default: with the key left out, Primeval Hunt opened on two screens (NNshi) */
-     {{"0", "0"}, {"1", "1"}, {"2", "2"}, {"3", "3"}, {NULL, NULL}},
-     "1"},
-    {"linuxloader_debug_primeval_hunt_test_screen_single", "PRIMEVAL_HUNT_TEST_SCREEN_SINGLE", NULL, NULL, NULL, "debug",
-     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
-     "1"},
-    {"linuxloader_debug_id_cardfile_autoload", "ID_CARDFILE_AUTOLOAD", NULL, NULL, NULL, "debug",
-     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
-     "1"},
-    {"linuxloader_debug_enable_crosshairs", "ENABLE_CROSSHAIRS", NULL, NULL, NULL, "debug",
-     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
-     "0"},
-    {"linuxloader_debug_gsevo_crosshair_always_on", "GSEVO_CROSSHAIR_ALWAYS_ON", NULL, NULL, NULL, "debug",
-     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
-     "0"},
-    {"linuxloader_debug_gsevo_crosshair_always_off", "GSEVO_CROSSHAIR_ALWAYS_OFF", NULL, NULL, NULL, "debug",
-     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
-     "0"},
-    {"linuxloader_debug_enable_network_patches", "ENABLE_NETWORK_PATCHES", NULL, NULL, NULL, "debug",
-     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
-     "1"},
-    /* The core's own (eepromSettings.c): After Burner Climax does not start
-     * on a Deluxe cabinet with motion on, which it is out of the box, so on
-     * by default (NNshi) */
-    {"linuxloader_debug_aburner_motion_off", "ABURNER_MOTION_OFF", NULL, NULL, NULL, "debug",
-     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
-     "1"},
-    {NULL, NULL, NULL, NULL, NULL, NULL, {{NULL, NULL}}, NULL},
-};
 
 /* Steering Inner Zone and Effect only with the curve on: shown or hidden as
  * the option changes in the menu, not only at its next opening (NNshi) */
@@ -418,32 +252,14 @@ static bool update_option_display(void)
     return true;
 }
 
+/* The options are in libretro_core_options.h, their translations in
+ * libretro_core_options_intl.h (Crowdin) */
 static void set_core_options(retro_environment_t cb)
 {
-    unsigned version = 0;
-    if (cb(RETRO_ENVIRONMENT_GET_CORE_OPTIONS_VERSION, &version) && version >= 2)
-    {
-        struct retro_core_options_v2 options = {option_categories, option_definitions};
-        cb(RETRO_ENVIRONMENT_SET_CORE_OPTIONS_V2, &options);
-        struct retro_core_options_update_display_callback display = {update_option_display};
-        cb(RETRO_ENVIRONMENT_SET_CORE_OPTIONS_UPDATE_DISPLAY_CALLBACK, &display);
-        return;
-    }
-    /* "Label; default|other|..." for each, the default first */
-    enum { COUNT = sizeof(option_definitions) / sizeof(option_definitions[0]) };
-    static struct retro_variable vars[COUNT];
-    static char text[COUNT][512];
-    for (unsigned i = 0; option_definitions[i].key; i++)
-    {
-        const struct retro_core_option_v2_definition *d = &option_definitions[i];
-        int n = snprintf(text[i], sizeof(text[i]), "%s; %s", d->desc, d->default_value);
-        for (unsigned v = 0; d->values[v].value && n > 0 && n < (int)sizeof(text[i]); v++)
-            if (strcmp(d->values[v].value, d->default_value))
-                n += snprintf(text[i] + n, sizeof(text[i]) - n, "|%s", d->values[v].value);
-        vars[i].key = d->key;
-        vars[i].value = text[i];
-    }
-    cb(RETRO_ENVIRONMENT_SET_VARIABLES, vars);
+    bool categories_supported = false;
+    libretro_set_core_options(cb, &categories_supported);
+    struct retro_core_options_update_display_callback display = {update_option_display};
+    cb(RETRO_ENVIRONMENT_SET_CORE_OPTIONS_UPDATE_DISPLAY_CALLBACK, &display);
 }
 
 void retro_set_environment(retro_environment_t cb)
