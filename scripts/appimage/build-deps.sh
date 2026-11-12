@@ -1,11 +1,18 @@
 #!/usr/bin/env bash
 # SDL_ttf and SDL_image at releases rather than their main branches
 # (libretro fork), and the build stops at the first failure
-set -e
+set -euo pipefail
 
 APPIMAGEDIRNAME=linuxloader.AppDir
 OUTPUT_FOLDER=$(realpath "./$APPIMAGEDIRNAME")
 
+export PKG_CONFIG_LIBDIR=/usr/lib/i386-linux-gnu/pkgconfig:/usr/share/pkgconfig
+
+if [[ ! -f /usr/lib/i386-linux-gnu/libSDL3.a ]]; then
+    sudo rm -f /usr/lib/i386-linux-gnu/cmake/SDL3/SDL3staticTargets*.cmake
+fi
+
+rm -rf build-deps
 mkdir build-deps
 cd build-deps
 
@@ -14,7 +21,7 @@ git clone --branch release-3.4.8 https://github.com/libsdl-org/SDL.git
 cd SDL
 mkdir build
 cd build
-cmake ../ -DCMAKE_C_FLAGS=-m32 -DCMAKE_CXX_FLAGS=-m32 -DCMAKE_INSTALL_PREFIX=/usr -DSDL_TESTS=OFF
+cmake ../ -DCMAKE_C_FLAGS=-m32 -DCMAKE_CXX_FLAGS=-m32 -DCMAKE_INSTALL_PREFIX=/usr -DSDL_TESTS=OFF -DSDL_TEST_LIBRARY=OFF
 make -j4
 sudo make install
 cd ../../
@@ -24,7 +31,7 @@ git clone --depth 1 --branch release-3.2.2 https://github.com/libsdl-org/SDL_ttf
 cd SDL_ttf
 mkdir build
 cd build
-cmake ../ -DCMAKE_C_FLAGS=-m32 -DCMAKE_INSTALL_PREFIX=/usr
+cmake ../ -DCMAKE_C_FLAGS=-m32 -DCMAKE_INSTALL_PREFIX=/usr -DSDLTTF_HARFBUZZ=OFF
 make -j4
 sudo make install
 cd ../../
