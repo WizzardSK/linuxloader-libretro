@@ -87,7 +87,7 @@ linux-loader:
   script:
     - scripts/appimage/install-packages.sh
     - scripts/appimage/id-libs.sh
-    - scripts/appimage/install-kisak.sh
+    - scripts/appimage/install-mesa.sh
     - scripts/appimage/build-deps.sh
     - scripts/appimage/pack-libs.sh
     - make linux
