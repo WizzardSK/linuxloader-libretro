@@ -2,7 +2,7 @@
 
 What changed in the libretro core of this fork, newest first. Changes that come with a merge of upstream lindbergh-loader are in upstream's own history (`docs/changelog`).
 
-## Unreleased
+## November 2026
 
 - The core options can be translated: their texts go to libretro's Crowdin project, and the translations come back into the core (`libretro_core_options_intl.h`), shown in RetroArch's language. Until translators add them, the options stay in English.
 - Linux: Virtua Tennis 3's title logo is whole; its right half was missing with Mesa (AMD and Intel GPUs, the software renderer on aarch64). The game passes glDrawRangeElements a range its indices are not in, which NVIDIA's driver ignores and Mesa follows, so the loader draws those calls without the range.
@@ -10,6 +10,9 @@ What changed in the libretro core of this fork, newest first. Changes that come 
 - Linux aarch64: a game that crashes under FEX leaves no core dump; its 256 TB address space held the disk in systemd-coredump for minutes, RetroArch with it.
 - RetroArch is told the largest frame seen so far, starting at 1360x768, not 5120x2880: it sized its GPU buffers for the maximum, 1.2 GB on a 4 GB Chromebook, and opening the menu then ran the machine out of memory.
 - Linux aarch64: the loader and the game run through FEX-Emu, which comes with the core with an i386 root file system (glibc), in place of box64, whose 32-bit mode could not load the game's libraries. The loader runs the game itself rather than through a shell, which under an emulator is a native ARM program. Drawn in software (LIBGL_ALWAYS_SOFTWARE), as the loader's i386 Mesa has no driver for ARM GPUs. In a flatpak RetroArch, FEX needs the multiarch permission (personality).
+
+## October 2026
+
 - Debug options without Default entries that only repeated another value: each option now starts at that value (Off, On, Export, Yellow, 0%...) and is set over the game's `linuxloader.ini`. Where the loader's own value is none of the others, it is named for what it is: Per Game for the boards, Unchanged for FREEPLAY, Detected for CPU_FREQ_GHZ. Debug > SCALING_FILTER is gone: the core always uses Nearest there, as RetroArch scales and filters the picture (NNshi).
 - Virtua Fighter 5 and Virtua Tennis 3: each player's card is inserted with the pad's top face button (RetroPad X), listed as Insert Card; it was on the Guide button, which RetroArch's pad does not have (NNshi).
 - Virtua Fighter 5 starts from its dump's disk0: its rom folder is found on disk1 beside it, as After Burner Climax's already was (NNshi).
@@ -62,3 +65,4 @@ What changed in the libretro core of this fork, newest first. Changes that come 
 - Input: the core's pads are there before the loader looks for controllers, and SDL takes their input although the game's window stays hidden; without a `controls.ini` Start is start, Select a coin, L3 service and R3 test, and RetroArch's keyboard reaches the game (NNshi).
 - Windows: the core starts `linuxloader.exe`, which loads the game's ELF itself; shared memory through a named file mapping and events, the audio through a hook on SDL's stream.
 - The libretro core: the game runs in the loader as a process of its own, with frames, audio and input exchanged through shared memory; Linux x86-64, Linux aarch64 through box64.
+
