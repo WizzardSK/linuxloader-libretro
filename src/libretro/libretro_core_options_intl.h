@@ -39,17 +39,17 @@ extern "C" {
 */
 /* RETRO_LANGUAGE_AR */
 
-#define CATEGORY_VIDEO_LABEL_AR NULL
+#define CATEGORY_VIDEO_LABEL_AR "الفيديو"
 #define CATEGORY_VIDEO_INFO_0_AR NULL
-#define CATEGORY_INPUT_LABEL_AR NULL
+#define CATEGORY_INPUT_LABEL_AR "أجهزة الادخال"
 #define CATEGORY_INPUT_INFO_0_AR NULL
-#define CATEGORY_AUDIO_LABEL_AR NULL
+#define CATEGORY_AUDIO_LABEL_AR "الصوت"
 #define CATEGORY_AUDIO_INFO_0_AR NULL
 #define CATEGORY_DEBUG_LABEL_AR NULL
 #define CATEGORY_DEBUG_INFO_0_AR NULL
 #define LINUXLOADER_RESOLUTION_LABEL_AR NULL
 #define LINUXLOADER_RESOLUTION_INFO_0_AR NULL
-#define OPTION_VAL_NATIVE_AR NULL
+#define OPTION_VAL_NATIVE_AR "الأصل"
 #define OPTION_VAL_1280X720_AR NULL
 #define OPTION_VAL_1920X1080_AR NULL
 #define OPTION_VAL_2560X1440_AR NULL
@@ -87,7 +87,7 @@ extern "C" {
 #define LINUXLOADER_FFB_RUMBLE_INFO_0_AR NULL
 #define LINUXLOADER_STEERING_LABEL_AR NULL
 #define LINUXLOADER_STEERING_INFO_0_AR NULL
-#define OPTION_VAL_LINEAR_AR NULL
+#define OPTION_VAL_LINEAR_AR "خطي"
 #define OPTION_VAL_LOGARITHMIC_AR NULL
 #define LINUXLOADER_STEERING_INNER_LABEL_AR NULL
 #define LINUXLOADER_STEERING_INNER_INFO_0_AR NULL
@@ -121,9 +121,9 @@ extern "C" {
 #define OPTION_VAL_US_AR NULL
 #define OPTION_VAL_EX_AR NULL
 #define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_AR NULL
-#define OPTION_VAL_YELLOW_AR NULL
-#define OPTION_VAL_RED_AR NULL
-#define OPTION_VAL_BLUE_AR NULL
+#define OPTION_VAL_YELLOW_AR "أصفر"
+#define OPTION_VAL_RED_AR "أحمر"
+#define OPTION_VAL_BLUE_AR "أزرق"
 #define OPTION_VAL_SILVER_AR NULL
 #define OPTION_VAL_REDEX_AR NULL
 #define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_AR NULL
@@ -330,11 +330,11 @@ struct retro_core_options_v2 options_ar = {
 
 /* RETRO_LANGUAGE_AST */
 
-#define CATEGORY_VIDEO_LABEL_AST NULL
+#define CATEGORY_VIDEO_LABEL_AST "Videu"
 #define CATEGORY_VIDEO_INFO_0_AST NULL
-#define CATEGORY_INPUT_LABEL_AST NULL
+#define CATEGORY_INPUT_LABEL_AST "Controles"
 #define CATEGORY_INPUT_INFO_0_AST NULL
-#define CATEGORY_AUDIO_LABEL_AST NULL
+#define CATEGORY_AUDIO_LABEL_AST "Audiu"
 #define CATEGORY_AUDIO_INFO_0_AST NULL
 #define CATEGORY_DEBUG_LABEL_AST NULL
 #define CATEGORY_DEBUG_INFO_0_AST NULL
@@ -352,8 +352,8 @@ struct retro_core_options_v2 options_ar = {
 #define LINUXLOADER_TEST_BUTTONS_INFO_0_AST NULL
 #define LINUXLOADER_GUN_AIM_LABEL_AST NULL
 #define LINUXLOADER_GUN_AIM_INFO_0_AST NULL
-#define OPTION_VAL_STICK_AST NULL
-#define OPTION_VAL_MOUSE_AST NULL
+#define OPTION_VAL_STICK_AST "Palanca analóxica"
+#define OPTION_VAL_MOUSE_AST "Mur"
 #define LINUXLOADER_GUN_SENSITIVITY_LABEL_AST NULL
 #define LINUXLOADER_GUN_SENSITIVITY_INFO_0_AST NULL
 #define OPTION_VAL_50_AST NULL
@@ -408,13 +408,13 @@ struct retro_core_options_v2 options_ar = {
 #define LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_AST NULL
 #define LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_AST NULL
 #define LINUXLOADER_DEBUG_REGION_LABEL_AST NULL
-#define OPTION_VAL_JP_AST NULL
+#define OPTION_VAL_JP_AST "Xapón"
 #define OPTION_VAL_US_AST NULL
 #define OPTION_VAL_EX_AST NULL
 #define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_AST NULL
-#define OPTION_VAL_YELLOW_AST NULL
-#define OPTION_VAL_RED_AST NULL
-#define OPTION_VAL_BLUE_AST NULL
+#define OPTION_VAL_YELLOW_AST "Mariellu"
+#define OPTION_VAL_RED_AST "Bermeyu"
+#define OPTION_VAL_BLUE_AST "Azul"
 #define OPTION_VAL_SILVER_AST NULL
 #define OPTION_VAL_REDEX_AST NULL
 #define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_AST NULL
@@ -621,17 +621,17 @@ struct retro_core_options_v2 options_ast = {
 
 /* RETRO_LANGUAGE_BE */
 
-#define CATEGORY_VIDEO_LABEL_BE NULL
+#define CATEGORY_VIDEO_LABEL_BE "Відэа"
 #define CATEGORY_VIDEO_INFO_0_BE NULL
-#define CATEGORY_INPUT_LABEL_BE NULL
+#define CATEGORY_INPUT_LABEL_BE "Увод"
 #define CATEGORY_INPUT_INFO_0_BE NULL
-#define CATEGORY_AUDIO_LABEL_BE NULL
+#define CATEGORY_AUDIO_LABEL_BE "Аўдыя"
 #define CATEGORY_AUDIO_INFO_0_BE NULL
 #define CATEGORY_DEBUG_LABEL_BE NULL
 #define CATEGORY_DEBUG_INFO_0_BE NULL
 #define LINUXLOADER_RESOLUTION_LABEL_BE NULL
 #define LINUXLOADER_RESOLUTION_INFO_0_BE NULL
-#define OPTION_VAL_NATIVE_BE NULL
+#define OPTION_VAL_NATIVE_BE "Родная"
 #define OPTION_VAL_1280X720_BE NULL
 #define OPTION_VAL_1920X1080_BE NULL
 #define OPTION_VAL_2560X1440_BE NULL
@@ -644,43 +644,43 @@ struct retro_core_options_v2 options_ast = {
 #define LINUXLOADER_GUN_AIM_LABEL_BE NULL
 #define LINUXLOADER_GUN_AIM_INFO_0_BE NULL
 #define OPTION_VAL_STICK_BE NULL
-#define OPTION_VAL_MOUSE_BE NULL
+#define OPTION_VAL_MOUSE_BE "Мыш"
 #define LINUXLOADER_GUN_SENSITIVITY_LABEL_BE NULL
 #define LINUXLOADER_GUN_SENSITIVITY_INFO_0_BE NULL
-#define OPTION_VAL_50_BE NULL
-#define OPTION_VAL_60_BE NULL
-#define OPTION_VAL_70_BE NULL
-#define OPTION_VAL_80_BE NULL
-#define OPTION_VAL_90_BE NULL
-#define OPTION_VAL_100_BE NULL
-#define OPTION_VAL_110_BE NULL
-#define OPTION_VAL_120_BE NULL
-#define OPTION_VAL_130_BE NULL
-#define OPTION_VAL_140_BE NULL
-#define OPTION_VAL_150_BE NULL
-#define OPTION_VAL_160_BE NULL
-#define OPTION_VAL_170_BE NULL
-#define OPTION_VAL_180_BE NULL
-#define OPTION_VAL_190_BE NULL
-#define OPTION_VAL_200_BE NULL
+#define OPTION_VAL_50_BE "50 %"
+#define OPTION_VAL_60_BE "60 %"
+#define OPTION_VAL_70_BE "70 %"
+#define OPTION_VAL_80_BE "80 %"
+#define OPTION_VAL_90_BE "90 %"
+#define OPTION_VAL_100_BE "100 %"
+#define OPTION_VAL_110_BE "110 %"
+#define OPTION_VAL_120_BE "120 %"
+#define OPTION_VAL_130_BE "130 %"
+#define OPTION_VAL_140_BE "140 %"
+#define OPTION_VAL_150_BE "150 %"
+#define OPTION_VAL_160_BE "160 %"
+#define OPTION_VAL_170_BE "170 %"
+#define OPTION_VAL_180_BE "180 %"
+#define OPTION_VAL_190_BE "190 %"
+#define OPTION_VAL_200_BE "200 %"
 #define LINUXLOADER_CROSSHAIR_LABEL_BE NULL
 #define LINUXLOADER_CROSSHAIR_INFO_0_BE NULL
 #define LINUXLOADER_FFB_RUMBLE_LABEL_BE NULL
 #define LINUXLOADER_FFB_RUMBLE_INFO_0_BE NULL
 #define LINUXLOADER_STEERING_LABEL_BE NULL
 #define LINUXLOADER_STEERING_INFO_0_BE NULL
-#define OPTION_VAL_LINEAR_BE NULL
+#define OPTION_VAL_LINEAR_BE "Лінейны"
 #define OPTION_VAL_LOGARITHMIC_BE NULL
 #define LINUXLOADER_STEERING_INNER_LABEL_BE NULL
 #define LINUXLOADER_STEERING_INNER_INFO_0_BE NULL
 #define OPTION_VAL_5_BE NULL
 #define OPTION_VAL_10_BE NULL
-#define OPTION_VAL_15_BE NULL
-#define OPTION_VAL_20_BE NULL
+#define OPTION_VAL_15_BE "15 %"
+#define OPTION_VAL_20_BE "20 %"
 #define OPTION_VAL_25_BE NULL
-#define OPTION_VAL_30_BE NULL
-#define OPTION_VAL_35_BE NULL
-#define OPTION_VAL_40_BE NULL
+#define OPTION_VAL_30_BE "30 %"
+#define OPTION_VAL_35_BE "35 %"
+#define OPTION_VAL_40_BE "40 %"
 #define OPTION_VAL_45_BE NULL
 #define LINUXLOADER_STEERING_EFFECT_LABEL_BE NULL
 #define LINUXLOADER_STEERING_EFFECT_INFO_0_BE NULL
@@ -699,13 +699,13 @@ struct retro_core_options_v2 options_ast = {
 #define LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_BE NULL
 #define LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_BE NULL
 #define LINUXLOADER_DEBUG_REGION_LABEL_BE NULL
-#define OPTION_VAL_JP_BE NULL
+#define OPTION_VAL_JP_BE "Японія"
 #define OPTION_VAL_US_BE NULL
 #define OPTION_VAL_EX_BE NULL
 #define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_BE NULL
-#define OPTION_VAL_YELLOW_BE NULL
-#define OPTION_VAL_RED_BE NULL
-#define OPTION_VAL_BLUE_BE NULL
+#define OPTION_VAL_YELLOW_BE "Жоўтая"
+#define OPTION_VAL_RED_BE "Чырвоная"
+#define OPTION_VAL_BLUE_BE "Блакітная"
 #define OPTION_VAL_SILVER_BE NULL
 #define OPTION_VAL_REDEX_BE NULL
 #define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_BE NULL
@@ -910,34 +910,325 @@ struct retro_core_options_v2 options_be = {
    option_defs_be
 };
 
+/* RETRO_LANGUAGE_BG */
+
+#define CATEGORY_VIDEO_LABEL_BG "Видео"
+#define CATEGORY_VIDEO_INFO_0_BG NULL
+#define CATEGORY_INPUT_LABEL_BG "Вход"
+#define CATEGORY_INPUT_INFO_0_BG NULL
+#define CATEGORY_AUDIO_LABEL_BG "Звук"
+#define CATEGORY_AUDIO_INFO_0_BG NULL
+#define CATEGORY_DEBUG_LABEL_BG NULL
+#define CATEGORY_DEBUG_INFO_0_BG NULL
+#define LINUXLOADER_RESOLUTION_LABEL_BG NULL
+#define LINUXLOADER_RESOLUTION_INFO_0_BG NULL
+#define OPTION_VAL_NATIVE_BG NULL
+#define OPTION_VAL_1280X720_BG NULL
+#define OPTION_VAL_1920X1080_BG NULL
+#define OPTION_VAL_2560X1440_BG NULL
+#define OPTION_VAL_3840X2160_BG NULL
+#define OPTION_VAL_5120X2880_BG NULL
+#define LINUXLOADER_FORCE_WIDESCREEN_LABEL_BG NULL
+#define LINUXLOADER_FORCE_WIDESCREEN_INFO_0_BG NULL
+#define LINUXLOADER_TEST_BUTTONS_LABEL_BG NULL
+#define LINUXLOADER_TEST_BUTTONS_INFO_0_BG NULL
+#define LINUXLOADER_GUN_AIM_LABEL_BG NULL
+#define LINUXLOADER_GUN_AIM_INFO_0_BG NULL
+#define OPTION_VAL_STICK_BG NULL
+#define OPTION_VAL_MOUSE_BG NULL
+#define LINUXLOADER_GUN_SENSITIVITY_LABEL_BG NULL
+#define LINUXLOADER_GUN_SENSITIVITY_INFO_0_BG NULL
+#define OPTION_VAL_50_BG NULL
+#define OPTION_VAL_60_BG NULL
+#define OPTION_VAL_70_BG NULL
+#define OPTION_VAL_80_BG NULL
+#define OPTION_VAL_90_BG NULL
+#define OPTION_VAL_100_BG NULL
+#define OPTION_VAL_110_BG NULL
+#define OPTION_VAL_120_BG NULL
+#define OPTION_VAL_130_BG NULL
+#define OPTION_VAL_140_BG NULL
+#define OPTION_VAL_150_BG NULL
+#define OPTION_VAL_160_BG NULL
+#define OPTION_VAL_170_BG NULL
+#define OPTION_VAL_180_BG NULL
+#define OPTION_VAL_190_BG NULL
+#define OPTION_VAL_200_BG NULL
+#define LINUXLOADER_CROSSHAIR_LABEL_BG NULL
+#define LINUXLOADER_CROSSHAIR_INFO_0_BG NULL
+#define LINUXLOADER_FFB_RUMBLE_LABEL_BG NULL
+#define LINUXLOADER_FFB_RUMBLE_INFO_0_BG NULL
+#define LINUXLOADER_STEERING_LABEL_BG NULL
+#define LINUXLOADER_STEERING_INFO_0_BG NULL
+#define OPTION_VAL_LINEAR_BG NULL
+#define OPTION_VAL_LOGARITHMIC_BG NULL
+#define LINUXLOADER_STEERING_INNER_LABEL_BG NULL
+#define LINUXLOADER_STEERING_INNER_INFO_0_BG NULL
+#define OPTION_VAL_5_BG NULL
+#define OPTION_VAL_10_BG NULL
+#define OPTION_VAL_15_BG NULL
+#define OPTION_VAL_20_BG NULL
+#define OPTION_VAL_25_BG NULL
+#define OPTION_VAL_30_BG NULL
+#define OPTION_VAL_35_BG NULL
+#define OPTION_VAL_40_BG NULL
+#define OPTION_VAL_45_BG NULL
+#define LINUXLOADER_STEERING_EFFECT_LABEL_BG NULL
+#define LINUXLOADER_STEERING_EFFECT_INFO_0_BG NULL
+#define OPTION_VAL_CUBIC_BG NULL
+#define OPTION_VAL_SQUARE_BG NULL
+#define LINUXLOADER_AUDIO_THREAD_LABEL_BG NULL
+#define LINUXLOADER_AUDIO_THREAD_INFO_0_BG NULL
+#define LINUXLOADER_DEBUG_FREEPLAY_LABEL_BG NULL
+#define OPTION_VAL_DEFAULT_BG NULL
+#define LINUXLOADER_DEBUG_TEST_MODE_LABEL_BG NULL
+#define LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_LABEL_BG NULL
+#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_BG NULL
+#define LINUXLOADER_DEBUG_EMULATE_MOTIONBOARD_LABEL_BG NULL
+#define LINUXLOADER_DEBUG_EMULATE_RIDEBOARD_LABEL_BG NULL
+#define LINUXLOADER_DEBUG_EMULATE_HW210_CARDREADER_LABEL_BG NULL
+#define LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_BG NULL
+#define LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_BG NULL
+#define LINUXLOADER_DEBUG_REGION_LABEL_BG NULL
+#define OPTION_VAL_JP_BG NULL
+#define OPTION_VAL_US_BG NULL
+#define OPTION_VAL_EX_BG NULL
+#define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_BG NULL
+#define OPTION_VAL_YELLOW_BG NULL
+#define OPTION_VAL_RED_BG NULL
+#define OPTION_VAL_BLUE_BG NULL
+#define OPTION_VAL_SILVER_BG NULL
+#define OPTION_VAL_REDEX_BG NULL
+#define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_BG NULL
+#define LINUXLOADER_DEBUG_BOOST_RENDER_RES_LABEL_BG NULL
+#define LINUXLOADER_DEBUG_HUMMER_FLICKER_FIX_LABEL_BG NULL
+#define LINUXLOADER_DEBUG_LGJ_RENDER_WITH_MESA_LABEL_BG NULL
+#define LINUXLOADER_DEBUG_DISABLE_BUILTIN_FONT_LABEL_BG NULL
+#define LINUXLOADER_DEBUG_DISABLE_BUILTIN_LOGOS_LABEL_BG NULL
+#define LINUXLOADER_DEBUG_CPU_FREQ_GHZ_LABEL_BG NULL
+#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_CPU_FREQ_GHZ_BG NULL
+#define OPTION_VAL_1_0_BG NULL
+#define OPTION_VAL_1_5_BG NULL
+#define OPTION_VAL_2_0_BG NULL
+#define OPTION_VAL_2_5_BG NULL
+#define OPTION_VAL_3_0_BG NULL
+#define OPTION_VAL_3_5_BG NULL
+#define OPTION_VAL_4_0_BG NULL
+#define OPTION_VAL_4_5_BG NULL
+#define OPTION_VAL_5_0_BG NULL
+#define LINUXLOADER_DEBUG_SKIP_OUTRUN_CABINET_CHECK_LABEL_BG NULL
+#define LINUXLOADER_DEBUG_ID_STEERING_REDUCTION_PERCENTAGE_LABEL_BG NULL
+#define OPTION_VAL_0_BG NULL
+#define LINUXLOADER_DEBUG_ID5_CHINESE_LANGUAGE_LABEL_BG NULL
+#define LINUXLOADER_DEBUG_HARLEY_ANALOG_REMAP_LABEL_BG NULL
+#define LINUXLOADER_DEBUG_MJ4_ENABLED_ALL_THE_TIME_LABEL_BG NULL
+#define LINUXLOADER_DEBUG_RAMBO_GUNS_SWITCH_LABEL_BG NULL
+#define LINUXLOADER_DEBUG_PRIMEVAL_HUNT_SCREEN_MODE_LABEL_BG NULL
+#define LINUXLOADER_DEBUG_PRIMEVAL_HUNT_TEST_SCREEN_SINGLE_LABEL_BG NULL
+#define LINUXLOADER_DEBUG_ID_CARDFILE_AUTOLOAD_LABEL_BG NULL
+#define LINUXLOADER_DEBUG_ENABLE_CROSSHAIRS_LABEL_BG NULL
+#define LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_ON_LABEL_BG NULL
+#define LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_OFF_LABEL_BG NULL
+#define LINUXLOADER_DEBUG_ENABLE_NETWORK_PATCHES_LABEL_BG NULL
+#define LINUXLOADER_DEBUG_ABURNER_MOTION_OFF_LABEL_BG NULL
+
+struct retro_core_option_v2_category option_cats_bg[] = {
+    {"video", CATEGORY_VIDEO_LABEL_BG, CATEGORY_VIDEO_INFO_0_BG},
+    {"input", CATEGORY_INPUT_LABEL_BG, CATEGORY_INPUT_INFO_0_BG},
+    {"audio", CATEGORY_AUDIO_LABEL_BG, CATEGORY_AUDIO_INFO_0_BG},
+    {"debug", CATEGORY_DEBUG_LABEL_BG, CATEGORY_DEBUG_INFO_0_BG},
+    {NULL, NULL, NULL},
+};
+struct retro_core_option_v2_definition option_defs_bg[] = {
+    {"linuxloader_resolution", LINUXLOADER_RESOLUTION_LABEL_BG, NULL,
+     LINUXLOADER_RESOLUTION_INFO_0_BG,
+     NULL, "video",
+     {{"native", OPTION_VAL_NATIVE_BG}, {"1280x720", OPTION_VAL_1280X720_BG}, {"1920x1080", OPTION_VAL_1920X1080_BG}, {"2560x1440", OPTION_VAL_2560X1440_BG}, {"3840x2160", OPTION_VAL_3840X2160_BG}, {"5120x2880", OPTION_VAL_5120X2880_BG}, {NULL, NULL}},
+     "native"},
+    {"linuxloader_force_widescreen", LINUXLOADER_FORCE_WIDESCREEN_LABEL_BG, NULL,
+     LINUXLOADER_FORCE_WIDESCREEN_INFO_0_BG,
+     NULL, "video",
+     {{"disabled", NULL}, {"enabled", NULL}, {NULL, NULL}},
+     "disabled"},
+    {"linuxloader_test_buttons", LINUXLOADER_TEST_BUTTONS_LABEL_BG, NULL,
+     LINUXLOADER_TEST_BUTTONS_INFO_0_BG,
+     NULL, "input",
+     {{"enabled", NULL}, {"disabled", NULL}, {NULL, NULL}},
+     "enabled"},
+    {"linuxloader_gun_aim", LINUXLOADER_GUN_AIM_LABEL_BG, NULL,
+     LINUXLOADER_GUN_AIM_INFO_0_BG,
+     NULL, "input",
+     {{"stick", OPTION_VAL_STICK_BG}, {"mouse", OPTION_VAL_MOUSE_BG}, {NULL, NULL}},
+     "stick"},
+    {"linuxloader_gun_sensitivity", LINUXLOADER_GUN_SENSITIVITY_LABEL_BG, NULL,
+     LINUXLOADER_GUN_SENSITIVITY_INFO_0_BG,
+     NULL, "input",
+     {{"50", OPTION_VAL_50_BG}, {"60", OPTION_VAL_60_BG}, {"70", OPTION_VAL_70_BG}, {"80", OPTION_VAL_80_BG}, {"90", OPTION_VAL_90_BG}, {"100", OPTION_VAL_100_BG}, {"110", OPTION_VAL_110_BG},
+      {"120", OPTION_VAL_120_BG}, {"130", OPTION_VAL_130_BG}, {"140", OPTION_VAL_140_BG}, {"150", OPTION_VAL_150_BG}, {"160", OPTION_VAL_160_BG}, {"170", OPTION_VAL_170_BG},
+      {"180", OPTION_VAL_180_BG}, {"190", OPTION_VAL_190_BG}, {"200", OPTION_VAL_200_BG}, {NULL, NULL}},
+     "100"},
+    {"linuxloader_crosshair", LINUXLOADER_CROSSHAIR_LABEL_BG, NULL,
+     LINUXLOADER_CROSSHAIR_INFO_0_BG,
+     NULL, "input",
+     {{"enabled", NULL}, {"disabled", NULL}, {NULL, NULL}},
+     "enabled"},
+    {"linuxloader_ffb_rumble", LINUXLOADER_FFB_RUMBLE_LABEL_BG, NULL,
+     LINUXLOADER_FFB_RUMBLE_INFO_0_BG,
+     NULL, "input",
+     {{"enabled", NULL}, {"disabled", NULL}, {NULL, NULL}},
+     "enabled"},
+    {"linuxloader_steering", LINUXLOADER_STEERING_LABEL_BG, NULL,
+     LINUXLOADER_STEERING_INFO_0_BG,
+     NULL, "input",
+     {{"linear", OPTION_VAL_LINEAR_BG}, {"logarithmic", OPTION_VAL_LOGARITHMIC_BG}, {NULL, NULL}},
+     "linear"},
+    {"linuxloader_steering_inner", LINUXLOADER_STEERING_INNER_LABEL_BG, NULL,
+     LINUXLOADER_STEERING_INNER_INFO_0_BG,
+     NULL, "input",
+     {{"5", OPTION_VAL_5_BG}, {"10", OPTION_VAL_10_BG}, {"15", OPTION_VAL_15_BG}, {"20", OPTION_VAL_20_BG}, {"25", OPTION_VAL_25_BG}, {"30", OPTION_VAL_30_BG}, {"35", OPTION_VAL_35_BG}, {"40", OPTION_VAL_40_BG}, {"45", OPTION_VAL_45_BG}, {"50", OPTION_VAL_50_BG}, {NULL, NULL}},
+     "25"},
+    {"linuxloader_steering_effect", LINUXLOADER_STEERING_EFFECT_LABEL_BG, NULL,
+     LINUXLOADER_STEERING_EFFECT_INFO_0_BG,
+     NULL, "input",
+     {{"cubic", OPTION_VAL_CUBIC_BG}, {"square", OPTION_VAL_SQUARE_BG}, {NULL, NULL}},
+     "cubic"},
+    {"linuxloader_audio_thread", LINUXLOADER_AUDIO_THREAD_LABEL_BG, NULL,
+     LINUXLOADER_AUDIO_THREAD_INFO_0_BG,
+     NULL, "audio",
+     {{"enabled", NULL}, {"disabled", NULL}, {NULL, NULL}},
+     "enabled"},
+    {"linuxloader_debug_freeplay", LINUXLOADER_DEBUG_FREEPLAY_LABEL_BG, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_BG}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_test_mode", LINUXLOADER_DEBUG_TEST_MODE_LABEL_BG, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_emulate_driveboard", LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_LABEL_BG, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_BG}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_motionboard", LINUXLOADER_DEBUG_EMULATE_MOTIONBOARD_LABEL_BG, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_BG}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_rideboard", LINUXLOADER_DEBUG_EMULATE_RIDEBOARD_LABEL_BG, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_BG}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_hw210_cardreader", LINUXLOADER_DEBUG_EMULATE_HW210_CARDREADER_LABEL_BG, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_BG}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_id_cardreader", LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_BG, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_BG}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_touchscreen", LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_BG, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_BG}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_region", LINUXLOADER_DEBUG_REGION_LABEL_BG, NULL, NULL, NULL, "debug",
+     {{"JP", OPTION_VAL_JP_BG}, {"US", OPTION_VAL_US_BG}, {"EX", OPTION_VAL_EX_BG}, {NULL, NULL}},
+     "EX"},
+    {"linuxloader_debug_lindbergh_colour", LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_BG, NULL, NULL, NULL, "debug",
+     {{"YELLOW", OPTION_VAL_YELLOW_BG}, {"RED", OPTION_VAL_RED_BG}, {"BLUE", OPTION_VAL_BLUE_BG}, {"SILVER", OPTION_VAL_SILVER_BG}, {"REDEX", OPTION_VAL_REDEX_BG}, {NULL, NULL}},
+     "YELLOW"},
+    {"linuxloader_debug_debug_msgs", LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_BG, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_boost_render_res", LINUXLOADER_DEBUG_BOOST_RENDER_RES_LABEL_BG, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_hummer_flicker_fix", LINUXLOADER_DEBUG_HUMMER_FLICKER_FIX_LABEL_BG, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_lgj_render_with_mesa", LINUXLOADER_DEBUG_LGJ_RENDER_WITH_MESA_LABEL_BG, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_disable_builtin_font", LINUXLOADER_DEBUG_DISABLE_BUILTIN_FONT_LABEL_BG, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_disable_builtin_logos", LINUXLOADER_DEBUG_DISABLE_BUILTIN_LOGOS_LABEL_BG, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_cpu_freq_ghz", LINUXLOADER_DEBUG_CPU_FREQ_GHZ_LABEL_BG, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_CPU_FREQ_GHZ_BG}, {"1.0", OPTION_VAL_1_0_BG}, {"1.5", OPTION_VAL_1_5_BG}, {"2.0", OPTION_VAL_2_0_BG}, {"2.5", OPTION_VAL_2_5_BG}, {"3.0", OPTION_VAL_3_0_BG}, {"3.5", OPTION_VAL_3_5_BG}, {"4.0", OPTION_VAL_4_0_BG}, {"4.5", OPTION_VAL_4_5_BG}, {"5.0", OPTION_VAL_5_0_BG}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_skip_outrun_cabinet_check", LINUXLOADER_DEBUG_SKIP_OUTRUN_CABINET_CHECK_LABEL_BG, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_id_steering_reduction_percentage", LINUXLOADER_DEBUG_ID_STEERING_REDUCTION_PERCENTAGE_LABEL_BG, NULL, NULL, NULL, "debug",
+     {{"0", OPTION_VAL_0_BG}, {"5", OPTION_VAL_5_BG}, {"10", OPTION_VAL_10_BG}, {"15", OPTION_VAL_15_BG}, {"20", OPTION_VAL_20_BG}, {"25", OPTION_VAL_25_BG}, {"30", OPTION_VAL_30_BG}, {"35", OPTION_VAL_35_BG}, {"40", OPTION_VAL_40_BG}, {"45", OPTION_VAL_45_BG}, {"50", OPTION_VAL_50_BG}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_id5_chinese_language", LINUXLOADER_DEBUG_ID5_CHINESE_LANGUAGE_LABEL_BG, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_harley_analog_remap", LINUXLOADER_DEBUG_HARLEY_ANALOG_REMAP_LABEL_BG, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_mj4_enabled_all_the_time", LINUXLOADER_DEBUG_MJ4_ENABLED_ALL_THE_TIME_LABEL_BG, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_rambo_guns_switch", LINUXLOADER_DEBUG_RAMBO_GUNS_SWITCH_LABEL_BG, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_primeval_hunt_screen_mode", LINUXLOADER_DEBUG_PRIMEVAL_HUNT_SCREEN_MODE_LABEL_BG, NULL, NULL, NULL, "debug",
+     /* "1" itself, not the loader's default: with the key left out, Primeval Hunt opened on two screens (NNshi) */
+     {{"0", "0"}, {"1", "1"}, {"2", "2"}, {"3", "3"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_primeval_hunt_test_screen_single", LINUXLOADER_DEBUG_PRIMEVAL_HUNT_TEST_SCREEN_SINGLE_LABEL_BG, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_id_cardfile_autoload", LINUXLOADER_DEBUG_ID_CARDFILE_AUTOLOAD_LABEL_BG, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_enable_crosshairs", LINUXLOADER_DEBUG_ENABLE_CROSSHAIRS_LABEL_BG, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_gsevo_crosshair_always_on", LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_ON_LABEL_BG, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_gsevo_crosshair_always_off", LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_OFF_LABEL_BG, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_enable_network_patches", LINUXLOADER_DEBUG_ENABLE_NETWORK_PATCHES_LABEL_BG, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    /* The core's own (eepromSettings.c): After Burner Climax does not start
+     * on a Deluxe cabinet with motion on, which it is out of the box, so on
+     * by default (NNshi) */
+    {"linuxloader_debug_aburner_motion_off", LINUXLOADER_DEBUG_ABURNER_MOTION_OFF_LABEL_BG, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {NULL, NULL, NULL, NULL, NULL, NULL, {{NULL, NULL}}, NULL},
+};
+struct retro_core_options_v2 options_bg = {
+   option_cats_bg,
+   option_defs_bg
+};
+
 /* RETRO_LANGUAGE_CA */
 
-#define CATEGORY_VIDEO_LABEL_CA NULL
-#define CATEGORY_VIDEO_INFO_0_CA NULL
-#define CATEGORY_INPUT_LABEL_CA NULL
-#define CATEGORY_INPUT_INFO_0_CA NULL
-#define CATEGORY_AUDIO_LABEL_CA NULL
-#define CATEGORY_AUDIO_INFO_0_CA NULL
-#define CATEGORY_DEBUG_LABEL_CA NULL
-#define CATEGORY_DEBUG_INFO_0_CA NULL
-#define LINUXLOADER_RESOLUTION_LABEL_CA NULL
-#define LINUXLOADER_RESOLUTION_INFO_0_CA NULL
-#define OPTION_VAL_NATIVE_CA NULL
-#define OPTION_VAL_1280X720_CA NULL
-#define OPTION_VAL_1920X1080_CA NULL
-#define OPTION_VAL_2560X1440_CA NULL
-#define OPTION_VAL_3840X2160_CA NULL
+#define CATEGORY_VIDEO_LABEL_CA "Vídeo"
+#define CATEGORY_VIDEO_INFO_0_CA "La resolució a la qual els jocs renderitzen en una pantalla panoràmica."
+#define CATEGORY_INPUT_LABEL_CA "Entrada"
+#define CATEGORY_INPUT_INFO_0_CA "Pistoles, volants i retroalimentació amb força."
+#define CATEGORY_AUDIO_LABEL_CA "Àudio"
+#define CATEGORY_AUDIO_INFO_0_CA "Com el so arriba a RetroArch."
+#define CATEGORY_DEBUG_LABEL_CA "Depuració (Cal reiniciar)"
+#define CATEGORY_DEBUG_INFO_0_CA "Configuració de `linuxloader.ini`, que s'aplica sobre el fitxer `linuxloader.ini` del joc. Les opcions «Per joc», «Sense canvis» i «Detectat» mantenen la configuració pròpia del carregador."
+#define LINUXLOADER_RESOLUTION_LABEL_CA "Resolució (Cal reiniciar)"
+#define LINUXLOADER_RESOLUTION_INFO_0_CA "L'amplada i l'alçada dels jocs amb què el carregador pot renderitzar-se mitjançant pedaços. Native conserva els fitxers linuxloader.ini. Cada fotograma passa per la memòria del sistema fins a RetroArch, de manera que els més alts costen velocitat. Avís: si configureu aquesta opció per sobre de la resolució de la pantalla, alguns jocs es trencaran o no es podran iniciar."
+#define OPTION_VAL_NATIVE_CA "Nativa"
+#define OPTION_VAL_1280X720_CA "1280×720"
+#define OPTION_VAL_1920X1080_CA "1920×1080"
+#define OPTION_VAL_2560X1440_CA "2560×1440"
+#define OPTION_VAL_3840X2160_CA "3840×2160"
 #define OPTION_VAL_5120X2880_CA NULL
-#define LINUXLOADER_FORCE_WIDESCREEN_LABEL_CA NULL
-#define LINUXLOADER_FORCE_WIDESCREEN_INFO_0_CA NULL
-#define LINUXLOADER_TEST_BUTTONS_LABEL_CA NULL
-#define LINUXLOADER_TEST_BUTTONS_INFO_0_CA NULL
+#define LINUXLOADER_FORCE_WIDESCREEN_LABEL_CA "Força 16:9 (Cal reiniciar)"
+#define LINUXLOADER_FORCE_WIDESCREEN_INFO_0_CA "Fes que cada joc s'executi en una pantalla panoràmica. Pot provocar errors en alguns jocs."
+#define LINUXLOADER_TEST_BUTTONS_LABEL_CA "Botons de servei i prova"
+#define LINUXLOADER_TEST_BUTTONS_INFO_0_CA "L3 fa la funció de botó de servei de la màquina i R3, la de botó de prova, en ambdós comandaments. L'opció «desactivat» evita que es premi per accident; les tecles S i T del teclat es mantenen."
 #define LINUXLOADER_GUN_AIM_LABEL_CA NULL
-#define LINUXLOADER_GUN_AIM_INFO_0_CA NULL
-#define OPTION_VAL_STICK_CA NULL
-#define OPTION_VAL_MOUSE_CA NULL
-#define LINUXLOADER_GUN_SENSITIVITY_LABEL_CA NULL
-#define LINUXLOADER_GUN_SENSITIVITY_INFO_0_CA NULL
+#define LINUXLOADER_GUN_AIM_INFO_0_CA "Com funciona el sistema de punteria als jocs de trets, per a ambdós jugadors. Palanca analògica: la palanca esquerra (o la creueta) de cada jugador controla la mira; R2 dispara, R recarrega, L2 serveix com a botó de l'arma i L permet sacsejar l'arma (a *The House of the Dead 4*). *Too Spicy*: L2 recarrega, mentre que L i R corresponen als pedals. *Ghost Squad Evolution*: L2 és l'acció i L serveix per canviar. *Primeval Hunt*: L2 s'utilitza per accionar el mecanisme de recàrrega (bombeig). Ratolí: la pistola òptica de RetroArch, assignada al port de cada jugador, segueix el moviment del ratolí; el botó esquerre dispara, el dret recarrega i el central actua com a botó de l'arma (apuntar fora de la pantalla també provoca la recàrrega). *Ghost Squad Evolution*: el botó dret és l'acció i el central serveix per canviar. *The House of the Dead 4*: el botó dret és el de l'arma, i el central serveix per sacsejar-la. *Too Spicy*: el botó central correspon al pedal esquerre, i el dret, al pedal dret. *Primeval Hunt*: el botó central acciona el mecanisme de recàrrega, i la pantalla tàctil registra els clics del ratolí."
+#define OPTION_VAL_STICK_CA "Palanca analògica"
+#define OPTION_VAL_MOUSE_CA "Ratolí"
+#define LINUXLOADER_GUN_SENSITIVITY_LABEL_CA "Sensitivitat del punter de la pistola"
+#define LINUXLOADER_GUN_SENSITIVITY_INFO_0_CA "La velocitat a la qual els sticks mouen el punt de mira (amb l'opció «Gun Aim on Analog Stick» activada) és la mateixa tant en horitzontal com en vertical; al 100 %, si es mou el stick al màxim, el punt de mira recorre l'alçada de la imatge en aproximadament un segon. El ratolí apunta allà on s'assenyala."
 #define OPTION_VAL_50_CA NULL
 #define OPTION_VAL_60_CA NULL
 #define OPTION_VAL_70_CA NULL
@@ -954,16 +1245,16 @@ struct retro_core_options_v2 options_be = {
 #define OPTION_VAL_180_CA NULL
 #define OPTION_VAL_190_CA NULL
 #define OPTION_VAL_200_CA NULL
-#define LINUXLOADER_CROSSHAIR_LABEL_CA NULL
-#define LINUXLOADER_CROSSHAIR_INFO_0_CA NULL
-#define LINUXLOADER_FFB_RUMBLE_LABEL_CA NULL
-#define LINUXLOADER_FFB_RUMBLE_INFO_0_CA NULL
-#define LINUXLOADER_STEERING_LABEL_CA NULL
-#define LINUXLOADER_STEERING_INFO_0_CA NULL
-#define OPTION_VAL_LINEAR_CA NULL
-#define OPTION_VAL_LOGARITHMIC_CA NULL
-#define LINUXLOADER_STEERING_INNER_LABEL_CA NULL
-#define LINUXLOADER_STEERING_INNER_INFO_0_CA NULL
+#define LINUXLOADER_CROSSHAIR_LABEL_CA "Punt de mira"
+#define LINUXLOADER_CROSSHAIR_INFO_0_CA "Les mires dels jocs de trets dibuixades sobre la imatge: blava per al jugador 1 i vermella per al jugador 2; apareixen en el moment en què el jugador apunta."
+#define LINUXLOADER_FFB_RUMBLE_LABEL_CA "Vibració amb retroalimentació de força"
+#define LINUXLOADER_FFB_RUMBLE_INFO_0_CA "La retroalimentació de força (force feedback) de la placa de conducció es tradueix en vibració al comandament del jugador 1 en els jocs de conducció següents: OutRun 2 SP SDX, Initial D 4 i 5, i Hummer. Requereix l'emulació de la placa de conducció, la qual cosa s'aconsegueix per a aquests títols mitjançant l'opció «Per Game» (per joc) dins de «Debug > EMULATE_DRIVEBOARD»."
+#define LINUXLOADER_STEERING_LABEL_CA "Resposta del guiatge"
+#define LINUXLOADER_STEERING_INFO_0_CA "Lineal: el valor X de la palanca esquerra tal qual. Logarítmica: segueix una corba amb menys gir al voltant del centre i una major inclinació cap als extrems —tal com es configura mitjançant els *dip switches* als jocs de conducció de la Sega System 32—, de manera que la direcció resulta menys brusca. La forma d'aquesta corba es defineix mitjançant els paràmetres «Steering Inner Zone» i «Steering Effect»."
+#define OPTION_VAL_LINEAR_CA "Lineal"
+#define OPTION_VAL_LOGARITHMIC_CA "Logarítmic"
+#define LINUXLOADER_STEERING_INNER_LABEL_CA "Zona interna de guiatge"
+#define LINUXLOADER_STEERING_INNER_INFO_0_CA "Amb direcció logarítmica: la proporció del gir al voltant del centre. Un valor més baix implica una resposta més suau al centre. *OutRun 2* funciona bé amb un valor de 20 i corba quadràtica; *Initial D*, amb 50 i corba cúbica."
 #define OPTION_VAL_5_CA NULL
 #define OPTION_VAL_10_CA NULL
 #define OPTION_VAL_15_CA NULL
@@ -973,31 +1264,31 @@ struct retro_core_options_v2 options_be = {
 #define OPTION_VAL_35_CA NULL
 #define OPTION_VAL_40_CA NULL
 #define OPTION_VAL_45_CA NULL
-#define LINUXLOADER_STEERING_EFFECT_LABEL_CA NULL
-#define LINUXLOADER_STEERING_EFFECT_INFO_0_CA NULL
-#define OPTION_VAL_CUBIC_CA NULL
-#define OPTION_VAL_SQUARE_CA NULL
-#define LINUXLOADER_AUDIO_THREAD_LABEL_CA NULL
-#define LINUXLOADER_AUDIO_THREAD_INFO_0_CA NULL
-#define LINUXLOADER_DEBUG_FREEPLAY_LABEL_CA NULL
-#define OPTION_VAL_DEFAULT_CA NULL
-#define LINUXLOADER_DEBUG_TEST_MODE_LABEL_CA NULL
+#define LINUXLOADER_STEERING_EFFECT_LABEL_CA "Efecte de guiatge"
+#define LINUXLOADER_STEERING_EFFECT_INFO_0_CA "Amb resposta de direcció logarítmica: com la resta del gir augmenta fins al bloqueig total. La cúbica és forta; la quadràtica, feble."
+#define OPTION_VAL_CUBIC_CA "Cúbic (Fort)"
+#define OPTION_VAL_SQUARE_CA "Quadrat (Lleu)"
+#define LINUXLOADER_AUDIO_THREAD_LABEL_CA "Fil d'àudio (Cal reiniciar)"
+#define LINUXLOADER_AUDIO_THREAD_INFO_0_CA "Transmet el so al fil d'àudio de RetroArch a mesura que el carregador el mescla, la qual cosa en manté el ritme fins i tot quan un joc perd fotogrames. Com a resultat, es perd la veu del locutor d'OutRun 2 SP."
+#define LINUXLOADER_DEBUG_FREEPLAY_LABEL_CA "JOC GRATUÏT"
+#define OPTION_VAL_DEFAULT_CA "Sense canvis"
+#define LINUXLOADER_DEBUG_TEST_MODE_LABEL_CA "MODE DE PROVA"
 #define LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_LABEL_CA NULL
-#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_CA NULL
+#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_CA "Per joc"
 #define LINUXLOADER_DEBUG_EMULATE_MOTIONBOARD_LABEL_CA NULL
 #define LINUXLOADER_DEBUG_EMULATE_RIDEBOARD_LABEL_CA NULL
 #define LINUXLOADER_DEBUG_EMULATE_HW210_CARDREADER_LABEL_CA NULL
 #define LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_CA NULL
 #define LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_CA NULL
-#define LINUXLOADER_DEBUG_REGION_LABEL_CA NULL
-#define OPTION_VAL_JP_CA NULL
+#define LINUXLOADER_DEBUG_REGION_LABEL_CA "REGIÓ"
+#define OPTION_VAL_JP_CA "Japó"
 #define OPTION_VAL_US_CA NULL
-#define OPTION_VAL_EX_CA NULL
+#define OPTION_VAL_EX_CA "Exportar"
 #define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_CA NULL
-#define OPTION_VAL_YELLOW_CA NULL
-#define OPTION_VAL_RED_CA NULL
-#define OPTION_VAL_BLUE_CA NULL
-#define OPTION_VAL_SILVER_CA NULL
+#define OPTION_VAL_YELLOW_CA "Groc"
+#define OPTION_VAL_RED_CA "Vermell"
+#define OPTION_VAL_BLUE_CA "Blau"
+#define OPTION_VAL_SILVER_CA "Plata"
 #define OPTION_VAL_REDEX_CA NULL
 #define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_CA NULL
 #define LINUXLOADER_DEBUG_BOOST_RENDER_RES_LABEL_CA NULL
@@ -1006,7 +1297,7 @@ struct retro_core_options_v2 options_be = {
 #define LINUXLOADER_DEBUG_DISABLE_BUILTIN_FONT_LABEL_CA NULL
 #define LINUXLOADER_DEBUG_DISABLE_BUILTIN_LOGOS_LABEL_CA NULL
 #define LINUXLOADER_DEBUG_CPU_FREQ_GHZ_LABEL_CA NULL
-#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_CPU_FREQ_GHZ_CA NULL
+#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_CPU_FREQ_GHZ_CA "Detectat"
 #define OPTION_VAL_1_0_CA NULL
 #define OPTION_VAL_1_5_CA NULL
 #define OPTION_VAL_2_0_CA NULL
@@ -1203,17 +1494,17 @@ struct retro_core_options_v2 options_ca = {
 
 /* RETRO_LANGUAGE_CHS */
 
-#define CATEGORY_VIDEO_LABEL_CHS NULL
+#define CATEGORY_VIDEO_LABEL_CHS "视频"
 #define CATEGORY_VIDEO_INFO_0_CHS NULL
-#define CATEGORY_INPUT_LABEL_CHS NULL
+#define CATEGORY_INPUT_LABEL_CHS "输入"
 #define CATEGORY_INPUT_INFO_0_CHS NULL
-#define CATEGORY_AUDIO_LABEL_CHS NULL
+#define CATEGORY_AUDIO_LABEL_CHS "音频"
 #define CATEGORY_AUDIO_INFO_0_CHS NULL
 #define CATEGORY_DEBUG_LABEL_CHS NULL
 #define CATEGORY_DEBUG_INFO_0_CHS NULL
 #define LINUXLOADER_RESOLUTION_LABEL_CHS NULL
 #define LINUXLOADER_RESOLUTION_INFO_0_CHS NULL
-#define OPTION_VAL_NATIVE_CHS NULL
+#define OPTION_VAL_NATIVE_CHS "原生"
 #define OPTION_VAL_1280X720_CHS NULL
 #define OPTION_VAL_1920X1080_CHS NULL
 #define OPTION_VAL_2560X1440_CHS NULL
@@ -1225,8 +1516,8 @@ struct retro_core_options_v2 options_ca = {
 #define LINUXLOADER_TEST_BUTTONS_INFO_0_CHS NULL
 #define LINUXLOADER_GUN_AIM_LABEL_CHS NULL
 #define LINUXLOADER_GUN_AIM_INFO_0_CHS NULL
-#define OPTION_VAL_STICK_CHS NULL
-#define OPTION_VAL_MOUSE_CHS NULL
+#define OPTION_VAL_STICK_CHS "模拟摇杆"
+#define OPTION_VAL_MOUSE_CHS "鼠标"
 #define LINUXLOADER_GUN_SENSITIVITY_LABEL_CHS NULL
 #define LINUXLOADER_GUN_SENSITIVITY_INFO_0_CHS NULL
 #define OPTION_VAL_50_CHS NULL
@@ -1245,13 +1536,13 @@ struct retro_core_options_v2 options_ca = {
 #define OPTION_VAL_180_CHS NULL
 #define OPTION_VAL_190_CHS NULL
 #define OPTION_VAL_200_CHS NULL
-#define LINUXLOADER_CROSSHAIR_LABEL_CHS NULL
+#define LINUXLOADER_CROSSHAIR_LABEL_CHS "游戏准星显示"
 #define LINUXLOADER_CROSSHAIR_INFO_0_CHS NULL
 #define LINUXLOADER_FFB_RUMBLE_LABEL_CHS NULL
 #define LINUXLOADER_FFB_RUMBLE_INFO_0_CHS NULL
 #define LINUXLOADER_STEERING_LABEL_CHS NULL
 #define LINUXLOADER_STEERING_INFO_0_CHS NULL
-#define OPTION_VAL_LINEAR_CHS NULL
+#define OPTION_VAL_LINEAR_CHS "线性"
 #define OPTION_VAL_LOGARITHMIC_CHS NULL
 #define LINUXLOADER_STEERING_INNER_LABEL_CHS NULL
 #define LINUXLOADER_STEERING_INNER_INFO_0_CHS NULL
@@ -1268,7 +1559,7 @@ struct retro_core_options_v2 options_ca = {
 #define LINUXLOADER_STEERING_EFFECT_INFO_0_CHS NULL
 #define OPTION_VAL_CUBIC_CHS NULL
 #define OPTION_VAL_SQUARE_CHS NULL
-#define LINUXLOADER_AUDIO_THREAD_LABEL_CHS NULL
+#define LINUXLOADER_AUDIO_THREAD_LABEL_CHS "独立音频线程 (需重启)"
 #define LINUXLOADER_AUDIO_THREAD_INFO_0_CHS NULL
 #define LINUXLOADER_DEBUG_FREEPLAY_LABEL_CHS NULL
 #define OPTION_VAL_DEFAULT_CHS NULL
@@ -1281,14 +1572,14 @@ struct retro_core_options_v2 options_ca = {
 #define LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_CHS NULL
 #define LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_CHS NULL
 #define LINUXLOADER_DEBUG_REGION_LABEL_CHS NULL
-#define OPTION_VAL_JP_CHS NULL
+#define OPTION_VAL_JP_CHS "日本"
 #define OPTION_VAL_US_CHS NULL
 #define OPTION_VAL_EX_CHS NULL
 #define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_CHS NULL
-#define OPTION_VAL_YELLOW_CHS NULL
-#define OPTION_VAL_RED_CHS NULL
-#define OPTION_VAL_BLUE_CHS NULL
-#define OPTION_VAL_SILVER_CHS NULL
+#define OPTION_VAL_YELLOW_CHS "黄色"
+#define OPTION_VAL_RED_CHS "红色"
+#define OPTION_VAL_BLUE_CHS "蓝色"
+#define OPTION_VAL_SILVER_CHS "银"
 #define OPTION_VAL_REDEX_CHS NULL
 #define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_CHS NULL
 #define LINUXLOADER_DEBUG_BOOST_RENDER_RES_LABEL_CHS NULL
@@ -1494,17 +1785,17 @@ struct retro_core_options_v2 options_chs = {
 
 /* RETRO_LANGUAGE_CHT */
 
-#define CATEGORY_VIDEO_LABEL_CHT NULL
+#define CATEGORY_VIDEO_LABEL_CHT "顯示"
 #define CATEGORY_VIDEO_INFO_0_CHT NULL
-#define CATEGORY_INPUT_LABEL_CHT NULL
+#define CATEGORY_INPUT_LABEL_CHT "輸入"
 #define CATEGORY_INPUT_INFO_0_CHT NULL
-#define CATEGORY_AUDIO_LABEL_CHT NULL
+#define CATEGORY_AUDIO_LABEL_CHT "音效"
 #define CATEGORY_AUDIO_INFO_0_CHT NULL
 #define CATEGORY_DEBUG_LABEL_CHT NULL
 #define CATEGORY_DEBUG_INFO_0_CHT NULL
 #define LINUXLOADER_RESOLUTION_LABEL_CHT NULL
 #define LINUXLOADER_RESOLUTION_INFO_0_CHT NULL
-#define OPTION_VAL_NATIVE_CHT NULL
+#define OPTION_VAL_NATIVE_CHT "原始"
 #define OPTION_VAL_1280X720_CHT NULL
 #define OPTION_VAL_1920X1080_CHT NULL
 #define OPTION_VAL_2560X1440_CHT NULL
@@ -1517,7 +1808,7 @@ struct retro_core_options_v2 options_chs = {
 #define LINUXLOADER_GUN_AIM_LABEL_CHT NULL
 #define LINUXLOADER_GUN_AIM_INFO_0_CHT NULL
 #define OPTION_VAL_STICK_CHT NULL
-#define OPTION_VAL_MOUSE_CHT NULL
+#define OPTION_VAL_MOUSE_CHT "滑鼠"
 #define LINUXLOADER_GUN_SENSITIVITY_LABEL_CHT NULL
 #define LINUXLOADER_GUN_SENSITIVITY_INFO_0_CHT NULL
 #define OPTION_VAL_50_CHT NULL
@@ -1542,7 +1833,7 @@ struct retro_core_options_v2 options_chs = {
 #define LINUXLOADER_FFB_RUMBLE_INFO_0_CHT NULL
 #define LINUXLOADER_STEERING_LABEL_CHT NULL
 #define LINUXLOADER_STEERING_INFO_0_CHT NULL
-#define OPTION_VAL_LINEAR_CHT NULL
+#define OPTION_VAL_LINEAR_CHT "線性"
 #define OPTION_VAL_LOGARITHMIC_CHT NULL
 #define LINUXLOADER_STEERING_INNER_LABEL_CHT NULL
 #define LINUXLOADER_STEERING_INNER_INFO_0_CHT NULL
@@ -1576,9 +1867,9 @@ struct retro_core_options_v2 options_chs = {
 #define OPTION_VAL_US_CHT NULL
 #define OPTION_VAL_EX_CHT NULL
 #define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_CHT NULL
-#define OPTION_VAL_YELLOW_CHT NULL
-#define OPTION_VAL_RED_CHT NULL
-#define OPTION_VAL_BLUE_CHT NULL
+#define OPTION_VAL_YELLOW_CHT "亮黃色"
+#define OPTION_VAL_RED_CHT "亮紅色"
+#define OPTION_VAL_BLUE_CHT "亮藍色"
 #define OPTION_VAL_SILVER_CHT NULL
 #define OPTION_VAL_REDEX_CHT NULL
 #define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_CHT NULL
@@ -1787,15 +2078,15 @@ struct retro_core_options_v2 options_cht = {
 
 #define CATEGORY_VIDEO_LABEL_CS NULL
 #define CATEGORY_VIDEO_INFO_0_CS NULL
-#define CATEGORY_INPUT_LABEL_CS NULL
+#define CATEGORY_INPUT_LABEL_CS "Vstup"
 #define CATEGORY_INPUT_INFO_0_CS NULL
-#define CATEGORY_AUDIO_LABEL_CS NULL
+#define CATEGORY_AUDIO_LABEL_CS "Zvuk"
 #define CATEGORY_AUDIO_INFO_0_CS NULL
 #define CATEGORY_DEBUG_LABEL_CS NULL
 #define CATEGORY_DEBUG_INFO_0_CS NULL
 #define LINUXLOADER_RESOLUTION_LABEL_CS NULL
 #define LINUXLOADER_RESOLUTION_INFO_0_CS NULL
-#define OPTION_VAL_NATIVE_CS NULL
+#define OPTION_VAL_NATIVE_CS "Nativní"
 #define OPTION_VAL_1280X720_CS NULL
 #define OPTION_VAL_1920X1080_CS NULL
 #define OPTION_VAL_2560X1440_CS NULL
@@ -1808,7 +2099,7 @@ struct retro_core_options_v2 options_cht = {
 #define LINUXLOADER_GUN_AIM_LABEL_CS NULL
 #define LINUXLOADER_GUN_AIM_INFO_0_CS NULL
 #define OPTION_VAL_STICK_CS NULL
-#define OPTION_VAL_MOUSE_CS NULL
+#define OPTION_VAL_MOUSE_CS "Myš"
 #define LINUXLOADER_GUN_SENSITIVITY_LABEL_CS NULL
 #define LINUXLOADER_GUN_SENSITIVITY_INFO_0_CS NULL
 #define OPTION_VAL_50_CS NULL
@@ -1833,7 +2124,7 @@ struct retro_core_options_v2 options_cht = {
 #define LINUXLOADER_FFB_RUMBLE_INFO_0_CS NULL
 #define LINUXLOADER_STEERING_LABEL_CS NULL
 #define LINUXLOADER_STEERING_INFO_0_CS NULL
-#define OPTION_VAL_LINEAR_CS NULL
+#define OPTION_VAL_LINEAR_CS "Lineární"
 #define OPTION_VAL_LOGARITHMIC_CS NULL
 #define LINUXLOADER_STEERING_INNER_LABEL_CS NULL
 #define LINUXLOADER_STEERING_INNER_INFO_0_CS NULL
@@ -1863,13 +2154,13 @@ struct retro_core_options_v2 options_cht = {
 #define LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_CS NULL
 #define LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_CS NULL
 #define LINUXLOADER_DEBUG_REGION_LABEL_CS NULL
-#define OPTION_VAL_JP_CS NULL
+#define OPTION_VAL_JP_CS "Japonsko"
 #define OPTION_VAL_US_CS NULL
 #define OPTION_VAL_EX_CS NULL
 #define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_CS NULL
-#define OPTION_VAL_YELLOW_CS NULL
-#define OPTION_VAL_RED_CS NULL
-#define OPTION_VAL_BLUE_CS NULL
+#define OPTION_VAL_YELLOW_CS "Žlutá"
+#define OPTION_VAL_RED_CS "Červený"
+#define OPTION_VAL_BLUE_CS "Modrý"
 #define OPTION_VAL_SILVER_CS NULL
 #define OPTION_VAL_REDEX_CS NULL
 #define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_CS NULL
@@ -2074,11 +2365,593 @@ struct retro_core_options_v2 options_cs = {
    option_defs_cs
 };
 
+/* RETRO_LANGUAGE_CY */
+
+#define CATEGORY_VIDEO_LABEL_CY NULL
+#define CATEGORY_VIDEO_INFO_0_CY NULL
+#define CATEGORY_INPUT_LABEL_CY "Mewnbwn"
+#define CATEGORY_INPUT_INFO_0_CY NULL
+#define CATEGORY_AUDIO_LABEL_CY NULL
+#define CATEGORY_AUDIO_INFO_0_CY NULL
+#define CATEGORY_DEBUG_LABEL_CY NULL
+#define CATEGORY_DEBUG_INFO_0_CY NULL
+#define LINUXLOADER_RESOLUTION_LABEL_CY NULL
+#define LINUXLOADER_RESOLUTION_INFO_0_CY NULL
+#define OPTION_VAL_NATIVE_CY NULL
+#define OPTION_VAL_1280X720_CY NULL
+#define OPTION_VAL_1920X1080_CY NULL
+#define OPTION_VAL_2560X1440_CY NULL
+#define OPTION_VAL_3840X2160_CY NULL
+#define OPTION_VAL_5120X2880_CY NULL
+#define LINUXLOADER_FORCE_WIDESCREEN_LABEL_CY NULL
+#define LINUXLOADER_FORCE_WIDESCREEN_INFO_0_CY NULL
+#define LINUXLOADER_TEST_BUTTONS_LABEL_CY NULL
+#define LINUXLOADER_TEST_BUTTONS_INFO_0_CY NULL
+#define LINUXLOADER_GUN_AIM_LABEL_CY NULL
+#define LINUXLOADER_GUN_AIM_INFO_0_CY NULL
+#define OPTION_VAL_STICK_CY NULL
+#define OPTION_VAL_MOUSE_CY NULL
+#define LINUXLOADER_GUN_SENSITIVITY_LABEL_CY NULL
+#define LINUXLOADER_GUN_SENSITIVITY_INFO_0_CY NULL
+#define OPTION_VAL_50_CY NULL
+#define OPTION_VAL_60_CY NULL
+#define OPTION_VAL_70_CY NULL
+#define OPTION_VAL_80_CY NULL
+#define OPTION_VAL_90_CY NULL
+#define OPTION_VAL_100_CY NULL
+#define OPTION_VAL_110_CY NULL
+#define OPTION_VAL_120_CY NULL
+#define OPTION_VAL_130_CY NULL
+#define OPTION_VAL_140_CY NULL
+#define OPTION_VAL_150_CY NULL
+#define OPTION_VAL_160_CY NULL
+#define OPTION_VAL_170_CY NULL
+#define OPTION_VAL_180_CY NULL
+#define OPTION_VAL_190_CY NULL
+#define OPTION_VAL_200_CY NULL
+#define LINUXLOADER_CROSSHAIR_LABEL_CY NULL
+#define LINUXLOADER_CROSSHAIR_INFO_0_CY NULL
+#define LINUXLOADER_FFB_RUMBLE_LABEL_CY NULL
+#define LINUXLOADER_FFB_RUMBLE_INFO_0_CY NULL
+#define LINUXLOADER_STEERING_LABEL_CY NULL
+#define LINUXLOADER_STEERING_INFO_0_CY NULL
+#define OPTION_VAL_LINEAR_CY NULL
+#define OPTION_VAL_LOGARITHMIC_CY NULL
+#define LINUXLOADER_STEERING_INNER_LABEL_CY NULL
+#define LINUXLOADER_STEERING_INNER_INFO_0_CY NULL
+#define OPTION_VAL_5_CY NULL
+#define OPTION_VAL_10_CY NULL
+#define OPTION_VAL_15_CY NULL
+#define OPTION_VAL_20_CY NULL
+#define OPTION_VAL_25_CY NULL
+#define OPTION_VAL_30_CY NULL
+#define OPTION_VAL_35_CY NULL
+#define OPTION_VAL_40_CY NULL
+#define OPTION_VAL_45_CY NULL
+#define LINUXLOADER_STEERING_EFFECT_LABEL_CY NULL
+#define LINUXLOADER_STEERING_EFFECT_INFO_0_CY NULL
+#define OPTION_VAL_CUBIC_CY NULL
+#define OPTION_VAL_SQUARE_CY NULL
+#define LINUXLOADER_AUDIO_THREAD_LABEL_CY NULL
+#define LINUXLOADER_AUDIO_THREAD_INFO_0_CY NULL
+#define LINUXLOADER_DEBUG_FREEPLAY_LABEL_CY NULL
+#define OPTION_VAL_DEFAULT_CY NULL
+#define LINUXLOADER_DEBUG_TEST_MODE_LABEL_CY NULL
+#define LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_LABEL_CY NULL
+#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_CY NULL
+#define LINUXLOADER_DEBUG_EMULATE_MOTIONBOARD_LABEL_CY NULL
+#define LINUXLOADER_DEBUG_EMULATE_RIDEBOARD_LABEL_CY NULL
+#define LINUXLOADER_DEBUG_EMULATE_HW210_CARDREADER_LABEL_CY NULL
+#define LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_CY NULL
+#define LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_CY NULL
+#define LINUXLOADER_DEBUG_REGION_LABEL_CY NULL
+#define OPTION_VAL_JP_CY NULL
+#define OPTION_VAL_US_CY NULL
+#define OPTION_VAL_EX_CY NULL
+#define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_CY NULL
+#define OPTION_VAL_YELLOW_CY NULL
+#define OPTION_VAL_RED_CY "Coch"
+#define OPTION_VAL_BLUE_CY NULL
+#define OPTION_VAL_SILVER_CY NULL
+#define OPTION_VAL_REDEX_CY NULL
+#define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_CY NULL
+#define LINUXLOADER_DEBUG_BOOST_RENDER_RES_LABEL_CY NULL
+#define LINUXLOADER_DEBUG_HUMMER_FLICKER_FIX_LABEL_CY NULL
+#define LINUXLOADER_DEBUG_LGJ_RENDER_WITH_MESA_LABEL_CY NULL
+#define LINUXLOADER_DEBUG_DISABLE_BUILTIN_FONT_LABEL_CY NULL
+#define LINUXLOADER_DEBUG_DISABLE_BUILTIN_LOGOS_LABEL_CY NULL
+#define LINUXLOADER_DEBUG_CPU_FREQ_GHZ_LABEL_CY NULL
+#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_CPU_FREQ_GHZ_CY NULL
+#define OPTION_VAL_1_0_CY NULL
+#define OPTION_VAL_1_5_CY NULL
+#define OPTION_VAL_2_0_CY NULL
+#define OPTION_VAL_2_5_CY NULL
+#define OPTION_VAL_3_0_CY NULL
+#define OPTION_VAL_3_5_CY NULL
+#define OPTION_VAL_4_0_CY NULL
+#define OPTION_VAL_4_5_CY NULL
+#define OPTION_VAL_5_0_CY NULL
+#define LINUXLOADER_DEBUG_SKIP_OUTRUN_CABINET_CHECK_LABEL_CY NULL
+#define LINUXLOADER_DEBUG_ID_STEERING_REDUCTION_PERCENTAGE_LABEL_CY NULL
+#define OPTION_VAL_0_CY NULL
+#define LINUXLOADER_DEBUG_ID5_CHINESE_LANGUAGE_LABEL_CY NULL
+#define LINUXLOADER_DEBUG_HARLEY_ANALOG_REMAP_LABEL_CY NULL
+#define LINUXLOADER_DEBUG_MJ4_ENABLED_ALL_THE_TIME_LABEL_CY NULL
+#define LINUXLOADER_DEBUG_RAMBO_GUNS_SWITCH_LABEL_CY NULL
+#define LINUXLOADER_DEBUG_PRIMEVAL_HUNT_SCREEN_MODE_LABEL_CY NULL
+#define LINUXLOADER_DEBUG_PRIMEVAL_HUNT_TEST_SCREEN_SINGLE_LABEL_CY NULL
+#define LINUXLOADER_DEBUG_ID_CARDFILE_AUTOLOAD_LABEL_CY NULL
+#define LINUXLOADER_DEBUG_ENABLE_CROSSHAIRS_LABEL_CY NULL
+#define LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_ON_LABEL_CY NULL
+#define LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_OFF_LABEL_CY NULL
+#define LINUXLOADER_DEBUG_ENABLE_NETWORK_PATCHES_LABEL_CY NULL
+#define LINUXLOADER_DEBUG_ABURNER_MOTION_OFF_LABEL_CY NULL
+
+struct retro_core_option_v2_category option_cats_cy[] = {
+    {"video", CATEGORY_VIDEO_LABEL_CY, CATEGORY_VIDEO_INFO_0_CY},
+    {"input", CATEGORY_INPUT_LABEL_CY, CATEGORY_INPUT_INFO_0_CY},
+    {"audio", CATEGORY_AUDIO_LABEL_CY, CATEGORY_AUDIO_INFO_0_CY},
+    {"debug", CATEGORY_DEBUG_LABEL_CY, CATEGORY_DEBUG_INFO_0_CY},
+    {NULL, NULL, NULL},
+};
+struct retro_core_option_v2_definition option_defs_cy[] = {
+    {"linuxloader_resolution", LINUXLOADER_RESOLUTION_LABEL_CY, NULL,
+     LINUXLOADER_RESOLUTION_INFO_0_CY,
+     NULL, "video",
+     {{"native", OPTION_VAL_NATIVE_CY}, {"1280x720", OPTION_VAL_1280X720_CY}, {"1920x1080", OPTION_VAL_1920X1080_CY}, {"2560x1440", OPTION_VAL_2560X1440_CY}, {"3840x2160", OPTION_VAL_3840X2160_CY}, {"5120x2880", OPTION_VAL_5120X2880_CY}, {NULL, NULL}},
+     "native"},
+    {"linuxloader_force_widescreen", LINUXLOADER_FORCE_WIDESCREEN_LABEL_CY, NULL,
+     LINUXLOADER_FORCE_WIDESCREEN_INFO_0_CY,
+     NULL, "video",
+     {{"disabled", NULL}, {"enabled", NULL}, {NULL, NULL}},
+     "disabled"},
+    {"linuxloader_test_buttons", LINUXLOADER_TEST_BUTTONS_LABEL_CY, NULL,
+     LINUXLOADER_TEST_BUTTONS_INFO_0_CY,
+     NULL, "input",
+     {{"enabled", NULL}, {"disabled", NULL}, {NULL, NULL}},
+     "enabled"},
+    {"linuxloader_gun_aim", LINUXLOADER_GUN_AIM_LABEL_CY, NULL,
+     LINUXLOADER_GUN_AIM_INFO_0_CY,
+     NULL, "input",
+     {{"stick", OPTION_VAL_STICK_CY}, {"mouse", OPTION_VAL_MOUSE_CY}, {NULL, NULL}},
+     "stick"},
+    {"linuxloader_gun_sensitivity", LINUXLOADER_GUN_SENSITIVITY_LABEL_CY, NULL,
+     LINUXLOADER_GUN_SENSITIVITY_INFO_0_CY,
+     NULL, "input",
+     {{"50", OPTION_VAL_50_CY}, {"60", OPTION_VAL_60_CY}, {"70", OPTION_VAL_70_CY}, {"80", OPTION_VAL_80_CY}, {"90", OPTION_VAL_90_CY}, {"100", OPTION_VAL_100_CY}, {"110", OPTION_VAL_110_CY},
+      {"120", OPTION_VAL_120_CY}, {"130", OPTION_VAL_130_CY}, {"140", OPTION_VAL_140_CY}, {"150", OPTION_VAL_150_CY}, {"160", OPTION_VAL_160_CY}, {"170", OPTION_VAL_170_CY},
+      {"180", OPTION_VAL_180_CY}, {"190", OPTION_VAL_190_CY}, {"200", OPTION_VAL_200_CY}, {NULL, NULL}},
+     "100"},
+    {"linuxloader_crosshair", LINUXLOADER_CROSSHAIR_LABEL_CY, NULL,
+     LINUXLOADER_CROSSHAIR_INFO_0_CY,
+     NULL, "input",
+     {{"enabled", NULL}, {"disabled", NULL}, {NULL, NULL}},
+     "enabled"},
+    {"linuxloader_ffb_rumble", LINUXLOADER_FFB_RUMBLE_LABEL_CY, NULL,
+     LINUXLOADER_FFB_RUMBLE_INFO_0_CY,
+     NULL, "input",
+     {{"enabled", NULL}, {"disabled", NULL}, {NULL, NULL}},
+     "enabled"},
+    {"linuxloader_steering", LINUXLOADER_STEERING_LABEL_CY, NULL,
+     LINUXLOADER_STEERING_INFO_0_CY,
+     NULL, "input",
+     {{"linear", OPTION_VAL_LINEAR_CY}, {"logarithmic", OPTION_VAL_LOGARITHMIC_CY}, {NULL, NULL}},
+     "linear"},
+    {"linuxloader_steering_inner", LINUXLOADER_STEERING_INNER_LABEL_CY, NULL,
+     LINUXLOADER_STEERING_INNER_INFO_0_CY,
+     NULL, "input",
+     {{"5", OPTION_VAL_5_CY}, {"10", OPTION_VAL_10_CY}, {"15", OPTION_VAL_15_CY}, {"20", OPTION_VAL_20_CY}, {"25", OPTION_VAL_25_CY}, {"30", OPTION_VAL_30_CY}, {"35", OPTION_VAL_35_CY}, {"40", OPTION_VAL_40_CY}, {"45", OPTION_VAL_45_CY}, {"50", OPTION_VAL_50_CY}, {NULL, NULL}},
+     "25"},
+    {"linuxloader_steering_effect", LINUXLOADER_STEERING_EFFECT_LABEL_CY, NULL,
+     LINUXLOADER_STEERING_EFFECT_INFO_0_CY,
+     NULL, "input",
+     {{"cubic", OPTION_VAL_CUBIC_CY}, {"square", OPTION_VAL_SQUARE_CY}, {NULL, NULL}},
+     "cubic"},
+    {"linuxloader_audio_thread", LINUXLOADER_AUDIO_THREAD_LABEL_CY, NULL,
+     LINUXLOADER_AUDIO_THREAD_INFO_0_CY,
+     NULL, "audio",
+     {{"enabled", NULL}, {"disabled", NULL}, {NULL, NULL}},
+     "enabled"},
+    {"linuxloader_debug_freeplay", LINUXLOADER_DEBUG_FREEPLAY_LABEL_CY, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_CY}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_test_mode", LINUXLOADER_DEBUG_TEST_MODE_LABEL_CY, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_emulate_driveboard", LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_LABEL_CY, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_CY}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_motionboard", LINUXLOADER_DEBUG_EMULATE_MOTIONBOARD_LABEL_CY, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_CY}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_rideboard", LINUXLOADER_DEBUG_EMULATE_RIDEBOARD_LABEL_CY, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_CY}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_hw210_cardreader", LINUXLOADER_DEBUG_EMULATE_HW210_CARDREADER_LABEL_CY, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_CY}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_id_cardreader", LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_CY, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_CY}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_touchscreen", LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_CY, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_CY}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_region", LINUXLOADER_DEBUG_REGION_LABEL_CY, NULL, NULL, NULL, "debug",
+     {{"JP", OPTION_VAL_JP_CY}, {"US", OPTION_VAL_US_CY}, {"EX", OPTION_VAL_EX_CY}, {NULL, NULL}},
+     "EX"},
+    {"linuxloader_debug_lindbergh_colour", LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_CY, NULL, NULL, NULL, "debug",
+     {{"YELLOW", OPTION_VAL_YELLOW_CY}, {"RED", OPTION_VAL_RED_CY}, {"BLUE", OPTION_VAL_BLUE_CY}, {"SILVER", OPTION_VAL_SILVER_CY}, {"REDEX", OPTION_VAL_REDEX_CY}, {NULL, NULL}},
+     "YELLOW"},
+    {"linuxloader_debug_debug_msgs", LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_CY, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_boost_render_res", LINUXLOADER_DEBUG_BOOST_RENDER_RES_LABEL_CY, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_hummer_flicker_fix", LINUXLOADER_DEBUG_HUMMER_FLICKER_FIX_LABEL_CY, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_lgj_render_with_mesa", LINUXLOADER_DEBUG_LGJ_RENDER_WITH_MESA_LABEL_CY, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_disable_builtin_font", LINUXLOADER_DEBUG_DISABLE_BUILTIN_FONT_LABEL_CY, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_disable_builtin_logos", LINUXLOADER_DEBUG_DISABLE_BUILTIN_LOGOS_LABEL_CY, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_cpu_freq_ghz", LINUXLOADER_DEBUG_CPU_FREQ_GHZ_LABEL_CY, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_CPU_FREQ_GHZ_CY}, {"1.0", OPTION_VAL_1_0_CY}, {"1.5", OPTION_VAL_1_5_CY}, {"2.0", OPTION_VAL_2_0_CY}, {"2.5", OPTION_VAL_2_5_CY}, {"3.0", OPTION_VAL_3_0_CY}, {"3.5", OPTION_VAL_3_5_CY}, {"4.0", OPTION_VAL_4_0_CY}, {"4.5", OPTION_VAL_4_5_CY}, {"5.0", OPTION_VAL_5_0_CY}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_skip_outrun_cabinet_check", LINUXLOADER_DEBUG_SKIP_OUTRUN_CABINET_CHECK_LABEL_CY, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_id_steering_reduction_percentage", LINUXLOADER_DEBUG_ID_STEERING_REDUCTION_PERCENTAGE_LABEL_CY, NULL, NULL, NULL, "debug",
+     {{"0", OPTION_VAL_0_CY}, {"5", OPTION_VAL_5_CY}, {"10", OPTION_VAL_10_CY}, {"15", OPTION_VAL_15_CY}, {"20", OPTION_VAL_20_CY}, {"25", OPTION_VAL_25_CY}, {"30", OPTION_VAL_30_CY}, {"35", OPTION_VAL_35_CY}, {"40", OPTION_VAL_40_CY}, {"45", OPTION_VAL_45_CY}, {"50", OPTION_VAL_50_CY}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_id5_chinese_language", LINUXLOADER_DEBUG_ID5_CHINESE_LANGUAGE_LABEL_CY, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_harley_analog_remap", LINUXLOADER_DEBUG_HARLEY_ANALOG_REMAP_LABEL_CY, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_mj4_enabled_all_the_time", LINUXLOADER_DEBUG_MJ4_ENABLED_ALL_THE_TIME_LABEL_CY, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_rambo_guns_switch", LINUXLOADER_DEBUG_RAMBO_GUNS_SWITCH_LABEL_CY, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_primeval_hunt_screen_mode", LINUXLOADER_DEBUG_PRIMEVAL_HUNT_SCREEN_MODE_LABEL_CY, NULL, NULL, NULL, "debug",
+     /* "1" itself, not the loader's default: with the key left out, Primeval Hunt opened on two screens (NNshi) */
+     {{"0", "0"}, {"1", "1"}, {"2", "2"}, {"3", "3"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_primeval_hunt_test_screen_single", LINUXLOADER_DEBUG_PRIMEVAL_HUNT_TEST_SCREEN_SINGLE_LABEL_CY, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_id_cardfile_autoload", LINUXLOADER_DEBUG_ID_CARDFILE_AUTOLOAD_LABEL_CY, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_enable_crosshairs", LINUXLOADER_DEBUG_ENABLE_CROSSHAIRS_LABEL_CY, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_gsevo_crosshair_always_on", LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_ON_LABEL_CY, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_gsevo_crosshair_always_off", LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_OFF_LABEL_CY, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_enable_network_patches", LINUXLOADER_DEBUG_ENABLE_NETWORK_PATCHES_LABEL_CY, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    /* The core's own (eepromSettings.c): After Burner Climax does not start
+     * on a Deluxe cabinet with motion on, which it is out of the box, so on
+     * by default (NNshi) */
+    {"linuxloader_debug_aburner_motion_off", LINUXLOADER_DEBUG_ABURNER_MOTION_OFF_LABEL_CY, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {NULL, NULL, NULL, NULL, NULL, NULL, {{NULL, NULL}}, NULL},
+};
+struct retro_core_options_v2 options_cy = {
+   option_cats_cy,
+   option_defs_cy
+};
+
+/* RETRO_LANGUAGE_DA */
+
+#define CATEGORY_VIDEO_LABEL_DA NULL
+#define CATEGORY_VIDEO_INFO_0_DA NULL
+#define CATEGORY_INPUT_LABEL_DA NULL
+#define CATEGORY_INPUT_INFO_0_DA NULL
+#define CATEGORY_AUDIO_LABEL_DA "Lyd"
+#define CATEGORY_AUDIO_INFO_0_DA NULL
+#define CATEGORY_DEBUG_LABEL_DA NULL
+#define CATEGORY_DEBUG_INFO_0_DA NULL
+#define LINUXLOADER_RESOLUTION_LABEL_DA NULL
+#define LINUXLOADER_RESOLUTION_INFO_0_DA NULL
+#define OPTION_VAL_NATIVE_DA NULL
+#define OPTION_VAL_1280X720_DA NULL
+#define OPTION_VAL_1920X1080_DA NULL
+#define OPTION_VAL_2560X1440_DA NULL
+#define OPTION_VAL_3840X2160_DA NULL
+#define OPTION_VAL_5120X2880_DA NULL
+#define LINUXLOADER_FORCE_WIDESCREEN_LABEL_DA NULL
+#define LINUXLOADER_FORCE_WIDESCREEN_INFO_0_DA NULL
+#define LINUXLOADER_TEST_BUTTONS_LABEL_DA NULL
+#define LINUXLOADER_TEST_BUTTONS_INFO_0_DA NULL
+#define LINUXLOADER_GUN_AIM_LABEL_DA NULL
+#define LINUXLOADER_GUN_AIM_INFO_0_DA NULL
+#define OPTION_VAL_STICK_DA NULL
+#define OPTION_VAL_MOUSE_DA NULL
+#define LINUXLOADER_GUN_SENSITIVITY_LABEL_DA NULL
+#define LINUXLOADER_GUN_SENSITIVITY_INFO_0_DA NULL
+#define OPTION_VAL_50_DA NULL
+#define OPTION_VAL_60_DA NULL
+#define OPTION_VAL_70_DA NULL
+#define OPTION_VAL_80_DA NULL
+#define OPTION_VAL_90_DA NULL
+#define OPTION_VAL_100_DA NULL
+#define OPTION_VAL_110_DA NULL
+#define OPTION_VAL_120_DA NULL
+#define OPTION_VAL_130_DA NULL
+#define OPTION_VAL_140_DA NULL
+#define OPTION_VAL_150_DA NULL
+#define OPTION_VAL_160_DA NULL
+#define OPTION_VAL_170_DA NULL
+#define OPTION_VAL_180_DA NULL
+#define OPTION_VAL_190_DA NULL
+#define OPTION_VAL_200_DA NULL
+#define LINUXLOADER_CROSSHAIR_LABEL_DA NULL
+#define LINUXLOADER_CROSSHAIR_INFO_0_DA NULL
+#define LINUXLOADER_FFB_RUMBLE_LABEL_DA NULL
+#define LINUXLOADER_FFB_RUMBLE_INFO_0_DA NULL
+#define LINUXLOADER_STEERING_LABEL_DA NULL
+#define LINUXLOADER_STEERING_INFO_0_DA NULL
+#define OPTION_VAL_LINEAR_DA NULL
+#define OPTION_VAL_LOGARITHMIC_DA NULL
+#define LINUXLOADER_STEERING_INNER_LABEL_DA NULL
+#define LINUXLOADER_STEERING_INNER_INFO_0_DA NULL
+#define OPTION_VAL_5_DA NULL
+#define OPTION_VAL_10_DA NULL
+#define OPTION_VAL_15_DA NULL
+#define OPTION_VAL_20_DA NULL
+#define OPTION_VAL_25_DA NULL
+#define OPTION_VAL_30_DA NULL
+#define OPTION_VAL_35_DA NULL
+#define OPTION_VAL_40_DA NULL
+#define OPTION_VAL_45_DA NULL
+#define LINUXLOADER_STEERING_EFFECT_LABEL_DA NULL
+#define LINUXLOADER_STEERING_EFFECT_INFO_0_DA NULL
+#define OPTION_VAL_CUBIC_DA NULL
+#define OPTION_VAL_SQUARE_DA NULL
+#define LINUXLOADER_AUDIO_THREAD_LABEL_DA NULL
+#define LINUXLOADER_AUDIO_THREAD_INFO_0_DA NULL
+#define LINUXLOADER_DEBUG_FREEPLAY_LABEL_DA NULL
+#define OPTION_VAL_DEFAULT_DA NULL
+#define LINUXLOADER_DEBUG_TEST_MODE_LABEL_DA NULL
+#define LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_LABEL_DA NULL
+#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_DA NULL
+#define LINUXLOADER_DEBUG_EMULATE_MOTIONBOARD_LABEL_DA NULL
+#define LINUXLOADER_DEBUG_EMULATE_RIDEBOARD_LABEL_DA NULL
+#define LINUXLOADER_DEBUG_EMULATE_HW210_CARDREADER_LABEL_DA NULL
+#define LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_DA NULL
+#define LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_DA NULL
+#define LINUXLOADER_DEBUG_REGION_LABEL_DA NULL
+#define OPTION_VAL_JP_DA NULL
+#define OPTION_VAL_US_DA NULL
+#define OPTION_VAL_EX_DA NULL
+#define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_DA NULL
+#define OPTION_VAL_YELLOW_DA NULL
+#define OPTION_VAL_RED_DA NULL
+#define OPTION_VAL_BLUE_DA NULL
+#define OPTION_VAL_SILVER_DA NULL
+#define OPTION_VAL_REDEX_DA NULL
+#define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_DA NULL
+#define LINUXLOADER_DEBUG_BOOST_RENDER_RES_LABEL_DA NULL
+#define LINUXLOADER_DEBUG_HUMMER_FLICKER_FIX_LABEL_DA NULL
+#define LINUXLOADER_DEBUG_LGJ_RENDER_WITH_MESA_LABEL_DA NULL
+#define LINUXLOADER_DEBUG_DISABLE_BUILTIN_FONT_LABEL_DA NULL
+#define LINUXLOADER_DEBUG_DISABLE_BUILTIN_LOGOS_LABEL_DA NULL
+#define LINUXLOADER_DEBUG_CPU_FREQ_GHZ_LABEL_DA NULL
+#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_CPU_FREQ_GHZ_DA NULL
+#define OPTION_VAL_1_0_DA NULL
+#define OPTION_VAL_1_5_DA NULL
+#define OPTION_VAL_2_0_DA NULL
+#define OPTION_VAL_2_5_DA NULL
+#define OPTION_VAL_3_0_DA NULL
+#define OPTION_VAL_3_5_DA NULL
+#define OPTION_VAL_4_0_DA NULL
+#define OPTION_VAL_4_5_DA NULL
+#define OPTION_VAL_5_0_DA NULL
+#define LINUXLOADER_DEBUG_SKIP_OUTRUN_CABINET_CHECK_LABEL_DA NULL
+#define LINUXLOADER_DEBUG_ID_STEERING_REDUCTION_PERCENTAGE_LABEL_DA NULL
+#define OPTION_VAL_0_DA NULL
+#define LINUXLOADER_DEBUG_ID5_CHINESE_LANGUAGE_LABEL_DA NULL
+#define LINUXLOADER_DEBUG_HARLEY_ANALOG_REMAP_LABEL_DA NULL
+#define LINUXLOADER_DEBUG_MJ4_ENABLED_ALL_THE_TIME_LABEL_DA NULL
+#define LINUXLOADER_DEBUG_RAMBO_GUNS_SWITCH_LABEL_DA NULL
+#define LINUXLOADER_DEBUG_PRIMEVAL_HUNT_SCREEN_MODE_LABEL_DA NULL
+#define LINUXLOADER_DEBUG_PRIMEVAL_HUNT_TEST_SCREEN_SINGLE_LABEL_DA NULL
+#define LINUXLOADER_DEBUG_ID_CARDFILE_AUTOLOAD_LABEL_DA NULL
+#define LINUXLOADER_DEBUG_ENABLE_CROSSHAIRS_LABEL_DA NULL
+#define LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_ON_LABEL_DA NULL
+#define LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_OFF_LABEL_DA NULL
+#define LINUXLOADER_DEBUG_ENABLE_NETWORK_PATCHES_LABEL_DA NULL
+#define LINUXLOADER_DEBUG_ABURNER_MOTION_OFF_LABEL_DA NULL
+
+struct retro_core_option_v2_category option_cats_da[] = {
+    {"video", CATEGORY_VIDEO_LABEL_DA, CATEGORY_VIDEO_INFO_0_DA},
+    {"input", CATEGORY_INPUT_LABEL_DA, CATEGORY_INPUT_INFO_0_DA},
+    {"audio", CATEGORY_AUDIO_LABEL_DA, CATEGORY_AUDIO_INFO_0_DA},
+    {"debug", CATEGORY_DEBUG_LABEL_DA, CATEGORY_DEBUG_INFO_0_DA},
+    {NULL, NULL, NULL},
+};
+struct retro_core_option_v2_definition option_defs_da[] = {
+    {"linuxloader_resolution", LINUXLOADER_RESOLUTION_LABEL_DA, NULL,
+     LINUXLOADER_RESOLUTION_INFO_0_DA,
+     NULL, "video",
+     {{"native", OPTION_VAL_NATIVE_DA}, {"1280x720", OPTION_VAL_1280X720_DA}, {"1920x1080", OPTION_VAL_1920X1080_DA}, {"2560x1440", OPTION_VAL_2560X1440_DA}, {"3840x2160", OPTION_VAL_3840X2160_DA}, {"5120x2880", OPTION_VAL_5120X2880_DA}, {NULL, NULL}},
+     "native"},
+    {"linuxloader_force_widescreen", LINUXLOADER_FORCE_WIDESCREEN_LABEL_DA, NULL,
+     LINUXLOADER_FORCE_WIDESCREEN_INFO_0_DA,
+     NULL, "video",
+     {{"disabled", NULL}, {"enabled", NULL}, {NULL, NULL}},
+     "disabled"},
+    {"linuxloader_test_buttons", LINUXLOADER_TEST_BUTTONS_LABEL_DA, NULL,
+     LINUXLOADER_TEST_BUTTONS_INFO_0_DA,
+     NULL, "input",
+     {{"enabled", NULL}, {"disabled", NULL}, {NULL, NULL}},
+     "enabled"},
+    {"linuxloader_gun_aim", LINUXLOADER_GUN_AIM_LABEL_DA, NULL,
+     LINUXLOADER_GUN_AIM_INFO_0_DA,
+     NULL, "input",
+     {{"stick", OPTION_VAL_STICK_DA}, {"mouse", OPTION_VAL_MOUSE_DA}, {NULL, NULL}},
+     "stick"},
+    {"linuxloader_gun_sensitivity", LINUXLOADER_GUN_SENSITIVITY_LABEL_DA, NULL,
+     LINUXLOADER_GUN_SENSITIVITY_INFO_0_DA,
+     NULL, "input",
+     {{"50", OPTION_VAL_50_DA}, {"60", OPTION_VAL_60_DA}, {"70", OPTION_VAL_70_DA}, {"80", OPTION_VAL_80_DA}, {"90", OPTION_VAL_90_DA}, {"100", OPTION_VAL_100_DA}, {"110", OPTION_VAL_110_DA},
+      {"120", OPTION_VAL_120_DA}, {"130", OPTION_VAL_130_DA}, {"140", OPTION_VAL_140_DA}, {"150", OPTION_VAL_150_DA}, {"160", OPTION_VAL_160_DA}, {"170", OPTION_VAL_170_DA},
+      {"180", OPTION_VAL_180_DA}, {"190", OPTION_VAL_190_DA}, {"200", OPTION_VAL_200_DA}, {NULL, NULL}},
+     "100"},
+    {"linuxloader_crosshair", LINUXLOADER_CROSSHAIR_LABEL_DA, NULL,
+     LINUXLOADER_CROSSHAIR_INFO_0_DA,
+     NULL, "input",
+     {{"enabled", NULL}, {"disabled", NULL}, {NULL, NULL}},
+     "enabled"},
+    {"linuxloader_ffb_rumble", LINUXLOADER_FFB_RUMBLE_LABEL_DA, NULL,
+     LINUXLOADER_FFB_RUMBLE_INFO_0_DA,
+     NULL, "input",
+     {{"enabled", NULL}, {"disabled", NULL}, {NULL, NULL}},
+     "enabled"},
+    {"linuxloader_steering", LINUXLOADER_STEERING_LABEL_DA, NULL,
+     LINUXLOADER_STEERING_INFO_0_DA,
+     NULL, "input",
+     {{"linear", OPTION_VAL_LINEAR_DA}, {"logarithmic", OPTION_VAL_LOGARITHMIC_DA}, {NULL, NULL}},
+     "linear"},
+    {"linuxloader_steering_inner", LINUXLOADER_STEERING_INNER_LABEL_DA, NULL,
+     LINUXLOADER_STEERING_INNER_INFO_0_DA,
+     NULL, "input",
+     {{"5", OPTION_VAL_5_DA}, {"10", OPTION_VAL_10_DA}, {"15", OPTION_VAL_15_DA}, {"20", OPTION_VAL_20_DA}, {"25", OPTION_VAL_25_DA}, {"30", OPTION_VAL_30_DA}, {"35", OPTION_VAL_35_DA}, {"40", OPTION_VAL_40_DA}, {"45", OPTION_VAL_45_DA}, {"50", OPTION_VAL_50_DA}, {NULL, NULL}},
+     "25"},
+    {"linuxloader_steering_effect", LINUXLOADER_STEERING_EFFECT_LABEL_DA, NULL,
+     LINUXLOADER_STEERING_EFFECT_INFO_0_DA,
+     NULL, "input",
+     {{"cubic", OPTION_VAL_CUBIC_DA}, {"square", OPTION_VAL_SQUARE_DA}, {NULL, NULL}},
+     "cubic"},
+    {"linuxloader_audio_thread", LINUXLOADER_AUDIO_THREAD_LABEL_DA, NULL,
+     LINUXLOADER_AUDIO_THREAD_INFO_0_DA,
+     NULL, "audio",
+     {{"enabled", NULL}, {"disabled", NULL}, {NULL, NULL}},
+     "enabled"},
+    {"linuxloader_debug_freeplay", LINUXLOADER_DEBUG_FREEPLAY_LABEL_DA, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_DA}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_test_mode", LINUXLOADER_DEBUG_TEST_MODE_LABEL_DA, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_emulate_driveboard", LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_LABEL_DA, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_DA}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_motionboard", LINUXLOADER_DEBUG_EMULATE_MOTIONBOARD_LABEL_DA, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_DA}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_rideboard", LINUXLOADER_DEBUG_EMULATE_RIDEBOARD_LABEL_DA, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_DA}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_hw210_cardreader", LINUXLOADER_DEBUG_EMULATE_HW210_CARDREADER_LABEL_DA, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_DA}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_id_cardreader", LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_DA, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_DA}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_touchscreen", LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_DA, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_DA}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_region", LINUXLOADER_DEBUG_REGION_LABEL_DA, NULL, NULL, NULL, "debug",
+     {{"JP", OPTION_VAL_JP_DA}, {"US", OPTION_VAL_US_DA}, {"EX", OPTION_VAL_EX_DA}, {NULL, NULL}},
+     "EX"},
+    {"linuxloader_debug_lindbergh_colour", LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_DA, NULL, NULL, NULL, "debug",
+     {{"YELLOW", OPTION_VAL_YELLOW_DA}, {"RED", OPTION_VAL_RED_DA}, {"BLUE", OPTION_VAL_BLUE_DA}, {"SILVER", OPTION_VAL_SILVER_DA}, {"REDEX", OPTION_VAL_REDEX_DA}, {NULL, NULL}},
+     "YELLOW"},
+    {"linuxloader_debug_debug_msgs", LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_DA, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_boost_render_res", LINUXLOADER_DEBUG_BOOST_RENDER_RES_LABEL_DA, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_hummer_flicker_fix", LINUXLOADER_DEBUG_HUMMER_FLICKER_FIX_LABEL_DA, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_lgj_render_with_mesa", LINUXLOADER_DEBUG_LGJ_RENDER_WITH_MESA_LABEL_DA, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_disable_builtin_font", LINUXLOADER_DEBUG_DISABLE_BUILTIN_FONT_LABEL_DA, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_disable_builtin_logos", LINUXLOADER_DEBUG_DISABLE_BUILTIN_LOGOS_LABEL_DA, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_cpu_freq_ghz", LINUXLOADER_DEBUG_CPU_FREQ_GHZ_LABEL_DA, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_CPU_FREQ_GHZ_DA}, {"1.0", OPTION_VAL_1_0_DA}, {"1.5", OPTION_VAL_1_5_DA}, {"2.0", OPTION_VAL_2_0_DA}, {"2.5", OPTION_VAL_2_5_DA}, {"3.0", OPTION_VAL_3_0_DA}, {"3.5", OPTION_VAL_3_5_DA}, {"4.0", OPTION_VAL_4_0_DA}, {"4.5", OPTION_VAL_4_5_DA}, {"5.0", OPTION_VAL_5_0_DA}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_skip_outrun_cabinet_check", LINUXLOADER_DEBUG_SKIP_OUTRUN_CABINET_CHECK_LABEL_DA, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_id_steering_reduction_percentage", LINUXLOADER_DEBUG_ID_STEERING_REDUCTION_PERCENTAGE_LABEL_DA, NULL, NULL, NULL, "debug",
+     {{"0", OPTION_VAL_0_DA}, {"5", OPTION_VAL_5_DA}, {"10", OPTION_VAL_10_DA}, {"15", OPTION_VAL_15_DA}, {"20", OPTION_VAL_20_DA}, {"25", OPTION_VAL_25_DA}, {"30", OPTION_VAL_30_DA}, {"35", OPTION_VAL_35_DA}, {"40", OPTION_VAL_40_DA}, {"45", OPTION_VAL_45_DA}, {"50", OPTION_VAL_50_DA}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_id5_chinese_language", LINUXLOADER_DEBUG_ID5_CHINESE_LANGUAGE_LABEL_DA, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_harley_analog_remap", LINUXLOADER_DEBUG_HARLEY_ANALOG_REMAP_LABEL_DA, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_mj4_enabled_all_the_time", LINUXLOADER_DEBUG_MJ4_ENABLED_ALL_THE_TIME_LABEL_DA, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_rambo_guns_switch", LINUXLOADER_DEBUG_RAMBO_GUNS_SWITCH_LABEL_DA, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_primeval_hunt_screen_mode", LINUXLOADER_DEBUG_PRIMEVAL_HUNT_SCREEN_MODE_LABEL_DA, NULL, NULL, NULL, "debug",
+     /* "1" itself, not the loader's default: with the key left out, Primeval Hunt opened on two screens (NNshi) */
+     {{"0", "0"}, {"1", "1"}, {"2", "2"}, {"3", "3"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_primeval_hunt_test_screen_single", LINUXLOADER_DEBUG_PRIMEVAL_HUNT_TEST_SCREEN_SINGLE_LABEL_DA, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_id_cardfile_autoload", LINUXLOADER_DEBUG_ID_CARDFILE_AUTOLOAD_LABEL_DA, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_enable_crosshairs", LINUXLOADER_DEBUG_ENABLE_CROSSHAIRS_LABEL_DA, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_gsevo_crosshair_always_on", LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_ON_LABEL_DA, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_gsevo_crosshair_always_off", LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_OFF_LABEL_DA, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_enable_network_patches", LINUXLOADER_DEBUG_ENABLE_NETWORK_PATCHES_LABEL_DA, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    /* The core's own (eepromSettings.c): After Burner Climax does not start
+     * on a Deluxe cabinet with motion on, which it is out of the box, so on
+     * by default (NNshi) */
+    {"linuxloader_debug_aburner_motion_off", LINUXLOADER_DEBUG_ABURNER_MOTION_OFF_LABEL_DA, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {NULL, NULL, NULL, NULL, NULL, NULL, {{NULL, NULL}}, NULL},
+};
+struct retro_core_options_v2 options_da = {
+   option_cats_da,
+   option_defs_da
+};
+
 /* RETRO_LANGUAGE_DE */
 
 #define CATEGORY_VIDEO_LABEL_DE NULL
 #define CATEGORY_VIDEO_INFO_0_DE NULL
-#define CATEGORY_INPUT_LABEL_DE NULL
+#define CATEGORY_INPUT_LABEL_DE "Eingabe"
 #define CATEGORY_INPUT_INFO_0_DE NULL
 #define CATEGORY_AUDIO_LABEL_DE NULL
 #define CATEGORY_AUDIO_INFO_0_DE NULL
@@ -2086,62 +2959,62 @@ struct retro_core_options_v2 options_cs = {
 #define CATEGORY_DEBUG_INFO_0_DE NULL
 #define LINUXLOADER_RESOLUTION_LABEL_DE NULL
 #define LINUXLOADER_RESOLUTION_INFO_0_DE NULL
-#define OPTION_VAL_NATIVE_DE NULL
-#define OPTION_VAL_1280X720_DE NULL
-#define OPTION_VAL_1920X1080_DE NULL
-#define OPTION_VAL_2560X1440_DE NULL
-#define OPTION_VAL_3840X2160_DE NULL
-#define OPTION_VAL_5120X2880_DE NULL
-#define LINUXLOADER_FORCE_WIDESCREEN_LABEL_DE NULL
+#define OPTION_VAL_NATIVE_DE "Nativ"
+#define OPTION_VAL_1280X720_DE "1280 x 720"
+#define OPTION_VAL_1920X1080_DE "1920 x 1080"
+#define OPTION_VAL_2560X1440_DE "2560 x 1440"
+#define OPTION_VAL_3840X2160_DE "3840 x 2160"
+#define OPTION_VAL_5120X2880_DE "5120 × 2880"
+#define LINUXLOADER_FORCE_WIDESCREEN_LABEL_DE "16:9 erzwingen (Neustart)"
 #define LINUXLOADER_FORCE_WIDESCREEN_INFO_0_DE NULL
-#define LINUXLOADER_TEST_BUTTONS_LABEL_DE NULL
-#define LINUXLOADER_TEST_BUTTONS_INFO_0_DE NULL
-#define LINUXLOADER_GUN_AIM_LABEL_DE NULL
+#define LINUXLOADER_TEST_BUTTONS_LABEL_DE "Service- und Testtasten"
+#define LINUXLOADER_TEST_BUTTONS_INFO_0_DE "L3 als Servicetaste und R3 als Testtaste des Spielautomaten auf beiden Controllern verwenden. Bei „Deaktiviert“ werden versehentliche Eingaben verhindert. Die Tasten S und T auf der Tastatur bleiben weiterhin verfügbar."
+#define LINUXLOADER_GUN_AIM_LABEL_DE "Zielpunkt der Lightgun"
 #define LINUXLOADER_GUN_AIM_INFO_0_DE NULL
-#define OPTION_VAL_STICK_DE NULL
-#define OPTION_VAL_MOUSE_DE NULL
+#define OPTION_VAL_STICK_DE "Analogstick"
+#define OPTION_VAL_MOUSE_DE "Maus"
 #define LINUXLOADER_GUN_SENSITIVITY_LABEL_DE NULL
 #define LINUXLOADER_GUN_SENSITIVITY_INFO_0_DE NULL
-#define OPTION_VAL_50_DE NULL
-#define OPTION_VAL_60_DE NULL
-#define OPTION_VAL_70_DE NULL
-#define OPTION_VAL_80_DE NULL
-#define OPTION_VAL_90_DE NULL
-#define OPTION_VAL_100_DE NULL
-#define OPTION_VAL_110_DE NULL
-#define OPTION_VAL_120_DE NULL
-#define OPTION_VAL_130_DE NULL
-#define OPTION_VAL_140_DE NULL
-#define OPTION_VAL_150_DE NULL
-#define OPTION_VAL_160_DE NULL
-#define OPTION_VAL_170_DE NULL
-#define OPTION_VAL_180_DE NULL
-#define OPTION_VAL_190_DE NULL
-#define OPTION_VAL_200_DE NULL
-#define LINUXLOADER_CROSSHAIR_LABEL_DE NULL
+#define OPTION_VAL_50_DE "50 %"
+#define OPTION_VAL_60_DE "60 %"
+#define OPTION_VAL_70_DE "70 %"
+#define OPTION_VAL_80_DE "80 %"
+#define OPTION_VAL_90_DE "90 %"
+#define OPTION_VAL_100_DE "100 %"
+#define OPTION_VAL_110_DE "110 %"
+#define OPTION_VAL_120_DE "120 %"
+#define OPTION_VAL_130_DE "130 %"
+#define OPTION_VAL_140_DE "140 %"
+#define OPTION_VAL_150_DE "150 %"
+#define OPTION_VAL_160_DE "160 %"
+#define OPTION_VAL_170_DE "170 %"
+#define OPTION_VAL_180_DE "180 %"
+#define OPTION_VAL_190_DE "190 %"
+#define OPTION_VAL_200_DE "200 %"
+#define LINUXLOADER_CROSSHAIR_LABEL_DE "Fadenkreuz"
 #define LINUXLOADER_CROSSHAIR_INFO_0_DE NULL
 #define LINUXLOADER_FFB_RUMBLE_LABEL_DE NULL
 #define LINUXLOADER_FFB_RUMBLE_INFO_0_DE NULL
 #define LINUXLOADER_STEERING_LABEL_DE NULL
 #define LINUXLOADER_STEERING_INFO_0_DE NULL
 #define OPTION_VAL_LINEAR_DE NULL
-#define OPTION_VAL_LOGARITHMIC_DE NULL
+#define OPTION_VAL_LOGARITHMIC_DE "Logarithmisch"
 #define LINUXLOADER_STEERING_INNER_LABEL_DE NULL
 #define LINUXLOADER_STEERING_INNER_INFO_0_DE NULL
-#define OPTION_VAL_5_DE NULL
-#define OPTION_VAL_10_DE NULL
-#define OPTION_VAL_15_DE NULL
-#define OPTION_VAL_20_DE NULL
-#define OPTION_VAL_25_DE NULL
-#define OPTION_VAL_30_DE NULL
-#define OPTION_VAL_35_DE NULL
-#define OPTION_VAL_40_DE NULL
-#define OPTION_VAL_45_DE NULL
+#define OPTION_VAL_5_DE "5 %"
+#define OPTION_VAL_10_DE "10 %"
+#define OPTION_VAL_15_DE "15 %"
+#define OPTION_VAL_20_DE "20 %"
+#define OPTION_VAL_25_DE "25 %"
+#define OPTION_VAL_30_DE "30 %"
+#define OPTION_VAL_35_DE "35 %"
+#define OPTION_VAL_40_DE "40 %"
+#define OPTION_VAL_45_DE "45 %"
 #define LINUXLOADER_STEERING_EFFECT_LABEL_DE NULL
 #define LINUXLOADER_STEERING_EFFECT_INFO_0_DE NULL
 #define OPTION_VAL_CUBIC_DE NULL
 #define OPTION_VAL_SQUARE_DE NULL
-#define LINUXLOADER_AUDIO_THREAD_LABEL_DE NULL
+#define LINUXLOADER_AUDIO_THREAD_LABEL_DE "Audiothread (Neustart)"
 #define LINUXLOADER_AUDIO_THREAD_INFO_0_DE NULL
 #define LINUXLOADER_DEBUG_FREEPLAY_LABEL_DE NULL
 #define OPTION_VAL_DEFAULT_DE NULL
@@ -2158,10 +3031,10 @@ struct retro_core_options_v2 options_cs = {
 #define OPTION_VAL_US_DE NULL
 #define OPTION_VAL_EX_DE NULL
 #define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_DE NULL
-#define OPTION_VAL_YELLOW_DE NULL
-#define OPTION_VAL_RED_DE NULL
-#define OPTION_VAL_BLUE_DE NULL
-#define OPTION_VAL_SILVER_DE NULL
+#define OPTION_VAL_YELLOW_DE "Gelb"
+#define OPTION_VAL_RED_DE "Rot"
+#define OPTION_VAL_BLUE_DE "Blau"
+#define OPTION_VAL_SILVER_DE "Silber"
 #define OPTION_VAL_REDEX_DE NULL
 #define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_DE NULL
 #define LINUXLOADER_DEBUG_BOOST_RENDER_RES_LABEL_DE NULL
@@ -2182,7 +3055,7 @@ struct retro_core_options_v2 options_cs = {
 #define OPTION_VAL_5_0_DE NULL
 #define LINUXLOADER_DEBUG_SKIP_OUTRUN_CABINET_CHECK_LABEL_DE NULL
 #define LINUXLOADER_DEBUG_ID_STEERING_REDUCTION_PERCENTAGE_LABEL_DE NULL
-#define OPTION_VAL_0_DE NULL
+#define OPTION_VAL_0_DE "0 %"
 #define LINUXLOADER_DEBUG_ID5_CHINESE_LANGUAGE_LABEL_DE NULL
 #define LINUXLOADER_DEBUG_HARLEY_ANALOG_REMAP_LABEL_DE NULL
 #define LINUXLOADER_DEBUG_MJ4_ENABLED_ALL_THE_TIME_LABEL_DE NULL
@@ -2367,17 +3240,17 @@ struct retro_core_options_v2 options_de = {
 
 /* RETRO_LANGUAGE_EL */
 
-#define CATEGORY_VIDEO_LABEL_EL NULL
+#define CATEGORY_VIDEO_LABEL_EL "Βίντεο"
 #define CATEGORY_VIDEO_INFO_0_EL NULL
-#define CATEGORY_INPUT_LABEL_EL NULL
+#define CATEGORY_INPUT_LABEL_EL "Εισαγωγή"
 #define CATEGORY_INPUT_INFO_0_EL NULL
-#define CATEGORY_AUDIO_LABEL_EL NULL
+#define CATEGORY_AUDIO_LABEL_EL "Ήχος"
 #define CATEGORY_AUDIO_INFO_0_EL NULL
 #define CATEGORY_DEBUG_LABEL_EL NULL
 #define CATEGORY_DEBUG_INFO_0_EL NULL
 #define LINUXLOADER_RESOLUTION_LABEL_EL NULL
 #define LINUXLOADER_RESOLUTION_INFO_0_EL NULL
-#define OPTION_VAL_NATIVE_EL NULL
+#define OPTION_VAL_NATIVE_EL "Ντόπιος"
 #define OPTION_VAL_1280X720_EL NULL
 #define OPTION_VAL_1920X1080_EL NULL
 #define OPTION_VAL_2560X1440_EL NULL
@@ -2396,7 +3269,7 @@ struct retro_core_options_v2 options_de = {
 #define OPTION_VAL_50_EL NULL
 #define OPTION_VAL_60_EL NULL
 #define OPTION_VAL_70_EL NULL
-#define OPTION_VAL_80_EL NULL
+#define OPTION_VAL_80_EL "το 80%"
 #define OPTION_VAL_90_EL NULL
 #define OPTION_VAL_100_EL NULL
 #define OPTION_VAL_110_EL NULL
@@ -2415,7 +3288,7 @@ struct retro_core_options_v2 options_de = {
 #define LINUXLOADER_FFB_RUMBLE_INFO_0_EL NULL
 #define LINUXLOADER_STEERING_LABEL_EL NULL
 #define LINUXLOADER_STEERING_INFO_0_EL NULL
-#define OPTION_VAL_LINEAR_EL NULL
+#define OPTION_VAL_LINEAR_EL "Γραμμικός"
 #define OPTION_VAL_LOGARITHMIC_EL NULL
 #define LINUXLOADER_STEERING_INNER_LABEL_EL NULL
 #define LINUXLOADER_STEERING_INNER_INFO_0_EL NULL
@@ -2449,9 +3322,9 @@ struct retro_core_options_v2 options_de = {
 #define OPTION_VAL_US_EL NULL
 #define OPTION_VAL_EX_EL NULL
 #define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_EL NULL
-#define OPTION_VAL_YELLOW_EL NULL
-#define OPTION_VAL_RED_EL NULL
-#define OPTION_VAL_BLUE_EL NULL
+#define OPTION_VAL_YELLOW_EL "Κίτρινο"
+#define OPTION_VAL_RED_EL "Κόκκινο"
+#define OPTION_VAL_BLUE_EL "Μπλε"
 #define OPTION_VAL_SILVER_EL NULL
 #define OPTION_VAL_REDEX_EL NULL
 #define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_EL NULL
@@ -2951,15 +3824,15 @@ struct retro_core_options_v2 options_en = {
 
 #define CATEGORY_VIDEO_LABEL_EO NULL
 #define CATEGORY_VIDEO_INFO_0_EO NULL
-#define CATEGORY_INPUT_LABEL_EO NULL
+#define CATEGORY_INPUT_LABEL_EO "Enigo"
 #define CATEGORY_INPUT_INFO_0_EO NULL
-#define CATEGORY_AUDIO_LABEL_EO NULL
+#define CATEGORY_AUDIO_LABEL_EO "Sono"
 #define CATEGORY_AUDIO_INFO_0_EO NULL
 #define CATEGORY_DEBUG_LABEL_EO NULL
 #define CATEGORY_DEBUG_INFO_0_EO NULL
 #define LINUXLOADER_RESOLUTION_LABEL_EO NULL
 #define LINUXLOADER_RESOLUTION_INFO_0_EO NULL
-#define OPTION_VAL_NATIVE_EO NULL
+#define OPTION_VAL_NATIVE_EO "Indiĝena"
 #define OPTION_VAL_1280X720_EO NULL
 #define OPTION_VAL_1920X1080_EO NULL
 #define OPTION_VAL_2560X1440_EO NULL
@@ -2972,7 +3845,7 @@ struct retro_core_options_v2 options_en = {
 #define LINUXLOADER_GUN_AIM_LABEL_EO NULL
 #define LINUXLOADER_GUN_AIM_INFO_0_EO NULL
 #define OPTION_VAL_STICK_EO NULL
-#define OPTION_VAL_MOUSE_EO NULL
+#define OPTION_VAL_MOUSE_EO "Muso"
 #define LINUXLOADER_GUN_SENSITIVITY_LABEL_EO NULL
 #define LINUXLOADER_GUN_SENSITIVITY_INFO_0_EO NULL
 #define OPTION_VAL_50_EO NULL
@@ -2997,7 +3870,7 @@ struct retro_core_options_v2 options_en = {
 #define LINUXLOADER_FFB_RUMBLE_INFO_0_EO NULL
 #define LINUXLOADER_STEERING_LABEL_EO NULL
 #define LINUXLOADER_STEERING_INFO_0_EO NULL
-#define OPTION_VAL_LINEAR_EO NULL
+#define OPTION_VAL_LINEAR_EO "Lineara"
 #define OPTION_VAL_LOGARITHMIC_EO NULL
 #define LINUXLOADER_STEERING_INNER_LABEL_EO NULL
 #define LINUXLOADER_STEERING_INNER_INFO_0_EO NULL
@@ -3027,13 +3900,13 @@ struct retro_core_options_v2 options_en = {
 #define LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_EO NULL
 #define LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_EO NULL
 #define LINUXLOADER_DEBUG_REGION_LABEL_EO NULL
-#define OPTION_VAL_JP_EO NULL
+#define OPTION_VAL_JP_EO "Japanio"
 #define OPTION_VAL_US_EO NULL
 #define OPTION_VAL_EX_EO NULL
 #define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_EO NULL
-#define OPTION_VAL_YELLOW_EO NULL
-#define OPTION_VAL_RED_EO NULL
-#define OPTION_VAL_BLUE_EO NULL
+#define OPTION_VAL_YELLOW_EO "Flava"
+#define OPTION_VAL_RED_EO "Ruĝa"
+#define OPTION_VAL_BLUE_EO "Blua"
 #define OPTION_VAL_SILVER_EO NULL
 #define OPTION_VAL_REDEX_EO NULL
 #define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_EO NULL
@@ -3240,9 +4113,9 @@ struct retro_core_options_v2 options_eo = {
 
 /* RETRO_LANGUAGE_ES */
 
-#define CATEGORY_VIDEO_LABEL_ES NULL
+#define CATEGORY_VIDEO_LABEL_ES "Vídeo"
 #define CATEGORY_VIDEO_INFO_0_ES NULL
-#define CATEGORY_INPUT_LABEL_ES NULL
+#define CATEGORY_INPUT_LABEL_ES "Entrada"
 #define CATEGORY_INPUT_INFO_0_ES NULL
 #define CATEGORY_AUDIO_LABEL_ES NULL
 #define CATEGORY_AUDIO_INFO_0_ES NULL
@@ -3250,11 +4123,11 @@ struct retro_core_options_v2 options_eo = {
 #define CATEGORY_DEBUG_INFO_0_ES NULL
 #define LINUXLOADER_RESOLUTION_LABEL_ES NULL
 #define LINUXLOADER_RESOLUTION_INFO_0_ES NULL
-#define OPTION_VAL_NATIVE_ES NULL
-#define OPTION_VAL_1280X720_ES NULL
-#define OPTION_VAL_1920X1080_ES NULL
-#define OPTION_VAL_2560X1440_ES NULL
-#define OPTION_VAL_3840X2160_ES NULL
+#define OPTION_VAL_NATIVE_ES "Nativa"
+#define OPTION_VAL_1280X720_ES "1280 × 720"
+#define OPTION_VAL_1920X1080_ES "1920 × 1080"
+#define OPTION_VAL_2560X1440_ES "2560 × 1440"
+#define OPTION_VAL_3840X2160_ES "3840 × 2160"
 #define OPTION_VAL_5120X2880_ES NULL
 #define LINUXLOADER_FORCE_WIDESCREEN_LABEL_ES NULL
 #define LINUXLOADER_FORCE_WIDESCREEN_INFO_0_ES NULL
@@ -3262,50 +4135,50 @@ struct retro_core_options_v2 options_eo = {
 #define LINUXLOADER_TEST_BUTTONS_INFO_0_ES NULL
 #define LINUXLOADER_GUN_AIM_LABEL_ES NULL
 #define LINUXLOADER_GUN_AIM_INFO_0_ES NULL
-#define OPTION_VAL_STICK_ES NULL
-#define OPTION_VAL_MOUSE_ES NULL
+#define OPTION_VAL_STICK_ES "Stick analógico"
+#define OPTION_VAL_MOUSE_ES "Ratón"
 #define LINUXLOADER_GUN_SENSITIVITY_LABEL_ES NULL
 #define LINUXLOADER_GUN_SENSITIVITY_INFO_0_ES NULL
-#define OPTION_VAL_50_ES NULL
-#define OPTION_VAL_60_ES NULL
-#define OPTION_VAL_70_ES NULL
-#define OPTION_VAL_80_ES NULL
-#define OPTION_VAL_90_ES NULL
-#define OPTION_VAL_100_ES NULL
-#define OPTION_VAL_110_ES NULL
-#define OPTION_VAL_120_ES NULL
-#define OPTION_VAL_130_ES NULL
-#define OPTION_VAL_140_ES NULL
-#define OPTION_VAL_150_ES NULL
-#define OPTION_VAL_160_ES NULL
-#define OPTION_VAL_170_ES NULL
-#define OPTION_VAL_180_ES NULL
-#define OPTION_VAL_190_ES NULL
-#define OPTION_VAL_200_ES NULL
-#define LINUXLOADER_CROSSHAIR_LABEL_ES NULL
+#define OPTION_VAL_50_ES "50 %"
+#define OPTION_VAL_60_ES "60 %"
+#define OPTION_VAL_70_ES "70 %"
+#define OPTION_VAL_80_ES "80 %"
+#define OPTION_VAL_90_ES "90 %"
+#define OPTION_VAL_100_ES "100 %"
+#define OPTION_VAL_110_ES "110 %"
+#define OPTION_VAL_120_ES "120 %"
+#define OPTION_VAL_130_ES "130 %"
+#define OPTION_VAL_140_ES "140 %"
+#define OPTION_VAL_150_ES "150 %"
+#define OPTION_VAL_160_ES "160 %"
+#define OPTION_VAL_170_ES "170 %"
+#define OPTION_VAL_180_ES "180 %"
+#define OPTION_VAL_190_ES "190 %"
+#define OPTION_VAL_200_ES "200 %"
+#define LINUXLOADER_CROSSHAIR_LABEL_ES "Punto de mira"
 #define LINUXLOADER_CROSSHAIR_INFO_0_ES NULL
 #define LINUXLOADER_FFB_RUMBLE_LABEL_ES NULL
 #define LINUXLOADER_FFB_RUMBLE_INFO_0_ES NULL
-#define LINUXLOADER_STEERING_LABEL_ES NULL
+#define LINUXLOADER_STEERING_LABEL_ES "Respuesta de dirección de volante"
 #define LINUXLOADER_STEERING_INFO_0_ES NULL
-#define OPTION_VAL_LINEAR_ES NULL
-#define OPTION_VAL_LOGARITHMIC_ES NULL
-#define LINUXLOADER_STEERING_INNER_LABEL_ES NULL
+#define OPTION_VAL_LINEAR_ES "Lineal"
+#define OPTION_VAL_LOGARITHMIC_ES "Logarítmica"
+#define LINUXLOADER_STEERING_INNER_LABEL_ES "Zona interior de dirección de volante"
 #define LINUXLOADER_STEERING_INNER_INFO_0_ES NULL
-#define OPTION_VAL_5_ES NULL
-#define OPTION_VAL_10_ES NULL
-#define OPTION_VAL_15_ES NULL
-#define OPTION_VAL_20_ES NULL
-#define OPTION_VAL_25_ES NULL
-#define OPTION_VAL_30_ES NULL
-#define OPTION_VAL_35_ES NULL
-#define OPTION_VAL_40_ES NULL
-#define OPTION_VAL_45_ES NULL
-#define LINUXLOADER_STEERING_EFFECT_LABEL_ES NULL
+#define OPTION_VAL_5_ES "5 %"
+#define OPTION_VAL_10_ES "10 %"
+#define OPTION_VAL_15_ES "15 %"
+#define OPTION_VAL_20_ES "20 %"
+#define OPTION_VAL_25_ES "25 %"
+#define OPTION_VAL_30_ES "30 %"
+#define OPTION_VAL_35_ES "35 %"
+#define OPTION_VAL_40_ES "40 %"
+#define OPTION_VAL_45_ES "45 %"
+#define LINUXLOADER_STEERING_EFFECT_LABEL_ES "Efecto de dirección de volante"
 #define LINUXLOADER_STEERING_EFFECT_INFO_0_ES NULL
-#define OPTION_VAL_CUBIC_ES NULL
-#define OPTION_VAL_SQUARE_ES NULL
-#define LINUXLOADER_AUDIO_THREAD_LABEL_ES NULL
+#define OPTION_VAL_CUBIC_ES "Cúbico (fuerte)"
+#define OPTION_VAL_SQUARE_ES "Cuadrado (débil)"
+#define LINUXLOADER_AUDIO_THREAD_LABEL_ES "Hilo para audio (es necesario reiniciar)"
 #define LINUXLOADER_AUDIO_THREAD_INFO_0_ES NULL
 #define LINUXLOADER_DEBUG_FREEPLAY_LABEL_ES NULL
 #define OPTION_VAL_DEFAULT_ES NULL
@@ -3318,14 +4191,14 @@ struct retro_core_options_v2 options_eo = {
 #define LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_ES NULL
 #define LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_ES NULL
 #define LINUXLOADER_DEBUG_REGION_LABEL_ES NULL
-#define OPTION_VAL_JP_ES NULL
+#define OPTION_VAL_JP_ES "Japón"
 #define OPTION_VAL_US_ES NULL
 #define OPTION_VAL_EX_ES NULL
 #define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_ES NULL
-#define OPTION_VAL_YELLOW_ES NULL
-#define OPTION_VAL_RED_ES NULL
-#define OPTION_VAL_BLUE_ES NULL
-#define OPTION_VAL_SILVER_ES NULL
+#define OPTION_VAL_YELLOW_ES "Amarillo"
+#define OPTION_VAL_RED_ES "Rojo"
+#define OPTION_VAL_BLUE_ES "Azul"
+#define OPTION_VAL_SILVER_ES "Plata"
 #define OPTION_VAL_REDEX_ES NULL
 #define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_ES NULL
 #define LINUXLOADER_DEBUG_BOOST_RENDER_RES_LABEL_ES NULL
@@ -3346,7 +4219,7 @@ struct retro_core_options_v2 options_eo = {
 #define OPTION_VAL_5_0_ES NULL
 #define LINUXLOADER_DEBUG_SKIP_OUTRUN_CABINET_CHECK_LABEL_ES NULL
 #define LINUXLOADER_DEBUG_ID_STEERING_REDUCTION_PERCENTAGE_LABEL_ES NULL
-#define OPTION_VAL_0_ES NULL
+#define OPTION_VAL_0_ES "0 %"
 #define LINUXLOADER_DEBUG_ID5_CHINESE_LANGUAGE_LABEL_ES NULL
 #define LINUXLOADER_DEBUG_HARLEY_ANALOG_REMAP_LABEL_ES NULL
 #define LINUXLOADER_DEBUG_MJ4_ENABLED_ALL_THE_TIME_LABEL_ES NULL
@@ -3531,21 +4404,21 @@ struct retro_core_options_v2 options_es = {
 
 /* RETRO_LANGUAGE_FA */
 
-#define CATEGORY_VIDEO_LABEL_FA NULL
+#define CATEGORY_VIDEO_LABEL_FA "ویدیو"
 #define CATEGORY_VIDEO_INFO_0_FA NULL
-#define CATEGORY_INPUT_LABEL_FA NULL
+#define CATEGORY_INPUT_LABEL_FA "ورودی"
 #define CATEGORY_INPUT_INFO_0_FA NULL
-#define CATEGORY_AUDIO_LABEL_FA NULL
+#define CATEGORY_AUDIO_LABEL_FA "صدا"
 #define CATEGORY_AUDIO_INFO_0_FA NULL
 #define CATEGORY_DEBUG_LABEL_FA NULL
 #define CATEGORY_DEBUG_INFO_0_FA NULL
 #define LINUXLOADER_RESOLUTION_LABEL_FA NULL
 #define LINUXLOADER_RESOLUTION_INFO_0_FA NULL
 #define OPTION_VAL_NATIVE_FA NULL
-#define OPTION_VAL_1280X720_FA NULL
-#define OPTION_VAL_1920X1080_FA NULL
-#define OPTION_VAL_2560X1440_FA NULL
-#define OPTION_VAL_3840X2160_FA NULL
+#define OPTION_VAL_1280X720_FA "۱۲۸۰x۷۲۰"
+#define OPTION_VAL_1920X1080_FA "۱۹۲۰x۱۰۸۰"
+#define OPTION_VAL_2560X1440_FA "۲۵۶۰x۱۴۴۰"
+#define OPTION_VAL_3840X2160_FA "۳۸۴۰x۲۱۶۰"
 #define OPTION_VAL_5120X2880_FA NULL
 #define LINUXLOADER_FORCE_WIDESCREEN_LABEL_FA NULL
 #define LINUXLOADER_FORCE_WIDESCREEN_INFO_0_FA NULL
@@ -3824,19 +4697,19 @@ struct retro_core_options_v2 options_fa = {
 
 #define CATEGORY_VIDEO_LABEL_FI NULL
 #define CATEGORY_VIDEO_INFO_0_FI NULL
-#define CATEGORY_INPUT_LABEL_FI NULL
+#define CATEGORY_INPUT_LABEL_FI "Syöte"
 #define CATEGORY_INPUT_INFO_0_FI NULL
-#define CATEGORY_AUDIO_LABEL_FI NULL
+#define CATEGORY_AUDIO_LABEL_FI "Ääni"
 #define CATEGORY_AUDIO_INFO_0_FI NULL
 #define CATEGORY_DEBUG_LABEL_FI NULL
 #define CATEGORY_DEBUG_INFO_0_FI NULL
 #define LINUXLOADER_RESOLUTION_LABEL_FI NULL
 #define LINUXLOADER_RESOLUTION_INFO_0_FI NULL
-#define OPTION_VAL_NATIVE_FI NULL
-#define OPTION_VAL_1280X720_FI NULL
-#define OPTION_VAL_1920X1080_FI NULL
-#define OPTION_VAL_2560X1440_FI NULL
-#define OPTION_VAL_3840X2160_FI NULL
+#define OPTION_VAL_NATIVE_FI "Natiivi"
+#define OPTION_VAL_1280X720_FI "1280 x 720"
+#define OPTION_VAL_1920X1080_FI "1920 x 1080"
+#define OPTION_VAL_2560X1440_FI "2560 x 1440"
+#define OPTION_VAL_3840X2160_FI "3840 x 2160"
 #define OPTION_VAL_5120X2880_FI NULL
 #define LINUXLOADER_FORCE_WIDESCREEN_LABEL_FI NULL
 #define LINUXLOADER_FORCE_WIDESCREEN_INFO_0_FI NULL
@@ -3845,43 +4718,43 @@ struct retro_core_options_v2 options_fa = {
 #define LINUXLOADER_GUN_AIM_LABEL_FI NULL
 #define LINUXLOADER_GUN_AIM_INFO_0_FI NULL
 #define OPTION_VAL_STICK_FI NULL
-#define OPTION_VAL_MOUSE_FI NULL
+#define OPTION_VAL_MOUSE_FI "Hiiri"
 #define LINUXLOADER_GUN_SENSITIVITY_LABEL_FI NULL
 #define LINUXLOADER_GUN_SENSITIVITY_INFO_0_FI NULL
-#define OPTION_VAL_50_FI NULL
-#define OPTION_VAL_60_FI NULL
-#define OPTION_VAL_70_FI NULL
-#define OPTION_VAL_80_FI NULL
-#define OPTION_VAL_90_FI NULL
-#define OPTION_VAL_100_FI NULL
-#define OPTION_VAL_110_FI NULL
-#define OPTION_VAL_120_FI NULL
-#define OPTION_VAL_130_FI NULL
-#define OPTION_VAL_140_FI NULL
-#define OPTION_VAL_150_FI NULL
-#define OPTION_VAL_160_FI NULL
-#define OPTION_VAL_170_FI NULL
-#define OPTION_VAL_180_FI NULL
-#define OPTION_VAL_190_FI NULL
-#define OPTION_VAL_200_FI NULL
+#define OPTION_VAL_50_FI "50 %"
+#define OPTION_VAL_60_FI "60 %"
+#define OPTION_VAL_70_FI "70 %"
+#define OPTION_VAL_80_FI "80 %"
+#define OPTION_VAL_90_FI "90 %"
+#define OPTION_VAL_100_FI "100 %"
+#define OPTION_VAL_110_FI "110 %"
+#define OPTION_VAL_120_FI "120 %"
+#define OPTION_VAL_130_FI "130 %"
+#define OPTION_VAL_140_FI "140 %"
+#define OPTION_VAL_150_FI "150 %"
+#define OPTION_VAL_160_FI "160 %"
+#define OPTION_VAL_170_FI "170 %"
+#define OPTION_VAL_180_FI "180 %"
+#define OPTION_VAL_190_FI "190 %"
+#define OPTION_VAL_200_FI "200 %"
 #define LINUXLOADER_CROSSHAIR_LABEL_FI NULL
 #define LINUXLOADER_CROSSHAIR_INFO_0_FI NULL
 #define LINUXLOADER_FFB_RUMBLE_LABEL_FI NULL
 #define LINUXLOADER_FFB_RUMBLE_INFO_0_FI NULL
 #define LINUXLOADER_STEERING_LABEL_FI NULL
 #define LINUXLOADER_STEERING_INFO_0_FI NULL
-#define OPTION_VAL_LINEAR_FI NULL
+#define OPTION_VAL_LINEAR_FI "Lineaarinen"
 #define OPTION_VAL_LOGARITHMIC_FI NULL
 #define LINUXLOADER_STEERING_INNER_LABEL_FI NULL
 #define LINUXLOADER_STEERING_INNER_INFO_0_FI NULL
 #define OPTION_VAL_5_FI NULL
 #define OPTION_VAL_10_FI NULL
-#define OPTION_VAL_15_FI NULL
-#define OPTION_VAL_20_FI NULL
+#define OPTION_VAL_15_FI "15 %"
+#define OPTION_VAL_20_FI "20 %"
 #define OPTION_VAL_25_FI NULL
-#define OPTION_VAL_30_FI NULL
-#define OPTION_VAL_35_FI NULL
-#define OPTION_VAL_40_FI NULL
+#define OPTION_VAL_30_FI "30 %"
+#define OPTION_VAL_35_FI "35 %"
+#define OPTION_VAL_40_FI "40 %"
 #define OPTION_VAL_45_FI NULL
 #define LINUXLOADER_STEERING_EFFECT_LABEL_FI NULL
 #define LINUXLOADER_STEERING_EFFECT_INFO_0_FI NULL
@@ -3904,9 +4777,9 @@ struct retro_core_options_v2 options_fa = {
 #define OPTION_VAL_US_FI NULL
 #define OPTION_VAL_EX_FI NULL
 #define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_FI NULL
-#define OPTION_VAL_YELLOW_FI NULL
-#define OPTION_VAL_RED_FI NULL
-#define OPTION_VAL_BLUE_FI NULL
+#define OPTION_VAL_YELLOW_FI "Keltainen"
+#define OPTION_VAL_RED_FI "Punainen"
+#define OPTION_VAL_BLUE_FI "Sininen"
 #define OPTION_VAL_SILVER_FI NULL
 #define OPTION_VAL_REDEX_FI NULL
 #define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_FI NULL
@@ -4113,21 +4986,21 @@ struct retro_core_options_v2 options_fi = {
 
 /* RETRO_LANGUAGE_FR */
 
-#define CATEGORY_VIDEO_LABEL_FR NULL
+#define CATEGORY_VIDEO_LABEL_FR "Vidéo"
 #define CATEGORY_VIDEO_INFO_0_FR NULL
-#define CATEGORY_INPUT_LABEL_FR NULL
+#define CATEGORY_INPUT_LABEL_FR "Entrées"
 #define CATEGORY_INPUT_INFO_0_FR NULL
-#define CATEGORY_AUDIO_LABEL_FR NULL
+#define CATEGORY_AUDIO_LABEL_FR "Audio "
 #define CATEGORY_AUDIO_INFO_0_FR NULL
 #define CATEGORY_DEBUG_LABEL_FR NULL
 #define CATEGORY_DEBUG_INFO_0_FR NULL
 #define LINUXLOADER_RESOLUTION_LABEL_FR NULL
 #define LINUXLOADER_RESOLUTION_INFO_0_FR NULL
 #define OPTION_VAL_NATIVE_FR NULL
-#define OPTION_VAL_1280X720_FR NULL
-#define OPTION_VAL_1920X1080_FR NULL
-#define OPTION_VAL_2560X1440_FR NULL
-#define OPTION_VAL_3840X2160_FR NULL
+#define OPTION_VAL_1280X720_FR "1280 x 720"
+#define OPTION_VAL_1920X1080_FR "1920 x 1080"
+#define OPTION_VAL_2560X1440_FR "2560 x 1440"
+#define OPTION_VAL_3840X2160_FR "3840 x 2160"
 #define OPTION_VAL_5120X2880_FR NULL
 #define LINUXLOADER_FORCE_WIDESCREEN_LABEL_FR NULL
 #define LINUXLOADER_FORCE_WIDESCREEN_INFO_0_FR NULL
@@ -4136,43 +5009,43 @@ struct retro_core_options_v2 options_fi = {
 #define LINUXLOADER_GUN_AIM_LABEL_FR NULL
 #define LINUXLOADER_GUN_AIM_INFO_0_FR NULL
 #define OPTION_VAL_STICK_FR NULL
-#define OPTION_VAL_MOUSE_FR NULL
+#define OPTION_VAL_MOUSE_FR "Souris"
 #define LINUXLOADER_GUN_SENSITIVITY_LABEL_FR NULL
 #define LINUXLOADER_GUN_SENSITIVITY_INFO_0_FR NULL
-#define OPTION_VAL_50_FR NULL
-#define OPTION_VAL_60_FR NULL
-#define OPTION_VAL_70_FR NULL
-#define OPTION_VAL_80_FR NULL
-#define OPTION_VAL_90_FR NULL
-#define OPTION_VAL_100_FR NULL
-#define OPTION_VAL_110_FR NULL
-#define OPTION_VAL_120_FR NULL
-#define OPTION_VAL_130_FR NULL
-#define OPTION_VAL_140_FR NULL
-#define OPTION_VAL_150_FR NULL
-#define OPTION_VAL_160_FR NULL
-#define OPTION_VAL_170_FR NULL
-#define OPTION_VAL_180_FR NULL
-#define OPTION_VAL_190_FR NULL
-#define OPTION_VAL_200_FR NULL
+#define OPTION_VAL_50_FR "50 %"
+#define OPTION_VAL_60_FR "60 %"
+#define OPTION_VAL_70_FR "70 %"
+#define OPTION_VAL_80_FR "80 %"
+#define OPTION_VAL_90_FR "90 %"
+#define OPTION_VAL_100_FR "100 %"
+#define OPTION_VAL_110_FR "110 %"
+#define OPTION_VAL_120_FR "120 %"
+#define OPTION_VAL_130_FR "130 %"
+#define OPTION_VAL_140_FR "140 %"
+#define OPTION_VAL_150_FR "150 %"
+#define OPTION_VAL_160_FR "160 %"
+#define OPTION_VAL_170_FR "170 %"
+#define OPTION_VAL_180_FR "180 %"
+#define OPTION_VAL_190_FR "190 %"
+#define OPTION_VAL_200_FR "200 %"
 #define LINUXLOADER_CROSSHAIR_LABEL_FR NULL
 #define LINUXLOADER_CROSSHAIR_INFO_0_FR NULL
 #define LINUXLOADER_FFB_RUMBLE_LABEL_FR NULL
 #define LINUXLOADER_FFB_RUMBLE_INFO_0_FR NULL
 #define LINUXLOADER_STEERING_LABEL_FR NULL
 #define LINUXLOADER_STEERING_INFO_0_FR NULL
-#define OPTION_VAL_LINEAR_FR NULL
+#define OPTION_VAL_LINEAR_FR "Linéaire"
 #define OPTION_VAL_LOGARITHMIC_FR NULL
 #define LINUXLOADER_STEERING_INNER_LABEL_FR NULL
 #define LINUXLOADER_STEERING_INNER_INFO_0_FR NULL
 #define OPTION_VAL_5_FR NULL
 #define OPTION_VAL_10_FR NULL
-#define OPTION_VAL_15_FR NULL
-#define OPTION_VAL_20_FR NULL
+#define OPTION_VAL_15_FR "15 %"
+#define OPTION_VAL_20_FR "20 %"
 #define OPTION_VAL_25_FR NULL
-#define OPTION_VAL_30_FR NULL
-#define OPTION_VAL_35_FR NULL
-#define OPTION_VAL_40_FR NULL
+#define OPTION_VAL_30_FR "30 %"
+#define OPTION_VAL_35_FR "35 %"
+#define OPTION_VAL_40_FR "40 %"
 #define OPTION_VAL_45_FR NULL
 #define LINUXLOADER_STEERING_EFFECT_LABEL_FR NULL
 #define LINUXLOADER_STEERING_EFFECT_INFO_0_FR NULL
@@ -4191,13 +5064,13 @@ struct retro_core_options_v2 options_fi = {
 #define LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_FR NULL
 #define LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_FR NULL
 #define LINUXLOADER_DEBUG_REGION_LABEL_FR NULL
-#define OPTION_VAL_JP_FR NULL
+#define OPTION_VAL_JP_FR "Japon"
 #define OPTION_VAL_US_FR NULL
 #define OPTION_VAL_EX_FR NULL
 #define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_FR NULL
-#define OPTION_VAL_YELLOW_FR NULL
-#define OPTION_VAL_RED_FR NULL
-#define OPTION_VAL_BLUE_FR NULL
+#define OPTION_VAL_YELLOW_FR "Jaune"
+#define OPTION_VAL_RED_FR "Rouge"
+#define OPTION_VAL_BLUE_FR "Bleu"
 #define OPTION_VAL_SILVER_FR NULL
 #define OPTION_VAL_REDEX_FR NULL
 #define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_FR NULL
@@ -4404,32 +5277,32 @@ struct retro_core_options_v2 options_fr = {
 
 /* RETRO_LANGUAGE_GA */
 
-#define CATEGORY_VIDEO_LABEL_GA NULL
-#define CATEGORY_VIDEO_INFO_0_GA NULL
-#define CATEGORY_INPUT_LABEL_GA NULL
-#define CATEGORY_INPUT_INFO_0_GA NULL
-#define CATEGORY_AUDIO_LABEL_GA NULL
-#define CATEGORY_AUDIO_INFO_0_GA NULL
-#define CATEGORY_DEBUG_LABEL_GA NULL
-#define CATEGORY_DEBUG_INFO_0_GA NULL
-#define LINUXLOADER_RESOLUTION_LABEL_GA NULL
-#define LINUXLOADER_RESOLUTION_INFO_0_GA NULL
-#define OPTION_VAL_NATIVE_GA NULL
+#define CATEGORY_VIDEO_LABEL_GA "Físeán"
+#define CATEGORY_VIDEO_INFO_0_GA "An taifeach a úsáideann na cluichí, agus scáileán leathan."
+#define CATEGORY_INPUT_LABEL_GA "Ionchur"
+#define CATEGORY_INPUT_INFO_0_GA "Na gunnaí, an stiúradh agus an aiseolas fórsa."
+#define CATEGORY_AUDIO_LABEL_GA "Fuaim"
+#define CATEGORY_AUDIO_INFO_0_GA "An chaoi a sroicheann an fhuaim RetroArch."
+#define CATEGORY_DEBUG_LABEL_GA "Dífhabhtaigh (Atosaigh)"
+#define CATEGORY_DEBUG_INFO_0_GA "Socruithe 'linuxloader.ini', a chuirtear i bhfeidhm thar chomhad 'linuxloader.ini' an chluiche. Má roghnaítear 'Per Game' (in aghaidh an chluiche), 'Unchanged' (gan athrú) nó 'Detected' (braite), fágfar socruithe an luchtaire féin mar atá siad."
+#define LINUXLOADER_RESOLUTION_LABEL_GA "Rún (Atosaigh)"
+#define LINUXLOADER_RESOLUTION_INFO_0_GA "Leithead agus airde na gcluichí ar féidir leis an luchtóir paiste a chur ar fáil. Coinníonn an fráma dúchasach na comhaid linuxloader.ini. Téann gach fráma trí chuimhne an chórais chuig RetroArch, mar sin cosnaíonn na cinn is airde luas. Rabhadh: má shocraítear an rogha seo os cionn taifeach do thaispeántais, brisfidh sé roinnt cluichí nó ní bheidh siad in ann tosú."
+#define OPTION_VAL_NATIVE_GA "Dúchasach"
 #define OPTION_VAL_1280X720_GA NULL
 #define OPTION_VAL_1920X1080_GA NULL
 #define OPTION_VAL_2560X1440_GA NULL
 #define OPTION_VAL_3840X2160_GA NULL
 #define OPTION_VAL_5120X2880_GA NULL
-#define LINUXLOADER_FORCE_WIDESCREEN_LABEL_GA NULL
-#define LINUXLOADER_FORCE_WIDESCREEN_INFO_0_GA NULL
-#define LINUXLOADER_TEST_BUTTONS_LABEL_GA NULL
-#define LINUXLOADER_TEST_BUTTONS_INFO_0_GA NULL
-#define LINUXLOADER_GUN_AIM_LABEL_GA NULL
-#define LINUXLOADER_GUN_AIM_INFO_0_GA NULL
-#define OPTION_VAL_STICK_GA NULL
-#define OPTION_VAL_MOUSE_GA NULL
-#define LINUXLOADER_GUN_SENSITIVITY_LABEL_GA NULL
-#define LINUXLOADER_GUN_SENSITIVITY_INFO_0_GA NULL
+#define LINUXLOADER_FORCE_WIDESCREEN_LABEL_GA "Cuir i bhfeidhm 16:9 (Atosaigh)"
+#define LINUXLOADER_FORCE_WIDESCREEN_INFO_0_GA "Cuireann sé gach cluiche ar siúl i mód scáileáin leathain. D’fhéadfadh sé cur isteach ar chluichí áirithe nó iad a shíneadh."
+#define LINUXLOADER_TEST_BUTTONS_LABEL_GA "Cnaipí Seirbhíse agus Tástála"
+#define LINUXLOADER_TEST_BUTTONS_INFO_0_GA "L3 mar chnaipe seirbhíse an chomh-aireachta agus R3 mar chnaipe tástála an chomh-aireachta, ar an dá rialtán. Má dhéantar iad a dhíchumasú, ní féidir iad a bhrú de thaisme; fanann na heochracha S agus T ar an méarchlár."
+#define LINUXLOADER_GUN_AIM_LABEL_GA "Aidhm Ghunna"
+#define LINUXLOADER_GUN_AIM_INFO_0_GA "Conas a dhírítear i gcluichí gunna, don dá imreoir. Bata Analógach: bogann an bata clé (nó an D-pad) ag gach imreoir an sprioc; scaoileann R2 urchar, athlódálann R an gunna, feidhmíonn L2 mar chnaipe an ghunna, agus croitheann L an gunna i *The House of the Dead 4*. *Too Spicy*: athlódálann L2 an gunna, agus is iad L agus R na pedals. *Ghost Squad Evolution*: is é L2 an cnaipe Gnímh, agus is é L an cnaipe Athraithe. *Primeval Hunt*: úsáidtear L2 chun an gunna a phumpáil. Luch: úsáidtear an \"gunna solais\" (light gun) de chuid RetroArch ag port gach imreora, a leanann gluaiseacht na luiche; scaoileann an cnaipe clé urchar, athlódálann an cnaipe deas an gunna, feidhmíonn an cnaipe láir mar chnaipe an ghunna, agus athlódálann an gunna freisin má dhírítear lasmuigh den scáileán. *Ghost Squad Evolution*: is é an cnaipe deas an cnaipe Gnímh, agus is é an cnaipe lár an cnaipe Athraithe. *The House of the Dead 4*: is é an cnaipe deas cnaipe an ghunna, agus croitheann an cnaipe lár an gunna. *Too Spicy*: is é an cnaipe lár an pedal clé, agus is é an cnaipe deas an pedal deas. *Primeval Hunt*: úsáidtear an cnaipe lár chun an gunna a phumpáil, agus cláraítear cliceanna na luiche ar an scáileán tadhaill."
+#define OPTION_VAL_STICK_GA "Maide Analógach"
+#define OPTION_VAL_MOUSE_GA "Luch"
+#define LINUXLOADER_GUN_SENSITIVITY_LABEL_GA "Íogaireacht an Phointeora Gunna"
+#define LINUXLOADER_GUN_SENSITIVITY_INFO_0_GA "An luas a ghluaiseann na malacha an spriocphointe nuair a úsáidtear an mhalach analógach chun díriú — tá an luas céanna ann, bíodh sé ag gluaiseacht trasna nó suas is síos; ag 100%, má bhrúitear an mhalach go hiomlán, trasnóidh an spriocphointe airde an scáileáin i gceann soicind amháin, a bheag nó a mhór. Díríonn an luch ar an áit a bhfuil sí dírithe."
 #define OPTION_VAL_50_GA NULL
 #define OPTION_VAL_60_GA NULL
 #define OPTION_VAL_70_GA NULL
@@ -4446,16 +5319,16 @@ struct retro_core_options_v2 options_fr = {
 #define OPTION_VAL_180_GA NULL
 #define OPTION_VAL_190_GA NULL
 #define OPTION_VAL_200_GA NULL
-#define LINUXLOADER_CROSSHAIR_LABEL_GA NULL
-#define LINUXLOADER_CROSSHAIR_INFO_0_GA NULL
-#define LINUXLOADER_FFB_RUMBLE_LABEL_GA NULL
-#define LINUXLOADER_FFB_RUMBLE_INFO_0_GA NULL
-#define LINUXLOADER_STEERING_LABEL_GA NULL
-#define LINUXLOADER_STEERING_INFO_0_GA NULL
-#define OPTION_VAL_LINEAR_GA NULL
-#define OPTION_VAL_LOGARITHMIC_GA NULL
-#define LINUXLOADER_STEERING_INNER_LABEL_GA NULL
-#define LINUXLOADER_STEERING_INNER_INFO_0_GA NULL
+#define LINUXLOADER_CROSSHAIR_LABEL_GA "Croisghléas"
+#define LINUXLOADER_CROSSHAIR_INFO_0_GA "Spriocmharcanna na gcluichí gunna tarraingthe thar an bpictiúr: gorm d’imreoir 1, dearg d’imreoir 2 — marcanna a thagann chun solais nuair a dhíríonn an t-imreoir sin."
+#define LINUXLOADER_FFB_RUMBLE_LABEL_GA "Aiseolas Fórsa go Creathadh"
+#define LINUXLOADER_FFB_RUMBLE_INFO_0_GA "Aiseolas fórsa ón mbord tiomána — a léirítear mar chreathadh ar rialtán an chéad imreora — sna cluichí tiomána seo a leanas: OutRun 2 SP SDX, Initial D 4 agus 5, agus Hummer. Tá gá leis an mbord tiomána a insamhail; is féidir é seo a dhéanamh do na cluichí sin tríd an rogha 'Per Game' a úsáid faoi Debug > EMULATE_DRIVEBOARD."
+#define LINUXLOADER_STEERING_LABEL_GA "Freagairt an Stiúrtha"
+#define LINUXLOADER_STEERING_INFO_0_GA "Líneach: luach X an luamháin chlé mar atá sé. Logartamach: ar chuar ina mbíonn níos lú casadh timpeall an láir agus casadh níos géire i dtreo na gceann, ar nós an tsocraithe ar lasc tumtha (dip switch) i gcluichí rásaíochta Sega System 32; dá bharr sin, bíonn an stiúradh níos cobhsaí agus ní bhíonn sé chomh híogair sin. Socraítear cruth an chuair seo trí na paraiméadair 'Steering Inner Zone' (Crios Istigh an Stiúrtha) agus 'Steering Effect' (Éifeacht an Stiúrtha)."
+#define OPTION_VAL_LINEAR_GA "Líneach"
+#define OPTION_VAL_LOGARITHMIC_GA "Logartamach"
+#define LINUXLOADER_STEERING_INNER_LABEL_GA "Crios Istigh an Stiúrtha"
+#define LINUXLOADER_STEERING_INNER_INFO_0_GA "Le stiúradh logartamach: an cion den chasadh atá suite ag an lár. Dá ísle é, is ea is ciúine a bhíonn an stiúradh timpeall an láir. Oibríonn *OutRun 2* go maith ag 20 le suíomh 'Cearnach' (Square), agus *Initial D* ag 50 le suíomh 'Ciúbach' (Cubic)."
 #define OPTION_VAL_5_GA NULL
 #define OPTION_VAL_10_GA NULL
 #define OPTION_VAL_15_GA NULL
@@ -4465,40 +5338,40 @@ struct retro_core_options_v2 options_fr = {
 #define OPTION_VAL_35_GA NULL
 #define OPTION_VAL_40_GA NULL
 #define OPTION_VAL_45_GA NULL
-#define LINUXLOADER_STEERING_EFFECT_LABEL_GA NULL
-#define LINUXLOADER_STEERING_EFFECT_INFO_0_GA NULL
-#define OPTION_VAL_CUBIC_GA NULL
-#define OPTION_VAL_SQUARE_GA NULL
-#define LINUXLOADER_AUDIO_THREAD_LABEL_GA NULL
-#define LINUXLOADER_AUDIO_THREAD_INFO_0_GA NULL
-#define LINUXLOADER_DEBUG_FREEPLAY_LABEL_GA NULL
-#define OPTION_VAL_DEFAULT_GA NULL
-#define LINUXLOADER_DEBUG_TEST_MODE_LABEL_GA NULL
-#define LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_LABEL_GA NULL
-#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_GA NULL
-#define LINUXLOADER_DEBUG_EMULATE_MOTIONBOARD_LABEL_GA NULL
-#define LINUXLOADER_DEBUG_EMULATE_RIDEBOARD_LABEL_GA NULL
-#define LINUXLOADER_DEBUG_EMULATE_HW210_CARDREADER_LABEL_GA NULL
-#define LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_GA NULL
-#define LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_GA NULL
-#define LINUXLOADER_DEBUG_REGION_LABEL_GA NULL
-#define OPTION_VAL_JP_GA NULL
-#define OPTION_VAL_US_GA NULL
-#define OPTION_VAL_EX_GA NULL
-#define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_GA NULL
-#define OPTION_VAL_YELLOW_GA NULL
-#define OPTION_VAL_RED_GA NULL
-#define OPTION_VAL_BLUE_GA NULL
-#define OPTION_VAL_SILVER_GA NULL
+#define LINUXLOADER_STEERING_EFFECT_LABEL_GA "Éifeacht Stiúrtha"
+#define LINUXLOADER_STEERING_EFFECT_INFO_0_GA "Le stiúradh logartamach: an chaoi a n-éiríonn an chuid eile den chasadh i dtreo an ghlais iomláin. Tá an cineál ciúbach láidir, agus an cineál cearnach lag."
+#define OPTION_VAL_CUBIC_GA "Ciúbach (Láidir)"
+#define OPTION_VAL_SQUARE_GA "Cearnóg (Lag)"
+#define LINUXLOADER_AUDIO_THREAD_LABEL_GA "Snáithe Fuaime (Atosaigh)"
+#define LINUXLOADER_AUDIO_THREAD_INFO_0_GA "Cuirtear an fhuaim ar aghaidh chuig snáithe fuaime RetroArch de réir mar a mheascann an luchtaire í; cinntíonn sé seo go bhfanann an luas mar ba chóir, fiú má chailleann an cluiche frámaí. Cailltear tráchtaire OutRun 2 SP dá bharr."
+#define LINUXLOADER_DEBUG_FREEPLAY_LABEL_GA "IMIRT SHAOR"
+#define OPTION_VAL_DEFAULT_GA "Gan athrú"
+#define LINUXLOADER_DEBUG_TEST_MODE_LABEL_GA "MÓD_TÁSTÁLA"
+#define LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_LABEL_GA "AITHRIS_AR_BHORD_TIOMÁNA"
+#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_GA "In aghaidh an chluiche"
+#define LINUXLOADER_DEBUG_EMULATE_MOTIONBOARD_LABEL_GA "AITHRIS_AR_MOTIONBOARD"
+#define LINUXLOADER_DEBUG_EMULATE_RIDEBOARD_LABEL_GA "AITHRIS_AR_BHORD_TAISTIL"
+#define LINUXLOADER_DEBUG_EMULATE_HW210_CARDREADER_LABEL_GA "AITHRIS_AR_LÉITHEOIR_CÁRTAÍ_HW210"
+#define LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_GA "AITHRIS_AR_LÉITHEOIR_CÁRTAÍ_AITHEANTAIS"
+#define LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_GA "AITHRIS_AR_SCRÁIN_DHEAGHAIL"
+#define LINUXLOADER_DEBUG_REGION_LABEL_GA "RÉIGIÚN"
+#define OPTION_VAL_JP_GA "An tSeapáin"
+#define OPTION_VAL_US_GA "SAM"
+#define OPTION_VAL_EX_GA "Easpórtáil"
+#define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_GA "DATHA_LINDBERGH"
+#define OPTION_VAL_YELLOW_GA "Buí"
+#define OPTION_VAL_RED_GA "Dearg"
+#define OPTION_VAL_BLUE_GA "Gorm"
+#define OPTION_VAL_SILVER_GA "Airgead"
 #define OPTION_VAL_REDEX_GA NULL
-#define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_GA NULL
+#define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_GA "TEACHTAIREACHTAÍ_DÍBHAITHRITHE"
 #define LINUXLOADER_DEBUG_BOOST_RENDER_RES_LABEL_GA NULL
 #define LINUXLOADER_DEBUG_HUMMER_FLICKER_FIX_LABEL_GA NULL
-#define LINUXLOADER_DEBUG_LGJ_RENDER_WITH_MESA_LABEL_GA NULL
-#define LINUXLOADER_DEBUG_DISABLE_BUILTIN_FONT_LABEL_GA NULL
-#define LINUXLOADER_DEBUG_DISABLE_BUILTIN_LOGOS_LABEL_GA NULL
-#define LINUXLOADER_DEBUG_CPU_FREQ_GHZ_LABEL_GA NULL
-#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_CPU_FREQ_GHZ_GA NULL
+#define LINUXLOADER_DEBUG_LGJ_RENDER_WITH_MESA_LABEL_GA "LGJ_RÉNDÉIR_LE_MESA"
+#define LINUXLOADER_DEBUG_DISABLE_BUILTIN_FONT_LABEL_GA "DÍGHNÍOMHAIGH_CLÓ_INTHÓGTHA"
+#define LINUXLOADER_DEBUG_DISABLE_BUILTIN_LOGOS_LABEL_GA "DÍGHNÍOMHAIGH_LÓGÓNNA_IONSÓITE"
+#define LINUXLOADER_DEBUG_CPU_FREQ_GHZ_LABEL_GA "LAP_FREQ_GHZ"
+#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_CPU_FREQ_GHZ_GA "Braite"
 #define OPTION_VAL_1_0_GA NULL
 #define OPTION_VAL_1_5_GA NULL
 #define OPTION_VAL_2_0_GA NULL
@@ -4508,21 +5381,21 @@ struct retro_core_options_v2 options_fr = {
 #define OPTION_VAL_4_0_GA NULL
 #define OPTION_VAL_4_5_GA NULL
 #define OPTION_VAL_5_0_GA NULL
-#define LINUXLOADER_DEBUG_SKIP_OUTRUN_CABINET_CHECK_LABEL_GA NULL
-#define LINUXLOADER_DEBUG_ID_STEERING_REDUCTION_PERCENTAGE_LABEL_GA NULL
+#define LINUXLOADER_DEBUG_SKIP_OUTRUN_CABINET_CHECK_LABEL_GA "SEACHAIN_SEICEÁIL_COMH-AIREACHTA_OUTRUN"
+#define LINUXLOADER_DEBUG_ID_STEERING_REDUCTION_PERCENTAGE_LABEL_GA "ID_CÉATADÁN_LAGHDÚ_STIÚRTHA"
 #define OPTION_VAL_0_GA NULL
-#define LINUXLOADER_DEBUG_ID5_CHINESE_LANGUAGE_LABEL_GA NULL
-#define LINUXLOADER_DEBUG_HARLEY_ANALOG_REMAP_LABEL_GA NULL
-#define LINUXLOADER_DEBUG_MJ4_ENABLED_ALL_THE_TIME_LABEL_GA NULL
-#define LINUXLOADER_DEBUG_RAMBO_GUNS_SWITCH_LABEL_GA NULL
-#define LINUXLOADER_DEBUG_PRIMEVAL_HUNT_SCREEN_MODE_LABEL_GA NULL
-#define LINUXLOADER_DEBUG_PRIMEVAL_HUNT_TEST_SCREEN_SINGLE_LABEL_GA NULL
-#define LINUXLOADER_DEBUG_ID_CARDFILE_AUTOLOAD_LABEL_GA NULL
-#define LINUXLOADER_DEBUG_ENABLE_CROSSHAIRS_LABEL_GA NULL
-#define LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_ON_LABEL_GA NULL
-#define LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_OFF_LABEL_GA NULL
-#define LINUXLOADER_DEBUG_ENABLE_NETWORK_PATCHES_LABEL_GA NULL
-#define LINUXLOADER_DEBUG_ABURNER_MOTION_OFF_LABEL_GA NULL
+#define LINUXLOADER_DEBUG_ID5_CHINESE_LANGUAGE_LABEL_GA "ID5_AN_TEANGA_SHÍNEACH"
+#define LINUXLOADER_DEBUG_HARLEY_ANALOG_REMAP_LABEL_GA "ATHMHAPAIL_ANALOGACH_HARLEY"
+#define LINUXLOADER_DEBUG_MJ4_ENABLED_ALL_THE_TIME_LABEL_GA "MJ4_CUMASACH_I_GCÓNAÍ"
+#define LINUXLOADER_DEBUG_RAMBO_GUNS_SWITCH_LABEL_GA "LASC_GHUNNAÍ_RAMBO"
+#define LINUXLOADER_DEBUG_PRIMEVAL_HUNT_SCREEN_MODE_LABEL_GA "MÓD_SCRÉIN_AN_SEILGE_PRÍOMHAOISE"
+#define LINUXLOADER_DEBUG_PRIMEVAL_HUNT_TEST_SCREEN_SINGLE_LABEL_GA "SCRÁIN_THRIALACH_SEILGE_PRÍOMHAOISE_AONAIR"
+#define LINUXLOADER_DEBUG_ID_CARDFILE_AUTOLOAD_LABEL_GA "Uaslódáil_Cárta_Aitheantais_Comhad_Uathoibríoch"
+#define LINUXLOADER_DEBUG_ENABLE_CROSSHAIRS_LABEL_GA "CROSGHÉARNAÍ_A_CHumasú"
+#define LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_ON_LABEL_GA "GSEVO_CROSSHAIR_I_GCÓNAÍ_AR_SIÚL"
+#define LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_OFF_LABEL_GA "GSEVO_CROSSHAIR_I_GCÓNAÍ_AS"
+#define LINUXLOADER_DEBUG_ENABLE_NETWORK_PATCHES_LABEL_GA "CUMASAIGH_PAISTÍ_LÍONRA"
+#define LINUXLOADER_DEBUG_ABURNER_MOTION_OFF_LABEL_GA "ABURNER_GLUAISEACHT_AS"
 
 struct retro_core_option_v2_category option_cats_ga[] = {
     {"video", CATEGORY_VIDEO_LABEL_GA, CATEGORY_VIDEO_INFO_0_GA},
@@ -4695,17 +5568,17 @@ struct retro_core_options_v2 options_ga = {
 
 /* RETRO_LANGUAGE_GL */
 
-#define CATEGORY_VIDEO_LABEL_GL NULL
+#define CATEGORY_VIDEO_LABEL_GL "Vídeo"
 #define CATEGORY_VIDEO_INFO_0_GL NULL
-#define CATEGORY_INPUT_LABEL_GL NULL
+#define CATEGORY_INPUT_LABEL_GL "Entrada"
 #define CATEGORY_INPUT_INFO_0_GL NULL
-#define CATEGORY_AUDIO_LABEL_GL NULL
+#define CATEGORY_AUDIO_LABEL_GL "Son"
 #define CATEGORY_AUDIO_INFO_0_GL NULL
 #define CATEGORY_DEBUG_LABEL_GL NULL
 #define CATEGORY_DEBUG_INFO_0_GL NULL
 #define LINUXLOADER_RESOLUTION_LABEL_GL NULL
 #define LINUXLOADER_RESOLUTION_INFO_0_GL NULL
-#define OPTION_VAL_NATIVE_GL NULL
+#define OPTION_VAL_NATIVE_GL "Nativo"
 #define OPTION_VAL_1280X720_GL NULL
 #define OPTION_VAL_1920X1080_GL NULL
 #define OPTION_VAL_2560X1440_GL NULL
@@ -4718,7 +5591,7 @@ struct retro_core_options_v2 options_ga = {
 #define LINUXLOADER_GUN_AIM_LABEL_GL NULL
 #define LINUXLOADER_GUN_AIM_INFO_0_GL NULL
 #define OPTION_VAL_STICK_GL NULL
-#define OPTION_VAL_MOUSE_GL NULL
+#define OPTION_VAL_MOUSE_GL "Rato"
 #define LINUXLOADER_GUN_SENSITIVITY_LABEL_GL NULL
 #define LINUXLOADER_GUN_SENSITIVITY_INFO_0_GL NULL
 #define OPTION_VAL_50_GL NULL
@@ -4743,7 +5616,7 @@ struct retro_core_options_v2 options_ga = {
 #define LINUXLOADER_FFB_RUMBLE_INFO_0_GL NULL
 #define LINUXLOADER_STEERING_LABEL_GL NULL
 #define LINUXLOADER_STEERING_INFO_0_GL NULL
-#define OPTION_VAL_LINEAR_GL NULL
+#define OPTION_VAL_LINEAR_GL "Lineal"
 #define OPTION_VAL_LOGARITHMIC_GL NULL
 #define LINUXLOADER_STEERING_INNER_LABEL_GL NULL
 #define LINUXLOADER_STEERING_INNER_INFO_0_GL NULL
@@ -4773,13 +5646,13 @@ struct retro_core_options_v2 options_ga = {
 #define LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_GL NULL
 #define LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_GL NULL
 #define LINUXLOADER_DEBUG_REGION_LABEL_GL NULL
-#define OPTION_VAL_JP_GL NULL
+#define OPTION_VAL_JP_GL "Xapón"
 #define OPTION_VAL_US_GL NULL
 #define OPTION_VAL_EX_GL NULL
 #define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_GL NULL
-#define OPTION_VAL_YELLOW_GL NULL
-#define OPTION_VAL_RED_GL NULL
-#define OPTION_VAL_BLUE_GL NULL
+#define OPTION_VAL_YELLOW_GL "Amarelo"
+#define OPTION_VAL_RED_GL "Vermello"
+#define OPTION_VAL_BLUE_GL "Azul"
 #define OPTION_VAL_SILVER_GL NULL
 #define OPTION_VAL_REDEX_GL NULL
 #define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_GL NULL
@@ -4986,11 +5859,11 @@ struct retro_core_options_v2 options_gl = {
 
 /* RETRO_LANGUAGE_HE */
 
-#define CATEGORY_VIDEO_LABEL_HE NULL
+#define CATEGORY_VIDEO_LABEL_HE "וידאו"
 #define CATEGORY_VIDEO_INFO_0_HE NULL
-#define CATEGORY_INPUT_LABEL_HE NULL
+#define CATEGORY_INPUT_LABEL_HE "קלט"
 #define CATEGORY_INPUT_INFO_0_HE NULL
-#define CATEGORY_AUDIO_LABEL_HE NULL
+#define CATEGORY_AUDIO_LABEL_HE "שמע"
 #define CATEGORY_AUDIO_INFO_0_HE NULL
 #define CATEGORY_DEBUG_LABEL_HE NULL
 #define CATEGORY_DEBUG_INFO_0_HE NULL
@@ -5275,19 +6148,310 @@ struct retro_core_options_v2 options_he = {
    option_defs_he
 };
 
+/* RETRO_LANGUAGE_HR */
+
+#define CATEGORY_VIDEO_LABEL_HR NULL
+#define CATEGORY_VIDEO_INFO_0_HR NULL
+#define CATEGORY_INPUT_LABEL_HR NULL
+#define CATEGORY_INPUT_INFO_0_HR NULL
+#define CATEGORY_AUDIO_LABEL_HR "Zvuk"
+#define CATEGORY_AUDIO_INFO_0_HR NULL
+#define CATEGORY_DEBUG_LABEL_HR NULL
+#define CATEGORY_DEBUG_INFO_0_HR NULL
+#define LINUXLOADER_RESOLUTION_LABEL_HR NULL
+#define LINUXLOADER_RESOLUTION_INFO_0_HR NULL
+#define OPTION_VAL_NATIVE_HR NULL
+#define OPTION_VAL_1280X720_HR NULL
+#define OPTION_VAL_1920X1080_HR NULL
+#define OPTION_VAL_2560X1440_HR NULL
+#define OPTION_VAL_3840X2160_HR NULL
+#define OPTION_VAL_5120X2880_HR NULL
+#define LINUXLOADER_FORCE_WIDESCREEN_LABEL_HR NULL
+#define LINUXLOADER_FORCE_WIDESCREEN_INFO_0_HR NULL
+#define LINUXLOADER_TEST_BUTTONS_LABEL_HR NULL
+#define LINUXLOADER_TEST_BUTTONS_INFO_0_HR NULL
+#define LINUXLOADER_GUN_AIM_LABEL_HR NULL
+#define LINUXLOADER_GUN_AIM_INFO_0_HR NULL
+#define OPTION_VAL_STICK_HR NULL
+#define OPTION_VAL_MOUSE_HR "Miš"
+#define LINUXLOADER_GUN_SENSITIVITY_LABEL_HR NULL
+#define LINUXLOADER_GUN_SENSITIVITY_INFO_0_HR NULL
+#define OPTION_VAL_50_HR NULL
+#define OPTION_VAL_60_HR NULL
+#define OPTION_VAL_70_HR NULL
+#define OPTION_VAL_80_HR NULL
+#define OPTION_VAL_90_HR NULL
+#define OPTION_VAL_100_HR NULL
+#define OPTION_VAL_110_HR NULL
+#define OPTION_VAL_120_HR NULL
+#define OPTION_VAL_130_HR NULL
+#define OPTION_VAL_140_HR NULL
+#define OPTION_VAL_150_HR NULL
+#define OPTION_VAL_160_HR NULL
+#define OPTION_VAL_170_HR NULL
+#define OPTION_VAL_180_HR NULL
+#define OPTION_VAL_190_HR NULL
+#define OPTION_VAL_200_HR NULL
+#define LINUXLOADER_CROSSHAIR_LABEL_HR NULL
+#define LINUXLOADER_CROSSHAIR_INFO_0_HR NULL
+#define LINUXLOADER_FFB_RUMBLE_LABEL_HR NULL
+#define LINUXLOADER_FFB_RUMBLE_INFO_0_HR NULL
+#define LINUXLOADER_STEERING_LABEL_HR NULL
+#define LINUXLOADER_STEERING_INFO_0_HR NULL
+#define OPTION_VAL_LINEAR_HR NULL
+#define OPTION_VAL_LOGARITHMIC_HR NULL
+#define LINUXLOADER_STEERING_INNER_LABEL_HR NULL
+#define LINUXLOADER_STEERING_INNER_INFO_0_HR NULL
+#define OPTION_VAL_5_HR NULL
+#define OPTION_VAL_10_HR NULL
+#define OPTION_VAL_15_HR NULL
+#define OPTION_VAL_20_HR NULL
+#define OPTION_VAL_25_HR NULL
+#define OPTION_VAL_30_HR NULL
+#define OPTION_VAL_35_HR NULL
+#define OPTION_VAL_40_HR NULL
+#define OPTION_VAL_45_HR NULL
+#define LINUXLOADER_STEERING_EFFECT_LABEL_HR NULL
+#define LINUXLOADER_STEERING_EFFECT_INFO_0_HR NULL
+#define OPTION_VAL_CUBIC_HR NULL
+#define OPTION_VAL_SQUARE_HR NULL
+#define LINUXLOADER_AUDIO_THREAD_LABEL_HR NULL
+#define LINUXLOADER_AUDIO_THREAD_INFO_0_HR NULL
+#define LINUXLOADER_DEBUG_FREEPLAY_LABEL_HR NULL
+#define OPTION_VAL_DEFAULT_HR NULL
+#define LINUXLOADER_DEBUG_TEST_MODE_LABEL_HR NULL
+#define LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_LABEL_HR NULL
+#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_HR NULL
+#define LINUXLOADER_DEBUG_EMULATE_MOTIONBOARD_LABEL_HR NULL
+#define LINUXLOADER_DEBUG_EMULATE_RIDEBOARD_LABEL_HR NULL
+#define LINUXLOADER_DEBUG_EMULATE_HW210_CARDREADER_LABEL_HR NULL
+#define LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_HR NULL
+#define LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_HR NULL
+#define LINUXLOADER_DEBUG_REGION_LABEL_HR NULL
+#define OPTION_VAL_JP_HR NULL
+#define OPTION_VAL_US_HR NULL
+#define OPTION_VAL_EX_HR NULL
+#define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_HR NULL
+#define OPTION_VAL_YELLOW_HR NULL
+#define OPTION_VAL_RED_HR NULL
+#define OPTION_VAL_BLUE_HR NULL
+#define OPTION_VAL_SILVER_HR NULL
+#define OPTION_VAL_REDEX_HR NULL
+#define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_HR NULL
+#define LINUXLOADER_DEBUG_BOOST_RENDER_RES_LABEL_HR NULL
+#define LINUXLOADER_DEBUG_HUMMER_FLICKER_FIX_LABEL_HR NULL
+#define LINUXLOADER_DEBUG_LGJ_RENDER_WITH_MESA_LABEL_HR NULL
+#define LINUXLOADER_DEBUG_DISABLE_BUILTIN_FONT_LABEL_HR NULL
+#define LINUXLOADER_DEBUG_DISABLE_BUILTIN_LOGOS_LABEL_HR NULL
+#define LINUXLOADER_DEBUG_CPU_FREQ_GHZ_LABEL_HR NULL
+#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_CPU_FREQ_GHZ_HR NULL
+#define OPTION_VAL_1_0_HR NULL
+#define OPTION_VAL_1_5_HR NULL
+#define OPTION_VAL_2_0_HR NULL
+#define OPTION_VAL_2_5_HR NULL
+#define OPTION_VAL_3_0_HR NULL
+#define OPTION_VAL_3_5_HR NULL
+#define OPTION_VAL_4_0_HR NULL
+#define OPTION_VAL_4_5_HR NULL
+#define OPTION_VAL_5_0_HR NULL
+#define LINUXLOADER_DEBUG_SKIP_OUTRUN_CABINET_CHECK_LABEL_HR NULL
+#define LINUXLOADER_DEBUG_ID_STEERING_REDUCTION_PERCENTAGE_LABEL_HR NULL
+#define OPTION_VAL_0_HR NULL
+#define LINUXLOADER_DEBUG_ID5_CHINESE_LANGUAGE_LABEL_HR NULL
+#define LINUXLOADER_DEBUG_HARLEY_ANALOG_REMAP_LABEL_HR NULL
+#define LINUXLOADER_DEBUG_MJ4_ENABLED_ALL_THE_TIME_LABEL_HR NULL
+#define LINUXLOADER_DEBUG_RAMBO_GUNS_SWITCH_LABEL_HR NULL
+#define LINUXLOADER_DEBUG_PRIMEVAL_HUNT_SCREEN_MODE_LABEL_HR NULL
+#define LINUXLOADER_DEBUG_PRIMEVAL_HUNT_TEST_SCREEN_SINGLE_LABEL_HR NULL
+#define LINUXLOADER_DEBUG_ID_CARDFILE_AUTOLOAD_LABEL_HR NULL
+#define LINUXLOADER_DEBUG_ENABLE_CROSSHAIRS_LABEL_HR NULL
+#define LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_ON_LABEL_HR NULL
+#define LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_OFF_LABEL_HR NULL
+#define LINUXLOADER_DEBUG_ENABLE_NETWORK_PATCHES_LABEL_HR NULL
+#define LINUXLOADER_DEBUG_ABURNER_MOTION_OFF_LABEL_HR NULL
+
+struct retro_core_option_v2_category option_cats_hr[] = {
+    {"video", CATEGORY_VIDEO_LABEL_HR, CATEGORY_VIDEO_INFO_0_HR},
+    {"input", CATEGORY_INPUT_LABEL_HR, CATEGORY_INPUT_INFO_0_HR},
+    {"audio", CATEGORY_AUDIO_LABEL_HR, CATEGORY_AUDIO_INFO_0_HR},
+    {"debug", CATEGORY_DEBUG_LABEL_HR, CATEGORY_DEBUG_INFO_0_HR},
+    {NULL, NULL, NULL},
+};
+struct retro_core_option_v2_definition option_defs_hr[] = {
+    {"linuxloader_resolution", LINUXLOADER_RESOLUTION_LABEL_HR, NULL,
+     LINUXLOADER_RESOLUTION_INFO_0_HR,
+     NULL, "video",
+     {{"native", OPTION_VAL_NATIVE_HR}, {"1280x720", OPTION_VAL_1280X720_HR}, {"1920x1080", OPTION_VAL_1920X1080_HR}, {"2560x1440", OPTION_VAL_2560X1440_HR}, {"3840x2160", OPTION_VAL_3840X2160_HR}, {"5120x2880", OPTION_VAL_5120X2880_HR}, {NULL, NULL}},
+     "native"},
+    {"linuxloader_force_widescreen", LINUXLOADER_FORCE_WIDESCREEN_LABEL_HR, NULL,
+     LINUXLOADER_FORCE_WIDESCREEN_INFO_0_HR,
+     NULL, "video",
+     {{"disabled", NULL}, {"enabled", NULL}, {NULL, NULL}},
+     "disabled"},
+    {"linuxloader_test_buttons", LINUXLOADER_TEST_BUTTONS_LABEL_HR, NULL,
+     LINUXLOADER_TEST_BUTTONS_INFO_0_HR,
+     NULL, "input",
+     {{"enabled", NULL}, {"disabled", NULL}, {NULL, NULL}},
+     "enabled"},
+    {"linuxloader_gun_aim", LINUXLOADER_GUN_AIM_LABEL_HR, NULL,
+     LINUXLOADER_GUN_AIM_INFO_0_HR,
+     NULL, "input",
+     {{"stick", OPTION_VAL_STICK_HR}, {"mouse", OPTION_VAL_MOUSE_HR}, {NULL, NULL}},
+     "stick"},
+    {"linuxloader_gun_sensitivity", LINUXLOADER_GUN_SENSITIVITY_LABEL_HR, NULL,
+     LINUXLOADER_GUN_SENSITIVITY_INFO_0_HR,
+     NULL, "input",
+     {{"50", OPTION_VAL_50_HR}, {"60", OPTION_VAL_60_HR}, {"70", OPTION_VAL_70_HR}, {"80", OPTION_VAL_80_HR}, {"90", OPTION_VAL_90_HR}, {"100", OPTION_VAL_100_HR}, {"110", OPTION_VAL_110_HR},
+      {"120", OPTION_VAL_120_HR}, {"130", OPTION_VAL_130_HR}, {"140", OPTION_VAL_140_HR}, {"150", OPTION_VAL_150_HR}, {"160", OPTION_VAL_160_HR}, {"170", OPTION_VAL_170_HR},
+      {"180", OPTION_VAL_180_HR}, {"190", OPTION_VAL_190_HR}, {"200", OPTION_VAL_200_HR}, {NULL, NULL}},
+     "100"},
+    {"linuxloader_crosshair", LINUXLOADER_CROSSHAIR_LABEL_HR, NULL,
+     LINUXLOADER_CROSSHAIR_INFO_0_HR,
+     NULL, "input",
+     {{"enabled", NULL}, {"disabled", NULL}, {NULL, NULL}},
+     "enabled"},
+    {"linuxloader_ffb_rumble", LINUXLOADER_FFB_RUMBLE_LABEL_HR, NULL,
+     LINUXLOADER_FFB_RUMBLE_INFO_0_HR,
+     NULL, "input",
+     {{"enabled", NULL}, {"disabled", NULL}, {NULL, NULL}},
+     "enabled"},
+    {"linuxloader_steering", LINUXLOADER_STEERING_LABEL_HR, NULL,
+     LINUXLOADER_STEERING_INFO_0_HR,
+     NULL, "input",
+     {{"linear", OPTION_VAL_LINEAR_HR}, {"logarithmic", OPTION_VAL_LOGARITHMIC_HR}, {NULL, NULL}},
+     "linear"},
+    {"linuxloader_steering_inner", LINUXLOADER_STEERING_INNER_LABEL_HR, NULL,
+     LINUXLOADER_STEERING_INNER_INFO_0_HR,
+     NULL, "input",
+     {{"5", OPTION_VAL_5_HR}, {"10", OPTION_VAL_10_HR}, {"15", OPTION_VAL_15_HR}, {"20", OPTION_VAL_20_HR}, {"25", OPTION_VAL_25_HR}, {"30", OPTION_VAL_30_HR}, {"35", OPTION_VAL_35_HR}, {"40", OPTION_VAL_40_HR}, {"45", OPTION_VAL_45_HR}, {"50", OPTION_VAL_50_HR}, {NULL, NULL}},
+     "25"},
+    {"linuxloader_steering_effect", LINUXLOADER_STEERING_EFFECT_LABEL_HR, NULL,
+     LINUXLOADER_STEERING_EFFECT_INFO_0_HR,
+     NULL, "input",
+     {{"cubic", OPTION_VAL_CUBIC_HR}, {"square", OPTION_VAL_SQUARE_HR}, {NULL, NULL}},
+     "cubic"},
+    {"linuxloader_audio_thread", LINUXLOADER_AUDIO_THREAD_LABEL_HR, NULL,
+     LINUXLOADER_AUDIO_THREAD_INFO_0_HR,
+     NULL, "audio",
+     {{"enabled", NULL}, {"disabled", NULL}, {NULL, NULL}},
+     "enabled"},
+    {"linuxloader_debug_freeplay", LINUXLOADER_DEBUG_FREEPLAY_LABEL_HR, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_HR}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_test_mode", LINUXLOADER_DEBUG_TEST_MODE_LABEL_HR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_emulate_driveboard", LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_LABEL_HR, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_HR}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_motionboard", LINUXLOADER_DEBUG_EMULATE_MOTIONBOARD_LABEL_HR, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_HR}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_rideboard", LINUXLOADER_DEBUG_EMULATE_RIDEBOARD_LABEL_HR, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_HR}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_hw210_cardreader", LINUXLOADER_DEBUG_EMULATE_HW210_CARDREADER_LABEL_HR, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_HR}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_id_cardreader", LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_HR, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_HR}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_touchscreen", LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_HR, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_HR}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_region", LINUXLOADER_DEBUG_REGION_LABEL_HR, NULL, NULL, NULL, "debug",
+     {{"JP", OPTION_VAL_JP_HR}, {"US", OPTION_VAL_US_HR}, {"EX", OPTION_VAL_EX_HR}, {NULL, NULL}},
+     "EX"},
+    {"linuxloader_debug_lindbergh_colour", LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_HR, NULL, NULL, NULL, "debug",
+     {{"YELLOW", OPTION_VAL_YELLOW_HR}, {"RED", OPTION_VAL_RED_HR}, {"BLUE", OPTION_VAL_BLUE_HR}, {"SILVER", OPTION_VAL_SILVER_HR}, {"REDEX", OPTION_VAL_REDEX_HR}, {NULL, NULL}},
+     "YELLOW"},
+    {"linuxloader_debug_debug_msgs", LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_HR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_boost_render_res", LINUXLOADER_DEBUG_BOOST_RENDER_RES_LABEL_HR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_hummer_flicker_fix", LINUXLOADER_DEBUG_HUMMER_FLICKER_FIX_LABEL_HR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_lgj_render_with_mesa", LINUXLOADER_DEBUG_LGJ_RENDER_WITH_MESA_LABEL_HR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_disable_builtin_font", LINUXLOADER_DEBUG_DISABLE_BUILTIN_FONT_LABEL_HR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_disable_builtin_logos", LINUXLOADER_DEBUG_DISABLE_BUILTIN_LOGOS_LABEL_HR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_cpu_freq_ghz", LINUXLOADER_DEBUG_CPU_FREQ_GHZ_LABEL_HR, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_CPU_FREQ_GHZ_HR}, {"1.0", OPTION_VAL_1_0_HR}, {"1.5", OPTION_VAL_1_5_HR}, {"2.0", OPTION_VAL_2_0_HR}, {"2.5", OPTION_VAL_2_5_HR}, {"3.0", OPTION_VAL_3_0_HR}, {"3.5", OPTION_VAL_3_5_HR}, {"4.0", OPTION_VAL_4_0_HR}, {"4.5", OPTION_VAL_4_5_HR}, {"5.0", OPTION_VAL_5_0_HR}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_skip_outrun_cabinet_check", LINUXLOADER_DEBUG_SKIP_OUTRUN_CABINET_CHECK_LABEL_HR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_id_steering_reduction_percentage", LINUXLOADER_DEBUG_ID_STEERING_REDUCTION_PERCENTAGE_LABEL_HR, NULL, NULL, NULL, "debug",
+     {{"0", OPTION_VAL_0_HR}, {"5", OPTION_VAL_5_HR}, {"10", OPTION_VAL_10_HR}, {"15", OPTION_VAL_15_HR}, {"20", OPTION_VAL_20_HR}, {"25", OPTION_VAL_25_HR}, {"30", OPTION_VAL_30_HR}, {"35", OPTION_VAL_35_HR}, {"40", OPTION_VAL_40_HR}, {"45", OPTION_VAL_45_HR}, {"50", OPTION_VAL_50_HR}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_id5_chinese_language", LINUXLOADER_DEBUG_ID5_CHINESE_LANGUAGE_LABEL_HR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_harley_analog_remap", LINUXLOADER_DEBUG_HARLEY_ANALOG_REMAP_LABEL_HR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_mj4_enabled_all_the_time", LINUXLOADER_DEBUG_MJ4_ENABLED_ALL_THE_TIME_LABEL_HR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_rambo_guns_switch", LINUXLOADER_DEBUG_RAMBO_GUNS_SWITCH_LABEL_HR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_primeval_hunt_screen_mode", LINUXLOADER_DEBUG_PRIMEVAL_HUNT_SCREEN_MODE_LABEL_HR, NULL, NULL, NULL, "debug",
+     /* "1" itself, not the loader's default: with the key left out, Primeval Hunt opened on two screens (NNshi) */
+     {{"0", "0"}, {"1", "1"}, {"2", "2"}, {"3", "3"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_primeval_hunt_test_screen_single", LINUXLOADER_DEBUG_PRIMEVAL_HUNT_TEST_SCREEN_SINGLE_LABEL_HR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_id_cardfile_autoload", LINUXLOADER_DEBUG_ID_CARDFILE_AUTOLOAD_LABEL_HR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_enable_crosshairs", LINUXLOADER_DEBUG_ENABLE_CROSSHAIRS_LABEL_HR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_gsevo_crosshair_always_on", LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_ON_LABEL_HR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_gsevo_crosshair_always_off", LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_OFF_LABEL_HR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_enable_network_patches", LINUXLOADER_DEBUG_ENABLE_NETWORK_PATCHES_LABEL_HR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    /* The core's own (eepromSettings.c): After Burner Climax does not start
+     * on a Deluxe cabinet with motion on, which it is out of the box, so on
+     * by default (NNshi) */
+    {"linuxloader_debug_aburner_motion_off", LINUXLOADER_DEBUG_ABURNER_MOTION_OFF_LABEL_HR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {NULL, NULL, NULL, NULL, NULL, NULL, {{NULL, NULL}}, NULL},
+};
+struct retro_core_options_v2 options_hr = {
+   option_cats_hr,
+   option_defs_hr
+};
+
 /* RETRO_LANGUAGE_HU */
 
-#define CATEGORY_VIDEO_LABEL_HU NULL
+#define CATEGORY_VIDEO_LABEL_HU "Kép"
 #define CATEGORY_VIDEO_INFO_0_HU NULL
-#define CATEGORY_INPUT_LABEL_HU NULL
+#define CATEGORY_INPUT_LABEL_HU "Bemenet"
 #define CATEGORY_INPUT_INFO_0_HU NULL
-#define CATEGORY_AUDIO_LABEL_HU NULL
+#define CATEGORY_AUDIO_LABEL_HU "Hang"
 #define CATEGORY_AUDIO_INFO_0_HU NULL
 #define CATEGORY_DEBUG_LABEL_HU NULL
 #define CATEGORY_DEBUG_INFO_0_HU NULL
 #define LINUXLOADER_RESOLUTION_LABEL_HU NULL
 #define LINUXLOADER_RESOLUTION_INFO_0_HU NULL
-#define OPTION_VAL_NATIVE_HU NULL
+#define OPTION_VAL_NATIVE_HU "Eredeti"
 #define OPTION_VAL_1280X720_HU NULL
 #define OPTION_VAL_1920X1080_HU NULL
 #define OPTION_VAL_2560X1440_HU NULL
@@ -5300,7 +6464,7 @@ struct retro_core_options_v2 options_he = {
 #define LINUXLOADER_GUN_AIM_LABEL_HU NULL
 #define LINUXLOADER_GUN_AIM_INFO_0_HU NULL
 #define OPTION_VAL_STICK_HU NULL
-#define OPTION_VAL_MOUSE_HU NULL
+#define OPTION_VAL_MOUSE_HU "Egér"
 #define LINUXLOADER_GUN_SENSITIVITY_LABEL_HU NULL
 #define LINUXLOADER_GUN_SENSITIVITY_INFO_0_HU NULL
 #define OPTION_VAL_50_HU NULL
@@ -5325,7 +6489,7 @@ struct retro_core_options_v2 options_he = {
 #define LINUXLOADER_FFB_RUMBLE_INFO_0_HU NULL
 #define LINUXLOADER_STEERING_LABEL_HU NULL
 #define LINUXLOADER_STEERING_INFO_0_HU NULL
-#define OPTION_VAL_LINEAR_HU NULL
+#define OPTION_VAL_LINEAR_HU "Lineáris"
 #define OPTION_VAL_LOGARITHMIC_HU NULL
 #define LINUXLOADER_STEERING_INNER_LABEL_HU NULL
 #define LINUXLOADER_STEERING_INNER_INFO_0_HU NULL
@@ -5355,13 +6519,13 @@ struct retro_core_options_v2 options_he = {
 #define LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_HU NULL
 #define LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_HU NULL
 #define LINUXLOADER_DEBUG_REGION_LABEL_HU NULL
-#define OPTION_VAL_JP_HU NULL
+#define OPTION_VAL_JP_HU "Japán"
 #define OPTION_VAL_US_HU NULL
 #define OPTION_VAL_EX_HU NULL
 #define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_HU NULL
-#define OPTION_VAL_YELLOW_HU NULL
-#define OPTION_VAL_RED_HU NULL
-#define OPTION_VAL_BLUE_HU NULL
+#define OPTION_VAL_YELLOW_HU "Sárga"
+#define OPTION_VAL_RED_HU "Vörös"
+#define OPTION_VAL_BLUE_HU "Kék"
 #define OPTION_VAL_SILVER_HU NULL
 #define OPTION_VAL_REDEX_HU NULL
 #define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_HU NULL
@@ -5570,15 +6734,15 @@ struct retro_core_options_v2 options_hu = {
 
 #define CATEGORY_VIDEO_LABEL_ID NULL
 #define CATEGORY_VIDEO_INFO_0_ID NULL
-#define CATEGORY_INPUT_LABEL_ID NULL
+#define CATEGORY_INPUT_LABEL_ID "Masukan"
 #define CATEGORY_INPUT_INFO_0_ID NULL
-#define CATEGORY_AUDIO_LABEL_ID NULL
+#define CATEGORY_AUDIO_LABEL_ID "Suara"
 #define CATEGORY_AUDIO_INFO_0_ID NULL
 #define CATEGORY_DEBUG_LABEL_ID NULL
 #define CATEGORY_DEBUG_INFO_0_ID NULL
 #define LINUXLOADER_RESOLUTION_LABEL_ID NULL
 #define LINUXLOADER_RESOLUTION_INFO_0_ID NULL
-#define OPTION_VAL_NATIVE_ID NULL
+#define OPTION_VAL_NATIVE_ID "Lokal"
 #define OPTION_VAL_1280X720_ID NULL
 #define OPTION_VAL_1920X1080_ID NULL
 #define OPTION_VAL_2560X1440_ID NULL
@@ -5646,7 +6810,7 @@ struct retro_core_options_v2 options_hu = {
 #define LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_ID NULL
 #define LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_ID NULL
 #define LINUXLOADER_DEBUG_REGION_LABEL_ID NULL
-#define OPTION_VAL_JP_ID NULL
+#define OPTION_VAL_JP_ID "Jepang"
 #define OPTION_VAL_US_ID NULL
 #define OPTION_VAL_EX_ID NULL
 #define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_ID NULL
@@ -5869,7 +7033,7 @@ struct retro_core_options_v2 options_id = {
 #define CATEGORY_DEBUG_INFO_0_IT NULL
 #define LINUXLOADER_RESOLUTION_LABEL_IT NULL
 #define LINUXLOADER_RESOLUTION_INFO_0_IT NULL
-#define OPTION_VAL_NATIVE_IT NULL
+#define OPTION_VAL_NATIVE_IT "Nativo"
 #define OPTION_VAL_1280X720_IT NULL
 #define OPTION_VAL_1920X1080_IT NULL
 #define OPTION_VAL_2560X1440_IT NULL
@@ -5907,7 +7071,7 @@ struct retro_core_options_v2 options_id = {
 #define LINUXLOADER_FFB_RUMBLE_INFO_0_IT NULL
 #define LINUXLOADER_STEERING_LABEL_IT NULL
 #define LINUXLOADER_STEERING_INFO_0_IT NULL
-#define OPTION_VAL_LINEAR_IT NULL
+#define OPTION_VAL_LINEAR_IT "Lineare"
 #define OPTION_VAL_LOGARITHMIC_IT NULL
 #define LINUXLOADER_STEERING_INNER_LABEL_IT NULL
 #define LINUXLOADER_STEERING_INNER_INFO_0_IT NULL
@@ -5937,13 +7101,13 @@ struct retro_core_options_v2 options_id = {
 #define LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_IT NULL
 #define LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_IT NULL
 #define LINUXLOADER_DEBUG_REGION_LABEL_IT NULL
-#define OPTION_VAL_JP_IT NULL
+#define OPTION_VAL_JP_IT "Giappone"
 #define OPTION_VAL_US_IT NULL
 #define OPTION_VAL_EX_IT NULL
 #define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_IT NULL
-#define OPTION_VAL_YELLOW_IT NULL
-#define OPTION_VAL_RED_IT NULL
-#define OPTION_VAL_BLUE_IT NULL
+#define OPTION_VAL_YELLOW_IT "Giallo"
+#define OPTION_VAL_RED_IT "Rosso"
+#define OPTION_VAL_BLUE_IT "Blu"
 #define OPTION_VAL_SILVER_IT NULL
 #define OPTION_VAL_REDEX_IT NULL
 #define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_IT NULL
@@ -6150,17 +7314,17 @@ struct retro_core_options_v2 options_it = {
 
 /* RETRO_LANGUAGE_JA */
 
-#define CATEGORY_VIDEO_LABEL_JA NULL
+#define CATEGORY_VIDEO_LABEL_JA "ビデオ"
 #define CATEGORY_VIDEO_INFO_0_JA NULL
-#define CATEGORY_INPUT_LABEL_JA NULL
+#define CATEGORY_INPUT_LABEL_JA "入力"
 #define CATEGORY_INPUT_INFO_0_JA NULL
-#define CATEGORY_AUDIO_LABEL_JA NULL
+#define CATEGORY_AUDIO_LABEL_JA "オーディオ"
 #define CATEGORY_AUDIO_INFO_0_JA NULL
 #define CATEGORY_DEBUG_LABEL_JA NULL
 #define CATEGORY_DEBUG_INFO_0_JA NULL
 #define LINUXLOADER_RESOLUTION_LABEL_JA NULL
 #define LINUXLOADER_RESOLUTION_INFO_0_JA NULL
-#define OPTION_VAL_NATIVE_JA NULL
+#define OPTION_VAL_NATIVE_JA "ネイティブ"
 #define OPTION_VAL_1280X720_JA NULL
 #define OPTION_VAL_1920X1080_JA NULL
 #define OPTION_VAL_2560X1440_JA NULL
@@ -6173,7 +7337,7 @@ struct retro_core_options_v2 options_it = {
 #define LINUXLOADER_GUN_AIM_LABEL_JA NULL
 #define LINUXLOADER_GUN_AIM_INFO_0_JA NULL
 #define OPTION_VAL_STICK_JA NULL
-#define OPTION_VAL_MOUSE_JA NULL
+#define OPTION_VAL_MOUSE_JA "マウス"
 #define LINUXLOADER_GUN_SENSITIVITY_LABEL_JA NULL
 #define LINUXLOADER_GUN_SENSITIVITY_INFO_0_JA NULL
 #define OPTION_VAL_50_JA NULL
@@ -6198,7 +7362,7 @@ struct retro_core_options_v2 options_it = {
 #define LINUXLOADER_FFB_RUMBLE_INFO_0_JA NULL
 #define LINUXLOADER_STEERING_LABEL_JA NULL
 #define LINUXLOADER_STEERING_INFO_0_JA NULL
-#define OPTION_VAL_LINEAR_JA NULL
+#define OPTION_VAL_LINEAR_JA "リニア"
 #define OPTION_VAL_LOGARITHMIC_JA NULL
 #define LINUXLOADER_STEERING_INNER_LABEL_JA NULL
 #define LINUXLOADER_STEERING_INNER_INFO_0_JA NULL
@@ -6228,13 +7392,13 @@ struct retro_core_options_v2 options_it = {
 #define LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_JA NULL
 #define LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_JA NULL
 #define LINUXLOADER_DEBUG_REGION_LABEL_JA NULL
-#define OPTION_VAL_JP_JA NULL
+#define OPTION_VAL_JP_JA "日本"
 #define OPTION_VAL_US_JA NULL
 #define OPTION_VAL_EX_JA NULL
 #define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_JA NULL
-#define OPTION_VAL_YELLOW_JA NULL
-#define OPTION_VAL_RED_JA NULL
-#define OPTION_VAL_BLUE_JA NULL
+#define OPTION_VAL_YELLOW_JA "イエロー"
+#define OPTION_VAL_RED_JA "レッド"
+#define OPTION_VAL_BLUE_JA "ブルー"
 #define OPTION_VAL_SILVER_JA NULL
 #define OPTION_VAL_REDEX_JA NULL
 #define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_JA NULL
@@ -6441,17 +7605,17 @@ struct retro_core_options_v2 options_ja = {
 
 /* RETRO_LANGUAGE_KO */
 
-#define CATEGORY_VIDEO_LABEL_KO NULL
+#define CATEGORY_VIDEO_LABEL_KO "비디오"
 #define CATEGORY_VIDEO_INFO_0_KO NULL
-#define CATEGORY_INPUT_LABEL_KO NULL
+#define CATEGORY_INPUT_LABEL_KO "입력"
 #define CATEGORY_INPUT_INFO_0_KO NULL
-#define CATEGORY_AUDIO_LABEL_KO NULL
+#define CATEGORY_AUDIO_LABEL_KO "오디오"
 #define CATEGORY_AUDIO_INFO_0_KO NULL
 #define CATEGORY_DEBUG_LABEL_KO NULL
 #define CATEGORY_DEBUG_INFO_0_KO NULL
 #define LINUXLOADER_RESOLUTION_LABEL_KO NULL
 #define LINUXLOADER_RESOLUTION_INFO_0_KO NULL
-#define OPTION_VAL_NATIVE_KO NULL
+#define OPTION_VAL_NATIVE_KO "기본"
 #define OPTION_VAL_1280X720_KO NULL
 #define OPTION_VAL_1920X1080_KO NULL
 #define OPTION_VAL_2560X1440_KO NULL
@@ -6464,7 +7628,7 @@ struct retro_core_options_v2 options_ja = {
 #define LINUXLOADER_GUN_AIM_LABEL_KO NULL
 #define LINUXLOADER_GUN_AIM_INFO_0_KO NULL
 #define OPTION_VAL_STICK_KO NULL
-#define OPTION_VAL_MOUSE_KO NULL
+#define OPTION_VAL_MOUSE_KO "마우스"
 #define LINUXLOADER_GUN_SENSITIVITY_LABEL_KO NULL
 #define LINUXLOADER_GUN_SENSITIVITY_INFO_0_KO NULL
 #define OPTION_VAL_50_KO NULL
@@ -6489,7 +7653,7 @@ struct retro_core_options_v2 options_ja = {
 #define LINUXLOADER_FFB_RUMBLE_INFO_0_KO NULL
 #define LINUXLOADER_STEERING_LABEL_KO NULL
 #define LINUXLOADER_STEERING_INFO_0_KO NULL
-#define OPTION_VAL_LINEAR_KO NULL
+#define OPTION_VAL_LINEAR_KO "선형"
 #define OPTION_VAL_LOGARITHMIC_KO NULL
 #define LINUXLOADER_STEERING_INNER_LABEL_KO NULL
 #define LINUXLOADER_STEERING_INNER_INFO_0_KO NULL
@@ -6519,13 +7683,13 @@ struct retro_core_options_v2 options_ja = {
 #define LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_KO NULL
 #define LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_KO NULL
 #define LINUXLOADER_DEBUG_REGION_LABEL_KO NULL
-#define OPTION_VAL_JP_KO NULL
+#define OPTION_VAL_JP_KO "일본"
 #define OPTION_VAL_US_KO NULL
 #define OPTION_VAL_EX_KO NULL
 #define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_KO NULL
-#define OPTION_VAL_YELLOW_KO NULL
-#define OPTION_VAL_RED_KO NULL
-#define OPTION_VAL_BLUE_KO NULL
+#define OPTION_VAL_YELLOW_KO "노란색"
+#define OPTION_VAL_RED_KO "빨간색"
+#define OPTION_VAL_BLUE_KO "파란색"
 #define OPTION_VAL_SILVER_KO NULL
 #define OPTION_VAL_REDEX_KO NULL
 #define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_KO NULL
@@ -6734,15 +7898,15 @@ struct retro_core_options_v2 options_ko = {
 
 #define CATEGORY_VIDEO_LABEL_NL NULL
 #define CATEGORY_VIDEO_INFO_0_NL NULL
-#define CATEGORY_INPUT_LABEL_NL NULL
+#define CATEGORY_INPUT_LABEL_NL "Invoer"
 #define CATEGORY_INPUT_INFO_0_NL NULL
-#define CATEGORY_AUDIO_LABEL_NL NULL
+#define CATEGORY_AUDIO_LABEL_NL "Geluid"
 #define CATEGORY_AUDIO_INFO_0_NL NULL
 #define CATEGORY_DEBUG_LABEL_NL NULL
 #define CATEGORY_DEBUG_INFO_0_NL NULL
 #define LINUXLOADER_RESOLUTION_LABEL_NL NULL
 #define LINUXLOADER_RESOLUTION_INFO_0_NL NULL
-#define OPTION_VAL_NATIVE_NL NULL
+#define OPTION_VAL_NATIVE_NL "Standaard"
 #define OPTION_VAL_1280X720_NL NULL
 #define OPTION_VAL_1920X1080_NL NULL
 #define OPTION_VAL_2560X1440_NL NULL
@@ -6780,7 +7944,7 @@ struct retro_core_options_v2 options_ko = {
 #define LINUXLOADER_FFB_RUMBLE_INFO_0_NL NULL
 #define LINUXLOADER_STEERING_LABEL_NL NULL
 #define LINUXLOADER_STEERING_INFO_0_NL NULL
-#define OPTION_VAL_LINEAR_NL NULL
+#define OPTION_VAL_LINEAR_NL "Lineair"
 #define OPTION_VAL_LOGARITHMIC_NL NULL
 #define LINUXLOADER_STEERING_INNER_LABEL_NL NULL
 #define LINUXLOADER_STEERING_INNER_INFO_0_NL NULL
@@ -6814,9 +7978,9 @@ struct retro_core_options_v2 options_ko = {
 #define OPTION_VAL_US_NL NULL
 #define OPTION_VAL_EX_NL NULL
 #define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_NL NULL
-#define OPTION_VAL_YELLOW_NL NULL
-#define OPTION_VAL_RED_NL NULL
-#define OPTION_VAL_BLUE_NL NULL
+#define OPTION_VAL_YELLOW_NL "Geel"
+#define OPTION_VAL_RED_NL "Rood"
+#define OPTION_VAL_BLUE_NL "Blauw"
 #define OPTION_VAL_SILVER_NL NULL
 #define OPTION_VAL_REDEX_NL NULL
 #define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_NL NULL
@@ -7025,9 +8189,9 @@ struct retro_core_options_v2 options_nl = {
 
 #define CATEGORY_VIDEO_LABEL_NO NULL
 #define CATEGORY_VIDEO_INFO_0_NO NULL
-#define CATEGORY_INPUT_LABEL_NO NULL
+#define CATEGORY_INPUT_LABEL_NO "Inndata"
 #define CATEGORY_INPUT_INFO_0_NO NULL
-#define CATEGORY_AUDIO_LABEL_NO NULL
+#define CATEGORY_AUDIO_LABEL_NO "Lyd"
 #define CATEGORY_AUDIO_INFO_0_NO NULL
 #define CATEGORY_DEBUG_LABEL_NO NULL
 #define CATEGORY_DEBUG_INFO_0_NO NULL
@@ -7105,9 +8269,9 @@ struct retro_core_options_v2 options_nl = {
 #define OPTION_VAL_US_NO NULL
 #define OPTION_VAL_EX_NO NULL
 #define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_NO NULL
-#define OPTION_VAL_YELLOW_NO NULL
-#define OPTION_VAL_RED_NO NULL
-#define OPTION_VAL_BLUE_NO NULL
+#define OPTION_VAL_YELLOW_NO "Gul"
+#define OPTION_VAL_RED_NO "Rød"
+#define OPTION_VAL_BLUE_NO "Blå"
 #define OPTION_VAL_SILVER_NO NULL
 #define OPTION_VAL_REDEX_NO NULL
 #define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_NO NULL
@@ -7312,19 +8476,310 @@ struct retro_core_options_v2 options_no = {
    option_defs_no
 };
 
+/* RETRO_LANGUAGE_OR */
+
+#define CATEGORY_VIDEO_LABEL_OR "ଵିଡ଼ିଓ"
+#define CATEGORY_VIDEO_INFO_0_OR NULL
+#define CATEGORY_INPUT_LABEL_OR NULL
+#define CATEGORY_INPUT_INFO_0_OR NULL
+#define CATEGORY_AUDIO_LABEL_OR "ଅଡ଼ିଓ"
+#define CATEGORY_AUDIO_INFO_0_OR NULL
+#define CATEGORY_DEBUG_LABEL_OR NULL
+#define CATEGORY_DEBUG_INFO_0_OR NULL
+#define LINUXLOADER_RESOLUTION_LABEL_OR NULL
+#define LINUXLOADER_RESOLUTION_INFO_0_OR NULL
+#define OPTION_VAL_NATIVE_OR NULL
+#define OPTION_VAL_1280X720_OR NULL
+#define OPTION_VAL_1920X1080_OR NULL
+#define OPTION_VAL_2560X1440_OR NULL
+#define OPTION_VAL_3840X2160_OR NULL
+#define OPTION_VAL_5120X2880_OR NULL
+#define LINUXLOADER_FORCE_WIDESCREEN_LABEL_OR NULL
+#define LINUXLOADER_FORCE_WIDESCREEN_INFO_0_OR NULL
+#define LINUXLOADER_TEST_BUTTONS_LABEL_OR NULL
+#define LINUXLOADER_TEST_BUTTONS_INFO_0_OR NULL
+#define LINUXLOADER_GUN_AIM_LABEL_OR NULL
+#define LINUXLOADER_GUN_AIM_INFO_0_OR NULL
+#define OPTION_VAL_STICK_OR NULL
+#define OPTION_VAL_MOUSE_OR NULL
+#define LINUXLOADER_GUN_SENSITIVITY_LABEL_OR NULL
+#define LINUXLOADER_GUN_SENSITIVITY_INFO_0_OR NULL
+#define OPTION_VAL_50_OR NULL
+#define OPTION_VAL_60_OR NULL
+#define OPTION_VAL_70_OR NULL
+#define OPTION_VAL_80_OR NULL
+#define OPTION_VAL_90_OR NULL
+#define OPTION_VAL_100_OR NULL
+#define OPTION_VAL_110_OR NULL
+#define OPTION_VAL_120_OR NULL
+#define OPTION_VAL_130_OR NULL
+#define OPTION_VAL_140_OR NULL
+#define OPTION_VAL_150_OR NULL
+#define OPTION_VAL_160_OR NULL
+#define OPTION_VAL_170_OR NULL
+#define OPTION_VAL_180_OR NULL
+#define OPTION_VAL_190_OR NULL
+#define OPTION_VAL_200_OR NULL
+#define LINUXLOADER_CROSSHAIR_LABEL_OR NULL
+#define LINUXLOADER_CROSSHAIR_INFO_0_OR NULL
+#define LINUXLOADER_FFB_RUMBLE_LABEL_OR NULL
+#define LINUXLOADER_FFB_RUMBLE_INFO_0_OR NULL
+#define LINUXLOADER_STEERING_LABEL_OR NULL
+#define LINUXLOADER_STEERING_INFO_0_OR NULL
+#define OPTION_VAL_LINEAR_OR NULL
+#define OPTION_VAL_LOGARITHMIC_OR NULL
+#define LINUXLOADER_STEERING_INNER_LABEL_OR NULL
+#define LINUXLOADER_STEERING_INNER_INFO_0_OR NULL
+#define OPTION_VAL_5_OR NULL
+#define OPTION_VAL_10_OR NULL
+#define OPTION_VAL_15_OR NULL
+#define OPTION_VAL_20_OR NULL
+#define OPTION_VAL_25_OR NULL
+#define OPTION_VAL_30_OR NULL
+#define OPTION_VAL_35_OR NULL
+#define OPTION_VAL_40_OR NULL
+#define OPTION_VAL_45_OR NULL
+#define LINUXLOADER_STEERING_EFFECT_LABEL_OR NULL
+#define LINUXLOADER_STEERING_EFFECT_INFO_0_OR NULL
+#define OPTION_VAL_CUBIC_OR NULL
+#define OPTION_VAL_SQUARE_OR NULL
+#define LINUXLOADER_AUDIO_THREAD_LABEL_OR NULL
+#define LINUXLOADER_AUDIO_THREAD_INFO_0_OR NULL
+#define LINUXLOADER_DEBUG_FREEPLAY_LABEL_OR NULL
+#define OPTION_VAL_DEFAULT_OR NULL
+#define LINUXLOADER_DEBUG_TEST_MODE_LABEL_OR NULL
+#define LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_LABEL_OR NULL
+#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_OR NULL
+#define LINUXLOADER_DEBUG_EMULATE_MOTIONBOARD_LABEL_OR NULL
+#define LINUXLOADER_DEBUG_EMULATE_RIDEBOARD_LABEL_OR NULL
+#define LINUXLOADER_DEBUG_EMULATE_HW210_CARDREADER_LABEL_OR NULL
+#define LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_OR NULL
+#define LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_OR NULL
+#define LINUXLOADER_DEBUG_REGION_LABEL_OR NULL
+#define OPTION_VAL_JP_OR NULL
+#define OPTION_VAL_US_OR NULL
+#define OPTION_VAL_EX_OR NULL
+#define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_OR NULL
+#define OPTION_VAL_YELLOW_OR NULL
+#define OPTION_VAL_RED_OR NULL
+#define OPTION_VAL_BLUE_OR NULL
+#define OPTION_VAL_SILVER_OR NULL
+#define OPTION_VAL_REDEX_OR NULL
+#define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_OR NULL
+#define LINUXLOADER_DEBUG_BOOST_RENDER_RES_LABEL_OR NULL
+#define LINUXLOADER_DEBUG_HUMMER_FLICKER_FIX_LABEL_OR NULL
+#define LINUXLOADER_DEBUG_LGJ_RENDER_WITH_MESA_LABEL_OR NULL
+#define LINUXLOADER_DEBUG_DISABLE_BUILTIN_FONT_LABEL_OR NULL
+#define LINUXLOADER_DEBUG_DISABLE_BUILTIN_LOGOS_LABEL_OR NULL
+#define LINUXLOADER_DEBUG_CPU_FREQ_GHZ_LABEL_OR NULL
+#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_CPU_FREQ_GHZ_OR NULL
+#define OPTION_VAL_1_0_OR NULL
+#define OPTION_VAL_1_5_OR NULL
+#define OPTION_VAL_2_0_OR NULL
+#define OPTION_VAL_2_5_OR NULL
+#define OPTION_VAL_3_0_OR NULL
+#define OPTION_VAL_3_5_OR NULL
+#define OPTION_VAL_4_0_OR NULL
+#define OPTION_VAL_4_5_OR NULL
+#define OPTION_VAL_5_0_OR NULL
+#define LINUXLOADER_DEBUG_SKIP_OUTRUN_CABINET_CHECK_LABEL_OR NULL
+#define LINUXLOADER_DEBUG_ID_STEERING_REDUCTION_PERCENTAGE_LABEL_OR NULL
+#define OPTION_VAL_0_OR NULL
+#define LINUXLOADER_DEBUG_ID5_CHINESE_LANGUAGE_LABEL_OR NULL
+#define LINUXLOADER_DEBUG_HARLEY_ANALOG_REMAP_LABEL_OR NULL
+#define LINUXLOADER_DEBUG_MJ4_ENABLED_ALL_THE_TIME_LABEL_OR NULL
+#define LINUXLOADER_DEBUG_RAMBO_GUNS_SWITCH_LABEL_OR NULL
+#define LINUXLOADER_DEBUG_PRIMEVAL_HUNT_SCREEN_MODE_LABEL_OR NULL
+#define LINUXLOADER_DEBUG_PRIMEVAL_HUNT_TEST_SCREEN_SINGLE_LABEL_OR NULL
+#define LINUXLOADER_DEBUG_ID_CARDFILE_AUTOLOAD_LABEL_OR NULL
+#define LINUXLOADER_DEBUG_ENABLE_CROSSHAIRS_LABEL_OR NULL
+#define LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_ON_LABEL_OR NULL
+#define LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_OFF_LABEL_OR NULL
+#define LINUXLOADER_DEBUG_ENABLE_NETWORK_PATCHES_LABEL_OR NULL
+#define LINUXLOADER_DEBUG_ABURNER_MOTION_OFF_LABEL_OR NULL
+
+struct retro_core_option_v2_category option_cats_or[] = {
+    {"video", CATEGORY_VIDEO_LABEL_OR, CATEGORY_VIDEO_INFO_0_OR},
+    {"input", CATEGORY_INPUT_LABEL_OR, CATEGORY_INPUT_INFO_0_OR},
+    {"audio", CATEGORY_AUDIO_LABEL_OR, CATEGORY_AUDIO_INFO_0_OR},
+    {"debug", CATEGORY_DEBUG_LABEL_OR, CATEGORY_DEBUG_INFO_0_OR},
+    {NULL, NULL, NULL},
+};
+struct retro_core_option_v2_definition option_defs_or[] = {
+    {"linuxloader_resolution", LINUXLOADER_RESOLUTION_LABEL_OR, NULL,
+     LINUXLOADER_RESOLUTION_INFO_0_OR,
+     NULL, "video",
+     {{"native", OPTION_VAL_NATIVE_OR}, {"1280x720", OPTION_VAL_1280X720_OR}, {"1920x1080", OPTION_VAL_1920X1080_OR}, {"2560x1440", OPTION_VAL_2560X1440_OR}, {"3840x2160", OPTION_VAL_3840X2160_OR}, {"5120x2880", OPTION_VAL_5120X2880_OR}, {NULL, NULL}},
+     "native"},
+    {"linuxloader_force_widescreen", LINUXLOADER_FORCE_WIDESCREEN_LABEL_OR, NULL,
+     LINUXLOADER_FORCE_WIDESCREEN_INFO_0_OR,
+     NULL, "video",
+     {{"disabled", NULL}, {"enabled", NULL}, {NULL, NULL}},
+     "disabled"},
+    {"linuxloader_test_buttons", LINUXLOADER_TEST_BUTTONS_LABEL_OR, NULL,
+     LINUXLOADER_TEST_BUTTONS_INFO_0_OR,
+     NULL, "input",
+     {{"enabled", NULL}, {"disabled", NULL}, {NULL, NULL}},
+     "enabled"},
+    {"linuxloader_gun_aim", LINUXLOADER_GUN_AIM_LABEL_OR, NULL,
+     LINUXLOADER_GUN_AIM_INFO_0_OR,
+     NULL, "input",
+     {{"stick", OPTION_VAL_STICK_OR}, {"mouse", OPTION_VAL_MOUSE_OR}, {NULL, NULL}},
+     "stick"},
+    {"linuxloader_gun_sensitivity", LINUXLOADER_GUN_SENSITIVITY_LABEL_OR, NULL,
+     LINUXLOADER_GUN_SENSITIVITY_INFO_0_OR,
+     NULL, "input",
+     {{"50", OPTION_VAL_50_OR}, {"60", OPTION_VAL_60_OR}, {"70", OPTION_VAL_70_OR}, {"80", OPTION_VAL_80_OR}, {"90", OPTION_VAL_90_OR}, {"100", OPTION_VAL_100_OR}, {"110", OPTION_VAL_110_OR},
+      {"120", OPTION_VAL_120_OR}, {"130", OPTION_VAL_130_OR}, {"140", OPTION_VAL_140_OR}, {"150", OPTION_VAL_150_OR}, {"160", OPTION_VAL_160_OR}, {"170", OPTION_VAL_170_OR},
+      {"180", OPTION_VAL_180_OR}, {"190", OPTION_VAL_190_OR}, {"200", OPTION_VAL_200_OR}, {NULL, NULL}},
+     "100"},
+    {"linuxloader_crosshair", LINUXLOADER_CROSSHAIR_LABEL_OR, NULL,
+     LINUXLOADER_CROSSHAIR_INFO_0_OR,
+     NULL, "input",
+     {{"enabled", NULL}, {"disabled", NULL}, {NULL, NULL}},
+     "enabled"},
+    {"linuxloader_ffb_rumble", LINUXLOADER_FFB_RUMBLE_LABEL_OR, NULL,
+     LINUXLOADER_FFB_RUMBLE_INFO_0_OR,
+     NULL, "input",
+     {{"enabled", NULL}, {"disabled", NULL}, {NULL, NULL}},
+     "enabled"},
+    {"linuxloader_steering", LINUXLOADER_STEERING_LABEL_OR, NULL,
+     LINUXLOADER_STEERING_INFO_0_OR,
+     NULL, "input",
+     {{"linear", OPTION_VAL_LINEAR_OR}, {"logarithmic", OPTION_VAL_LOGARITHMIC_OR}, {NULL, NULL}},
+     "linear"},
+    {"linuxloader_steering_inner", LINUXLOADER_STEERING_INNER_LABEL_OR, NULL,
+     LINUXLOADER_STEERING_INNER_INFO_0_OR,
+     NULL, "input",
+     {{"5", OPTION_VAL_5_OR}, {"10", OPTION_VAL_10_OR}, {"15", OPTION_VAL_15_OR}, {"20", OPTION_VAL_20_OR}, {"25", OPTION_VAL_25_OR}, {"30", OPTION_VAL_30_OR}, {"35", OPTION_VAL_35_OR}, {"40", OPTION_VAL_40_OR}, {"45", OPTION_VAL_45_OR}, {"50", OPTION_VAL_50_OR}, {NULL, NULL}},
+     "25"},
+    {"linuxloader_steering_effect", LINUXLOADER_STEERING_EFFECT_LABEL_OR, NULL,
+     LINUXLOADER_STEERING_EFFECT_INFO_0_OR,
+     NULL, "input",
+     {{"cubic", OPTION_VAL_CUBIC_OR}, {"square", OPTION_VAL_SQUARE_OR}, {NULL, NULL}},
+     "cubic"},
+    {"linuxloader_audio_thread", LINUXLOADER_AUDIO_THREAD_LABEL_OR, NULL,
+     LINUXLOADER_AUDIO_THREAD_INFO_0_OR,
+     NULL, "audio",
+     {{"enabled", NULL}, {"disabled", NULL}, {NULL, NULL}},
+     "enabled"},
+    {"linuxloader_debug_freeplay", LINUXLOADER_DEBUG_FREEPLAY_LABEL_OR, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_OR}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_test_mode", LINUXLOADER_DEBUG_TEST_MODE_LABEL_OR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_emulate_driveboard", LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_LABEL_OR, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_OR}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_motionboard", LINUXLOADER_DEBUG_EMULATE_MOTIONBOARD_LABEL_OR, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_OR}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_rideboard", LINUXLOADER_DEBUG_EMULATE_RIDEBOARD_LABEL_OR, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_OR}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_hw210_cardreader", LINUXLOADER_DEBUG_EMULATE_HW210_CARDREADER_LABEL_OR, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_OR}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_id_cardreader", LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_OR, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_OR}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_touchscreen", LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_OR, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_OR}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_region", LINUXLOADER_DEBUG_REGION_LABEL_OR, NULL, NULL, NULL, "debug",
+     {{"JP", OPTION_VAL_JP_OR}, {"US", OPTION_VAL_US_OR}, {"EX", OPTION_VAL_EX_OR}, {NULL, NULL}},
+     "EX"},
+    {"linuxloader_debug_lindbergh_colour", LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_OR, NULL, NULL, NULL, "debug",
+     {{"YELLOW", OPTION_VAL_YELLOW_OR}, {"RED", OPTION_VAL_RED_OR}, {"BLUE", OPTION_VAL_BLUE_OR}, {"SILVER", OPTION_VAL_SILVER_OR}, {"REDEX", OPTION_VAL_REDEX_OR}, {NULL, NULL}},
+     "YELLOW"},
+    {"linuxloader_debug_debug_msgs", LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_OR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_boost_render_res", LINUXLOADER_DEBUG_BOOST_RENDER_RES_LABEL_OR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_hummer_flicker_fix", LINUXLOADER_DEBUG_HUMMER_FLICKER_FIX_LABEL_OR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_lgj_render_with_mesa", LINUXLOADER_DEBUG_LGJ_RENDER_WITH_MESA_LABEL_OR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_disable_builtin_font", LINUXLOADER_DEBUG_DISABLE_BUILTIN_FONT_LABEL_OR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_disable_builtin_logos", LINUXLOADER_DEBUG_DISABLE_BUILTIN_LOGOS_LABEL_OR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_cpu_freq_ghz", LINUXLOADER_DEBUG_CPU_FREQ_GHZ_LABEL_OR, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_CPU_FREQ_GHZ_OR}, {"1.0", OPTION_VAL_1_0_OR}, {"1.5", OPTION_VAL_1_5_OR}, {"2.0", OPTION_VAL_2_0_OR}, {"2.5", OPTION_VAL_2_5_OR}, {"3.0", OPTION_VAL_3_0_OR}, {"3.5", OPTION_VAL_3_5_OR}, {"4.0", OPTION_VAL_4_0_OR}, {"4.5", OPTION_VAL_4_5_OR}, {"5.0", OPTION_VAL_5_0_OR}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_skip_outrun_cabinet_check", LINUXLOADER_DEBUG_SKIP_OUTRUN_CABINET_CHECK_LABEL_OR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_id_steering_reduction_percentage", LINUXLOADER_DEBUG_ID_STEERING_REDUCTION_PERCENTAGE_LABEL_OR, NULL, NULL, NULL, "debug",
+     {{"0", OPTION_VAL_0_OR}, {"5", OPTION_VAL_5_OR}, {"10", OPTION_VAL_10_OR}, {"15", OPTION_VAL_15_OR}, {"20", OPTION_VAL_20_OR}, {"25", OPTION_VAL_25_OR}, {"30", OPTION_VAL_30_OR}, {"35", OPTION_VAL_35_OR}, {"40", OPTION_VAL_40_OR}, {"45", OPTION_VAL_45_OR}, {"50", OPTION_VAL_50_OR}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_id5_chinese_language", LINUXLOADER_DEBUG_ID5_CHINESE_LANGUAGE_LABEL_OR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_harley_analog_remap", LINUXLOADER_DEBUG_HARLEY_ANALOG_REMAP_LABEL_OR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_mj4_enabled_all_the_time", LINUXLOADER_DEBUG_MJ4_ENABLED_ALL_THE_TIME_LABEL_OR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_rambo_guns_switch", LINUXLOADER_DEBUG_RAMBO_GUNS_SWITCH_LABEL_OR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_primeval_hunt_screen_mode", LINUXLOADER_DEBUG_PRIMEVAL_HUNT_SCREEN_MODE_LABEL_OR, NULL, NULL, NULL, "debug",
+     /* "1" itself, not the loader's default: with the key left out, Primeval Hunt opened on two screens (NNshi) */
+     {{"0", "0"}, {"1", "1"}, {"2", "2"}, {"3", "3"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_primeval_hunt_test_screen_single", LINUXLOADER_DEBUG_PRIMEVAL_HUNT_TEST_SCREEN_SINGLE_LABEL_OR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_id_cardfile_autoload", LINUXLOADER_DEBUG_ID_CARDFILE_AUTOLOAD_LABEL_OR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_enable_crosshairs", LINUXLOADER_DEBUG_ENABLE_CROSSHAIRS_LABEL_OR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_gsevo_crosshair_always_on", LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_ON_LABEL_OR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_gsevo_crosshair_always_off", LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_OFF_LABEL_OR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_enable_network_patches", LINUXLOADER_DEBUG_ENABLE_NETWORK_PATCHES_LABEL_OR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    /* The core's own (eepromSettings.c): After Burner Climax does not start
+     * on a Deluxe cabinet with motion on, which it is out of the box, so on
+     * by default (NNshi) */
+    {"linuxloader_debug_aburner_motion_off", LINUXLOADER_DEBUG_ABURNER_MOTION_OFF_LABEL_OR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {NULL, NULL, NULL, NULL, NULL, NULL, {{NULL, NULL}}, NULL},
+};
+struct retro_core_options_v2 options_or = {
+   option_cats_or,
+   option_defs_or
+};
+
 /* RETRO_LANGUAGE_PL */
 
-#define CATEGORY_VIDEO_LABEL_PL NULL
+#define CATEGORY_VIDEO_LABEL_PL "Wideo"
 #define CATEGORY_VIDEO_INFO_0_PL NULL
-#define CATEGORY_INPUT_LABEL_PL NULL
+#define CATEGORY_INPUT_LABEL_PL "Wejście"
 #define CATEGORY_INPUT_INFO_0_PL NULL
-#define CATEGORY_AUDIO_LABEL_PL NULL
+#define CATEGORY_AUDIO_LABEL_PL "Dźwięk"
 #define CATEGORY_AUDIO_INFO_0_PL NULL
 #define CATEGORY_DEBUG_LABEL_PL NULL
 #define CATEGORY_DEBUG_INFO_0_PL NULL
 #define LINUXLOADER_RESOLUTION_LABEL_PL NULL
 #define LINUXLOADER_RESOLUTION_INFO_0_PL NULL
-#define OPTION_VAL_NATIVE_PL NULL
+#define OPTION_VAL_NATIVE_PL "Natywny"
 #define OPTION_VAL_1280X720_PL NULL
 #define OPTION_VAL_1920X1080_PL NULL
 #define OPTION_VAL_2560X1440_PL NULL
@@ -7337,13 +8792,13 @@ struct retro_core_options_v2 options_no = {
 #define LINUXLOADER_GUN_AIM_LABEL_PL NULL
 #define LINUXLOADER_GUN_AIM_INFO_0_PL NULL
 #define OPTION_VAL_STICK_PL NULL
-#define OPTION_VAL_MOUSE_PL NULL
+#define OPTION_VAL_MOUSE_PL "Mysz"
 #define LINUXLOADER_GUN_SENSITIVITY_LABEL_PL NULL
 #define LINUXLOADER_GUN_SENSITIVITY_INFO_0_PL NULL
-#define OPTION_VAL_50_PL NULL
-#define OPTION_VAL_60_PL NULL
+#define OPTION_VAL_50_PL "50 %"
+#define OPTION_VAL_60_PL "60 %"
 #define OPTION_VAL_70_PL NULL
-#define OPTION_VAL_80_PL NULL
+#define OPTION_VAL_80_PL "80 %"
 #define OPTION_VAL_90_PL NULL
 #define OPTION_VAL_100_PL NULL
 #define OPTION_VAL_110_PL NULL
@@ -7362,7 +8817,7 @@ struct retro_core_options_v2 options_no = {
 #define LINUXLOADER_FFB_RUMBLE_INFO_0_PL NULL
 #define LINUXLOADER_STEERING_LABEL_PL NULL
 #define LINUXLOADER_STEERING_INFO_0_PL NULL
-#define OPTION_VAL_LINEAR_PL NULL
+#define OPTION_VAL_LINEAR_PL "Liniowy"
 #define OPTION_VAL_LOGARITHMIC_PL NULL
 #define LINUXLOADER_STEERING_INNER_LABEL_PL NULL
 #define LINUXLOADER_STEERING_INNER_INFO_0_PL NULL
@@ -7371,7 +8826,7 @@ struct retro_core_options_v2 options_no = {
 #define OPTION_VAL_15_PL NULL
 #define OPTION_VAL_20_PL NULL
 #define OPTION_VAL_25_PL NULL
-#define OPTION_VAL_30_PL NULL
+#define OPTION_VAL_30_PL "30 %"
 #define OPTION_VAL_35_PL NULL
 #define OPTION_VAL_40_PL NULL
 #define OPTION_VAL_45_PL NULL
@@ -7392,13 +8847,13 @@ struct retro_core_options_v2 options_no = {
 #define LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_PL NULL
 #define LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_PL NULL
 #define LINUXLOADER_DEBUG_REGION_LABEL_PL NULL
-#define OPTION_VAL_JP_PL NULL
+#define OPTION_VAL_JP_PL "Japonia"
 #define OPTION_VAL_US_PL NULL
 #define OPTION_VAL_EX_PL NULL
 #define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_PL NULL
-#define OPTION_VAL_YELLOW_PL NULL
-#define OPTION_VAL_RED_PL NULL
-#define OPTION_VAL_BLUE_PL NULL
+#define OPTION_VAL_YELLOW_PL "Żółty"
+#define OPTION_VAL_RED_PL "Czerwony"
+#define OPTION_VAL_BLUE_PL "Niebieski"
 #define OPTION_VAL_SILVER_PL NULL
 #define OPTION_VAL_REDEX_PL NULL
 #define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_PL NULL
@@ -7605,17 +9060,17 @@ struct retro_core_options_v2 options_pl = {
 
 /* RETRO_LANGUAGE_PT_BR */
 
-#define CATEGORY_VIDEO_LABEL_PT_BR NULL
+#define CATEGORY_VIDEO_LABEL_PT_BR "Vídeo"
 #define CATEGORY_VIDEO_INFO_0_PT_BR NULL
-#define CATEGORY_INPUT_LABEL_PT_BR NULL
+#define CATEGORY_INPUT_LABEL_PT_BR "Entrada"
 #define CATEGORY_INPUT_INFO_0_PT_BR NULL
-#define CATEGORY_AUDIO_LABEL_PT_BR NULL
+#define CATEGORY_AUDIO_LABEL_PT_BR "Áudio"
 #define CATEGORY_AUDIO_INFO_0_PT_BR NULL
 #define CATEGORY_DEBUG_LABEL_PT_BR NULL
 #define CATEGORY_DEBUG_INFO_0_PT_BR NULL
 #define LINUXLOADER_RESOLUTION_LABEL_PT_BR NULL
 #define LINUXLOADER_RESOLUTION_INFO_0_PT_BR NULL
-#define OPTION_VAL_NATIVE_PT_BR NULL
+#define OPTION_VAL_NATIVE_PT_BR "Nativo"
 #define OPTION_VAL_1280X720_PT_BR NULL
 #define OPTION_VAL_1920X1080_PT_BR NULL
 #define OPTION_VAL_2560X1440_PT_BR NULL
@@ -7683,13 +9138,13 @@ struct retro_core_options_v2 options_pl = {
 #define LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_PT_BR NULL
 #define LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_PT_BR NULL
 #define LINUXLOADER_DEBUG_REGION_LABEL_PT_BR NULL
-#define OPTION_VAL_JP_PT_BR NULL
+#define OPTION_VAL_JP_PT_BR "Japão"
 #define OPTION_VAL_US_PT_BR NULL
 #define OPTION_VAL_EX_PT_BR NULL
 #define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_PT_BR NULL
-#define OPTION_VAL_YELLOW_PT_BR NULL
-#define OPTION_VAL_RED_PT_BR NULL
-#define OPTION_VAL_BLUE_PT_BR NULL
+#define OPTION_VAL_YELLOW_PT_BR "Amarelo"
+#define OPTION_VAL_RED_PT_BR "Vermelho"
+#define OPTION_VAL_BLUE_PT_BR "Azul"
 #define OPTION_VAL_SILVER_PT_BR NULL
 #define OPTION_VAL_REDEX_PT_BR NULL
 #define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_PT_BR NULL
@@ -7896,11 +9351,11 @@ struct retro_core_options_v2 options_pt_br = {
 
 /* RETRO_LANGUAGE_PT_PT */
 
-#define CATEGORY_VIDEO_LABEL_PT_PT NULL
+#define CATEGORY_VIDEO_LABEL_PT_PT "Vídeo"
 #define CATEGORY_VIDEO_INFO_0_PT_PT NULL
-#define CATEGORY_INPUT_LABEL_PT_PT NULL
+#define CATEGORY_INPUT_LABEL_PT_PT "Entrada"
 #define CATEGORY_INPUT_INFO_0_PT_PT NULL
-#define CATEGORY_AUDIO_LABEL_PT_PT NULL
+#define CATEGORY_AUDIO_LABEL_PT_PT "Áudio"
 #define CATEGORY_AUDIO_INFO_0_PT_PT NULL
 #define CATEGORY_DEBUG_LABEL_PT_PT NULL
 #define CATEGORY_DEBUG_INFO_0_PT_PT NULL
@@ -7978,9 +9433,9 @@ struct retro_core_options_v2 options_pt_br = {
 #define OPTION_VAL_US_PT_PT NULL
 #define OPTION_VAL_EX_PT_PT NULL
 #define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_PT_PT NULL
-#define OPTION_VAL_YELLOW_PT_PT NULL
-#define OPTION_VAL_RED_PT_PT NULL
-#define OPTION_VAL_BLUE_PT_PT NULL
+#define OPTION_VAL_YELLOW_PT_PT "Amarelo"
+#define OPTION_VAL_RED_PT_PT "Vermelho"
+#define OPTION_VAL_BLUE_PT_PT "Azul"
 #define OPTION_VAL_SILVER_PT_PT NULL
 #define OPTION_VAL_REDEX_PT_PT NULL
 #define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_PT_PT NULL
@@ -8187,17 +9642,17 @@ struct retro_core_options_v2 options_pt_pt = {
 
 /* RETRO_LANGUAGE_RU */
 
-#define CATEGORY_VIDEO_LABEL_RU NULL
+#define CATEGORY_VIDEO_LABEL_RU "Видео"
 #define CATEGORY_VIDEO_INFO_0_RU NULL
-#define CATEGORY_INPUT_LABEL_RU NULL
+#define CATEGORY_INPUT_LABEL_RU "Управление"
 #define CATEGORY_INPUT_INFO_0_RU NULL
-#define CATEGORY_AUDIO_LABEL_RU NULL
+#define CATEGORY_AUDIO_LABEL_RU "Аудио"
 #define CATEGORY_AUDIO_INFO_0_RU NULL
 #define CATEGORY_DEBUG_LABEL_RU NULL
 #define CATEGORY_DEBUG_INFO_0_RU NULL
 #define LINUXLOADER_RESOLUTION_LABEL_RU NULL
 #define LINUXLOADER_RESOLUTION_INFO_0_RU NULL
-#define OPTION_VAL_NATIVE_RU NULL
+#define OPTION_VAL_NATIVE_RU "Исходное"
 #define OPTION_VAL_1280X720_RU NULL
 #define OPTION_VAL_1920X1080_RU NULL
 #define OPTION_VAL_2560X1440_RU NULL
@@ -8210,7 +9665,7 @@ struct retro_core_options_v2 options_pt_pt = {
 #define LINUXLOADER_GUN_AIM_LABEL_RU NULL
 #define LINUXLOADER_GUN_AIM_INFO_0_RU NULL
 #define OPTION_VAL_STICK_RU NULL
-#define OPTION_VAL_MOUSE_RU NULL
+#define OPTION_VAL_MOUSE_RU "Мышь"
 #define LINUXLOADER_GUN_SENSITIVITY_LABEL_RU NULL
 #define LINUXLOADER_GUN_SENSITIVITY_INFO_0_RU NULL
 #define OPTION_VAL_50_RU NULL
@@ -8235,7 +9690,7 @@ struct retro_core_options_v2 options_pt_pt = {
 #define LINUXLOADER_FFB_RUMBLE_INFO_0_RU NULL
 #define LINUXLOADER_STEERING_LABEL_RU NULL
 #define LINUXLOADER_STEERING_INFO_0_RU NULL
-#define OPTION_VAL_LINEAR_RU NULL
+#define OPTION_VAL_LINEAR_RU "Линейный"
 #define OPTION_VAL_LOGARITHMIC_RU NULL
 #define LINUXLOADER_STEERING_INNER_LABEL_RU NULL
 #define LINUXLOADER_STEERING_INNER_INFO_0_RU NULL
@@ -8265,13 +9720,13 @@ struct retro_core_options_v2 options_pt_pt = {
 #define LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_RU NULL
 #define LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_RU NULL
 #define LINUXLOADER_DEBUG_REGION_LABEL_RU NULL
-#define OPTION_VAL_JP_RU NULL
+#define OPTION_VAL_JP_RU "Япония"
 #define OPTION_VAL_US_RU NULL
 #define OPTION_VAL_EX_RU NULL
 #define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_RU NULL
-#define OPTION_VAL_YELLOW_RU NULL
-#define OPTION_VAL_RED_RU NULL
-#define OPTION_VAL_BLUE_RU NULL
+#define OPTION_VAL_YELLOW_RU "Жёлтая"
+#define OPTION_VAL_RED_RU "Красная"
+#define OPTION_VAL_BLUE_RU "Голубая"
 #define OPTION_VAL_SILVER_RU NULL
 #define OPTION_VAL_REDEX_RU NULL
 #define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_RU NULL
@@ -8479,31 +9934,31 @@ struct retro_core_options_v2 options_ru = {
 /* RETRO_LANGUAGE_SK */
 
 #define CATEGORY_VIDEO_LABEL_SK NULL
-#define CATEGORY_VIDEO_INFO_0_SK NULL
-#define CATEGORY_INPUT_LABEL_SK NULL
-#define CATEGORY_INPUT_INFO_0_SK NULL
-#define CATEGORY_AUDIO_LABEL_SK NULL
-#define CATEGORY_AUDIO_INFO_0_SK NULL
-#define CATEGORY_DEBUG_LABEL_SK NULL
-#define CATEGORY_DEBUG_INFO_0_SK NULL
-#define LINUXLOADER_RESOLUTION_LABEL_SK NULL
-#define LINUXLOADER_RESOLUTION_INFO_0_SK NULL
-#define OPTION_VAL_NATIVE_SK NULL
+#define CATEGORY_VIDEO_INFO_0_SK "Rozlíšenie, v ktorom sa hry vykresľujú, a širokouhlý obraz."
+#define CATEGORY_INPUT_LABEL_SK "Vstup"
+#define CATEGORY_INPUT_INFO_0_SK "Pištole, volant a spätná väzba."
+#define CATEGORY_AUDIO_LABEL_SK "Zvuk"
+#define CATEGORY_AUDIO_INFO_0_SK "Ako sa zvuk dostáva do RetroArchu."
+#define CATEGORY_DEBUG_LABEL_SK "Ladenie (reštart)"
+#define CATEGORY_DEBUG_INFO_0_SK "Nastavenia linuxloader.ini, ktoré sa nastavia namiesto tých v linuxloader.ini hry. Podľa hry, Nezmenené a Zistené ponechajú nastavenie loadera."
+#define LINUXLOADER_RESOLUTION_LABEL_SK "Rozlíšenie (reštart)"
+#define LINUXLOADER_RESOLUTION_INFO_0_SK "Šírka a výška, v ktorej sa vykresľujú hry, ktoré loader dokáže upraviť. Natívne ponechá hodnotu z linuxloader.ini. Každá snímka ide do RetroArchu cez systémovú pamäť, takže najvyššie rozlíšenia stoja rýchlosť. Upozornenie: nastavenie tejto voľby nad rozlíšenie vašej obrazovky niektoré hry rozbije alebo ich nebude možné spustiť."
+#define OPTION_VAL_NATIVE_SK "Natívne"
 #define OPTION_VAL_1280X720_SK NULL
 #define OPTION_VAL_1920X1080_SK NULL
 #define OPTION_VAL_2560X1440_SK NULL
 #define OPTION_VAL_3840X2160_SK NULL
 #define OPTION_VAL_5120X2880_SK NULL
-#define LINUXLOADER_FORCE_WIDESCREEN_LABEL_SK NULL
-#define LINUXLOADER_FORCE_WIDESCREEN_INFO_0_SK NULL
-#define LINUXLOADER_TEST_BUTTONS_LABEL_SK NULL
-#define LINUXLOADER_TEST_BUTTONS_INFO_0_SK NULL
-#define LINUXLOADER_GUN_AIM_LABEL_SK NULL
-#define LINUXLOADER_GUN_AIM_INFO_0_SK NULL
-#define OPTION_VAL_STICK_SK NULL
-#define OPTION_VAL_MOUSE_SK NULL
-#define LINUXLOADER_GUN_SENSITIVITY_LABEL_SK NULL
-#define LINUXLOADER_GUN_SENSITIVITY_INFO_0_SK NULL
+#define LINUXLOADER_FORCE_WIDESCREEN_LABEL_SK "Vynútiť 16:9 (reštart)"
+#define LINUXLOADER_FORCE_WIDESCREEN_INFO_0_SK "Všetky hry pobežia v širokouhlom obraze. Niektoré hry to môže rozbiť alebo roztiahnuť."
+#define LINUXLOADER_TEST_BUTTONS_LABEL_SK "Tlačidlá Service a Test"
+#define LINUXLOADER_TEST_BUTTONS_INFO_0_SK "L3 ako tlačidlo Service automatu a R3 ako jeho tlačidlo Test, na oboch ovládačoch. Vypnuté zabráni ich náhodnému stlačeniu; klávesy S a T na klávesnici ostávajú."
+#define LINUXLOADER_GUN_AIM_LABEL_SK "Mierenie pištole"
+#define LINUXLOADER_GUN_AIM_INFO_0_SK "Čím sa mieri v hrách so zbraňou, pre oboch hráčov. Analógová páčka: ľavá páčka (alebo smerový ovládač) každého hráča hýbe zameriavačom, R2 strieľa, R nabíja, L2 je tlačidlo zbrane, L v The House of the Dead 4 trasie zbraňou. Too Spicy: L2 nabíja, L a R sú pedále. Ghost Squad Evolution: L2 je Action, L je Change. Primeval Hunt: L2 prebíja pumpu. Myš: svetelná pištoľ RetroArchu na porte každého hráča, ktorá nasleduje myš; ľavé tlačidlo strieľa, pravé nabíja, stredné je tlačidlo zbrane, mierenie mimo obraz tiež nabíja. Ghost Squad Evolution: pravé je Action, stredné je Change. The House of the Dead 4: pravé je tlačidlo zbrane, stredné trasie. Too Spicy: stredné je ľavý pedál, pravé pravý. Primeval Hunt: stredné prebíja pumpu a dotyková obrazovka prijíma kliknutia myši."
+#define OPTION_VAL_STICK_SK "Analógová páčka"
+#define OPTION_VAL_MOUSE_SK "Myš"
+#define LINUXLOADER_GUN_SENSITIVITY_LABEL_SK "Citlivosť ukazovateľa pištole"
+#define LINUXLOADER_GUN_SENSITIVITY_INFO_0_SK "Ako rýchlo páčky hýbu zameriavačom pri Mierení pištole na Analógovej páčke, rovnako rýchlo do strán ako hore a dole; pri 100 % prejde úplné vychýlenie výšku obrazu asi za sekundu. Myš mieri tam, kam ukazuje."
 #define OPTION_VAL_50_SK NULL
 #define OPTION_VAL_60_SK NULL
 #define OPTION_VAL_70_SK NULL
@@ -8520,16 +9975,16 @@ struct retro_core_options_v2 options_ru = {
 #define OPTION_VAL_180_SK NULL
 #define OPTION_VAL_190_SK NULL
 #define OPTION_VAL_200_SK NULL
-#define LINUXLOADER_CROSSHAIR_LABEL_SK NULL
-#define LINUXLOADER_CROSSHAIR_INFO_0_SK NULL
-#define LINUXLOADER_FFB_RUMBLE_LABEL_SK NULL
-#define LINUXLOADER_FFB_RUMBLE_INFO_0_SK NULL
-#define LINUXLOADER_STEERING_LABEL_SK NULL
-#define LINUXLOADER_STEERING_INFO_0_SK NULL
-#define OPTION_VAL_LINEAR_SK NULL
-#define OPTION_VAL_LOGARITHMIC_SK NULL
-#define LINUXLOADER_STEERING_INNER_LABEL_SK NULL
-#define LINUXLOADER_STEERING_INNER_INFO_0_SK NULL
+#define LINUXLOADER_CROSSHAIR_LABEL_SK "Zameriavač"
+#define LINUXLOADER_CROSSHAIR_INFO_0_SK "Zameriavače hier so zbraňou kreslené cez obraz: modrý pre hráča 1, červený pre hráča 2; zobrazí sa, keď daný hráč mieri."
+#define LINUXLOADER_FFB_RUMBLE_LABEL_SK "Spätná väzba ako vibrácie"
+#define LINUXLOADER_FFB_RUMBLE_INFO_0_SK "Spätná väzba drive boardu ako vibrácie na ovládači hráča 1, v pretekárskych hrách: OutRun 2 SP SDX, Initial D 4 a 5, Hummer. Vyžaduje emulovaný drive board, čo pre tieto hry zariadi voľba Podľa hry v Ladenie > EMULATE_DRIVEBOARD."
+#define LINUXLOADER_STEERING_LABEL_SK "Odozva riadenia"
+#define LINUXLOADER_STEERING_INFO_0_SK "Lineárne: os X ľavej páčky tak, ako je. Logaritmické: na krivke s menším natočením okolo stredu a strmšie ku krajom, ako to má DIP prepínač pretekárskych hier Sega System 32, takže páčka riadi menej trhane. Tvar krivky nastavujú Vnútorná zóna riadenia a Efekt riadenia."
+#define OPTION_VAL_LINEAR_SK "Lineárny"
+#define OPTION_VAL_LOGARITHMIC_SK "Logaritmická"
+#define LINUXLOADER_STEERING_INNER_LABEL_SK "Vnútorná zóna riadenia"
+#define LINUXLOADER_STEERING_INNER_INFO_0_SK "Pri logaritmickom riadení: podiel natočenia v strede. Nižšie je pokojnejšie okolo stredu. OutRun 2 sa dobre hrá pri 20 so Štvorcovým, Initial D pri 50 s Kubickým."
 #define OPTION_VAL_5_SK NULL
 #define OPTION_VAL_10_SK NULL
 #define OPTION_VAL_15_SK NULL
@@ -8539,31 +9994,31 @@ struct retro_core_options_v2 options_ru = {
 #define OPTION_VAL_35_SK NULL
 #define OPTION_VAL_40_SK NULL
 #define OPTION_VAL_45_SK NULL
-#define LINUXLOADER_STEERING_EFFECT_LABEL_SK NULL
-#define LINUXLOADER_STEERING_EFFECT_INFO_0_SK NULL
-#define OPTION_VAL_CUBIC_SK NULL
-#define OPTION_VAL_SQUARE_SK NULL
-#define LINUXLOADER_AUDIO_THREAD_LABEL_SK NULL
-#define LINUXLOADER_AUDIO_THREAD_INFO_0_SK NULL
+#define LINUXLOADER_STEERING_EFFECT_LABEL_SK "Účinok riadenia"
+#define LINUXLOADER_STEERING_EFFECT_INFO_0_SK "Pri logaritmickom riadení: ako zvyšok natočenia stúpa k plnému vytočeniu. Kubický je silný, Štvorcový slabý."
+#define OPTION_VAL_CUBIC_SK "Kubická (silný účinok)"
+#define OPTION_VAL_SQUARE_SK "Kvadratická (slabý účinok)"
+#define LINUXLOADER_AUDIO_THREAD_LABEL_SK "Zvukové vlákno (reštart)"
+#define LINUXLOADER_AUDIO_THREAD_INFO_0_SK "Odovzdáva zvuk zvukovému vláknu RetroArchu tak, ako ho loader mieša, čo udrží jeho tempo, keď hra stráca snímky. Hlásateľ v OutRun 2 SP sa s tým stratí."
 #define LINUXLOADER_DEBUG_FREEPLAY_LABEL_SK NULL
-#define OPTION_VAL_DEFAULT_SK NULL
+#define OPTION_VAL_DEFAULT_SK "Nezmenené"
 #define LINUXLOADER_DEBUG_TEST_MODE_LABEL_SK NULL
 #define LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_LABEL_SK NULL
-#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_SK NULL
+#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_SK "Podľa hry"
 #define LINUXLOADER_DEBUG_EMULATE_MOTIONBOARD_LABEL_SK NULL
 #define LINUXLOADER_DEBUG_EMULATE_RIDEBOARD_LABEL_SK NULL
 #define LINUXLOADER_DEBUG_EMULATE_HW210_CARDREADER_LABEL_SK NULL
 #define LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_SK NULL
 #define LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_SK NULL
 #define LINUXLOADER_DEBUG_REGION_LABEL_SK NULL
-#define OPTION_VAL_JP_SK NULL
+#define OPTION_VAL_JP_SK "Japonsko"
 #define OPTION_VAL_US_SK NULL
 #define OPTION_VAL_EX_SK NULL
 #define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_SK NULL
-#define OPTION_VAL_YELLOW_SK NULL
-#define OPTION_VAL_RED_SK NULL
-#define OPTION_VAL_BLUE_SK NULL
-#define OPTION_VAL_SILVER_SK NULL
+#define OPTION_VAL_YELLOW_SK "Žltá"
+#define OPTION_VAL_RED_SK "Červená"
+#define OPTION_VAL_BLUE_SK "Modrá"
+#define OPTION_VAL_SILVER_SK "Strieborná"
 #define OPTION_VAL_REDEX_SK NULL
 #define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_SK NULL
 #define LINUXLOADER_DEBUG_BOOST_RENDER_RES_LABEL_SK NULL
@@ -8572,7 +10027,7 @@ struct retro_core_options_v2 options_ru = {
 #define LINUXLOADER_DEBUG_DISABLE_BUILTIN_FONT_LABEL_SK NULL
 #define LINUXLOADER_DEBUG_DISABLE_BUILTIN_LOGOS_LABEL_SK NULL
 #define LINUXLOADER_DEBUG_CPU_FREQ_GHZ_LABEL_SK NULL
-#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_CPU_FREQ_GHZ_SK NULL
+#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_CPU_FREQ_GHZ_SK "Zistené"
 #define OPTION_VAL_1_0_SK NULL
 #define OPTION_VAL_1_5_SK NULL
 #define OPTION_VAL_2_0_SK NULL
@@ -8767,34 +10222,325 @@ struct retro_core_options_v2 options_sk = {
    option_defs_sk
 };
 
+/* RETRO_LANGUAGE_SR */
+
+#define CATEGORY_VIDEO_LABEL_SR NULL
+#define CATEGORY_VIDEO_INFO_0_SR NULL
+#define CATEGORY_INPUT_LABEL_SR "Ulaz"
+#define CATEGORY_INPUT_INFO_0_SR NULL
+#define CATEGORY_AUDIO_LABEL_SR "Zvuk"
+#define CATEGORY_AUDIO_INFO_0_SR NULL
+#define CATEGORY_DEBUG_LABEL_SR NULL
+#define CATEGORY_DEBUG_INFO_0_SR NULL
+#define LINUXLOADER_RESOLUTION_LABEL_SR NULL
+#define LINUXLOADER_RESOLUTION_INFO_0_SR NULL
+#define OPTION_VAL_NATIVE_SR NULL
+#define OPTION_VAL_1280X720_SR NULL
+#define OPTION_VAL_1920X1080_SR NULL
+#define OPTION_VAL_2560X1440_SR NULL
+#define OPTION_VAL_3840X2160_SR NULL
+#define OPTION_VAL_5120X2880_SR NULL
+#define LINUXLOADER_FORCE_WIDESCREEN_LABEL_SR NULL
+#define LINUXLOADER_FORCE_WIDESCREEN_INFO_0_SR NULL
+#define LINUXLOADER_TEST_BUTTONS_LABEL_SR NULL
+#define LINUXLOADER_TEST_BUTTONS_INFO_0_SR NULL
+#define LINUXLOADER_GUN_AIM_LABEL_SR NULL
+#define LINUXLOADER_GUN_AIM_INFO_0_SR NULL
+#define OPTION_VAL_STICK_SR NULL
+#define OPTION_VAL_MOUSE_SR NULL
+#define LINUXLOADER_GUN_SENSITIVITY_LABEL_SR NULL
+#define LINUXLOADER_GUN_SENSITIVITY_INFO_0_SR NULL
+#define OPTION_VAL_50_SR NULL
+#define OPTION_VAL_60_SR NULL
+#define OPTION_VAL_70_SR NULL
+#define OPTION_VAL_80_SR NULL
+#define OPTION_VAL_90_SR NULL
+#define OPTION_VAL_100_SR NULL
+#define OPTION_VAL_110_SR NULL
+#define OPTION_VAL_120_SR NULL
+#define OPTION_VAL_130_SR NULL
+#define OPTION_VAL_140_SR NULL
+#define OPTION_VAL_150_SR NULL
+#define OPTION_VAL_160_SR NULL
+#define OPTION_VAL_170_SR NULL
+#define OPTION_VAL_180_SR NULL
+#define OPTION_VAL_190_SR NULL
+#define OPTION_VAL_200_SR NULL
+#define LINUXLOADER_CROSSHAIR_LABEL_SR NULL
+#define LINUXLOADER_CROSSHAIR_INFO_0_SR NULL
+#define LINUXLOADER_FFB_RUMBLE_LABEL_SR NULL
+#define LINUXLOADER_FFB_RUMBLE_INFO_0_SR NULL
+#define LINUXLOADER_STEERING_LABEL_SR NULL
+#define LINUXLOADER_STEERING_INFO_0_SR NULL
+#define OPTION_VAL_LINEAR_SR NULL
+#define OPTION_VAL_LOGARITHMIC_SR NULL
+#define LINUXLOADER_STEERING_INNER_LABEL_SR NULL
+#define LINUXLOADER_STEERING_INNER_INFO_0_SR NULL
+#define OPTION_VAL_5_SR NULL
+#define OPTION_VAL_10_SR NULL
+#define OPTION_VAL_15_SR NULL
+#define OPTION_VAL_20_SR NULL
+#define OPTION_VAL_25_SR NULL
+#define OPTION_VAL_30_SR NULL
+#define OPTION_VAL_35_SR NULL
+#define OPTION_VAL_40_SR NULL
+#define OPTION_VAL_45_SR NULL
+#define LINUXLOADER_STEERING_EFFECT_LABEL_SR NULL
+#define LINUXLOADER_STEERING_EFFECT_INFO_0_SR NULL
+#define OPTION_VAL_CUBIC_SR NULL
+#define OPTION_VAL_SQUARE_SR NULL
+#define LINUXLOADER_AUDIO_THREAD_LABEL_SR NULL
+#define LINUXLOADER_AUDIO_THREAD_INFO_0_SR NULL
+#define LINUXLOADER_DEBUG_FREEPLAY_LABEL_SR NULL
+#define OPTION_VAL_DEFAULT_SR NULL
+#define LINUXLOADER_DEBUG_TEST_MODE_LABEL_SR NULL
+#define LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_LABEL_SR NULL
+#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_SR NULL
+#define LINUXLOADER_DEBUG_EMULATE_MOTIONBOARD_LABEL_SR NULL
+#define LINUXLOADER_DEBUG_EMULATE_RIDEBOARD_LABEL_SR NULL
+#define LINUXLOADER_DEBUG_EMULATE_HW210_CARDREADER_LABEL_SR NULL
+#define LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_SR NULL
+#define LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_SR NULL
+#define LINUXLOADER_DEBUG_REGION_LABEL_SR NULL
+#define OPTION_VAL_JP_SR NULL
+#define OPTION_VAL_US_SR NULL
+#define OPTION_VAL_EX_SR NULL
+#define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_SR NULL
+#define OPTION_VAL_YELLOW_SR NULL
+#define OPTION_VAL_RED_SR NULL
+#define OPTION_VAL_BLUE_SR NULL
+#define OPTION_VAL_SILVER_SR NULL
+#define OPTION_VAL_REDEX_SR NULL
+#define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_SR NULL
+#define LINUXLOADER_DEBUG_BOOST_RENDER_RES_LABEL_SR NULL
+#define LINUXLOADER_DEBUG_HUMMER_FLICKER_FIX_LABEL_SR NULL
+#define LINUXLOADER_DEBUG_LGJ_RENDER_WITH_MESA_LABEL_SR NULL
+#define LINUXLOADER_DEBUG_DISABLE_BUILTIN_FONT_LABEL_SR NULL
+#define LINUXLOADER_DEBUG_DISABLE_BUILTIN_LOGOS_LABEL_SR NULL
+#define LINUXLOADER_DEBUG_CPU_FREQ_GHZ_LABEL_SR NULL
+#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_CPU_FREQ_GHZ_SR NULL
+#define OPTION_VAL_1_0_SR NULL
+#define OPTION_VAL_1_5_SR NULL
+#define OPTION_VAL_2_0_SR NULL
+#define OPTION_VAL_2_5_SR NULL
+#define OPTION_VAL_3_0_SR NULL
+#define OPTION_VAL_3_5_SR NULL
+#define OPTION_VAL_4_0_SR NULL
+#define OPTION_VAL_4_5_SR NULL
+#define OPTION_VAL_5_0_SR NULL
+#define LINUXLOADER_DEBUG_SKIP_OUTRUN_CABINET_CHECK_LABEL_SR NULL
+#define LINUXLOADER_DEBUG_ID_STEERING_REDUCTION_PERCENTAGE_LABEL_SR NULL
+#define OPTION_VAL_0_SR NULL
+#define LINUXLOADER_DEBUG_ID5_CHINESE_LANGUAGE_LABEL_SR NULL
+#define LINUXLOADER_DEBUG_HARLEY_ANALOG_REMAP_LABEL_SR NULL
+#define LINUXLOADER_DEBUG_MJ4_ENABLED_ALL_THE_TIME_LABEL_SR NULL
+#define LINUXLOADER_DEBUG_RAMBO_GUNS_SWITCH_LABEL_SR NULL
+#define LINUXLOADER_DEBUG_PRIMEVAL_HUNT_SCREEN_MODE_LABEL_SR NULL
+#define LINUXLOADER_DEBUG_PRIMEVAL_HUNT_TEST_SCREEN_SINGLE_LABEL_SR NULL
+#define LINUXLOADER_DEBUG_ID_CARDFILE_AUTOLOAD_LABEL_SR NULL
+#define LINUXLOADER_DEBUG_ENABLE_CROSSHAIRS_LABEL_SR NULL
+#define LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_ON_LABEL_SR NULL
+#define LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_OFF_LABEL_SR NULL
+#define LINUXLOADER_DEBUG_ENABLE_NETWORK_PATCHES_LABEL_SR NULL
+#define LINUXLOADER_DEBUG_ABURNER_MOTION_OFF_LABEL_SR NULL
+
+struct retro_core_option_v2_category option_cats_sr[] = {
+    {"video", CATEGORY_VIDEO_LABEL_SR, CATEGORY_VIDEO_INFO_0_SR},
+    {"input", CATEGORY_INPUT_LABEL_SR, CATEGORY_INPUT_INFO_0_SR},
+    {"audio", CATEGORY_AUDIO_LABEL_SR, CATEGORY_AUDIO_INFO_0_SR},
+    {"debug", CATEGORY_DEBUG_LABEL_SR, CATEGORY_DEBUG_INFO_0_SR},
+    {NULL, NULL, NULL},
+};
+struct retro_core_option_v2_definition option_defs_sr[] = {
+    {"linuxloader_resolution", LINUXLOADER_RESOLUTION_LABEL_SR, NULL,
+     LINUXLOADER_RESOLUTION_INFO_0_SR,
+     NULL, "video",
+     {{"native", OPTION_VAL_NATIVE_SR}, {"1280x720", OPTION_VAL_1280X720_SR}, {"1920x1080", OPTION_VAL_1920X1080_SR}, {"2560x1440", OPTION_VAL_2560X1440_SR}, {"3840x2160", OPTION_VAL_3840X2160_SR}, {"5120x2880", OPTION_VAL_5120X2880_SR}, {NULL, NULL}},
+     "native"},
+    {"linuxloader_force_widescreen", LINUXLOADER_FORCE_WIDESCREEN_LABEL_SR, NULL,
+     LINUXLOADER_FORCE_WIDESCREEN_INFO_0_SR,
+     NULL, "video",
+     {{"disabled", NULL}, {"enabled", NULL}, {NULL, NULL}},
+     "disabled"},
+    {"linuxloader_test_buttons", LINUXLOADER_TEST_BUTTONS_LABEL_SR, NULL,
+     LINUXLOADER_TEST_BUTTONS_INFO_0_SR,
+     NULL, "input",
+     {{"enabled", NULL}, {"disabled", NULL}, {NULL, NULL}},
+     "enabled"},
+    {"linuxloader_gun_aim", LINUXLOADER_GUN_AIM_LABEL_SR, NULL,
+     LINUXLOADER_GUN_AIM_INFO_0_SR,
+     NULL, "input",
+     {{"stick", OPTION_VAL_STICK_SR}, {"mouse", OPTION_VAL_MOUSE_SR}, {NULL, NULL}},
+     "stick"},
+    {"linuxloader_gun_sensitivity", LINUXLOADER_GUN_SENSITIVITY_LABEL_SR, NULL,
+     LINUXLOADER_GUN_SENSITIVITY_INFO_0_SR,
+     NULL, "input",
+     {{"50", OPTION_VAL_50_SR}, {"60", OPTION_VAL_60_SR}, {"70", OPTION_VAL_70_SR}, {"80", OPTION_VAL_80_SR}, {"90", OPTION_VAL_90_SR}, {"100", OPTION_VAL_100_SR}, {"110", OPTION_VAL_110_SR},
+      {"120", OPTION_VAL_120_SR}, {"130", OPTION_VAL_130_SR}, {"140", OPTION_VAL_140_SR}, {"150", OPTION_VAL_150_SR}, {"160", OPTION_VAL_160_SR}, {"170", OPTION_VAL_170_SR},
+      {"180", OPTION_VAL_180_SR}, {"190", OPTION_VAL_190_SR}, {"200", OPTION_VAL_200_SR}, {NULL, NULL}},
+     "100"},
+    {"linuxloader_crosshair", LINUXLOADER_CROSSHAIR_LABEL_SR, NULL,
+     LINUXLOADER_CROSSHAIR_INFO_0_SR,
+     NULL, "input",
+     {{"enabled", NULL}, {"disabled", NULL}, {NULL, NULL}},
+     "enabled"},
+    {"linuxloader_ffb_rumble", LINUXLOADER_FFB_RUMBLE_LABEL_SR, NULL,
+     LINUXLOADER_FFB_RUMBLE_INFO_0_SR,
+     NULL, "input",
+     {{"enabled", NULL}, {"disabled", NULL}, {NULL, NULL}},
+     "enabled"},
+    {"linuxloader_steering", LINUXLOADER_STEERING_LABEL_SR, NULL,
+     LINUXLOADER_STEERING_INFO_0_SR,
+     NULL, "input",
+     {{"linear", OPTION_VAL_LINEAR_SR}, {"logarithmic", OPTION_VAL_LOGARITHMIC_SR}, {NULL, NULL}},
+     "linear"},
+    {"linuxloader_steering_inner", LINUXLOADER_STEERING_INNER_LABEL_SR, NULL,
+     LINUXLOADER_STEERING_INNER_INFO_0_SR,
+     NULL, "input",
+     {{"5", OPTION_VAL_5_SR}, {"10", OPTION_VAL_10_SR}, {"15", OPTION_VAL_15_SR}, {"20", OPTION_VAL_20_SR}, {"25", OPTION_VAL_25_SR}, {"30", OPTION_VAL_30_SR}, {"35", OPTION_VAL_35_SR}, {"40", OPTION_VAL_40_SR}, {"45", OPTION_VAL_45_SR}, {"50", OPTION_VAL_50_SR}, {NULL, NULL}},
+     "25"},
+    {"linuxloader_steering_effect", LINUXLOADER_STEERING_EFFECT_LABEL_SR, NULL,
+     LINUXLOADER_STEERING_EFFECT_INFO_0_SR,
+     NULL, "input",
+     {{"cubic", OPTION_VAL_CUBIC_SR}, {"square", OPTION_VAL_SQUARE_SR}, {NULL, NULL}},
+     "cubic"},
+    {"linuxloader_audio_thread", LINUXLOADER_AUDIO_THREAD_LABEL_SR, NULL,
+     LINUXLOADER_AUDIO_THREAD_INFO_0_SR,
+     NULL, "audio",
+     {{"enabled", NULL}, {"disabled", NULL}, {NULL, NULL}},
+     "enabled"},
+    {"linuxloader_debug_freeplay", LINUXLOADER_DEBUG_FREEPLAY_LABEL_SR, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_SR}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_test_mode", LINUXLOADER_DEBUG_TEST_MODE_LABEL_SR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_emulate_driveboard", LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_LABEL_SR, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_SR}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_motionboard", LINUXLOADER_DEBUG_EMULATE_MOTIONBOARD_LABEL_SR, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_SR}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_rideboard", LINUXLOADER_DEBUG_EMULATE_RIDEBOARD_LABEL_SR, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_SR}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_hw210_cardreader", LINUXLOADER_DEBUG_EMULATE_HW210_CARDREADER_LABEL_SR, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_SR}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_id_cardreader", LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_SR, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_SR}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_touchscreen", LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_SR, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_SR}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_region", LINUXLOADER_DEBUG_REGION_LABEL_SR, NULL, NULL, NULL, "debug",
+     {{"JP", OPTION_VAL_JP_SR}, {"US", OPTION_VAL_US_SR}, {"EX", OPTION_VAL_EX_SR}, {NULL, NULL}},
+     "EX"},
+    {"linuxloader_debug_lindbergh_colour", LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_SR, NULL, NULL, NULL, "debug",
+     {{"YELLOW", OPTION_VAL_YELLOW_SR}, {"RED", OPTION_VAL_RED_SR}, {"BLUE", OPTION_VAL_BLUE_SR}, {"SILVER", OPTION_VAL_SILVER_SR}, {"REDEX", OPTION_VAL_REDEX_SR}, {NULL, NULL}},
+     "YELLOW"},
+    {"linuxloader_debug_debug_msgs", LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_SR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_boost_render_res", LINUXLOADER_DEBUG_BOOST_RENDER_RES_LABEL_SR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_hummer_flicker_fix", LINUXLOADER_DEBUG_HUMMER_FLICKER_FIX_LABEL_SR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_lgj_render_with_mesa", LINUXLOADER_DEBUG_LGJ_RENDER_WITH_MESA_LABEL_SR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_disable_builtin_font", LINUXLOADER_DEBUG_DISABLE_BUILTIN_FONT_LABEL_SR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_disable_builtin_logos", LINUXLOADER_DEBUG_DISABLE_BUILTIN_LOGOS_LABEL_SR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_cpu_freq_ghz", LINUXLOADER_DEBUG_CPU_FREQ_GHZ_LABEL_SR, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_CPU_FREQ_GHZ_SR}, {"1.0", OPTION_VAL_1_0_SR}, {"1.5", OPTION_VAL_1_5_SR}, {"2.0", OPTION_VAL_2_0_SR}, {"2.5", OPTION_VAL_2_5_SR}, {"3.0", OPTION_VAL_3_0_SR}, {"3.5", OPTION_VAL_3_5_SR}, {"4.0", OPTION_VAL_4_0_SR}, {"4.5", OPTION_VAL_4_5_SR}, {"5.0", OPTION_VAL_5_0_SR}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_skip_outrun_cabinet_check", LINUXLOADER_DEBUG_SKIP_OUTRUN_CABINET_CHECK_LABEL_SR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_id_steering_reduction_percentage", LINUXLOADER_DEBUG_ID_STEERING_REDUCTION_PERCENTAGE_LABEL_SR, NULL, NULL, NULL, "debug",
+     {{"0", OPTION_VAL_0_SR}, {"5", OPTION_VAL_5_SR}, {"10", OPTION_VAL_10_SR}, {"15", OPTION_VAL_15_SR}, {"20", OPTION_VAL_20_SR}, {"25", OPTION_VAL_25_SR}, {"30", OPTION_VAL_30_SR}, {"35", OPTION_VAL_35_SR}, {"40", OPTION_VAL_40_SR}, {"45", OPTION_VAL_45_SR}, {"50", OPTION_VAL_50_SR}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_id5_chinese_language", LINUXLOADER_DEBUG_ID5_CHINESE_LANGUAGE_LABEL_SR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_harley_analog_remap", LINUXLOADER_DEBUG_HARLEY_ANALOG_REMAP_LABEL_SR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_mj4_enabled_all_the_time", LINUXLOADER_DEBUG_MJ4_ENABLED_ALL_THE_TIME_LABEL_SR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_rambo_guns_switch", LINUXLOADER_DEBUG_RAMBO_GUNS_SWITCH_LABEL_SR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_primeval_hunt_screen_mode", LINUXLOADER_DEBUG_PRIMEVAL_HUNT_SCREEN_MODE_LABEL_SR, NULL, NULL, NULL, "debug",
+     /* "1" itself, not the loader's default: with the key left out, Primeval Hunt opened on two screens (NNshi) */
+     {{"0", "0"}, {"1", "1"}, {"2", "2"}, {"3", "3"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_primeval_hunt_test_screen_single", LINUXLOADER_DEBUG_PRIMEVAL_HUNT_TEST_SCREEN_SINGLE_LABEL_SR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_id_cardfile_autoload", LINUXLOADER_DEBUG_ID_CARDFILE_AUTOLOAD_LABEL_SR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_enable_crosshairs", LINUXLOADER_DEBUG_ENABLE_CROSSHAIRS_LABEL_SR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_gsevo_crosshair_always_on", LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_ON_LABEL_SR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_gsevo_crosshair_always_off", LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_OFF_LABEL_SR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_enable_network_patches", LINUXLOADER_DEBUG_ENABLE_NETWORK_PATCHES_LABEL_SR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    /* The core's own (eepromSettings.c): After Burner Climax does not start
+     * on a Deluxe cabinet with motion on, which it is out of the box, so on
+     * by default (NNshi) */
+    {"linuxloader_debug_aburner_motion_off", LINUXLOADER_DEBUG_ABURNER_MOTION_OFF_LABEL_SR, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {NULL, NULL, NULL, NULL, NULL, NULL, {{NULL, NULL}}, NULL},
+};
+struct retro_core_options_v2 options_sr = {
+   option_cats_sr,
+   option_defs_sr
+};
+
 /* RETRO_LANGUAGE_SV */
 
 #define CATEGORY_VIDEO_LABEL_SV NULL
-#define CATEGORY_VIDEO_INFO_0_SV NULL
-#define CATEGORY_INPUT_LABEL_SV NULL
-#define CATEGORY_INPUT_INFO_0_SV NULL
-#define CATEGORY_AUDIO_LABEL_SV NULL
-#define CATEGORY_AUDIO_INFO_0_SV NULL
-#define CATEGORY_DEBUG_LABEL_SV NULL
-#define CATEGORY_DEBUG_INFO_0_SV NULL
-#define LINUXLOADER_RESOLUTION_LABEL_SV NULL
-#define LINUXLOADER_RESOLUTION_INFO_0_SV NULL
-#define OPTION_VAL_NATIVE_SV NULL
+#define CATEGORY_VIDEO_INFO_0_SV "Spelens återgivningsupplösning och bredbild."
+#define CATEGORY_INPUT_LABEL_SV "Inmatning"
+#define CATEGORY_INPUT_INFO_0_SV "Ljuspistoler, styrning och kraftåterkoppling."
+#define CATEGORY_AUDIO_LABEL_SV "Ljud"
+#define CATEGORY_AUDIO_INFO_0_SV "Hur ljudet når RetroArch."
+#define CATEGORY_DEBUG_LABEL_SV "Felsökning (starta om)"
+#define CATEGORY_DEBUG_INFO_0_SV "Inställningarna i linuxloader.ini, som åsidosätter spelets linuxloader.ini. Per spel, Oförändrad och Identifierad behåller laddarens egna inställningar."
+#define LINUXLOADER_RESOLUTION_LABEL_SV "Upplösning (starta om)"
+#define LINUXLOADER_RESOLUTION_INFO_0_SV "Den bredd och höjd som laddaren kan korrigera spelens återgivning till. Ursprunglig behåller linuxloader.ini:s värde. Varje bildruta passerar systemminnet till RetroArch, så de högsta värdena sänker hastigheten. Varning: Om du ställer detta över skärmens upplösning kan vissa spel sluta fungera eller inte starta."
+#define OPTION_VAL_NATIVE_SV "Inbyggd"
 #define OPTION_VAL_1280X720_SV NULL
 #define OPTION_VAL_1920X1080_SV NULL
 #define OPTION_VAL_2560X1440_SV NULL
 #define OPTION_VAL_3840X2160_SV NULL
 #define OPTION_VAL_5120X2880_SV NULL
-#define LINUXLOADER_FORCE_WIDESCREEN_LABEL_SV NULL
-#define LINUXLOADER_FORCE_WIDESCREEN_INFO_0_SV NULL
-#define LINUXLOADER_TEST_BUTTONS_LABEL_SV NULL
-#define LINUXLOADER_TEST_BUTTONS_INFO_0_SV NULL
-#define LINUXLOADER_GUN_AIM_LABEL_SV NULL
-#define LINUXLOADER_GUN_AIM_INFO_0_SV NULL
-#define OPTION_VAL_STICK_SV NULL
-#define OPTION_VAL_MOUSE_SV NULL
-#define LINUXLOADER_GUN_SENSITIVITY_LABEL_SV NULL
-#define LINUXLOADER_GUN_SENSITIVITY_INFO_0_SV NULL
+#define LINUXLOADER_FORCE_WIDESCREEN_LABEL_SV "Tvinga 16:9 (starta om)"
+#define LINUXLOADER_FORCE_WIDESCREEN_INFO_0_SV "Kör alla spel i bredbildsläge. Kan förstöra eller dra ut bilden i vissa spel."
+#define LINUXLOADER_TEST_BUTTONS_LABEL_SV "Service- och testknappar"
+#define LINUXLOADER_TEST_BUTTONS_INFO_0_SV "L3 som arkadkabinettets serviceknapp och R3 som dess testknapp på båda handkontrollerna. Inaktiverat gör att de inte trycks ned av misstag; tangentbordets S och T finns kvar."
+#define LINUXLOADER_GUN_AIM_LABEL_SV "Sikta med ljuspistol"
+#define LINUXLOADER_GUN_AIM_INFO_0_SV "Vad som styr siktet i ljuspistolspelen för båda spelare. Analog spak: varje spelares vänstra spak (eller styrkors) flyttar siktet, R2 skjuter, R laddar om, L2 är pistolknappen och L skakar pistolen i The House of the Dead 4. Too Spicy: L2 laddar om, L och R är pedalerna. Ghost Squad Evolution: L2 är Åtgärd, L är Byt. Primeval Hunt: L2 pumpar. Mus: RetroArchs ljuspistol på varje spelares port följer musen; vänster knapp skjuter, höger laddar om, mitten är pistolknappen och sikte utanför bilden laddar också om. Ghost Squad Evolution: höger är Åtgärd, mitten är Byt. The House of the Dead 4: höger är pistolknappen, mitten skakar. Too Spicy: mitten är vänster pedal, höger är höger pedal. Primeval Hunt: mitten pumpar och pekskärmen tar emot musklicken."
+#define OPTION_VAL_STICK_SV "Analog spak"
+#define OPTION_VAL_MOUSE_SV "Mus"
+#define LINUXLOADER_GUN_SENSITIVITY_LABEL_SV "Känslighet för ljuspistolsikte"
+#define LINUXLOADER_GUN_SENSITIVITY_INFO_0_SV "Hur snabbt spakarna flyttar siktet när Sikta med ljuspistol är Analog spak, lika snabbt sidledes som upp och ned; vid 100 % passerar fullt utslag bildens höjd på ungefär en sekund. Musen siktar där pekaren är."
 #define OPTION_VAL_50_SV NULL
 #define OPTION_VAL_60_SV NULL
 #define OPTION_VAL_70_SV NULL
@@ -8811,36 +10557,36 @@ struct retro_core_options_v2 options_sk = {
 #define OPTION_VAL_180_SV NULL
 #define OPTION_VAL_190_SV NULL
 #define OPTION_VAL_200_SV NULL
-#define LINUXLOADER_CROSSHAIR_LABEL_SV NULL
-#define LINUXLOADER_CROSSHAIR_INFO_0_SV NULL
-#define LINUXLOADER_FFB_RUMBLE_LABEL_SV NULL
-#define LINUXLOADER_FFB_RUMBLE_INFO_0_SV NULL
-#define LINUXLOADER_STEERING_LABEL_SV NULL
-#define LINUXLOADER_STEERING_INFO_0_SV NULL
-#define OPTION_VAL_LINEAR_SV NULL
-#define OPTION_VAL_LOGARITHMIC_SV NULL
-#define LINUXLOADER_STEERING_INNER_LABEL_SV NULL
-#define LINUXLOADER_STEERING_INNER_INFO_0_SV NULL
-#define OPTION_VAL_5_SV NULL
-#define OPTION_VAL_10_SV NULL
+#define LINUXLOADER_CROSSHAIR_LABEL_SV "Sikte"
+#define LINUXLOADER_CROSSHAIR_INFO_0_SV "Ljuspistolspelens riktmedel ritas över bilden: blått för spelare 1, rött för spelare 2, som visas när den spelaren siktar."
+#define LINUXLOADER_FFB_RUMBLE_LABEL_SV "Kraftåterkoppling som vibration"
+#define LINUXLOADER_FFB_RUMBLE_INFO_0_SV "Drivkortets kraftåterkoppling som vibration på spelare 1:s handkontroll i körspelen: OutRun 2 SP SDX, Initial D 4 och 5, Hummer. Kräver emulerat drivkort, vilket Per spel under Felsökning > EMULATE_DRIVEBOARD gör för de spelen."
+#define LINUXLOADER_STEERING_LABEL_SV "Styrrespons"
+#define LINUXLOADER_STEERING_INFO_0_SV "Linjär: vänstra spakens X-led som den är. Logaritmisk: på en kurva med mindre styrutslag kring mitten och brantare mot ändarna, som Sega System 32-racingspelens DIP-omkopplare använder, så att spaken styr mindre ryckigt. Formen bestäms av Styrningens inre zon och Styrningseffekt."
+#define OPTION_VAL_LINEAR_SV "Linjär"
+#define OPTION_VAL_LOGARITHMIC_SV "Logaritmisk"
+#define LINUXLOADER_STEERING_INNER_LABEL_SV "Styrningens innerzon"
+#define LINUXLOADER_STEERING_INNER_INFO_0_SV "Med logaritmisk styrning: andelen av styrutslaget i mitten. Lägre värde är lugnare kring mitten. OutRun 2 fungerar bra vid 20 med Kvadratisk och Initial D vid 50 med Kubisk."
+#define OPTION_VAL_5_SV "5 %"
+#define OPTION_VAL_10_SV "10 %"
 #define OPTION_VAL_15_SV NULL
 #define OPTION_VAL_20_SV NULL
-#define OPTION_VAL_25_SV NULL
+#define OPTION_VAL_25_SV "25 %"
 #define OPTION_VAL_30_SV NULL
 #define OPTION_VAL_35_SV NULL
 #define OPTION_VAL_40_SV NULL
-#define OPTION_VAL_45_SV NULL
-#define LINUXLOADER_STEERING_EFFECT_LABEL_SV NULL
-#define LINUXLOADER_STEERING_EFFECT_INFO_0_SV NULL
-#define OPTION_VAL_CUBIC_SV NULL
-#define OPTION_VAL_SQUARE_SV NULL
-#define LINUXLOADER_AUDIO_THREAD_LABEL_SV NULL
-#define LINUXLOADER_AUDIO_THREAD_INFO_0_SV NULL
+#define OPTION_VAL_45_SV "45 %"
+#define LINUXLOADER_STEERING_EFFECT_LABEL_SV "Styreffekt"
+#define LINUXLOADER_STEERING_EFFECT_INFO_0_SV "Med logaritmisk styrning: hur resten av styrutslaget ökar mot fullt rattutslag. Kubisk är stark, Kvadratisk är svag."
+#define OPTION_VAL_CUBIC_SV "Kubisk (kraftig)"
+#define OPTION_VAL_SQUARE_SV "Kvadratisk (svag)"
+#define LINUXLOADER_AUDIO_THREAD_LABEL_SV "Ljudtråd (starta om)"
+#define LINUXLOADER_AUDIO_THREAD_INFO_0_SV "Lämnar ljudet till RetroArchs ljudtråd medan laddaren mixar det, vilket håller takten när ett spel tappar bildrutor. OutRun 2 SP:s berättarröst försvinner med detta."
 #define LINUXLOADER_DEBUG_FREEPLAY_LABEL_SV NULL
-#define OPTION_VAL_DEFAULT_SV NULL
+#define OPTION_VAL_DEFAULT_SV "Oförändrad"
 #define LINUXLOADER_DEBUG_TEST_MODE_LABEL_SV NULL
 #define LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_LABEL_SV NULL
-#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_SV NULL
+#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_SV "Per spel"
 #define LINUXLOADER_DEBUG_EMULATE_MOTIONBOARD_LABEL_SV NULL
 #define LINUXLOADER_DEBUG_EMULATE_RIDEBOARD_LABEL_SV NULL
 #define LINUXLOADER_DEBUG_EMULATE_HW210_CARDREADER_LABEL_SV NULL
@@ -8851,9 +10597,9 @@ struct retro_core_options_v2 options_sk = {
 #define OPTION_VAL_US_SV NULL
 #define OPTION_VAL_EX_SV NULL
 #define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_SV NULL
-#define OPTION_VAL_YELLOW_SV NULL
-#define OPTION_VAL_RED_SV NULL
-#define OPTION_VAL_BLUE_SV NULL
+#define OPTION_VAL_YELLOW_SV "Gul"
+#define OPTION_VAL_RED_SV "Röd"
+#define OPTION_VAL_BLUE_SV "Blå"
 #define OPTION_VAL_SILVER_SV NULL
 #define OPTION_VAL_REDEX_SV NULL
 #define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_SV NULL
@@ -8863,19 +10609,19 @@ struct retro_core_options_v2 options_sk = {
 #define LINUXLOADER_DEBUG_DISABLE_BUILTIN_FONT_LABEL_SV NULL
 #define LINUXLOADER_DEBUG_DISABLE_BUILTIN_LOGOS_LABEL_SV NULL
 #define LINUXLOADER_DEBUG_CPU_FREQ_GHZ_LABEL_SV NULL
-#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_CPU_FREQ_GHZ_SV NULL
-#define OPTION_VAL_1_0_SV NULL
-#define OPTION_VAL_1_5_SV NULL
-#define OPTION_VAL_2_0_SV NULL
-#define OPTION_VAL_2_5_SV NULL
-#define OPTION_VAL_3_0_SV NULL
-#define OPTION_VAL_3_5_SV NULL
-#define OPTION_VAL_4_0_SV NULL
-#define OPTION_VAL_4_5_SV NULL
-#define OPTION_VAL_5_0_SV NULL
+#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_CPU_FREQ_GHZ_SV "Identifierad"
+#define OPTION_VAL_1_0_SV "1,0 GHz"
+#define OPTION_VAL_1_5_SV "1,5 GHz"
+#define OPTION_VAL_2_0_SV "2,0 GHz"
+#define OPTION_VAL_2_5_SV "2,5 GHz"
+#define OPTION_VAL_3_0_SV "3,0 GHz"
+#define OPTION_VAL_3_5_SV "3,5 GHz"
+#define OPTION_VAL_4_0_SV "4,0 GHz"
+#define OPTION_VAL_4_5_SV "4,5 GHz"
+#define OPTION_VAL_5_0_SV "5,0 GHz"
 #define LINUXLOADER_DEBUG_SKIP_OUTRUN_CABINET_CHECK_LABEL_SV NULL
 #define LINUXLOADER_DEBUG_ID_STEERING_REDUCTION_PERCENTAGE_LABEL_SV NULL
-#define OPTION_VAL_0_SV NULL
+#define OPTION_VAL_0_SV "0 %"
 #define LINUXLOADER_DEBUG_ID5_CHINESE_LANGUAGE_LABEL_SV NULL
 #define LINUXLOADER_DEBUG_HARLEY_ANALOG_REMAP_LABEL_SV NULL
 #define LINUXLOADER_DEBUG_MJ4_ENABLED_ALL_THE_TIME_LABEL_SV NULL
@@ -9058,19 +10804,310 @@ struct retro_core_options_v2 options_sv = {
    option_defs_sv
 };
 
+/* RETRO_LANGUAGE_TH */
+
+#define CATEGORY_VIDEO_LABEL_TH "วิดีโอ"
+#define CATEGORY_VIDEO_INFO_0_TH NULL
+#define CATEGORY_INPUT_LABEL_TH "การควบคุม"
+#define CATEGORY_INPUT_INFO_0_TH NULL
+#define CATEGORY_AUDIO_LABEL_TH "เสียง"
+#define CATEGORY_AUDIO_INFO_0_TH NULL
+#define CATEGORY_DEBUG_LABEL_TH NULL
+#define CATEGORY_DEBUG_INFO_0_TH NULL
+#define LINUXLOADER_RESOLUTION_LABEL_TH NULL
+#define LINUXLOADER_RESOLUTION_INFO_0_TH NULL
+#define OPTION_VAL_NATIVE_TH "ดั้งเดิม"
+#define OPTION_VAL_1280X720_TH NULL
+#define OPTION_VAL_1920X1080_TH NULL
+#define OPTION_VAL_2560X1440_TH NULL
+#define OPTION_VAL_3840X2160_TH NULL
+#define OPTION_VAL_5120X2880_TH NULL
+#define LINUXLOADER_FORCE_WIDESCREEN_LABEL_TH NULL
+#define LINUXLOADER_FORCE_WIDESCREEN_INFO_0_TH NULL
+#define LINUXLOADER_TEST_BUTTONS_LABEL_TH NULL
+#define LINUXLOADER_TEST_BUTTONS_INFO_0_TH NULL
+#define LINUXLOADER_GUN_AIM_LABEL_TH NULL
+#define LINUXLOADER_GUN_AIM_INFO_0_TH NULL
+#define OPTION_VAL_STICK_TH NULL
+#define OPTION_VAL_MOUSE_TH "เมาส์"
+#define LINUXLOADER_GUN_SENSITIVITY_LABEL_TH NULL
+#define LINUXLOADER_GUN_SENSITIVITY_INFO_0_TH NULL
+#define OPTION_VAL_50_TH NULL
+#define OPTION_VAL_60_TH NULL
+#define OPTION_VAL_70_TH NULL
+#define OPTION_VAL_80_TH NULL
+#define OPTION_VAL_90_TH NULL
+#define OPTION_VAL_100_TH NULL
+#define OPTION_VAL_110_TH NULL
+#define OPTION_VAL_120_TH NULL
+#define OPTION_VAL_130_TH NULL
+#define OPTION_VAL_140_TH NULL
+#define OPTION_VAL_150_TH NULL
+#define OPTION_VAL_160_TH NULL
+#define OPTION_VAL_170_TH NULL
+#define OPTION_VAL_180_TH NULL
+#define OPTION_VAL_190_TH NULL
+#define OPTION_VAL_200_TH NULL
+#define LINUXLOADER_CROSSHAIR_LABEL_TH NULL
+#define LINUXLOADER_CROSSHAIR_INFO_0_TH NULL
+#define LINUXLOADER_FFB_RUMBLE_LABEL_TH NULL
+#define LINUXLOADER_FFB_RUMBLE_INFO_0_TH NULL
+#define LINUXLOADER_STEERING_LABEL_TH NULL
+#define LINUXLOADER_STEERING_INFO_0_TH NULL
+#define OPTION_VAL_LINEAR_TH "เส้นตรง"
+#define OPTION_VAL_LOGARITHMIC_TH NULL
+#define LINUXLOADER_STEERING_INNER_LABEL_TH NULL
+#define LINUXLOADER_STEERING_INNER_INFO_0_TH NULL
+#define OPTION_VAL_5_TH NULL
+#define OPTION_VAL_10_TH NULL
+#define OPTION_VAL_15_TH NULL
+#define OPTION_VAL_20_TH NULL
+#define OPTION_VAL_25_TH NULL
+#define OPTION_VAL_30_TH NULL
+#define OPTION_VAL_35_TH NULL
+#define OPTION_VAL_40_TH NULL
+#define OPTION_VAL_45_TH NULL
+#define LINUXLOADER_STEERING_EFFECT_LABEL_TH NULL
+#define LINUXLOADER_STEERING_EFFECT_INFO_0_TH NULL
+#define OPTION_VAL_CUBIC_TH NULL
+#define OPTION_VAL_SQUARE_TH NULL
+#define LINUXLOADER_AUDIO_THREAD_LABEL_TH NULL
+#define LINUXLOADER_AUDIO_THREAD_INFO_0_TH NULL
+#define LINUXLOADER_DEBUG_FREEPLAY_LABEL_TH NULL
+#define OPTION_VAL_DEFAULT_TH NULL
+#define LINUXLOADER_DEBUG_TEST_MODE_LABEL_TH NULL
+#define LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_LABEL_TH NULL
+#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_TH NULL
+#define LINUXLOADER_DEBUG_EMULATE_MOTIONBOARD_LABEL_TH NULL
+#define LINUXLOADER_DEBUG_EMULATE_RIDEBOARD_LABEL_TH NULL
+#define LINUXLOADER_DEBUG_EMULATE_HW210_CARDREADER_LABEL_TH NULL
+#define LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_TH NULL
+#define LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_TH NULL
+#define LINUXLOADER_DEBUG_REGION_LABEL_TH NULL
+#define OPTION_VAL_JP_TH "ญี่ปุ่น"
+#define OPTION_VAL_US_TH NULL
+#define OPTION_VAL_EX_TH NULL
+#define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_TH NULL
+#define OPTION_VAL_YELLOW_TH NULL
+#define OPTION_VAL_RED_TH NULL
+#define OPTION_VAL_BLUE_TH "น้ำเงิน"
+#define OPTION_VAL_SILVER_TH NULL
+#define OPTION_VAL_REDEX_TH NULL
+#define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_TH NULL
+#define LINUXLOADER_DEBUG_BOOST_RENDER_RES_LABEL_TH NULL
+#define LINUXLOADER_DEBUG_HUMMER_FLICKER_FIX_LABEL_TH NULL
+#define LINUXLOADER_DEBUG_LGJ_RENDER_WITH_MESA_LABEL_TH NULL
+#define LINUXLOADER_DEBUG_DISABLE_BUILTIN_FONT_LABEL_TH NULL
+#define LINUXLOADER_DEBUG_DISABLE_BUILTIN_LOGOS_LABEL_TH NULL
+#define LINUXLOADER_DEBUG_CPU_FREQ_GHZ_LABEL_TH NULL
+#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_CPU_FREQ_GHZ_TH NULL
+#define OPTION_VAL_1_0_TH NULL
+#define OPTION_VAL_1_5_TH NULL
+#define OPTION_VAL_2_0_TH NULL
+#define OPTION_VAL_2_5_TH NULL
+#define OPTION_VAL_3_0_TH NULL
+#define OPTION_VAL_3_5_TH NULL
+#define OPTION_VAL_4_0_TH NULL
+#define OPTION_VAL_4_5_TH NULL
+#define OPTION_VAL_5_0_TH NULL
+#define LINUXLOADER_DEBUG_SKIP_OUTRUN_CABINET_CHECK_LABEL_TH NULL
+#define LINUXLOADER_DEBUG_ID_STEERING_REDUCTION_PERCENTAGE_LABEL_TH NULL
+#define OPTION_VAL_0_TH NULL
+#define LINUXLOADER_DEBUG_ID5_CHINESE_LANGUAGE_LABEL_TH NULL
+#define LINUXLOADER_DEBUG_HARLEY_ANALOG_REMAP_LABEL_TH NULL
+#define LINUXLOADER_DEBUG_MJ4_ENABLED_ALL_THE_TIME_LABEL_TH NULL
+#define LINUXLOADER_DEBUG_RAMBO_GUNS_SWITCH_LABEL_TH NULL
+#define LINUXLOADER_DEBUG_PRIMEVAL_HUNT_SCREEN_MODE_LABEL_TH NULL
+#define LINUXLOADER_DEBUG_PRIMEVAL_HUNT_TEST_SCREEN_SINGLE_LABEL_TH NULL
+#define LINUXLOADER_DEBUG_ID_CARDFILE_AUTOLOAD_LABEL_TH NULL
+#define LINUXLOADER_DEBUG_ENABLE_CROSSHAIRS_LABEL_TH NULL
+#define LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_ON_LABEL_TH NULL
+#define LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_OFF_LABEL_TH NULL
+#define LINUXLOADER_DEBUG_ENABLE_NETWORK_PATCHES_LABEL_TH NULL
+#define LINUXLOADER_DEBUG_ABURNER_MOTION_OFF_LABEL_TH NULL
+
+struct retro_core_option_v2_category option_cats_th[] = {
+    {"video", CATEGORY_VIDEO_LABEL_TH, CATEGORY_VIDEO_INFO_0_TH},
+    {"input", CATEGORY_INPUT_LABEL_TH, CATEGORY_INPUT_INFO_0_TH},
+    {"audio", CATEGORY_AUDIO_LABEL_TH, CATEGORY_AUDIO_INFO_0_TH},
+    {"debug", CATEGORY_DEBUG_LABEL_TH, CATEGORY_DEBUG_INFO_0_TH},
+    {NULL, NULL, NULL},
+};
+struct retro_core_option_v2_definition option_defs_th[] = {
+    {"linuxloader_resolution", LINUXLOADER_RESOLUTION_LABEL_TH, NULL,
+     LINUXLOADER_RESOLUTION_INFO_0_TH,
+     NULL, "video",
+     {{"native", OPTION_VAL_NATIVE_TH}, {"1280x720", OPTION_VAL_1280X720_TH}, {"1920x1080", OPTION_VAL_1920X1080_TH}, {"2560x1440", OPTION_VAL_2560X1440_TH}, {"3840x2160", OPTION_VAL_3840X2160_TH}, {"5120x2880", OPTION_VAL_5120X2880_TH}, {NULL, NULL}},
+     "native"},
+    {"linuxloader_force_widescreen", LINUXLOADER_FORCE_WIDESCREEN_LABEL_TH, NULL,
+     LINUXLOADER_FORCE_WIDESCREEN_INFO_0_TH,
+     NULL, "video",
+     {{"disabled", NULL}, {"enabled", NULL}, {NULL, NULL}},
+     "disabled"},
+    {"linuxloader_test_buttons", LINUXLOADER_TEST_BUTTONS_LABEL_TH, NULL,
+     LINUXLOADER_TEST_BUTTONS_INFO_0_TH,
+     NULL, "input",
+     {{"enabled", NULL}, {"disabled", NULL}, {NULL, NULL}},
+     "enabled"},
+    {"linuxloader_gun_aim", LINUXLOADER_GUN_AIM_LABEL_TH, NULL,
+     LINUXLOADER_GUN_AIM_INFO_0_TH,
+     NULL, "input",
+     {{"stick", OPTION_VAL_STICK_TH}, {"mouse", OPTION_VAL_MOUSE_TH}, {NULL, NULL}},
+     "stick"},
+    {"linuxloader_gun_sensitivity", LINUXLOADER_GUN_SENSITIVITY_LABEL_TH, NULL,
+     LINUXLOADER_GUN_SENSITIVITY_INFO_0_TH,
+     NULL, "input",
+     {{"50", OPTION_VAL_50_TH}, {"60", OPTION_VAL_60_TH}, {"70", OPTION_VAL_70_TH}, {"80", OPTION_VAL_80_TH}, {"90", OPTION_VAL_90_TH}, {"100", OPTION_VAL_100_TH}, {"110", OPTION_VAL_110_TH},
+      {"120", OPTION_VAL_120_TH}, {"130", OPTION_VAL_130_TH}, {"140", OPTION_VAL_140_TH}, {"150", OPTION_VAL_150_TH}, {"160", OPTION_VAL_160_TH}, {"170", OPTION_VAL_170_TH},
+      {"180", OPTION_VAL_180_TH}, {"190", OPTION_VAL_190_TH}, {"200", OPTION_VAL_200_TH}, {NULL, NULL}},
+     "100"},
+    {"linuxloader_crosshair", LINUXLOADER_CROSSHAIR_LABEL_TH, NULL,
+     LINUXLOADER_CROSSHAIR_INFO_0_TH,
+     NULL, "input",
+     {{"enabled", NULL}, {"disabled", NULL}, {NULL, NULL}},
+     "enabled"},
+    {"linuxloader_ffb_rumble", LINUXLOADER_FFB_RUMBLE_LABEL_TH, NULL,
+     LINUXLOADER_FFB_RUMBLE_INFO_0_TH,
+     NULL, "input",
+     {{"enabled", NULL}, {"disabled", NULL}, {NULL, NULL}},
+     "enabled"},
+    {"linuxloader_steering", LINUXLOADER_STEERING_LABEL_TH, NULL,
+     LINUXLOADER_STEERING_INFO_0_TH,
+     NULL, "input",
+     {{"linear", OPTION_VAL_LINEAR_TH}, {"logarithmic", OPTION_VAL_LOGARITHMIC_TH}, {NULL, NULL}},
+     "linear"},
+    {"linuxloader_steering_inner", LINUXLOADER_STEERING_INNER_LABEL_TH, NULL,
+     LINUXLOADER_STEERING_INNER_INFO_0_TH,
+     NULL, "input",
+     {{"5", OPTION_VAL_5_TH}, {"10", OPTION_VAL_10_TH}, {"15", OPTION_VAL_15_TH}, {"20", OPTION_VAL_20_TH}, {"25", OPTION_VAL_25_TH}, {"30", OPTION_VAL_30_TH}, {"35", OPTION_VAL_35_TH}, {"40", OPTION_VAL_40_TH}, {"45", OPTION_VAL_45_TH}, {"50", OPTION_VAL_50_TH}, {NULL, NULL}},
+     "25"},
+    {"linuxloader_steering_effect", LINUXLOADER_STEERING_EFFECT_LABEL_TH, NULL,
+     LINUXLOADER_STEERING_EFFECT_INFO_0_TH,
+     NULL, "input",
+     {{"cubic", OPTION_VAL_CUBIC_TH}, {"square", OPTION_VAL_SQUARE_TH}, {NULL, NULL}},
+     "cubic"},
+    {"linuxloader_audio_thread", LINUXLOADER_AUDIO_THREAD_LABEL_TH, NULL,
+     LINUXLOADER_AUDIO_THREAD_INFO_0_TH,
+     NULL, "audio",
+     {{"enabled", NULL}, {"disabled", NULL}, {NULL, NULL}},
+     "enabled"},
+    {"linuxloader_debug_freeplay", LINUXLOADER_DEBUG_FREEPLAY_LABEL_TH, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_TH}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_test_mode", LINUXLOADER_DEBUG_TEST_MODE_LABEL_TH, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_emulate_driveboard", LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_LABEL_TH, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_TH}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_motionboard", LINUXLOADER_DEBUG_EMULATE_MOTIONBOARD_LABEL_TH, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_TH}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_rideboard", LINUXLOADER_DEBUG_EMULATE_RIDEBOARD_LABEL_TH, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_TH}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_hw210_cardreader", LINUXLOADER_DEBUG_EMULATE_HW210_CARDREADER_LABEL_TH, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_TH}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_id_cardreader", LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_TH, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_TH}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_touchscreen", LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_TH, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_TH}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_region", LINUXLOADER_DEBUG_REGION_LABEL_TH, NULL, NULL, NULL, "debug",
+     {{"JP", OPTION_VAL_JP_TH}, {"US", OPTION_VAL_US_TH}, {"EX", OPTION_VAL_EX_TH}, {NULL, NULL}},
+     "EX"},
+    {"linuxloader_debug_lindbergh_colour", LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_TH, NULL, NULL, NULL, "debug",
+     {{"YELLOW", OPTION_VAL_YELLOW_TH}, {"RED", OPTION_VAL_RED_TH}, {"BLUE", OPTION_VAL_BLUE_TH}, {"SILVER", OPTION_VAL_SILVER_TH}, {"REDEX", OPTION_VAL_REDEX_TH}, {NULL, NULL}},
+     "YELLOW"},
+    {"linuxloader_debug_debug_msgs", LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_TH, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_boost_render_res", LINUXLOADER_DEBUG_BOOST_RENDER_RES_LABEL_TH, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_hummer_flicker_fix", LINUXLOADER_DEBUG_HUMMER_FLICKER_FIX_LABEL_TH, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_lgj_render_with_mesa", LINUXLOADER_DEBUG_LGJ_RENDER_WITH_MESA_LABEL_TH, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_disable_builtin_font", LINUXLOADER_DEBUG_DISABLE_BUILTIN_FONT_LABEL_TH, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_disable_builtin_logos", LINUXLOADER_DEBUG_DISABLE_BUILTIN_LOGOS_LABEL_TH, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_cpu_freq_ghz", LINUXLOADER_DEBUG_CPU_FREQ_GHZ_LABEL_TH, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_CPU_FREQ_GHZ_TH}, {"1.0", OPTION_VAL_1_0_TH}, {"1.5", OPTION_VAL_1_5_TH}, {"2.0", OPTION_VAL_2_0_TH}, {"2.5", OPTION_VAL_2_5_TH}, {"3.0", OPTION_VAL_3_0_TH}, {"3.5", OPTION_VAL_3_5_TH}, {"4.0", OPTION_VAL_4_0_TH}, {"4.5", OPTION_VAL_4_5_TH}, {"5.0", OPTION_VAL_5_0_TH}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_skip_outrun_cabinet_check", LINUXLOADER_DEBUG_SKIP_OUTRUN_CABINET_CHECK_LABEL_TH, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_id_steering_reduction_percentage", LINUXLOADER_DEBUG_ID_STEERING_REDUCTION_PERCENTAGE_LABEL_TH, NULL, NULL, NULL, "debug",
+     {{"0", OPTION_VAL_0_TH}, {"5", OPTION_VAL_5_TH}, {"10", OPTION_VAL_10_TH}, {"15", OPTION_VAL_15_TH}, {"20", OPTION_VAL_20_TH}, {"25", OPTION_VAL_25_TH}, {"30", OPTION_VAL_30_TH}, {"35", OPTION_VAL_35_TH}, {"40", OPTION_VAL_40_TH}, {"45", OPTION_VAL_45_TH}, {"50", OPTION_VAL_50_TH}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_id5_chinese_language", LINUXLOADER_DEBUG_ID5_CHINESE_LANGUAGE_LABEL_TH, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_harley_analog_remap", LINUXLOADER_DEBUG_HARLEY_ANALOG_REMAP_LABEL_TH, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_mj4_enabled_all_the_time", LINUXLOADER_DEBUG_MJ4_ENABLED_ALL_THE_TIME_LABEL_TH, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_rambo_guns_switch", LINUXLOADER_DEBUG_RAMBO_GUNS_SWITCH_LABEL_TH, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_primeval_hunt_screen_mode", LINUXLOADER_DEBUG_PRIMEVAL_HUNT_SCREEN_MODE_LABEL_TH, NULL, NULL, NULL, "debug",
+     /* "1" itself, not the loader's default: with the key left out, Primeval Hunt opened on two screens (NNshi) */
+     {{"0", "0"}, {"1", "1"}, {"2", "2"}, {"3", "3"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_primeval_hunt_test_screen_single", LINUXLOADER_DEBUG_PRIMEVAL_HUNT_TEST_SCREEN_SINGLE_LABEL_TH, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_id_cardfile_autoload", LINUXLOADER_DEBUG_ID_CARDFILE_AUTOLOAD_LABEL_TH, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_enable_crosshairs", LINUXLOADER_DEBUG_ENABLE_CROSSHAIRS_LABEL_TH, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_gsevo_crosshair_always_on", LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_ON_LABEL_TH, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_gsevo_crosshair_always_off", LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_OFF_LABEL_TH, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_enable_network_patches", LINUXLOADER_DEBUG_ENABLE_NETWORK_PATCHES_LABEL_TH, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    /* The core's own (eepromSettings.c): After Burner Climax does not start
+     * on a Deluxe cabinet with motion on, which it is out of the box, so on
+     * by default (NNshi) */
+    {"linuxloader_debug_aburner_motion_off", LINUXLOADER_DEBUG_ABURNER_MOTION_OFF_LABEL_TH, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {NULL, NULL, NULL, NULL, NULL, NULL, {{NULL, NULL}}, NULL},
+};
+struct retro_core_options_v2 options_th = {
+   option_cats_th,
+   option_defs_th
+};
+
 /* RETRO_LANGUAGE_TR */
 
 #define CATEGORY_VIDEO_LABEL_TR NULL
 #define CATEGORY_VIDEO_INFO_0_TR NULL
-#define CATEGORY_INPUT_LABEL_TR NULL
+#define CATEGORY_INPUT_LABEL_TR "Giriş"
 #define CATEGORY_INPUT_INFO_0_TR NULL
-#define CATEGORY_AUDIO_LABEL_TR NULL
+#define CATEGORY_AUDIO_LABEL_TR "Ses"
 #define CATEGORY_AUDIO_INFO_0_TR NULL
 #define CATEGORY_DEBUG_LABEL_TR NULL
 #define CATEGORY_DEBUG_INFO_0_TR NULL
 #define LINUXLOADER_RESOLUTION_LABEL_TR NULL
 #define LINUXLOADER_RESOLUTION_INFO_0_TR NULL
-#define OPTION_VAL_NATIVE_TR NULL
+#define OPTION_VAL_NATIVE_TR "Özgün"
 #define OPTION_VAL_1280X720_TR NULL
 #define OPTION_VAL_1920X1080_TR NULL
 #define OPTION_VAL_2560X1440_TR NULL
@@ -9083,43 +11120,43 @@ struct retro_core_options_v2 options_sv = {
 #define LINUXLOADER_GUN_AIM_LABEL_TR NULL
 #define LINUXLOADER_GUN_AIM_INFO_0_TR NULL
 #define OPTION_VAL_STICK_TR NULL
-#define OPTION_VAL_MOUSE_TR NULL
+#define OPTION_VAL_MOUSE_TR "Fare"
 #define LINUXLOADER_GUN_SENSITIVITY_LABEL_TR NULL
 #define LINUXLOADER_GUN_SENSITIVITY_INFO_0_TR NULL
-#define OPTION_VAL_50_TR NULL
-#define OPTION_VAL_60_TR NULL
-#define OPTION_VAL_70_TR NULL
-#define OPTION_VAL_80_TR NULL
-#define OPTION_VAL_90_TR NULL
-#define OPTION_VAL_100_TR NULL
-#define OPTION_VAL_110_TR NULL
-#define OPTION_VAL_120_TR NULL
-#define OPTION_VAL_130_TR NULL
-#define OPTION_VAL_140_TR NULL
-#define OPTION_VAL_150_TR NULL
-#define OPTION_VAL_160_TR NULL
-#define OPTION_VAL_170_TR NULL
-#define OPTION_VAL_180_TR NULL
-#define OPTION_VAL_190_TR NULL
-#define OPTION_VAL_200_TR NULL
+#define OPTION_VAL_50_TR "%50"
+#define OPTION_VAL_60_TR "%60"
+#define OPTION_VAL_70_TR "%70"
+#define OPTION_VAL_80_TR "%80"
+#define OPTION_VAL_90_TR "%90"
+#define OPTION_VAL_100_TR "%100"
+#define OPTION_VAL_110_TR "%110"
+#define OPTION_VAL_120_TR "%120"
+#define OPTION_VAL_130_TR "%130"
+#define OPTION_VAL_140_TR "%140"
+#define OPTION_VAL_150_TR "%150"
+#define OPTION_VAL_160_TR "%160"
+#define OPTION_VAL_170_TR "%170"
+#define OPTION_VAL_180_TR "%180"
+#define OPTION_VAL_190_TR "%190"
+#define OPTION_VAL_200_TR "%200"
 #define LINUXLOADER_CROSSHAIR_LABEL_TR NULL
 #define LINUXLOADER_CROSSHAIR_INFO_0_TR NULL
 #define LINUXLOADER_FFB_RUMBLE_LABEL_TR NULL
 #define LINUXLOADER_FFB_RUMBLE_INFO_0_TR NULL
 #define LINUXLOADER_STEERING_LABEL_TR NULL
 #define LINUXLOADER_STEERING_INFO_0_TR NULL
-#define OPTION_VAL_LINEAR_TR NULL
+#define OPTION_VAL_LINEAR_TR "Doğrusal"
 #define OPTION_VAL_LOGARITHMIC_TR NULL
 #define LINUXLOADER_STEERING_INNER_LABEL_TR NULL
 #define LINUXLOADER_STEERING_INNER_INFO_0_TR NULL
 #define OPTION_VAL_5_TR NULL
 #define OPTION_VAL_10_TR NULL
-#define OPTION_VAL_15_TR NULL
-#define OPTION_VAL_20_TR NULL
+#define OPTION_VAL_15_TR "%15"
+#define OPTION_VAL_20_TR "%20"
 #define OPTION_VAL_25_TR NULL
-#define OPTION_VAL_30_TR NULL
-#define OPTION_VAL_35_TR NULL
-#define OPTION_VAL_40_TR NULL
+#define OPTION_VAL_30_TR "%30"
+#define OPTION_VAL_35_TR "%35"
+#define OPTION_VAL_40_TR "%40"
 #define OPTION_VAL_45_TR NULL
 #define LINUXLOADER_STEERING_EFFECT_LABEL_TR NULL
 #define LINUXLOADER_STEERING_EFFECT_INFO_0_TR NULL
@@ -9138,13 +11175,13 @@ struct retro_core_options_v2 options_sv = {
 #define LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_TR NULL
 #define LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_TR NULL
 #define LINUXLOADER_DEBUG_REGION_LABEL_TR NULL
-#define OPTION_VAL_JP_TR NULL
+#define OPTION_VAL_JP_TR "Japonya"
 #define OPTION_VAL_US_TR NULL
 #define OPTION_VAL_EX_TR NULL
 #define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_TR NULL
-#define OPTION_VAL_YELLOW_TR NULL
-#define OPTION_VAL_RED_TR NULL
-#define OPTION_VAL_BLUE_TR NULL
+#define OPTION_VAL_YELLOW_TR "Sarı"
+#define OPTION_VAL_RED_TR "Kırmızı"
+#define OPTION_VAL_BLUE_TR "Mavi"
 #define OPTION_VAL_SILVER_TR NULL
 #define OPTION_VAL_REDEX_TR NULL
 #define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_TR NULL
@@ -9349,23 +11386,314 @@ struct retro_core_options_v2 options_tr = {
    option_defs_tr
 };
 
+/* RETRO_LANGUAGE_TT */
+
+#define CATEGORY_VIDEO_LABEL_TT "Видео"
+#define CATEGORY_VIDEO_INFO_0_TT NULL
+#define CATEGORY_INPUT_LABEL_TT NULL
+#define CATEGORY_INPUT_INFO_0_TT NULL
+#define CATEGORY_AUDIO_LABEL_TT "Аудио"
+#define CATEGORY_AUDIO_INFO_0_TT NULL
+#define CATEGORY_DEBUG_LABEL_TT NULL
+#define CATEGORY_DEBUG_INFO_0_TT NULL
+#define LINUXLOADER_RESOLUTION_LABEL_TT NULL
+#define LINUXLOADER_RESOLUTION_INFO_0_TT NULL
+#define OPTION_VAL_NATIVE_TT NULL
+#define OPTION_VAL_1280X720_TT NULL
+#define OPTION_VAL_1920X1080_TT NULL
+#define OPTION_VAL_2560X1440_TT NULL
+#define OPTION_VAL_3840X2160_TT NULL
+#define OPTION_VAL_5120X2880_TT NULL
+#define LINUXLOADER_FORCE_WIDESCREEN_LABEL_TT NULL
+#define LINUXLOADER_FORCE_WIDESCREEN_INFO_0_TT NULL
+#define LINUXLOADER_TEST_BUTTONS_LABEL_TT NULL
+#define LINUXLOADER_TEST_BUTTONS_INFO_0_TT NULL
+#define LINUXLOADER_GUN_AIM_LABEL_TT NULL
+#define LINUXLOADER_GUN_AIM_INFO_0_TT NULL
+#define OPTION_VAL_STICK_TT NULL
+#define OPTION_VAL_MOUSE_TT NULL
+#define LINUXLOADER_GUN_SENSITIVITY_LABEL_TT NULL
+#define LINUXLOADER_GUN_SENSITIVITY_INFO_0_TT NULL
+#define OPTION_VAL_50_TT NULL
+#define OPTION_VAL_60_TT NULL
+#define OPTION_VAL_70_TT NULL
+#define OPTION_VAL_80_TT NULL
+#define OPTION_VAL_90_TT NULL
+#define OPTION_VAL_100_TT NULL
+#define OPTION_VAL_110_TT NULL
+#define OPTION_VAL_120_TT NULL
+#define OPTION_VAL_130_TT NULL
+#define OPTION_VAL_140_TT NULL
+#define OPTION_VAL_150_TT NULL
+#define OPTION_VAL_160_TT NULL
+#define OPTION_VAL_170_TT NULL
+#define OPTION_VAL_180_TT NULL
+#define OPTION_VAL_190_TT NULL
+#define OPTION_VAL_200_TT NULL
+#define LINUXLOADER_CROSSHAIR_LABEL_TT NULL
+#define LINUXLOADER_CROSSHAIR_INFO_0_TT NULL
+#define LINUXLOADER_FFB_RUMBLE_LABEL_TT NULL
+#define LINUXLOADER_FFB_RUMBLE_INFO_0_TT NULL
+#define LINUXLOADER_STEERING_LABEL_TT NULL
+#define LINUXLOADER_STEERING_INFO_0_TT NULL
+#define OPTION_VAL_LINEAR_TT NULL
+#define OPTION_VAL_LOGARITHMIC_TT NULL
+#define LINUXLOADER_STEERING_INNER_LABEL_TT NULL
+#define LINUXLOADER_STEERING_INNER_INFO_0_TT NULL
+#define OPTION_VAL_5_TT NULL
+#define OPTION_VAL_10_TT NULL
+#define OPTION_VAL_15_TT NULL
+#define OPTION_VAL_20_TT NULL
+#define OPTION_VAL_25_TT NULL
+#define OPTION_VAL_30_TT NULL
+#define OPTION_VAL_35_TT NULL
+#define OPTION_VAL_40_TT NULL
+#define OPTION_VAL_45_TT NULL
+#define LINUXLOADER_STEERING_EFFECT_LABEL_TT NULL
+#define LINUXLOADER_STEERING_EFFECT_INFO_0_TT NULL
+#define OPTION_VAL_CUBIC_TT NULL
+#define OPTION_VAL_SQUARE_TT NULL
+#define LINUXLOADER_AUDIO_THREAD_LABEL_TT NULL
+#define LINUXLOADER_AUDIO_THREAD_INFO_0_TT NULL
+#define LINUXLOADER_DEBUG_FREEPLAY_LABEL_TT NULL
+#define OPTION_VAL_DEFAULT_TT NULL
+#define LINUXLOADER_DEBUG_TEST_MODE_LABEL_TT NULL
+#define LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_LABEL_TT NULL
+#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_TT NULL
+#define LINUXLOADER_DEBUG_EMULATE_MOTIONBOARD_LABEL_TT NULL
+#define LINUXLOADER_DEBUG_EMULATE_RIDEBOARD_LABEL_TT NULL
+#define LINUXLOADER_DEBUG_EMULATE_HW210_CARDREADER_LABEL_TT NULL
+#define LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_TT NULL
+#define LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_TT NULL
+#define LINUXLOADER_DEBUG_REGION_LABEL_TT NULL
+#define OPTION_VAL_JP_TT NULL
+#define OPTION_VAL_US_TT NULL
+#define OPTION_VAL_EX_TT NULL
+#define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_TT NULL
+#define OPTION_VAL_YELLOW_TT NULL
+#define OPTION_VAL_RED_TT "Кызыл"
+#define OPTION_VAL_BLUE_TT NULL
+#define OPTION_VAL_SILVER_TT NULL
+#define OPTION_VAL_REDEX_TT NULL
+#define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_TT NULL
+#define LINUXLOADER_DEBUG_BOOST_RENDER_RES_LABEL_TT NULL
+#define LINUXLOADER_DEBUG_HUMMER_FLICKER_FIX_LABEL_TT NULL
+#define LINUXLOADER_DEBUG_LGJ_RENDER_WITH_MESA_LABEL_TT NULL
+#define LINUXLOADER_DEBUG_DISABLE_BUILTIN_FONT_LABEL_TT NULL
+#define LINUXLOADER_DEBUG_DISABLE_BUILTIN_LOGOS_LABEL_TT NULL
+#define LINUXLOADER_DEBUG_CPU_FREQ_GHZ_LABEL_TT NULL
+#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_CPU_FREQ_GHZ_TT NULL
+#define OPTION_VAL_1_0_TT NULL
+#define OPTION_VAL_1_5_TT NULL
+#define OPTION_VAL_2_0_TT NULL
+#define OPTION_VAL_2_5_TT NULL
+#define OPTION_VAL_3_0_TT NULL
+#define OPTION_VAL_3_5_TT NULL
+#define OPTION_VAL_4_0_TT NULL
+#define OPTION_VAL_4_5_TT NULL
+#define OPTION_VAL_5_0_TT NULL
+#define LINUXLOADER_DEBUG_SKIP_OUTRUN_CABINET_CHECK_LABEL_TT NULL
+#define LINUXLOADER_DEBUG_ID_STEERING_REDUCTION_PERCENTAGE_LABEL_TT NULL
+#define OPTION_VAL_0_TT NULL
+#define LINUXLOADER_DEBUG_ID5_CHINESE_LANGUAGE_LABEL_TT NULL
+#define LINUXLOADER_DEBUG_HARLEY_ANALOG_REMAP_LABEL_TT NULL
+#define LINUXLOADER_DEBUG_MJ4_ENABLED_ALL_THE_TIME_LABEL_TT NULL
+#define LINUXLOADER_DEBUG_RAMBO_GUNS_SWITCH_LABEL_TT NULL
+#define LINUXLOADER_DEBUG_PRIMEVAL_HUNT_SCREEN_MODE_LABEL_TT NULL
+#define LINUXLOADER_DEBUG_PRIMEVAL_HUNT_TEST_SCREEN_SINGLE_LABEL_TT NULL
+#define LINUXLOADER_DEBUG_ID_CARDFILE_AUTOLOAD_LABEL_TT NULL
+#define LINUXLOADER_DEBUG_ENABLE_CROSSHAIRS_LABEL_TT NULL
+#define LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_ON_LABEL_TT NULL
+#define LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_OFF_LABEL_TT NULL
+#define LINUXLOADER_DEBUG_ENABLE_NETWORK_PATCHES_LABEL_TT NULL
+#define LINUXLOADER_DEBUG_ABURNER_MOTION_OFF_LABEL_TT NULL
+
+struct retro_core_option_v2_category option_cats_tt[] = {
+    {"video", CATEGORY_VIDEO_LABEL_TT, CATEGORY_VIDEO_INFO_0_TT},
+    {"input", CATEGORY_INPUT_LABEL_TT, CATEGORY_INPUT_INFO_0_TT},
+    {"audio", CATEGORY_AUDIO_LABEL_TT, CATEGORY_AUDIO_INFO_0_TT},
+    {"debug", CATEGORY_DEBUG_LABEL_TT, CATEGORY_DEBUG_INFO_0_TT},
+    {NULL, NULL, NULL},
+};
+struct retro_core_option_v2_definition option_defs_tt[] = {
+    {"linuxloader_resolution", LINUXLOADER_RESOLUTION_LABEL_TT, NULL,
+     LINUXLOADER_RESOLUTION_INFO_0_TT,
+     NULL, "video",
+     {{"native", OPTION_VAL_NATIVE_TT}, {"1280x720", OPTION_VAL_1280X720_TT}, {"1920x1080", OPTION_VAL_1920X1080_TT}, {"2560x1440", OPTION_VAL_2560X1440_TT}, {"3840x2160", OPTION_VAL_3840X2160_TT}, {"5120x2880", OPTION_VAL_5120X2880_TT}, {NULL, NULL}},
+     "native"},
+    {"linuxloader_force_widescreen", LINUXLOADER_FORCE_WIDESCREEN_LABEL_TT, NULL,
+     LINUXLOADER_FORCE_WIDESCREEN_INFO_0_TT,
+     NULL, "video",
+     {{"disabled", NULL}, {"enabled", NULL}, {NULL, NULL}},
+     "disabled"},
+    {"linuxloader_test_buttons", LINUXLOADER_TEST_BUTTONS_LABEL_TT, NULL,
+     LINUXLOADER_TEST_BUTTONS_INFO_0_TT,
+     NULL, "input",
+     {{"enabled", NULL}, {"disabled", NULL}, {NULL, NULL}},
+     "enabled"},
+    {"linuxloader_gun_aim", LINUXLOADER_GUN_AIM_LABEL_TT, NULL,
+     LINUXLOADER_GUN_AIM_INFO_0_TT,
+     NULL, "input",
+     {{"stick", OPTION_VAL_STICK_TT}, {"mouse", OPTION_VAL_MOUSE_TT}, {NULL, NULL}},
+     "stick"},
+    {"linuxloader_gun_sensitivity", LINUXLOADER_GUN_SENSITIVITY_LABEL_TT, NULL,
+     LINUXLOADER_GUN_SENSITIVITY_INFO_0_TT,
+     NULL, "input",
+     {{"50", OPTION_VAL_50_TT}, {"60", OPTION_VAL_60_TT}, {"70", OPTION_VAL_70_TT}, {"80", OPTION_VAL_80_TT}, {"90", OPTION_VAL_90_TT}, {"100", OPTION_VAL_100_TT}, {"110", OPTION_VAL_110_TT},
+      {"120", OPTION_VAL_120_TT}, {"130", OPTION_VAL_130_TT}, {"140", OPTION_VAL_140_TT}, {"150", OPTION_VAL_150_TT}, {"160", OPTION_VAL_160_TT}, {"170", OPTION_VAL_170_TT},
+      {"180", OPTION_VAL_180_TT}, {"190", OPTION_VAL_190_TT}, {"200", OPTION_VAL_200_TT}, {NULL, NULL}},
+     "100"},
+    {"linuxloader_crosshair", LINUXLOADER_CROSSHAIR_LABEL_TT, NULL,
+     LINUXLOADER_CROSSHAIR_INFO_0_TT,
+     NULL, "input",
+     {{"enabled", NULL}, {"disabled", NULL}, {NULL, NULL}},
+     "enabled"},
+    {"linuxloader_ffb_rumble", LINUXLOADER_FFB_RUMBLE_LABEL_TT, NULL,
+     LINUXLOADER_FFB_RUMBLE_INFO_0_TT,
+     NULL, "input",
+     {{"enabled", NULL}, {"disabled", NULL}, {NULL, NULL}},
+     "enabled"},
+    {"linuxloader_steering", LINUXLOADER_STEERING_LABEL_TT, NULL,
+     LINUXLOADER_STEERING_INFO_0_TT,
+     NULL, "input",
+     {{"linear", OPTION_VAL_LINEAR_TT}, {"logarithmic", OPTION_VAL_LOGARITHMIC_TT}, {NULL, NULL}},
+     "linear"},
+    {"linuxloader_steering_inner", LINUXLOADER_STEERING_INNER_LABEL_TT, NULL,
+     LINUXLOADER_STEERING_INNER_INFO_0_TT,
+     NULL, "input",
+     {{"5", OPTION_VAL_5_TT}, {"10", OPTION_VAL_10_TT}, {"15", OPTION_VAL_15_TT}, {"20", OPTION_VAL_20_TT}, {"25", OPTION_VAL_25_TT}, {"30", OPTION_VAL_30_TT}, {"35", OPTION_VAL_35_TT}, {"40", OPTION_VAL_40_TT}, {"45", OPTION_VAL_45_TT}, {"50", OPTION_VAL_50_TT}, {NULL, NULL}},
+     "25"},
+    {"linuxloader_steering_effect", LINUXLOADER_STEERING_EFFECT_LABEL_TT, NULL,
+     LINUXLOADER_STEERING_EFFECT_INFO_0_TT,
+     NULL, "input",
+     {{"cubic", OPTION_VAL_CUBIC_TT}, {"square", OPTION_VAL_SQUARE_TT}, {NULL, NULL}},
+     "cubic"},
+    {"linuxloader_audio_thread", LINUXLOADER_AUDIO_THREAD_LABEL_TT, NULL,
+     LINUXLOADER_AUDIO_THREAD_INFO_0_TT,
+     NULL, "audio",
+     {{"enabled", NULL}, {"disabled", NULL}, {NULL, NULL}},
+     "enabled"},
+    {"linuxloader_debug_freeplay", LINUXLOADER_DEBUG_FREEPLAY_LABEL_TT, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_TT}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_test_mode", LINUXLOADER_DEBUG_TEST_MODE_LABEL_TT, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_emulate_driveboard", LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_LABEL_TT, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_TT}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_motionboard", LINUXLOADER_DEBUG_EMULATE_MOTIONBOARD_LABEL_TT, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_TT}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_rideboard", LINUXLOADER_DEBUG_EMULATE_RIDEBOARD_LABEL_TT, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_TT}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_hw210_cardreader", LINUXLOADER_DEBUG_EMULATE_HW210_CARDREADER_LABEL_TT, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_TT}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_id_cardreader", LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_TT, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_TT}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_emulate_touchscreen", LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_TT, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_TT}, {"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_region", LINUXLOADER_DEBUG_REGION_LABEL_TT, NULL, NULL, NULL, "debug",
+     {{"JP", OPTION_VAL_JP_TT}, {"US", OPTION_VAL_US_TT}, {"EX", OPTION_VAL_EX_TT}, {NULL, NULL}},
+     "EX"},
+    {"linuxloader_debug_lindbergh_colour", LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_TT, NULL, NULL, NULL, "debug",
+     {{"YELLOW", OPTION_VAL_YELLOW_TT}, {"RED", OPTION_VAL_RED_TT}, {"BLUE", OPTION_VAL_BLUE_TT}, {"SILVER", OPTION_VAL_SILVER_TT}, {"REDEX", OPTION_VAL_REDEX_TT}, {NULL, NULL}},
+     "YELLOW"},
+    {"linuxloader_debug_debug_msgs", LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_TT, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_boost_render_res", LINUXLOADER_DEBUG_BOOST_RENDER_RES_LABEL_TT, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_hummer_flicker_fix", LINUXLOADER_DEBUG_HUMMER_FLICKER_FIX_LABEL_TT, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_lgj_render_with_mesa", LINUXLOADER_DEBUG_LGJ_RENDER_WITH_MESA_LABEL_TT, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_disable_builtin_font", LINUXLOADER_DEBUG_DISABLE_BUILTIN_FONT_LABEL_TT, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_disable_builtin_logos", LINUXLOADER_DEBUG_DISABLE_BUILTIN_LOGOS_LABEL_TT, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_cpu_freq_ghz", LINUXLOADER_DEBUG_CPU_FREQ_GHZ_LABEL_TT, NULL, NULL, NULL, "debug",
+     {{"default", OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_CPU_FREQ_GHZ_TT}, {"1.0", OPTION_VAL_1_0_TT}, {"1.5", OPTION_VAL_1_5_TT}, {"2.0", OPTION_VAL_2_0_TT}, {"2.5", OPTION_VAL_2_5_TT}, {"3.0", OPTION_VAL_3_0_TT}, {"3.5", OPTION_VAL_3_5_TT}, {"4.0", OPTION_VAL_4_0_TT}, {"4.5", OPTION_VAL_4_5_TT}, {"5.0", OPTION_VAL_5_0_TT}, {NULL, NULL}},
+     "default"},
+    {"linuxloader_debug_skip_outrun_cabinet_check", LINUXLOADER_DEBUG_SKIP_OUTRUN_CABINET_CHECK_LABEL_TT, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_id_steering_reduction_percentage", LINUXLOADER_DEBUG_ID_STEERING_REDUCTION_PERCENTAGE_LABEL_TT, NULL, NULL, NULL, "debug",
+     {{"0", OPTION_VAL_0_TT}, {"5", OPTION_VAL_5_TT}, {"10", OPTION_VAL_10_TT}, {"15", OPTION_VAL_15_TT}, {"20", OPTION_VAL_20_TT}, {"25", OPTION_VAL_25_TT}, {"30", OPTION_VAL_30_TT}, {"35", OPTION_VAL_35_TT}, {"40", OPTION_VAL_40_TT}, {"45", OPTION_VAL_45_TT}, {"50", OPTION_VAL_50_TT}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_id5_chinese_language", LINUXLOADER_DEBUG_ID5_CHINESE_LANGUAGE_LABEL_TT, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_harley_analog_remap", LINUXLOADER_DEBUG_HARLEY_ANALOG_REMAP_LABEL_TT, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_mj4_enabled_all_the_time", LINUXLOADER_DEBUG_MJ4_ENABLED_ALL_THE_TIME_LABEL_TT, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_rambo_guns_switch", LINUXLOADER_DEBUG_RAMBO_GUNS_SWITCH_LABEL_TT, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_primeval_hunt_screen_mode", LINUXLOADER_DEBUG_PRIMEVAL_HUNT_SCREEN_MODE_LABEL_TT, NULL, NULL, NULL, "debug",
+     /* "1" itself, not the loader's default: with the key left out, Primeval Hunt opened on two screens (NNshi) */
+     {{"0", "0"}, {"1", "1"}, {"2", "2"}, {"3", "3"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_primeval_hunt_test_screen_single", LINUXLOADER_DEBUG_PRIMEVAL_HUNT_TEST_SCREEN_SINGLE_LABEL_TT, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_id_cardfile_autoload", LINUXLOADER_DEBUG_ID_CARDFILE_AUTOLOAD_LABEL_TT, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {"linuxloader_debug_enable_crosshairs", LINUXLOADER_DEBUG_ENABLE_CROSSHAIRS_LABEL_TT, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_gsevo_crosshair_always_on", LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_ON_LABEL_TT, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_gsevo_crosshair_always_off", LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_OFF_LABEL_TT, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "0"},
+    {"linuxloader_debug_enable_network_patches", LINUXLOADER_DEBUG_ENABLE_NETWORK_PATCHES_LABEL_TT, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    /* The core's own (eepromSettings.c): After Burner Climax does not start
+     * on a Deluxe cabinet with motion on, which it is out of the box, so on
+     * by default (NNshi) */
+    {"linuxloader_debug_aburner_motion_off", LINUXLOADER_DEBUG_ABURNER_MOTION_OFF_LABEL_TT, NULL, NULL, NULL, "debug",
+     {{"0", "Off"}, {"1", "On"}, {NULL, NULL}},
+     "1"},
+    {NULL, NULL, NULL, NULL, NULL, NULL, {{NULL, NULL}}, NULL},
+};
+struct retro_core_options_v2 options_tt = {
+   option_cats_tt,
+   option_defs_tt
+};
+
 /* RETRO_LANGUAGE_UK */
 
-#define CATEGORY_VIDEO_LABEL_UK NULL
+#define CATEGORY_VIDEO_LABEL_UK "Відео"
 #define CATEGORY_VIDEO_INFO_0_UK NULL
-#define CATEGORY_INPUT_LABEL_UK NULL
+#define CATEGORY_INPUT_LABEL_UK "Керування"
 #define CATEGORY_INPUT_INFO_0_UK NULL
-#define CATEGORY_AUDIO_LABEL_UK NULL
+#define CATEGORY_AUDIO_LABEL_UK "Звук"
 #define CATEGORY_AUDIO_INFO_0_UK NULL
 #define CATEGORY_DEBUG_LABEL_UK NULL
 #define CATEGORY_DEBUG_INFO_0_UK NULL
 #define LINUXLOADER_RESOLUTION_LABEL_UK NULL
 #define LINUXLOADER_RESOLUTION_INFO_0_UK NULL
-#define OPTION_VAL_NATIVE_UK NULL
+#define OPTION_VAL_NATIVE_UK "Рідний"
 #define OPTION_VAL_1280X720_UK NULL
 #define OPTION_VAL_1920X1080_UK NULL
-#define OPTION_VAL_2560X1440_UK NULL
-#define OPTION_VAL_3840X2160_UK NULL
+#define OPTION_VAL_2560X1440_UK "2560х1440"
+#define OPTION_VAL_3840X2160_UK "3840х2160"
 #define OPTION_VAL_5120X2880_UK NULL
 #define LINUXLOADER_FORCE_WIDESCREEN_LABEL_UK NULL
 #define LINUXLOADER_FORCE_WIDESCREEN_INFO_0_UK NULL
@@ -9374,7 +11702,7 @@ struct retro_core_options_v2 options_tr = {
 #define LINUXLOADER_GUN_AIM_LABEL_UK NULL
 #define LINUXLOADER_GUN_AIM_INFO_0_UK NULL
 #define OPTION_VAL_STICK_UK NULL
-#define OPTION_VAL_MOUSE_UK NULL
+#define OPTION_VAL_MOUSE_UK "Миша"
 #define LINUXLOADER_GUN_SENSITIVITY_LABEL_UK NULL
 #define LINUXLOADER_GUN_SENSITIVITY_INFO_0_UK NULL
 #define OPTION_VAL_50_UK NULL
@@ -9399,7 +11727,7 @@ struct retro_core_options_v2 options_tr = {
 #define LINUXLOADER_FFB_RUMBLE_INFO_0_UK NULL
 #define LINUXLOADER_STEERING_LABEL_UK NULL
 #define LINUXLOADER_STEERING_INFO_0_UK NULL
-#define OPTION_VAL_LINEAR_UK NULL
+#define OPTION_VAL_LINEAR_UK "Лінійна"
 #define OPTION_VAL_LOGARITHMIC_UK NULL
 #define LINUXLOADER_STEERING_INNER_LABEL_UK NULL
 #define LINUXLOADER_STEERING_INNER_INFO_0_UK NULL
@@ -9429,13 +11757,13 @@ struct retro_core_options_v2 options_tr = {
 #define LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_UK NULL
 #define LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_UK NULL
 #define LINUXLOADER_DEBUG_REGION_LABEL_UK NULL
-#define OPTION_VAL_JP_UK NULL
+#define OPTION_VAL_JP_UK "Японія"
 #define OPTION_VAL_US_UK NULL
 #define OPTION_VAL_EX_UK NULL
 #define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_UK NULL
-#define OPTION_VAL_YELLOW_UK NULL
-#define OPTION_VAL_RED_UK NULL
-#define OPTION_VAL_BLUE_UK NULL
+#define OPTION_VAL_YELLOW_UK "Жовтий"
+#define OPTION_VAL_RED_UK "Червоний"
+#define OPTION_VAL_BLUE_UK "Синій"
 #define OPTION_VAL_SILVER_UK NULL
 #define OPTION_VAL_REDEX_UK NULL
 #define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_UK NULL
@@ -9642,21 +11970,21 @@ struct retro_core_options_v2 options_uk = {
 
 /* RETRO_LANGUAGE_VAL */
 
-#define CATEGORY_VIDEO_LABEL_VAL NULL
+#define CATEGORY_VIDEO_LABEL_VAL "Vídeo"
 #define CATEGORY_VIDEO_INFO_0_VAL NULL
-#define CATEGORY_INPUT_LABEL_VAL NULL
+#define CATEGORY_INPUT_LABEL_VAL "Entrada"
 #define CATEGORY_INPUT_INFO_0_VAL NULL
-#define CATEGORY_AUDIO_LABEL_VAL NULL
+#define CATEGORY_AUDIO_LABEL_VAL "Àudio"
 #define CATEGORY_AUDIO_INFO_0_VAL NULL
 #define CATEGORY_DEBUG_LABEL_VAL NULL
 #define CATEGORY_DEBUG_INFO_0_VAL NULL
 #define LINUXLOADER_RESOLUTION_LABEL_VAL NULL
 #define LINUXLOADER_RESOLUTION_INFO_0_VAL NULL
 #define OPTION_VAL_NATIVE_VAL NULL
-#define OPTION_VAL_1280X720_VAL NULL
-#define OPTION_VAL_1920X1080_VAL NULL
-#define OPTION_VAL_2560X1440_VAL NULL
-#define OPTION_VAL_3840X2160_VAL NULL
+#define OPTION_VAL_1280X720_VAL "1280×720"
+#define OPTION_VAL_1920X1080_VAL "1920×1080"
+#define OPTION_VAL_2560X1440_VAL "2560×1440"
+#define OPTION_VAL_3840X2160_VAL "3840×2160"
 #define OPTION_VAL_5120X2880_VAL NULL
 #define LINUXLOADER_FORCE_WIDESCREEN_LABEL_VAL NULL
 #define LINUXLOADER_FORCE_WIDESCREEN_INFO_0_VAL NULL
@@ -9934,31 +12262,31 @@ struct retro_core_options_v2 options_val = {
 /* RETRO_LANGUAGE_VN */
 
 #define CATEGORY_VIDEO_LABEL_VN NULL
-#define CATEGORY_VIDEO_INFO_0_VN NULL
-#define CATEGORY_INPUT_LABEL_VN NULL
-#define CATEGORY_INPUT_INFO_0_VN NULL
-#define CATEGORY_AUDIO_LABEL_VN NULL
-#define CATEGORY_AUDIO_INFO_0_VN NULL
-#define CATEGORY_DEBUG_LABEL_VN NULL
-#define CATEGORY_DEBUG_INFO_0_VN NULL
-#define LINUXLOADER_RESOLUTION_LABEL_VN NULL
-#define LINUXLOADER_RESOLUTION_INFO_0_VN NULL
-#define OPTION_VAL_NATIVE_VN NULL
+#define CATEGORY_VIDEO_INFO_0_VN "Độ phân giải mà trò chơi kết xuất hình ảnh và chế độ màn hình rộng."
+#define CATEGORY_INPUT_LABEL_VN "Đều khiển"
+#define CATEGORY_INPUT_INFO_0_VN "Các loại súng, hệ thống lái và phản hồi lực."
+#define CATEGORY_AUDIO_LABEL_VN "Âm thanh"
+#define CATEGORY_AUDIO_INFO_0_VN "Cách âm thanh được truyền đến RetroArch."
+#define CATEGORY_DEBUG_LABEL_VN "Gỡ lỗi (Khởi động lại)"
+#define CATEGORY_DEBUG_INFO_0_VN "các thiết lập trong tệp linuxloader.ini, được áp dụng ghi đè lên tệp linuxloader.ini của trò chơi. Theo từng trò chơi, Không thay đổi và Tự phát hiện sẽ giữ nguyên thiết lập của trình nạp."
+#define LINUXLOADER_RESOLUTION_LABEL_VN "Độ phân giải (Khởi động lại)"
+#define LINUXLOADER_RESOLUTION_INFO_0_VN "Chiều rộng và chiều cao mà trò chơi có thể kết xuất hình ảnh sau khi được trình nạp điều chỉnh. Nguyên bản giữ nguyên thiết lập trong linuxloader.ini. Mỗi khung hình đều phải đi qua bộ nhớ hệ thống để chuyển đến RetroArch, vì vậy độ phân giải càng cao càng làm giảm tốc độ xử lý. Cảnh báo: đặt tùy chọn này cao hơn độ phân giải màn hình có thể khiến một số trò chơi gặp lỗi hoặc không thể khởi chạy."
+#define OPTION_VAL_NATIVE_VN "Nguyên bản"
 #define OPTION_VAL_1280X720_VN NULL
 #define OPTION_VAL_1920X1080_VN NULL
 #define OPTION_VAL_2560X1440_VN NULL
 #define OPTION_VAL_3840X2160_VN NULL
 #define OPTION_VAL_5120X2880_VN NULL
-#define LINUXLOADER_FORCE_WIDESCREEN_LABEL_VN NULL
-#define LINUXLOADER_FORCE_WIDESCREEN_INFO_0_VN NULL
-#define LINUXLOADER_TEST_BUTTONS_LABEL_VN NULL
-#define LINUXLOADER_TEST_BUTTONS_INFO_0_VN NULL
-#define LINUXLOADER_GUN_AIM_LABEL_VN NULL
-#define LINUXLOADER_GUN_AIM_INFO_0_VN NULL
-#define OPTION_VAL_STICK_VN NULL
-#define OPTION_VAL_MOUSE_VN NULL
-#define LINUXLOADER_GUN_SENSITIVITY_LABEL_VN NULL
-#define LINUXLOADER_GUN_SENSITIVITY_INFO_0_VN NULL
+#define LINUXLOADER_FORCE_WIDESCREEN_LABEL_VN "Ép tỷ lệ 16:9 (Khởi động lại)"
+#define LINUXLOADER_FORCE_WIDESCREEN_INFO_0_VN "Buộc mọi trò chơi chạy ở chế độ màn hình rộng. Có thể khiến một số trò chơi bị lỗi hoặc hình ảnh bị kéo giãn."
+#define LINUXLOADER_TEST_BUTTONS_LABEL_VN "Nút dịch vụ và nút kiểm tra"
+#define LINUXLOADER_TEST_BUTTONS_INFO_0_VN "Dùng L3 làm nút dịch vụ của máy trò chơi thùng và R3 làm nút kiểm tra trên cả hai tay cầm. Tắt sẽ ngăn việc vô tình nhấn các nút này; các phím S và T trên bàn phím vẫn hoạt động."
+#define LINUXLOADER_GUN_AIM_LABEL_VN "Ngắm bắn"
+#define LINUXLOADER_GUN_AIM_INFO_0_VN "Cách ngắm bắn trong các trò chơi sử dụng súng, áp dụng cho cả hai người chơi. Cần điều khiển tương tự: cần trái của mỗi người chơi (hoặc cụm phím điều hướng) di chuyển tâm ngắm, R2 bắn, R nạp đạn, L2 là nút chức năng của súng, L lắc súng trong The House of the Dead 4. Too Spicy: L2 nạp đạn, L và R là bàn đạp. Ghost Squad Evolution: L2 là nút Hành động, L là nút Thay đổi. Primeval Hunt: L2 thực hiện thao tác bơm súng. Chuột: súng quang của RetroArch trên cổng điều khiển của mỗi người chơi sẽ di chuyển theo chuột; nút trái bắn, nút phải nạp đạn, nút giữa là nút chức năng của súng, ngắm ra ngoài vùng hình ảnh cũng sẽ nạp đạn. Ghost Squad Evolution: nút phải là nút Hành động, nút giữa là nút Thay đổi. The House of the Dead 4: nút phải là nút chức năng của súng, nút giữa lắc súng. Too Spicy: nút giữa là bàn đạp trái, nút phải là bàn đạp phải. Primeval Hunt: nút giữa thực hiện thao tác bơm súng, còn màn hình cảm ứng nhận thao tác nhấp chuột."
+#define OPTION_VAL_STICK_VN "Cần analog"
+#define OPTION_VAL_MOUSE_VN "Chuột"
+#define LINUXLOADER_GUN_SENSITIVITY_LABEL_VN "Độ nhạy con trỏ súng"
+#define LINUXLOADER_GUN_SENSITIVITY_INFO_0_VN "Tốc độ di chuyển tâm ngắm bằng cần điều khiển khi Ngắm bắn được đặt thành Cần điều khiển tương tự, với tốc độ di chuyển ngang bằng tốc độ di chuyển lên xuống; ở mức 100%, nghiêng cần điều khiển hết cỡ sẽ giúp tâm ngắm di chuyển hết chiều cao hình ảnh trong khoảng một giây. Khi dùng chuột, tâm ngắm sẽ di chuyển đến vị trí con trỏ chuột."
 #define OPTION_VAL_50_VN NULL
 #define OPTION_VAL_60_VN NULL
 #define OPTION_VAL_70_VN NULL
@@ -9975,16 +12303,16 @@ struct retro_core_options_v2 options_val = {
 #define OPTION_VAL_180_VN NULL
 #define OPTION_VAL_190_VN NULL
 #define OPTION_VAL_200_VN NULL
-#define LINUXLOADER_CROSSHAIR_LABEL_VN NULL
-#define LINUXLOADER_CROSSHAIR_INFO_0_VN NULL
-#define LINUXLOADER_FFB_RUMBLE_LABEL_VN NULL
-#define LINUXLOADER_FFB_RUMBLE_INFO_0_VN NULL
-#define LINUXLOADER_STEERING_LABEL_VN NULL
-#define LINUXLOADER_STEERING_INFO_0_VN NULL
-#define OPTION_VAL_LINEAR_VN NULL
-#define OPTION_VAL_LOGARITHMIC_VN NULL
-#define LINUXLOADER_STEERING_INNER_LABEL_VN NULL
-#define LINUXLOADER_STEERING_INNER_INFO_0_VN NULL
+#define LINUXLOADER_CROSSHAIR_LABEL_VN "Tâm ngắm"
+#define LINUXLOADER_CROSSHAIR_INFO_0_VN "Tâm ngắm của các trò chơi bắn súng được hiển thị chồng lên hình ảnh: màu xanh dương cho người chơi 1, màu đỏ cho người chơi 2; tâm ngắm chỉ xuất hiện khi người chơi đó bắt đầu ngắm bắn."
+#define LINUXLOADER_FFB_RUMBLE_LABEL_VN "Chuyển phản hồi lực thành rung"
+#define LINUXLOADER_FFB_RUMBLE_INFO_0_VN "Chuyển phản hồi lực từ bảng mạch điều khiển hệ thống lái thành rung trên tay cầm của người chơi 1 trong các trò chơi đua xe: OutRun 2 SP SDX, Initial D 4 và 5, Hummer. Yêu cầu mô phỏng bảng mạch điều khiển hệ thống lái, được bật bằng tùy chọn Theo từng trò chơi trong Gỡ lỗi > MÔ PHỎNG BẢNG MẠCH ĐIỀU KHIỂN HỆ THỐNG LÁI đối với các trò chơi này."
+#define LINUXLOADER_STEERING_LABEL_VN "Phản hồi đánh lái"
+#define LINUXLOADER_STEERING_INFO_0_VN "Tuyến tính: sử dụng nguyên trạng trục X của cần điều khiển trái. Lôgarit: áp dụng đường cong trong đó góc đánh lái thay đổi ít hơn quanh vị trí trung tâm và tăng mạnh hơn khi cần tiến gần đến giới hạn, giống như thiết lập công tắc điều chỉnh của các trò chơi đua xe Sega System 32, giúp cần điều khiển ít bị giật hơn khi đánh lái. Hình dạng đường cong được điều chỉnh bằng Vùng chết bên trong của tay lái và Hiệu ứng đánh lái."
+#define OPTION_VAL_LINEAR_VN "Tuyến tính"
+#define OPTION_VAL_LOGARITHMIC_VN "Logarit"
+#define LINUXLOADER_STEERING_INNER_LABEL_VN "Vùng chết bên trong khi đánh lái"
+#define LINUXLOADER_STEERING_INNER_INFO_0_VN "Khi sử dụng kiểu đánh lái lôgarit: tỷ lệ góc đánh lái được phân bổ quanh vị trí trung tâm. Giá trị thấp hơn giúp tay lái ít nhạy hơn quanh vị trí trung tâm. OutRun 2 hoạt động tốt với giá trị 20 và kiểu đường cong Vuông, Initial D hoạt động tốt với giá trị 50 và kiểu đường cong Lập phương."
 #define OPTION_VAL_5_VN NULL
 #define OPTION_VAL_10_VN NULL
 #define OPTION_VAL_15_VN NULL
@@ -9994,40 +12322,40 @@ struct retro_core_options_v2 options_val = {
 #define OPTION_VAL_35_VN NULL
 #define OPTION_VAL_40_VN NULL
 #define OPTION_VAL_45_VN NULL
-#define LINUXLOADER_STEERING_EFFECT_LABEL_VN NULL
-#define LINUXLOADER_STEERING_EFFECT_INFO_0_VN NULL
-#define OPTION_VAL_CUBIC_VN NULL
-#define OPTION_VAL_SQUARE_VN NULL
-#define LINUXLOADER_AUDIO_THREAD_LABEL_VN NULL
-#define LINUXLOADER_AUDIO_THREAD_INFO_0_VN NULL
-#define LINUXLOADER_DEBUG_FREEPLAY_LABEL_VN NULL
-#define OPTION_VAL_DEFAULT_VN NULL
-#define LINUXLOADER_DEBUG_TEST_MODE_LABEL_VN NULL
-#define LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_LABEL_VN NULL
-#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_VN NULL
-#define LINUXLOADER_DEBUG_EMULATE_MOTIONBOARD_LABEL_VN NULL
-#define LINUXLOADER_DEBUG_EMULATE_RIDEBOARD_LABEL_VN NULL
-#define LINUXLOADER_DEBUG_EMULATE_HW210_CARDREADER_LABEL_VN NULL
-#define LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_VN NULL
-#define LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_VN NULL
-#define LINUXLOADER_DEBUG_REGION_LABEL_VN NULL
-#define OPTION_VAL_JP_VN NULL
-#define OPTION_VAL_US_VN NULL
-#define OPTION_VAL_EX_VN NULL
-#define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_VN NULL
-#define OPTION_VAL_YELLOW_VN NULL
-#define OPTION_VAL_RED_VN NULL
-#define OPTION_VAL_BLUE_VN NULL
-#define OPTION_VAL_SILVER_VN NULL
+#define LINUXLOADER_STEERING_EFFECT_LABEL_VN "Hiệu ứng đánh lái"
+#define LINUXLOADER_STEERING_EFFECT_INFO_0_VN "Khi sử dụng kiểu đánh lái lôgarit: cách phần góc đánh lái còn lại tăng dần đến mức đánh lái tối đa. Lập phương cho hiệu ứng mạnh, Vuông cho hiệu ứng nhẹ."
+#define OPTION_VAL_CUBIC_VN "Lập phương (mạnh)"
+#define OPTION_VAL_SQUARE_VN "Bình phương (nhẹ)"
+#define LINUXLOADER_AUDIO_THREAD_LABEL_VN "Luồng âm thanh (Cần khởi động lại)"
+#define LINUXLOADER_AUDIO_THREAD_INFO_0_VN "Chuyển âm thanh sang luồng âm thanh của RetroArch trong khi trình nạp trộn âm thanh, giúp duy trì nhịp phát âm thanh ổn định khi trò chơi bị tụt khung hình. Tuy nhiên, âm thanh người dẫn chương trình trong OutRun 2 SP sẽ bị mất khi bật tùy chọn này."
+#define LINUXLOADER_DEBUG_FREEPLAY_LABEL_VN "CHẾ ĐỘ CHƠI MIỄN PHÍ"
+#define OPTION_VAL_DEFAULT_VN "Không thay đổi"
+#define LINUXLOADER_DEBUG_TEST_MODE_LABEL_VN "CHẾ ĐỘ KIỂM TRA"
+#define LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_LABEL_VN "MÔ PHỎNG BẢNG MẠCH ĐIỀU KHIỂN HỆ THỐNG LÁI"
+#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_VN "Theo từng trò chơi"
+#define LINUXLOADER_DEBUG_EMULATE_MOTIONBOARD_LABEL_VN "MÔ PHỎNG BẢNG MẠCH ĐIỀU KHIỂN CHUYỂN ĐỘNG"
+#define LINUXLOADER_DEBUG_EMULATE_RIDEBOARD_LABEL_VN "MÔ PHỎNG BẢNG MẠCH ĐIỀU KHIỂN GHẾ CHUYỂN ĐỘNG"
+#define LINUXLOADER_DEBUG_EMULATE_HW210_CARDREADER_LABEL_VN "MÔ PHỎNG ĐẦU ĐỌC THẺ HW210"
+#define LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_VN "MÔ PHỎNG ĐẦU ĐỌC THẺ NHẬN DẠNG"
+#define LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_VN "MÔ PHỎNG MÀN HÌNH CẢM ỨNG"
+#define LINUXLOADER_DEBUG_REGION_LABEL_VN "KHU VỰC"
+#define OPTION_VAL_JP_VN "Nhật Bản"
+#define OPTION_VAL_US_VN "Hoa Kỳ"
+#define OPTION_VAL_EX_VN "Xuất dữ liệu"
+#define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_VN "MÀU SẮC LINDBERGH"
+#define OPTION_VAL_YELLOW_VN "Vàng"
+#define OPTION_VAL_RED_VN "Đỏ"
+#define OPTION_VAL_BLUE_VN "Xanh dương"
+#define OPTION_VAL_SILVER_VN "Bạc"
 #define OPTION_VAL_REDEX_VN NULL
-#define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_VN NULL
-#define LINUXLOADER_DEBUG_BOOST_RENDER_RES_LABEL_VN NULL
-#define LINUXLOADER_DEBUG_HUMMER_FLICKER_FIX_LABEL_VN NULL
-#define LINUXLOADER_DEBUG_LGJ_RENDER_WITH_MESA_LABEL_VN NULL
-#define LINUXLOADER_DEBUG_DISABLE_BUILTIN_FONT_LABEL_VN NULL
-#define LINUXLOADER_DEBUG_DISABLE_BUILTIN_LOGOS_LABEL_VN NULL
-#define LINUXLOADER_DEBUG_CPU_FREQ_GHZ_LABEL_VN NULL
-#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_CPU_FREQ_GHZ_VN NULL
+#define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_VN "THÔNG BÁO GỠ LỖI"
+#define LINUXLOADER_DEBUG_BOOST_RENDER_RES_LABEL_VN "TĂNG ĐỘ PHÂN GIẢI KẾT XUẤT"
+#define LINUXLOADER_DEBUG_HUMMER_FLICKER_FIX_LABEL_VN "SỬA LỖI NHẤP NHÁY HÌNH ẢNH HUMMER"
+#define LINUXLOADER_DEBUG_LGJ_RENDER_WITH_MESA_LABEL_VN "LGJ KẾT XUẤT BẰNG MESA"
+#define LINUXLOADER_DEBUG_DISABLE_BUILTIN_FONT_LABEL_VN "TẮT PHÔNG CHỮ TÍCH HỢP"
+#define LINUXLOADER_DEBUG_DISABLE_BUILTIN_LOGOS_LABEL_VN "TẮT BIỂU TRƯNG TÍCH HỢP"
+#define LINUXLOADER_DEBUG_CPU_FREQ_GHZ_LABEL_VN "TẦN SỐ CPU GHz"
+#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_CPU_FREQ_GHZ_VN "Đã phát hiện"
 #define OPTION_VAL_1_0_VN NULL
 #define OPTION_VAL_1_5_VN NULL
 #define OPTION_VAL_2_0_VN NULL
@@ -10037,21 +12365,21 @@ struct retro_core_options_v2 options_val = {
 #define OPTION_VAL_4_0_VN NULL
 #define OPTION_VAL_4_5_VN NULL
 #define OPTION_VAL_5_0_VN NULL
-#define LINUXLOADER_DEBUG_SKIP_OUTRUN_CABINET_CHECK_LABEL_VN NULL
-#define LINUXLOADER_DEBUG_ID_STEERING_REDUCTION_PERCENTAGE_LABEL_VN NULL
+#define LINUXLOADER_DEBUG_SKIP_OUTRUN_CABINET_CHECK_LABEL_VN "BỎ_QUA_KIỂM_TRA_TỦ_MÁY_OUTRUN"
+#define LINUXLOADER_DEBUG_ID_STEERING_REDUCTION_PERCENTAGE_LABEL_VN "TỶ_LỆ_GIẢM_ĐỘ_NHẠY_TAY_LÁI"
 #define OPTION_VAL_0_VN NULL
-#define LINUXLOADER_DEBUG_ID5_CHINESE_LANGUAGE_LABEL_VN NULL
-#define LINUXLOADER_DEBUG_HARLEY_ANALOG_REMAP_LABEL_VN NULL
-#define LINUXLOADER_DEBUG_MJ4_ENABLED_ALL_THE_TIME_LABEL_VN NULL
-#define LINUXLOADER_DEBUG_RAMBO_GUNS_SWITCH_LABEL_VN NULL
-#define LINUXLOADER_DEBUG_PRIMEVAL_HUNT_SCREEN_MODE_LABEL_VN NULL
-#define LINUXLOADER_DEBUG_PRIMEVAL_HUNT_TEST_SCREEN_SINGLE_LABEL_VN NULL
-#define LINUXLOADER_DEBUG_ID_CARDFILE_AUTOLOAD_LABEL_VN NULL
-#define LINUXLOADER_DEBUG_ENABLE_CROSSHAIRS_LABEL_VN NULL
-#define LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_ON_LABEL_VN NULL
-#define LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_OFF_LABEL_VN NULL
-#define LINUXLOADER_DEBUG_ENABLE_NETWORK_PATCHES_LABEL_VN NULL
-#define LINUXLOADER_DEBUG_ABURNER_MOTION_OFF_LABEL_VN NULL
+#define LINUXLOADER_DEBUG_ID5_CHINESE_LANGUAGE_LABEL_VN "NGÔN_NGỮ_TIẾNG_TRUNG_ID5"
+#define LINUXLOADER_DEBUG_HARLEY_ANALOG_REMAP_LABEL_VN "ÁNH_XẠ_LẠI_ĐIỀU_KHIỂN_TƯƠNG_TỰ_HARLEY"
+#define LINUXLOADER_DEBUG_MJ4_ENABLED_ALL_THE_TIME_LABEL_VN "MJ4_LUÔN_ĐƯỢC_BẬT"
+#define LINUXLOADER_DEBUG_RAMBO_GUNS_SWITCH_LABEL_VN "CHUYỂN_ĐỔI_SÚNG_RAMBO"
+#define LINUXLOADER_DEBUG_PRIMEVAL_HUNT_SCREEN_MODE_LABEL_VN "CHẾ_ĐỘ_MÀN_HÌNH_PRIMEVAL_HUNT"
+#define LINUXLOADER_DEBUG_PRIMEVAL_HUNT_TEST_SCREEN_SINGLE_LABEL_VN "MÀN_HÌNH_KIỂM_TRA_ĐƠN_PRIMEVAL_HUNT"
+#define LINUXLOADER_DEBUG_ID_CARDFILE_AUTOLOAD_LABEL_VN "TỰ_ĐỘNG_NẠP_TỆP_THẺ_ID"
+#define LINUXLOADER_DEBUG_ENABLE_CROSSHAIRS_LABEL_VN "BẬT_TÂM_NGẮM"
+#define LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_ON_LABEL_VN "GSEVO_LUÔN_HIỂN_THỊ_TÂM_NGẮM"
+#define LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_OFF_LABEL_VN "GSEVO_LUÔN_ẨN_TÂM_NGẮM"
+#define LINUXLOADER_DEBUG_ENABLE_NETWORK_PATCHES_LABEL_VN "BẬT_BẢN_VÁ_MẠNG"
+#define LINUXLOADER_DEBUG_ABURNER_MOTION_OFF_LABEL_VN "TẮT_ĐIỀU_KHIỂN_CHUYỂN_ĐỘNG_ABURNER"
 
 struct retro_core_option_v2_category option_cats_vn[] = {
     {"video", CATEGORY_VIDEO_LABEL_VN, CATEGORY_VIDEO_INFO_0_VN},
