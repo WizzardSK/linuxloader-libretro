@@ -4114,31 +4114,31 @@ struct retro_core_options_v2 options_eo = {
 /* RETRO_LANGUAGE_ES */
 
 #define CATEGORY_VIDEO_LABEL_ES "Vídeo"
-#define CATEGORY_VIDEO_INFO_0_ES NULL
+#define CATEGORY_VIDEO_INFO_0_ES "La resolución con la que se renderizarán los juegos y el modo panorámico."
 #define CATEGORY_INPUT_LABEL_ES "Entrada"
-#define CATEGORY_INPUT_INFO_0_ES NULL
+#define CATEGORY_INPUT_INFO_0_ES "Las lightguns, volantes y el force feedback o la vibración."
 #define CATEGORY_AUDIO_LABEL_ES NULL
-#define CATEGORY_AUDIO_INFO_0_ES NULL
-#define CATEGORY_DEBUG_LABEL_ES NULL
-#define CATEGORY_DEBUG_INFO_0_ES NULL
-#define LINUXLOADER_RESOLUTION_LABEL_ES NULL
-#define LINUXLOADER_RESOLUTION_INFO_0_ES NULL
+#define CATEGORY_AUDIO_INFO_0_ES "La forma en la que el sonido llegará a RetroArch."
+#define CATEGORY_DEBUG_LABEL_ES "Depuración (es necesario reiniciar)"
+#define CATEGORY_DEBUG_INFO_0_ES "La configuración de linuxloader.ini, aplicada por encima del archivo linuxloader.ini del juego. Uno por cada juego, Sin cambios y Detectada conservarán el valor del cargador."
+#define LINUXLOADER_RESOLUTION_LABEL_ES "Resolución (es necesario reiniciar)"
+#define LINUXLOADER_RESOLUTION_INFO_0_ES "El ancho y alto con el que se renderizarán aquellos juegos parcheables por el cargador. Nativa conservará el valor de linuxloader.ini. Cada fotograma pasa de la memoria del sistema a RetroArch, así que un valor elevado hará que la emulación sea más lenta. Aviso: si eliges un valor por encima del que admita tu pantalla, algunos juegos darán problemas o no podrán ejecutarse."
 #define OPTION_VAL_NATIVE_ES "Nativa"
 #define OPTION_VAL_1280X720_ES "1280 × 720"
 #define OPTION_VAL_1920X1080_ES "1920 × 1080"
 #define OPTION_VAL_2560X1440_ES "2560 × 1440"
 #define OPTION_VAL_3840X2160_ES "3840 × 2160"
-#define OPTION_VAL_5120X2880_ES NULL
-#define LINUXLOADER_FORCE_WIDESCREEN_LABEL_ES NULL
-#define LINUXLOADER_FORCE_WIDESCREEN_INFO_0_ES NULL
-#define LINUXLOADER_TEST_BUTTONS_LABEL_ES NULL
-#define LINUXLOADER_TEST_BUTTONS_INFO_0_ES NULL
-#define LINUXLOADER_GUN_AIM_LABEL_ES NULL
-#define LINUXLOADER_GUN_AIM_INFO_0_ES NULL
+#define OPTION_VAL_5120X2880_ES "5120 × 2880"
+#define LINUXLOADER_FORCE_WIDESCREEN_LABEL_ES "Forzar 16:9 (es necesario reiniciar)"
+#define LINUXLOADER_FORCE_WIDESCREEN_INFO_0_ES "Ejecuta todos los juegos en formato panorámico. Algunos juegos podrían fallar o mostrarse estirados."
+#define LINUXLOADER_TEST_BUTTONS_LABEL_ES "Botones de servicio y de prueba"
+#define LINUXLOADER_TEST_BUTTONS_INFO_0_ES "Configura L3 como el botón de servicio de la máquina y R3 como el de prueba en ambos mandos. Desactiva esta opción para evitar pulsarlos por accidente. Las teclas S y T del teclado seguirán cumpliendo esa función."
+#define LINUXLOADER_GUN_AIM_LABEL_ES "Método de apuntado de lightguns"
+#define LINUXLOADER_GUN_AIM_INFO_0_ES "Indica qué utilizarán ambos jugadores para apuntar en juegos de lightguns. Stick analógico: el stick izquierdo (o la cruceta) de cada jugador moverá el punto de mira, R2 dispara, R recarga, L2 es el botón del arma, L la agita en The House of the Dead 4. Too Spicy: L2 recarga, L y R son los pedales. Ghost Squad Evolution: L2 para interactuar, L para cambiar. Primeval Hunt: L2 para cargar el arma. Ratón: las lightgun de RetroArch en el puerto de cada jugador seguirán al ratón. El botón izquierdo dispara, el derecho recarga, el central es el botón del arma y apuntar fuera de la imagen también recarga. Ghost Squad Evolution: el botón derecho es para interactuar, el central para cambiar. The House of the Dead 4: el botón derecho es el del arma, el central la agita. Too Spicy: el botón central es el pedal izquierdo y el botón derecho es el pedal derecho. Primeval Hunt: el botón central carga el arma y la pantalla táctil detectará las pulsaciones del ratón."
 #define OPTION_VAL_STICK_ES "Stick analógico"
 #define OPTION_VAL_MOUSE_ES "Ratón"
-#define LINUXLOADER_GUN_SENSITIVITY_LABEL_ES NULL
-#define LINUXLOADER_GUN_SENSITIVITY_INFO_0_ES NULL
+#define LINUXLOADER_GUN_SENSITIVITY_LABEL_ES "Sensibilidad de puntero de lightguns"
+#define LINUXLOADER_GUN_SENSITIVITY_INFO_0_ES "Establece la velocidad con la que los sticks moverán el punto de mira al usar los sticks analógicos como método de apuntado de lightguns; al 100 %, mover el stick hasta un borde hará que recorra la pantalla de un lado a otro en apenas un segundo. El ratón apuntará a donde esté el cursor."
 #define OPTION_VAL_50_ES "50 %"
 #define OPTION_VAL_60_ES "60 %"
 #define OPTION_VAL_70_ES "70 %"
@@ -4156,15 +4156,15 @@ struct retro_core_options_v2 options_eo = {
 #define OPTION_VAL_190_ES "190 %"
 #define OPTION_VAL_200_ES "200 %"
 #define LINUXLOADER_CROSSHAIR_LABEL_ES "Punto de mira"
-#define LINUXLOADER_CROSSHAIR_INFO_0_ES NULL
-#define LINUXLOADER_FFB_RUMBLE_LABEL_ES NULL
-#define LINUXLOADER_FFB_RUMBLE_INFO_0_ES NULL
+#define LINUXLOADER_CROSSHAIR_INFO_0_ES "Dibuja los puntos de mira en los juegos de disparos: el azul es para el jugador 1 y el rojo para el jugador 2. Se mostrarán en cuanto cada jugador apunte a la pantalla."
+#define LINUXLOADER_FFB_RUMBLE_LABEL_ES "Convertir force feedback a vibración"
+#define LINUXLOADER_FFB_RUMBLE_INFO_0_ES "Convierte la señal de force feedback de la placa a vibración en el mando del jugador 1 en los juegos de conducción: OutRun 2 SP SDK, Initial D 4 y 5, Hummer. Es necesario emular la placa de conducción, cosa que hará Depuración > EMULATE_DRIVEBOARD > Según el juego en los juegos mencionados."
 #define LINUXLOADER_STEERING_LABEL_ES "Respuesta de dirección de volante"
-#define LINUXLOADER_STEERING_INFO_0_ES NULL
+#define LINUXLOADER_STEERING_INFO_0_ES "Lineal: no modifica el eje X del stick izquierdo. Logarítmica: en una curva que girará menos estando más cerca del centro del stick y que girará más cuanto más cerca se esté del borde, tal y como está configurado el interruptor DIP de los juegos de conducción de Sega System 32 para que un stick no gire con tanta brusquedad. La forma del giro está configurada por Efecto de dirección de volante y Zona interior de dirección de volante."
 #define OPTION_VAL_LINEAR_ES "Lineal"
 #define OPTION_VAL_LOGARITHMIC_ES "Logarítmica"
 #define LINUXLOADER_STEERING_INNER_LABEL_ES "Zona interior de dirección de volante"
-#define LINUXLOADER_STEERING_INNER_INFO_0_ES NULL
+#define LINUXLOADER_STEERING_INNER_INFO_0_ES "Al usar la respuesta logarítmica de dirección de volante: indica cuánto se girará en la zona central. Un valor más bajo responderá menos fuerte en el centro. OutRun 2 va bien con un valor de 20 cuadrado, Initial D con un valor de 50 cúbico."
 #define OPTION_VAL_5_ES "5 %"
 #define OPTION_VAL_10_ES "10 %"
 #define OPTION_VAL_15_ES "15 %"
@@ -4175,63 +4175,63 @@ struct retro_core_options_v2 options_eo = {
 #define OPTION_VAL_40_ES "40 %"
 #define OPTION_VAL_45_ES "45 %"
 #define LINUXLOADER_STEERING_EFFECT_LABEL_ES "Efecto de dirección de volante"
-#define LINUXLOADER_STEERING_EFFECT_INFO_0_ES NULL
+#define LINUXLOADER_STEERING_EFFECT_INFO_0_ES "Al usar la respuesta logarítmica de dirección de volante: establece cómo evoluciona el resto del giro hasta el valor máximo. Cúbico es más fuerte y Cuadrado es más débil."
 #define OPTION_VAL_CUBIC_ES "Cúbico (fuerte)"
 #define OPTION_VAL_SQUARE_ES "Cuadrado (débil)"
 #define LINUXLOADER_AUDIO_THREAD_LABEL_ES "Hilo para audio (es necesario reiniciar)"
-#define LINUXLOADER_AUDIO_THREAD_INFO_0_ES NULL
-#define LINUXLOADER_DEBUG_FREEPLAY_LABEL_ES NULL
-#define OPTION_VAL_DEFAULT_ES NULL
-#define LINUXLOADER_DEBUG_TEST_MODE_LABEL_ES NULL
-#define LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_LABEL_ES NULL
-#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_ES NULL
-#define LINUXLOADER_DEBUG_EMULATE_MOTIONBOARD_LABEL_ES NULL
-#define LINUXLOADER_DEBUG_EMULATE_RIDEBOARD_LABEL_ES NULL
-#define LINUXLOADER_DEBUG_EMULATE_HW210_CARDREADER_LABEL_ES NULL
-#define LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_ES NULL
-#define LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_ES NULL
-#define LINUXLOADER_DEBUG_REGION_LABEL_ES NULL
+#define LINUXLOADER_AUDIO_THREAD_INFO_0_ES "Envía el sonido al hilo de audio de RetroArch a medida que lo vaya mezclando su cargador, lo que mantendrá su ritmo si un juego empieza a perder fotogramas. Esta opción silenciará al comentarista de OutRun 2 SP."
+#define LINUXLOADER_DEBUG_FREEPLAY_LABEL_ES "FREEPLAY (juego libre)"
+#define OPTION_VAL_DEFAULT_ES "Sin cambios"
+#define LINUXLOADER_DEBUG_TEST_MODE_LABEL_ES "TEST_MODE (modo de pruebas)"
+#define LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_LABEL_ES "EMULATE_DRIVEBOARD (emular placa de conducción)"
+#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_EMULATE_DRIVEBOARD_ES "Según el juego"
+#define LINUXLOADER_DEBUG_EMULATE_MOTIONBOARD_LABEL_ES "EMULATE_MOTIONBOARD (emular placa de movimientos)"
+#define LINUXLOADER_DEBUG_EMULATE_RIDEBOARD_LABEL_ES "EMULATE_RIDEBOARD (emular placa de tabla)"
+#define LINUXLOADER_DEBUG_EMULATE_HW210_CARDREADER_LABEL_ES "EMULATE_HW210_CARDREADER (emular lector de tarjetas HW210)"
+#define LINUXLOADER_DEBUG_EMULATE_ID_CARDREADER_LABEL_ES "EMULATE_ID_CARDREADER (emular lector de tarjetas ID)"
+#define LINUXLOADER_DEBUG_EMULATE_TOUCHSCREEN_LABEL_ES "EMULATE_TOUCHSCREEN (emular pantalla táctil)"
+#define LINUXLOADER_DEBUG_REGION_LABEL_ES "REGION (región)"
 #define OPTION_VAL_JP_ES "Japón"
-#define OPTION_VAL_US_ES NULL
-#define OPTION_VAL_EX_ES NULL
-#define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_ES NULL
+#define OPTION_VAL_US_ES "EE.UU."
+#define OPTION_VAL_EX_ES "Exportación"
+#define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_ES "LINDBERGH_COLOUR (color de Lindbergh)"
 #define OPTION_VAL_YELLOW_ES "Amarillo"
 #define OPTION_VAL_RED_ES "Rojo"
 #define OPTION_VAL_BLUE_ES "Azul"
 #define OPTION_VAL_SILVER_ES "Plata"
 #define OPTION_VAL_REDEX_ES NULL
-#define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_ES NULL
-#define LINUXLOADER_DEBUG_BOOST_RENDER_RES_LABEL_ES NULL
-#define LINUXLOADER_DEBUG_HUMMER_FLICKER_FIX_LABEL_ES NULL
-#define LINUXLOADER_DEBUG_LGJ_RENDER_WITH_MESA_LABEL_ES NULL
-#define LINUXLOADER_DEBUG_DISABLE_BUILTIN_FONT_LABEL_ES NULL
-#define LINUXLOADER_DEBUG_DISABLE_BUILTIN_LOGOS_LABEL_ES NULL
-#define LINUXLOADER_DEBUG_CPU_FREQ_GHZ_LABEL_ES NULL
-#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_CPU_FREQ_GHZ_ES NULL
-#define OPTION_VAL_1_0_ES NULL
-#define OPTION_VAL_1_5_ES NULL
-#define OPTION_VAL_2_0_ES NULL
-#define OPTION_VAL_2_5_ES NULL
-#define OPTION_VAL_3_0_ES NULL
-#define OPTION_VAL_3_5_ES NULL
-#define OPTION_VAL_4_0_ES NULL
-#define OPTION_VAL_4_5_ES NULL
-#define OPTION_VAL_5_0_ES NULL
-#define LINUXLOADER_DEBUG_SKIP_OUTRUN_CABINET_CHECK_LABEL_ES NULL
-#define LINUXLOADER_DEBUG_ID_STEERING_REDUCTION_PERCENTAGE_LABEL_ES NULL
+#define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_ES "DEBUG_MSGS (mensajes de depuración)"
+#define LINUXLOADER_DEBUG_BOOST_RENDER_RES_LABEL_ES "BOOST_RENDER_RES (aumentar resolución de renderizado)"
+#define LINUXLOADER_DEBUG_HUMMER_FLICKER_FIX_LABEL_ES "HUMMER_FLICKER_FIX (arreglo para destellos en Hummer)"
+#define LINUXLOADER_DEBUG_LGJ_RENDER_WITH_MESA_LABEL_ES "LGJ_RENDER_WITH_MESA (renderizar LGJ con Mesa)"
+#define LINUXLOADER_DEBUG_DISABLE_BUILTIN_FONT_LABEL_ES "DISABLE_BUILTIN_FONT (desactivar fuente de letra integrada)"
+#define LINUXLOADER_DEBUG_DISABLE_BUILTIN_LOGOS_LABEL_ES "DISABLE_BUILTIN_LOGOS (desactivar logos integrados)"
+#define LINUXLOADER_DEBUG_CPU_FREQ_GHZ_LABEL_ES "CPU_FREQ_GHZ (frecuencia de la CPU)"
+#define OPTION_VAL_DEFAULT_LINUXLOADER_DEBUG_CPU_FREQ_GHZ_ES "Detectada"
+#define OPTION_VAL_1_0_ES "1,0 GHz"
+#define OPTION_VAL_1_5_ES "1,5 GHz"
+#define OPTION_VAL_2_0_ES "2,0 GHz"
+#define OPTION_VAL_2_5_ES "2,5 GHz"
+#define OPTION_VAL_3_0_ES "3,0 GHz"
+#define OPTION_VAL_3_5_ES "3,5 GHz"
+#define OPTION_VAL_4_0_ES "4,0 GHz"
+#define OPTION_VAL_4_5_ES "4,5 GHz"
+#define OPTION_VAL_5_0_ES "5,0 GHz"
+#define LINUXLOADER_DEBUG_SKIP_OUTRUN_CABINET_CHECK_LABEL_ES "SKIP_OUTRUN_CABINET_CHECK (omitir comprobación de mueble de OutRun)"
+#define LINUXLOADER_DEBUG_ID_STEERING_REDUCTION_PERCENTAGE_LABEL_ES "ID_STEERING_REDUCTION_PERCENTAGE (porcentaje de reducción de dirección)"
 #define OPTION_VAL_0_ES "0 %"
-#define LINUXLOADER_DEBUG_ID5_CHINESE_LANGUAGE_LABEL_ES NULL
-#define LINUXLOADER_DEBUG_HARLEY_ANALOG_REMAP_LABEL_ES NULL
-#define LINUXLOADER_DEBUG_MJ4_ENABLED_ALL_THE_TIME_LABEL_ES NULL
-#define LINUXLOADER_DEBUG_RAMBO_GUNS_SWITCH_LABEL_ES NULL
-#define LINUXLOADER_DEBUG_PRIMEVAL_HUNT_SCREEN_MODE_LABEL_ES NULL
-#define LINUXLOADER_DEBUG_PRIMEVAL_HUNT_TEST_SCREEN_SINGLE_LABEL_ES NULL
-#define LINUXLOADER_DEBUG_ID_CARDFILE_AUTOLOAD_LABEL_ES NULL
-#define LINUXLOADER_DEBUG_ENABLE_CROSSHAIRS_LABEL_ES NULL
-#define LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_ON_LABEL_ES NULL
-#define LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_OFF_LABEL_ES NULL
-#define LINUXLOADER_DEBUG_ENABLE_NETWORK_PATCHES_LABEL_ES NULL
-#define LINUXLOADER_DEBUG_ABURNER_MOTION_OFF_LABEL_ES NULL
+#define LINUXLOADER_DEBUG_ID5_CHINESE_LANGUAGE_LABEL_ES "ID5_CHINESE_LANGUAGE (idioma chino)"
+#define LINUXLOADER_DEBUG_HARLEY_ANALOG_REMAP_LABEL_ES "HARLEY_ANALOG_REMAP (reasignar analógicos en Harley)"
+#define LINUXLOADER_DEBUG_MJ4_ENABLED_ALL_THE_TIME_LABEL_ES "MJ4_ENABLED_ALL_THE_TIME (activar MJ4 en todo momento)"
+#define LINUXLOADER_DEBUG_RAMBO_GUNS_SWITCH_LABEL_ES "RAMBO_GUNS_SWITCH (intercambiar armas de Rambo)"
+#define LINUXLOADER_DEBUG_PRIMEVAL_HUNT_SCREEN_MODE_LABEL_ES "PRIMEVAL_HUNT_SCREEN_MODE (modo de imagen de Primeval Hunt)"
+#define LINUXLOADER_DEBUG_PRIMEVAL_HUNT_TEST_SCREEN_SINGLE_LABEL_ES "PRIMEVAL_HUNT_TEST_SCREEN_SINGLE (prueba de pantalla única en Primeval Hunt)"
+#define LINUXLOADER_DEBUG_ID_CARDFILE_AUTOLOAD_LABEL_ES "ID_CARDFILE_AUTOLOAD (autocargar tarjeta ID)"
+#define LINUXLOADER_DEBUG_ENABLE_CROSSHAIRS_LABEL_ES "ENABLE_CROSSHAIRS (activar puntos de mira)"
+#define LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_ON_LABEL_ES "GSEVO_CROSSHAIR_ALWAYS_ON (mostrar siempre puntos de mira en Ghost Squad Evolution)"
+#define LINUXLOADER_DEBUG_GSEVO_CROSSHAIR_ALWAYS_OFF_LABEL_ES "GSEVO_CROSSHAIR_ALWAYS_OFF (ocultar siempre puntos de mira en Ghost Squad Evolution)"
+#define LINUXLOADER_DEBUG_ENABLE_NETWORK_PATCHES_LABEL_ES "ENABLE_NETWORK_PATCHES (activar parches de red)"
+#define LINUXLOADER_DEBUG_ABURNER_MOTION_OFF_LABEL_ES "ABURNER_MOTION_OFF (desactivar movimientos en Afterburner)"
 
 struct retro_core_option_v2_category option_cats_es[] = {
     {"video", CATEGORY_VIDEO_LABEL_ES, CATEGORY_VIDEO_INFO_0_ES},
@@ -5869,7 +5869,7 @@ struct retro_core_options_v2 options_gl = {
 #define CATEGORY_DEBUG_INFO_0_HE NULL
 #define LINUXLOADER_RESOLUTION_LABEL_HE NULL
 #define LINUXLOADER_RESOLUTION_INFO_0_HE NULL
-#define OPTION_VAL_NATIVE_HE NULL
+#define OPTION_VAL_NATIVE_HE "מקורי"
 #define OPTION_VAL_1280X720_HE NULL
 #define OPTION_VAL_1920X1080_HE NULL
 #define OPTION_VAL_2560X1440_HE NULL
@@ -5907,7 +5907,7 @@ struct retro_core_options_v2 options_gl = {
 #define LINUXLOADER_FFB_RUMBLE_INFO_0_HE NULL
 #define LINUXLOADER_STEERING_LABEL_HE NULL
 #define LINUXLOADER_STEERING_INFO_0_HE NULL
-#define OPTION_VAL_LINEAR_HE NULL
+#define OPTION_VAL_LINEAR_HE "לינארי"
 #define OPTION_VAL_LOGARITHMIC_HE NULL
 #define LINUXLOADER_STEERING_INNER_LABEL_HE NULL
 #define LINUXLOADER_STEERING_INNER_INFO_0_HE NULL
@@ -5941,9 +5941,9 @@ struct retro_core_options_v2 options_gl = {
 #define OPTION_VAL_US_HE NULL
 #define OPTION_VAL_EX_HE NULL
 #define LINUXLOADER_DEBUG_LINDBERGH_COLOUR_LABEL_HE NULL
-#define OPTION_VAL_YELLOW_HE NULL
-#define OPTION_VAL_RED_HE NULL
-#define OPTION_VAL_BLUE_HE NULL
+#define OPTION_VAL_YELLOW_HE "צהוב"
+#define OPTION_VAL_RED_HE "אדום"
+#define OPTION_VAL_BLUE_HE "כחול"
 #define OPTION_VAL_SILVER_HE NULL
 #define OPTION_VAL_REDEX_HE NULL
 #define LINUXLOADER_DEBUG_DEBUG_MSGS_LABEL_HE NULL
